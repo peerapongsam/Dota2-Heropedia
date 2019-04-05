@@ -1,12 +1,17 @@
-package io.github.peerapongsam.heropedia.ui
+package io.github.peerapongsam.heropedia.ui.heroes
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
-import androidx.fragment.app.FragmentPagerAdapter
+import androidx.fragment.app.FragmentStatePagerAdapter
+import androidx.recyclerview.widget.RecyclerView
 
-class HeroesPagerAdapter(fm: FragmentManager) : FragmentPagerAdapter(fm) {
+class HeroesPagerAdapter(fm: FragmentManager) : FragmentStatePagerAdapter(fm) {
+    private val recycledViewPool = RecyclerView.RecycledViewPool()
+
     override fun getItem(position: Int): Fragment {
-        return HeroesFragment.newInstance(HERO_TYPES[position])
+        val fragment = HeroesFragment.newInstance(HERO_TYPES[position])
+        fragment.viewPool = recycledViewPool
+        return fragment
     }
 
     override fun getCount(): Int {

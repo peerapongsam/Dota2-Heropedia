@@ -1,4 +1,4 @@
-package io.github.peerapongsam.heropedia.ui
+package io.github.peerapongsam.heropedia.ui.heroes
 
 import androidx.databinding.BindingAdapter
 import androidx.recyclerview.widget.RecyclerView

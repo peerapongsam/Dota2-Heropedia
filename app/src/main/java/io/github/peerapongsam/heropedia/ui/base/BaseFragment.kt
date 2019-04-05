@@ -1,4 +1,4 @@
-package io.github.peerapongsam.heropedia.ui
+package io.github.peerapongsam.heropedia.ui.base
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -15,6 +15,7 @@ abstract class BaseFragment<VD : ViewDataBinding> : Fragment() {
     private lateinit var binding: VD
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+        createViewModel()
         if (layoutRes != 0) {
             binding = DataBindingUtil.inflate(inflater, layoutRes, container, false)
             binding.lifecycleOwner = this
@@ -22,6 +23,9 @@ abstract class BaseFragment<VD : ViewDataBinding> : Fragment() {
             return binding.root
         }
         return super.onCreateView(inflater, container, savedInstanceState)
+    }
+
+    open fun createViewModel() {
     }
 
     open fun setUpView(binding: VD) {
