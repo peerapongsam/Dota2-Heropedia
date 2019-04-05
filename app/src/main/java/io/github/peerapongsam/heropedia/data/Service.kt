@@ -13,7 +13,7 @@ object Service {
 
     val defaultService by lazy {
         Retrofit.Builder()
-            .baseUrl("http://www.dota2.com/jsfeed/")
+            .baseUrl("https://www.dota2.com/jsfeed/")
             .client(defaultClient)
             .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
             .addConverterFactory(GsonConverterFactory.create())
