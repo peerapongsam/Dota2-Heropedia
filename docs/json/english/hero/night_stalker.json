@@ -1,0 +1,228 @@
+{
+    "id": "night_stalker",
+    "name": "Night Stalker",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/night_stalker_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/night_stalker_vert.jpg?v=5027641"
+    },
+    "attack": "Melee",
+    "role": [
+        "Carry",
+        "Initiator",
+        "Durable",
+        "Disabler",
+        "Nuker"
+    ],
+    "primary_attribs": "str",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 13,
+                "gain": 1.6
+            },
+            "agi": {
+                "base": 18,
+                "gain": 2.3
+            },
+            "str": {
+                "base": 23,
+                "gain": 3.2
+            },
+            "dmg": {
+                "min": 38,
+                "max": 42
+            },
+            "ms": 290,
+            "armor": 4.52
+        },
+        "abilities": [
+            {
+                "id": "night_stalker_void",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/night_stalker_void_hp1.png?v=5027641",
+                "name": "Void",
+                "desc": "Creates a damaging void that slows an enemy unit and deals damage.  Void also mini-stuns, interrupting channeling abilities. The slowing effect lasts longer at night. Deals half damage during day."
+            },
+            {
+                "id": "night_stalker_crippling_fear",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/night_stalker_crippling_fear_hp1.png?v=5027641",
+                "name": "Crippling Fear",
+                "desc": "Night Stalker horrifies all nearby enemies, causing them to become silenced while near him.  The effect lasts longer at night."
+            },
+            {
+                "id": "night_stalker_hunter_in_the_night",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/night_stalker_hunter_in_the_night_hp1.png?v=5027641",
+                "name": "Hunter in the Night",
+                "desc": "Night Stalker is in his element at night, attacking and moving with great swiftness."
+            },
+            {
+                "id": "night_stalker_darkness",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/night_stalker_darkness_hp1.png?v=5027641",
+                "name": "Dark Ascension",
+                "desc": "Night Stalker smothers the sun and summons instant darkness, so that he might use his powers at their fullest. Nightstalker gains flight and bonus damage during this time. Has unobstructed vision."
+            }
+        ]
+    },
+    "bio": "Of the Night Stalker, there is no history, only stories. There are ancient tales woven into the lore of every race and every culture, of an impossible time before sunlight and daytime, when night reigned alone and the world was covered with the creatures of darkness--creatures like Balanar the Night Stalker.  \r\n\r\n\t\tIt is said that on the dawn of the First Day, all the night creatures perished. All, that is, save one. Evil's embodiment, Night Stalker delights in his malevolence. He created the primal role of the Night Terror, the Boogeyman, and as long as there have been younglings, his is the specter summoned to terrify them. This is a role he relishes; nor are these empty theatrics. He does indeed stalk the unwary, the defenseless, those who have strayed beyond the lighted paths or denied the warnings of their communities. Night Stalker serves as living proof that every child's worst nightmare....is true.",
+    "stats": {
+        "hit_points": [
+            587,
+            1438,
+            2426
+        ],
+        "mana": [
+            169,
+            460,
+            928
+        ],
+        "damage": [
+            61,
+            106,
+            158
+        ],
+        "armor": [
+            5,
+            9,
+            15
+        ],
+        "sight_range": [
+            800,
+            1800
+        ],
+        "attack_range": 150,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "night_stalker_void",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/night_stalker_void_hp2.png?v=5027641",
+            "name": "Void",
+            "desc": "Creates a damaging void that slows an enemy unit and deals damage.  Void also mini-stuns, interrupting channeling abilities. The slowing effect lasts longer at night. Deals half damage during day.",
+            "mana_cost": "80\/90\/100\/110",
+            "cooldown": "11\/10\/9\/8",
+            "video": "http:\/\/www.youtube.com\/embed\/HPu40Ahpefw?hd=1&rel=0",
+            "lore": "Balanar creates a vortex of infinite night, tearing opponents violently into the eternal darkness that once was.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "90 \/ 160 \/ 255 \/ 335"
+                },
+                {
+                    "name": "DAY DURATION",
+                    "val": "1.25"
+                },
+                {
+                    "name": "NIGHT DURATION",
+                    "val": "2.5 \/ 3 \/ 3.5 \/ 4"
+                },
+                {
+                    "name": "MOVE SLOW",
+                    "val": "50% \/ 50% \/ 50% \/ 50%"
+                },
+                {
+                    "name": "ATTACK SLOW",
+                    "val": "50 \/ 50 \/ 50 \/ 50"
+                }
+            ]
+        },
+        {
+            "id": "night_stalker_crippling_fear",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/night_stalker_crippling_fear_hp2.png?v=5027641",
+            "name": "Crippling Fear",
+            "desc": "Night Stalker horrifies all nearby enemies, causing them to become silenced while near him.  The effect lasts longer at night.",
+            "mana_cost": "50",
+            "cooldown": "30\/25\/20\/15",
+            "video": "http:\/\/www.youtube.com\/embed\/1i9z1rYqmZg?hd=1&rel=0",
+            "lore": "A vision of the twisted maw of Balanar etches itself into the minds of the poor souls unlucky enough to cross his path.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAY DURATION",
+                    "val": "3 \/ 3 \/ 3 \/ 3"
+                },
+                {
+                    "name": "NIGHT DURATION",
+                    "val": "5 \/ 6 \/ 7 \/ 8"
+                },
+                {
+                    "name": "AURA RADIUS",
+                    "val": "375"
+                }
+            ]
+        },
+        {
+            "id": "night_stalker_hunter_in_the_night",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/night_stalker_hunter_in_the_night_hp2.png?v=5027641",
+            "name": "Hunter in the Night",
+            "desc": "Night Stalker is in his element at night, attacking and moving with great swiftness.",
+            "mana_cost": "",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/S2Br_dswVZY?hd=1&rel=0",
+            "lore": "The hunting prowess of Balanar improves as the night beckons.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "MOVE SPEED",
+                    "val": "22% \/ 28% \/ 34% \/ 40%"
+                }
+            ]
+        },
+        {
+            "id": "night_stalker_darkness",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/night_stalker_darkness_hp2.png?v=5027641",
+            "name": "Dark Ascension",
+            "desc": "Night Stalker smothers the sun and summons instant darkness, so that he might use his powers at their fullest. Nightstalker gains flight and bonus damage during this time. Has unobstructed vision.",
+            "mana_cost": "125\/175\/225",
+            "cooldown": "140\/130\/120",
+            "video": "http:\/\/www.youtube.com\/embed\/xuCoHHo_pJw?hd=1&rel=0",
+            "lore": "It is a humbling sight to see when the mightiest of warriors become afraid of the dark.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DURATION",
+                    "val": "30"
+                },
+                {
+                    "name": "BONUS DAMAGE",
+                    "val": "50 \/ 100 \/ 150"
+                }
+            ]
+        }
+    ]
+}

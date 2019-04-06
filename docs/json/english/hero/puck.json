@@ -1,0 +1,235 @@
+{
+    "id": "puck",
+    "name": "Puck",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/puck_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/puck_vert.jpg?v=5027641"
+    },
+    "attack": "Ranged",
+    "role": [
+        "Initiator",
+        "Disabler",
+        "Escape",
+        "Nuker"
+    ],
+    "primary_attribs": "int",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 23,
+                "gain": 3.1
+            },
+            "agi": {
+                "base": 22,
+                "gain": 1.7
+            },
+            "str": {
+                "base": 17,
+                "gain": 2.2
+            },
+            "dmg": {
+                "min": 30,
+                "max": 41
+            },
+            "ms": 290,
+            "armor": 2.08
+        },
+        "abilities": [
+            {
+                "id": "puck_illusory_orb",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/puck_illusory_orb_hp1.png?v=5027641",
+                "name": "Illusory Orb",
+                "desc": "Puck launches a magic orb that floats in a straight path, damaging enemy units along the way. At any point, Puck may teleport to the orb's location using Ethereal Jaunt."
+            },
+            {
+                "id": "puck_waning_rift",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/puck_waning_rift_hp1.png?v=5027641",
+                "name": "Waning Rift",
+                "desc": "Puck releases a burst of faerie dust that deals damage and silences enemy units nearby."
+            },
+            {
+                "id": "puck_phase_shift",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/puck_phase_shift_hp1.png?v=5027641",
+                "name": "Phase Shift",
+                "desc": "Puck briefly shifts into another dimension where it is immune from harm."
+            },
+            {
+                "id": "puck_dream_coil",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/puck_dream_coil_hp1.png?v=5027641",
+                "name": "Dream Coil",
+                "desc": "Creates a coil of volatile magic that latches onto enemy Heroes, stunning them for 0.5 seconds and damaging them.  If the enemy hero stretches the coil by moving too far away, it snaps, stunning and dealing additional damage.    Upgradable by Aghanim's Scepter."
+            }
+        ]
+    },
+    "bio": "While Puck seems at first glance a mischievous, childish character, this quality masks an alien personality. The juvenile form of a Faerie Dragon, a creature that lives for eons, Puck spends countless millennia in its childish form. So while it is technically true that Puck is juvenile, it will continue to be so when the cities of the present age have sloughed away into dust. Its motives are therefore inscrutable, and what appears to be play may in fact hide a darker purpose. Its endless fondness for mischief is the true indicator of Puck's true nature.",
+    "stats": {
+        "hit_points": [
+            473,
+            1058,
+            1856
+        ],
+        "mana": [
+            299,
+            863,
+            1526
+        ],
+        "damage": [
+            53,
+            96,
+            147
+        ],
+        "armor": [
+            2,
+            5,
+            11
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 550,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "puck_illusory_orb",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/puck_illusory_orb_hp2.png?v=5027641",
+            "name": "Illusory Orb",
+            "desc": "Puck launches a magic orb that floats in a straight path, damaging enemy units along the way. At any point, Puck may teleport to the orb's location using Ethereal Jaunt.",
+            "mana_cost": "80\/100\/120\/140",
+            "cooldown": "13\/12\/11\/10",
+            "video": "http:\/\/www.youtube.com\/embed\/St6DymTgpjc?hd=1&rel=0",
+            "lore": "The playful Faerie Dragon delights in confusing others, vanishing and reappearing where unexpected.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "70 \/ 140 \/ 210 \/ 280"
+                }
+            ]
+        },
+        {
+            "id": "puck_waning_rift",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/puck_waning_rift_hp2.png?v=5027641",
+            "name": "Waning Rift",
+            "desc": "Puck releases a burst of faerie dust that deals damage and silences enemy units nearby.",
+            "mana_cost": "100\/110\/120\/130",
+            "cooldown": "16\/15\/14\/13",
+            "video": "http:\/\/www.youtube.com\/embed\/kM91nc9KFzg?hd=1&rel=0",
+            "lore": "With a mischievous grin, Puck spreads its enchanted powder which disrupts magical flow.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RADIUS",
+                    "val": "400 \/ 400 \/ 400 \/ 400"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "2 \/ 2.5 \/ 3 \/ 3.5"
+                }
+            ]
+        },
+        {
+            "id": "puck_phase_shift",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/puck_phase_shift_hp2.png?v=5027641",
+            "name": "Phase Shift",
+            "desc": "Puck briefly shifts into another dimension where it is immune from harm.",
+            "mana_cost": "0\/0\/0\/0",
+            "cooldown": "6",
+            "video": "http:\/\/www.youtube.com\/embed\/fQM9lmdO3a4?hd=1&rel=0",
+            "lore": "With a quip and flash, Puck returns to the alien dimension from whence it came.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target, Channeled"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DURATION",
+                    "val": "0.75 \/ 1.5 \/ 2.25 \/ 3.25"
+                }
+            ]
+        },
+        {
+            "id": "puck_dream_coil",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/puck_dream_coil_hp2.png?v=5027641",
+            "name": "Dream Coil",
+            "desc": "Creates a coil of volatile magic that latches onto enemy Heroes, stunning them for 0.5 seconds and damaging them.  If the enemy hero stretches the coil by moving too far away, it snaps, stunning and dealing additional damage.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "100\/150\/200",
+            "cooldown": "70\/65\/60",
+            "video": "http:\/\/www.youtube.com\/embed\/DyAcAYncwXE?hd=1&rel=0",
+            "lore": "The Faerie Dragon sows confusion by forcing its enemies to vividly dream about their own mortality.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "COIL DURATION",
+                    "val": "6 \/ 6 \/ 6"
+                },
+                {
+                    "name": "BREAK RADIUS",
+                    "val": "600 \/ 600 \/ 600"
+                },
+                {
+                    "name": "BREAK STUN DURATION",
+                    "val": "1.8 \/ 2.4 \/ 3"
+                },
+                {
+                    "name": "BREAK DAMAGE",
+                    "val": "300 \/ 400 \/ 500"
+                },
+                {
+                    "name": "SCEPTER COIL DURATION",
+                    "val": "8"
+                },
+                {
+                    "name": "SCEPTER BREAK DAMAGE",
+                    "val": "400 \/ 550 \/ 700"
+                },
+                {
+                    "name": "SCEPTER BREAK STUN DURATION",
+                    "val": "1.5 \/ 3 \/ 4.5"
+                }
+            ]
+        }
+    ]
+}

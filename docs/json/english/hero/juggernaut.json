@@ -1,0 +1,218 @@
+{
+    "id": "juggernaut",
+    "name": "Juggernaut",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/juggernaut_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/juggernaut_vert.jpg?v=5027641"
+    },
+    "attack": "Melee",
+    "role": [
+        "Carry",
+        "Pusher",
+        "Escape"
+    ],
+    "primary_attribs": "agi",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 14,
+                "gain": 1.4
+            },
+            "agi": {
+                "base": 36,
+                "gain": 2.8
+            },
+            "str": {
+                "base": 21,
+                "gain": 2.2
+            },
+            "dmg": {
+                "min": 12,
+                "max": 16
+            },
+            "ms": 300,
+            "armor": 5.04
+        },
+        "abilities": [
+            {
+                "id": "juggernaut_blade_fury",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/juggernaut_blade_fury_hp1.png?v=5027641",
+                "name": "Blade Fury",
+                "desc": "Causes a bladestorm of destructive force around Juggernaut, rendering him immune to magic and dealing damage to nearby enemy units.     DISPEL TYPE: Basic Dispel"
+            },
+            {
+                "id": "juggernaut_healing_ward",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/juggernaut_healing_ward_hp1.png?v=5027641",
+                "name": "Healing Ward",
+                "desc": "Summons a Healing Ward which heals all nearby allied units, based on their max health.  The Healing Ward moves at 350 movement speed after being summoned.  Lasts 25 seconds."
+            },
+            {
+                "id": "juggernaut_blade_dance",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/juggernaut_blade_dance_hp1.png?v=5027641",
+                "name": "Blade Dance",
+                "desc": "Gives Juggernaut a chance to deal critical damage on each attack."
+            },
+            {
+                "id": "juggernaut_omni_slash",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/juggernaut_omni_slash_hp1.png?v=5027641",
+                "name": "Omnislash",
+                "desc": "Juggernaut leaps towards the target enemy unit with an attack, and then slashes other nearby enemy units at an increased attack rate. Juggernaut is invulnerable for the duration.    Upgradable by Aghanim's Scepter."
+            }
+        ]
+    },
+    "bio": "No one has ever seen the face hidden beneath the mask of Yurnero the Juggernaut. It is only speculation that he even has one. For defying a corrupt lord, Yurnero was exiled from the ancient Isle of Masks--a punishment that saved his life. The isle soon after vanished beneath the waves in a night of vengeful magic. He alone remains to carry on the Isle's long Juggernaut tradition, one of ritual and swordplay. The last practitioner of the art, Yurnero's confidence and courage are the result of endless practice; his inventive bladework proves that he has never stopped challenging himself. Still, his motives are as unreadable as his expression. For a hero who has lost everything twice over, he fights as if victory is a foregone conclusion.",
+    "stats": {
+        "hit_points": [
+            549,
+            1134,
+            1932
+        ],
+        "mana": [
+            182,
+            437,
+            879
+        ],
+        "damage": [
+            48,
+            87,
+            135
+        ],
+        "armor": [
+            5,
+            11,
+            17
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 150,
+        "missile_speed": "N\/A"
+    },
+    "abilities": [
+        {
+            "id": "juggernaut_blade_fury",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/juggernaut_blade_fury_hp2.png?v=5027641",
+            "name": "Blade Fury",
+            "desc": "Causes a bladestorm of destructive force around Juggernaut, rendering him immune to magic and dealing damage to nearby enemy units.     DISPEL TYPE: Basic Dispel",
+            "mana_cost": "120\/110\/100\/90",
+            "cooldown": "42\/34\/26\/18",
+            "video": "http:\/\/www.youtube.com\/embed\/0XijKqh4EJI?hd=1&rel=0",
+            "lore": "Yurnero's renowned katana techniques are feared by warriors and sorcerors alike.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RADIUS",
+                    "val": "250"
+                }
+            ]
+        },
+        {
+            "id": "juggernaut_healing_ward",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/juggernaut_healing_ward_hp2.png?v=5027641",
+            "name": "Healing Ward",
+            "desc": "Summons a Healing Ward which heals all nearby allied units, based on their max health.  The Healing Ward moves at 350 movement speed after being summoned.  Lasts 25 seconds.",
+            "mana_cost": "140",
+            "cooldown": "60",
+            "video": "http:\/\/www.youtube.com\/embed\/Wvh64L7ndTs?hd=1&rel=0",
+            "lore": "Of the rituals learned at the Isle of Masks, tending wounds with a bit of voodoo magic has proven to be quite useful.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "MAX HEALTH PER SECOND",
+                    "val": "2% \/ 3% \/ 4% \/ 5%"
+                }
+            ]
+        },
+        {
+            "id": "juggernaut_blade_dance",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/juggernaut_blade_dance_hp2.png?v=5027641",
+            "name": "Blade Dance",
+            "desc": "Gives Juggernaut a chance to deal critical damage on each attack.",
+            "mana_cost": "",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/J0i1IyxpvB0?hd=1&rel=0",
+            "lore": "The last remnant of his heritage's commitment to bladework, Yurnero ensures that the style is remembered.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "CRITICAL CHANCE",
+                    "val": "20% \/ 25% \/ 30% \/ 35%"
+                },
+                {
+                    "name": "CRITICAL DAMAGE",
+                    "val": "180%"
+                }
+            ]
+        },
+        {
+            "id": "juggernaut_omni_slash",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/juggernaut_omni_slash_hp2.png?v=5027641",
+            "name": "Omnislash",
+            "desc": "Juggernaut leaps towards the target enemy unit with an attack, and then slashes other nearby enemy units at an increased attack rate. Juggernaut is invulnerable for the duration.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "200\/275\/350",
+            "cooldown": "140",
+            "video": "http:\/\/www.youtube.com\/embed\/T4HOd3lIgyQ?hd=1&rel=0",
+            "lore": "'The fruits of discipline; with practice comes strength.'",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Physical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "SLASHES RATE MULTIPLIER",
+                    "val": "1.7"
+                },
+                {
+                    "name": "BONUS DAMAGE",
+                    "val": "30 \/ 40 \/ 50"
+                },
+                {
+                    "name": "SLASH JUMP RADIUS",
+                    "val": "425"
+                },
+                {
+                    "name": "SCEPTER COOLDOWN",
+                    "val": "70"
+                }
+            ]
+        }
+    ]
+}

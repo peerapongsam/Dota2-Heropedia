@@ -1,0 +1,239 @@
+{
+    "id": "enigma",
+    "name": "Enigma",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/enigma_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/enigma_vert.jpg?v=5027641"
+    },
+    "attack": "Ranged",
+    "role": [
+        "Disabler",
+        "Jungler",
+        "Initiator",
+        "Pusher"
+    ],
+    "primary_attribs": "int",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 18,
+                "gain": 3.9
+            },
+            "agi": {
+                "base": 14,
+                "gain": 1
+            },
+            "str": {
+                "base": 21,
+                "gain": 2.5
+            },
+            "dmg": {
+                "min": 24,
+                "max": 30
+            },
+            "ms": 290,
+            "armor": 3.96
+        },
+        "abilities": [
+            {
+                "id": "enigma_malefice",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/enigma_malefice_hp1.png?v=5027641",
+                "name": "Malefice",
+                "desc": "Focuses Enigma's power on a target, causing it to take damage and become repeatedly stunned for multiple instances.  An instance strikes every 2 seconds."
+            },
+            {
+                "id": "enigma_demonic_conversion",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/enigma_demonic_conversion_hp1.png?v=5027641",
+                "name": "Demonic Conversion",
+                "desc": "Transforms a creep into three fragments of Enigma himself.  These eidolons are all under Enigma's control, and repeated successful attacks cause them to multiply.  When this happens, the eidolons have their health restored."
+            },
+            {
+                "id": "enigma_midnight_pulse",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/enigma_midnight_pulse_hp1.png?v=5027641",
+                "name": "Midnight Pulse",
+                "desc": "Steeps an area in dark resonance, damaging enemy units based on their max HP."
+            },
+            {
+                "id": "enigma_black_hole",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/enigma_black_hole_hp1.png?v=5027641",
+                "name": "Black Hole",
+                "desc": "CHANNELED - Summons a vortex that sucks in nearby enemy units.  Enemies affected by Black Hole cannot move, attack, or cast spells.    Upgradable by Aghanim's Scepter."
+            }
+        ]
+    },
+    "bio": "Nothing is known of Enigma's background. There are only stories and legends, most of them apocryphal, passed down through the ages. In truth, Enigma is a mystery for whom the only true biography is description: he is a universal force, a consumer of worlds. He is a being of the void, at times corporeal, other times ethereal. A beast between the planes.  \r\n\r\n\t\tThere are stories that say he was once a great alchemist who tried to unlock the secrets of the universe and was cursed for his arrogance. Other legends tell that he is an ancient being of strange gravity, the abyss personified--a twisted voice from out the original darkness, before the first light in the universe. And there are older legends that say he is the first collapsed star, a black hole grown complicated and sentient--his motivations unknowable, his power inexorable, a force of destruction unleashed upon existence itself.",
+    "stats": {
+        "hit_points": [
+            549,
+            1214,
+            2069
+        ],
+        "mana": [
+            234,
+            944,
+            1711
+        ],
+        "damage": [
+            42,
+            97,
+            156
+        ],
+        "armor": [
+            4,
+            6,
+            10
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 500,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "enigma_malefice",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/enigma_malefice_hp2.png?v=5027641",
+            "name": "Malefice",
+            "desc": "Focuses Enigma's power on a target, causing it to take damage and become repeatedly stunned for multiple instances.  An instance strikes every 2 seconds.",
+            "mana_cost": "100\/120\/140\/160",
+            "cooldown": "18\/17\/16\/15",
+            "video": "http:\/\/www.youtube.com\/embed\/y0u1c81JqM0?hd=1&rel=0",
+            "lore": "Strange gravities pull at the core of those who would oppose you, holding them in place.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "STUN DURATION",
+                    "val": "0.4 \/ 0.6 \/ 0.8 \/ 1"
+                },
+                {
+                    "name": "DAMAGE PER HIT",
+                    "val": "30 \/ 50 \/ 70 \/ 90"
+                }
+            ]
+        },
+        {
+            "id": "enigma_demonic_conversion",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/enigma_demonic_conversion_hp2.png?v=5027641",
+            "name": "Demonic Conversion",
+            "desc": "Transforms a creep into three fragments of Enigma himself.  These eidolons are all under Enigma's control, and repeated successful attacks cause them to multiply.  When this happens, the eidolons have their health restored.",
+            "mana_cost": "140\/150\/160\/170",
+            "cooldown": "35",
+            "video": "http:\/\/www.youtube.com\/embed\/9gj20AVAwE4?hd=1&rel=0",
+            "lore": "Enigma is capable of drawing aspects of himself from other dimensions - the result is a trio of dark eidolons that hunt the corporeal plane.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "ATTACKS TO MULTIPLY",
+                    "val": "6 \/ 6 \/ 6 \/ 6"
+                },
+                {
+                    "name": "EIDOLON HP",
+                    "val": "180 \/ 200 \/ 220 \/ 240"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "35"
+                }
+            ]
+        },
+        {
+            "id": "enigma_midnight_pulse",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/enigma_midnight_pulse_hp2.png?v=5027641",
+            "name": "Midnight Pulse",
+            "desc": "Steeps an area in dark resonance, damaging enemy units based on their max HP.",
+            "mana_cost": "50\/80\/110\/140",
+            "cooldown": "50\/45\/40\/35",
+            "video": "http:\/\/www.youtube.com\/embed\/qrhVMKaO0NA?hd=1&rel=0",
+            "lore": "A section of the world slowly descends into the void.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Pure"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RADIUS",
+                    "val": "550"
+                },
+                {
+                    "name": "DAMAGE PER SECOND",
+                    "val": "3.75% \/ 4.25% \/ 4.75% \/ 5.25%"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "9 \/ 10 \/ 11 \/ 12"
+                }
+            ]
+        },
+        {
+            "id": "enigma_black_hole",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/enigma_black_hole_hp2.png?v=5027641",
+            "name": "Black Hole",
+            "desc": "CHANNELED - Summons a vortex that sucks in nearby enemy units.  Enemies affected by Black Hole cannot move, attack, or cast spells.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "275\/325\/375",
+            "cooldown": "200\/180\/160",
+            "video": "http:\/\/www.youtube.com\/embed\/FOKIcPeAYPw?hd=1&rel=0",
+            "lore": "The ground trembles as Enigma channels his ultimate vortex of destruction, a singularity with the power to end worlds.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Channeled, Point Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Pure"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE PER SECOND",
+                    "val": "50 \/ 100 \/ 150"
+                },
+                {
+                    "name": "RADIUS",
+                    "val": "420"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "4 \/ 4 \/ 4"
+                }
+            ]
+        }
+    ]
+}

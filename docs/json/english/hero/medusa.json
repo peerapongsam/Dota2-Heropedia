@@ -1,0 +1,230 @@
+{
+    "id": "medusa",
+    "name": "Medusa",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/medusa_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/medusa_vert.jpg?v=5027641"
+    },
+    "attack": "Ranged",
+    "role": [
+        "Carry",
+        "Disabler",
+        "Durable"
+    ],
+    "primary_attribs": "agi",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 19,
+                "gain": 2.6
+            },
+            "agi": {
+                "base": 22,
+                "gain": 3.9
+            },
+            "str": {
+                "base": 15,
+                "gain": 1.3
+            },
+            "dmg": {
+                "min": 24,
+                "max": 30
+            },
+            "ms": 275,
+            "armor": 2.08
+        },
+        "abilities": [
+            {
+                "id": "medusa_split_shot",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/medusa_split_shot_hp1.png?v=5027641",
+                "name": "Split Shot",
+                "desc": "Medusa magically splits her shot into several arrows. These arrows deal a lower percent of her normal damage.    The extra targets will not receive other attack effects (such as critical strike)."
+            },
+            {
+                "id": "medusa_mystic_snake",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/medusa_mystic_snake_hp1.png?v=5027641",
+                "name": "Mystic Snake",
+                "desc": "A mystic snake made of energy jumps from target to target dealing damage and stealing mana. After it reaches its last target, it returns to Medusa to replenish her with mana. The snake deals more damage per jump and steals %snake_mana_steal%% of the targets' total mana. Deals Pure damage to units petrified by Stone Gaze.    Upgradable by Aghanim's Scepter."
+            },
+            {
+                "id": "medusa_mana_shield",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/medusa_mana_shield_hp1.png?v=5027641",
+                "name": "Mana Shield",
+                "desc": "Creates a shield that absorbs 60% of the incoming damage in exchange for Medusa's mana."
+            },
+            {
+                "id": "medusa_stone_gaze",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/medusa_stone_gaze_hp1.png?v=5027641",
+                "name": "Stone Gaze",
+                "desc": "Any enemy units looking at Medusa will have their movement and attack speed slowed.  If 2 seconds of total time is accumulated looking at Medusa while Stone Gaze is active, that unit will turn to stone.  Petrified units are stunned, and take bonus physical damage."
+            }
+        ]
+    },
+    "bio": "Beauty is power. This thought comforted Medusa--the youngest and loveliest of three beautiful Gorgon sisters, born to a sea goddess--because she alone of the sisters was mortal. It comforted her, that is, until the day masked assailants invaded the Gorgon realm and tore the two immortal sisters from their home, unmoved by their beauty or by their tears. One of the invaders seized Medusa as well, but then cast her aside with a disgusted look: 'This one has the mortal stink upon her. We have no use for that which dies.' Humiliated, enraged, Medusa fled to the temple of her mother and cast herself before the goddess, crying, 'You denied me eternal life--therefore I beg you, give me power! Power, so I can dedicate what life I have to rescuing my sisters and avenging this injustice!' After long thought, the goddess granted her daughter's request, allowing Medusa to trade her legendary beauty for a face and form of terrifying strength. Never for a moment has Medusa regretted her choice. She understands that power is the only beauty worth possessing--for only power can change the world.",
+    "stats": {
+        "hit_points": [
+            435,
+            781,
+            1408
+        ],
+        "mana": [
+            247,
+            720,
+            1318
+        ],
+        "damage": [
+            46,
+            101,
+            160
+        ],
+        "armor": [
+            2,
+            10,
+            18
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 600,
+        "missile_speed": "1200"
+    },
+    "abilities": [
+        {
+            "id": "medusa_split_shot",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/medusa_split_shot_hp2.png?v=5027641",
+            "name": "Split Shot",
+            "desc": "Medusa magically splits her shot into several arrows. These arrows deal a lower percent of her normal damage.    The extra targets will not receive other attack effects (such as critical strike).",
+            "mana_cost": "",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/RTArHnkz0UQ?hd=1&rel=0",
+            "lore": "All who encounter the cursed Gorgon will feel her rage.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "OUTGOING DAMAGE",
+                    "val": "30% \/ 45% \/ 60% \/ 75%"
+                }
+            ]
+        },
+        {
+            "id": "medusa_mystic_snake",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/medusa_mystic_snake_hp2.png?v=5027641",
+            "name": "Mystic Snake",
+            "desc": "A mystic snake made of energy jumps from target to target dealing damage and stealing mana. After it reaches its last target, it returns to Medusa to replenish her with mana. The snake deals more damage per jump and steals %snake_mana_steal%% of the targets' total mana. Deals Pure damage to units petrified by Stone Gaze.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "140\/150\/160\/170",
+            "cooldown": "11",
+            "video": "http:\/\/www.youtube.com\/embed\/BQw3_zhLK9o?hd=1&rel=0",
+            "lore": "The Gorgon's curse is her greatest strength.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "JUMP RADIUS",
+                    "val": "475 \/ 475 \/ 475 \/ 475"
+                },
+                {
+                    "name": "JUMPS",
+                    "val": "3 \/ 4 \/ 5 \/ 6"
+                },
+                {
+                    "name": "DAMAGE",
+                    "val": "80 \/ 120 \/ 160 \/ 200"
+                },
+                {
+                    "name": "DAMAGE INCREASE PER JUMP",
+                    "val": "35%"
+                }
+            ]
+        },
+        {
+            "id": "medusa_mana_shield",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/medusa_mana_shield_hp2.png?v=5027641",
+            "name": "Mana Shield",
+            "desc": "Creates a shield that absorbs 60% of the incoming damage in exchange for Medusa's mana.",
+            "mana_cost": "",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/OPryhacnXBg?hd=1&rel=0",
+            "lore": "While Medusa was not gifted with eternal life upon birth, her curse bestowed her with impressive defensive powers.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target, Toggle"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE PER MANA",
+                    "val": "1.6 \/ 1.9 \/ 2.2 \/ 2.5"
+                }
+            ]
+        },
+        {
+            "id": "medusa_stone_gaze",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/medusa_stone_gaze_hp2.png?v=5027641",
+            "name": "Stone Gaze",
+            "desc": "Any enemy units looking at Medusa will have their movement and attack speed slowed.  If 2 seconds of total time is accumulated looking at Medusa while Stone Gaze is active, that unit will turn to stone.  Petrified units are stunned, and take bonus physical damage.",
+            "mana_cost": "200\/200\/200",
+            "cooldown": "90",
+            "video": "http:\/\/www.youtube.com\/embed\/q_X57PFtq4o?hd=1&rel=0",
+            "lore": "The beauty of Medusa is legendary.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RADIUS",
+                    "val": "1000 \/ 1000 \/ 1000"
+                },
+                {
+                    "name": "SLOW",
+                    "val": "35%"
+                },
+                {
+                    "name": "STONE DURATION",
+                    "val": "3"
+                },
+                {
+                    "name": "BONUS PHYSICAL DAMAGE",
+                    "val": "50%"
+                }
+            ]
+        }
+    ]
+}

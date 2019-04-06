@@ -1,0 +1,223 @@
+{
+    "id": "broodmother",
+    "name": "Broodmother",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/broodmother_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/broodmother_vert.jpg?v=5027641"
+    },
+    "attack": "Melee",
+    "role": [
+        "Carry",
+        "Pusher",
+        "Escape",
+        "Nuker"
+    ],
+    "primary_attribs": "agi",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 18,
+                "gain": 2
+            },
+            "agi": {
+                "base": 15,
+                "gain": 2.8
+            },
+            "str": {
+                "base": 18,
+                "gain": 2.8
+            },
+            "dmg": {
+                "min": 29,
+                "max": 35
+            },
+            "ms": 275,
+            "armor": 2.1
+        },
+        "abilities": [
+            {
+                "id": "broodmother_spawn_spiderlings",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/broodmother_spawn_spiderlings_hp1.png?v=5027641",
+                "name": "Spawn Spiderlings",
+                "desc": "Broodmother injects her young into an enemy unit, dealing damage. The spiderlings will hatch if the target is killed while under this influence."
+            },
+            {
+                "id": "broodmother_spin_web",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/broodmother_spin_web_hp1.png?v=5027641",
+                "name": "Spin Web",
+                "desc": "Spins a large web that grants Broodmother a passive movement speed increase, gives free movement, and boosts regeneration while in its vicinity. Spin Web charges restore every 45 seconds. Spin Web can be cast from anywhere as long as the new web touches an existing web. Webs never expire, and can be manually destroyed. When the maximum limit of webs is exceeded, the oldest web disappears."
+            },
+            {
+                "id": "broodmother_incapacitating_bite",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/broodmother_incapacitating_bite_hp1.png?v=5027641",
+                "name": "Incapacitating Bite",
+                "desc": "Broodmother's venom cripples enemy units, causing her attacks to slow and giving the affected unit a chance to miss its attacks."
+            },
+            {
+                "id": "broodmother_insatiable_hunger",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/broodmother_insatiable_hunger_hp1.png?v=5027641",
+                "name": "Insatiable Hunger",
+                "desc": "A violent lust for vital fluids increases Broodmother's attack damage and gives her a vampiric attack."
+            }
+        ]
+    },
+    "bio": "For centuries, Black Arachnia the Broodmother lurked in the dark lava tubes beneath the smoldering caldera of Mount Pyrotheos, raising millions of spiderlings in safety before sending them to find prey in the wide world above. In a later age, the Vizier of Greed, Ptholopthales, erected his lodestone ziggurat on the slopes of the dead volcano, knowing that any looters who sought his magnetic wealth must survive the spider-haunted passages. After millennia of maternal peace, Black Arachnia found herself beset by a steady trickle of furfeet and cutpurses, bold knights and noble youths--all of them delicious, certainly, and yet tending to create a less than nurturing environment for her innocent offspring. Tiring of the intrusions, she paid a visit to Ptholopthales; and when he proved unwilling to discuss a compromise, she wrapped the Vizier in silk and set him aside to be the centerpiece of a special birthday feast. Unfortunately, the absence of the Magnetic Ziggurat's master merely emboldened a new generation of intruders. When one of her newborns was trodden underfoot by a clumsy adventurer, she reached the end of her silken rope. Broodmother headed for the surface, declaring her intent to rid the world of each and every possible invader, down to the last Hero if necessary, until she could ensure her nursery might once more be a safe and wholesome environment for her precious spiderspawn.",
+    "stats": {
+        "hit_points": [
+            492,
+            1237,
+            2149
+        ],
+        "mana": [
+            234,
+            598,
+            1118
+        ],
+        "damage": [
+            44,
+            83,
+            131
+        ],
+        "armor": [
+            2,
+            8,
+            14
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 150,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "broodmother_spawn_spiderlings",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/broodmother_spawn_spiderlings_hp2.png?v=5027641",
+            "name": "Spawn Spiderlings",
+            "desc": "Broodmother injects her young into an enemy unit, dealing damage. The spiderlings will hatch if the target is killed while under this influence.",
+            "mana_cost": "100",
+            "cooldown": "11\/10\/9\/8",
+            "video": "http:\/\/www.youtube.com\/embed\/HsrNXKf_QOY?hd=1&rel=0",
+            "lore": "Black Arachnia continues to raise her young, even amidst the field of combat.  The brood quickly learns how to support their mother.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "LIFETIME",
+                    "val": "60 \/ 60 \/ 60 \/ 60"
+                },
+                {
+                    "name": "COUNT",
+                    "val": "1 \/ 2 \/ 3 \/ 4"
+                }
+            ]
+        },
+        {
+            "id": "broodmother_spin_web",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/broodmother_spin_web_hp2.png?v=5027641",
+            "name": "Spin Web",
+            "desc": "Spins a large web that grants Broodmother a passive movement speed increase, gives free movement, and boosts regeneration while in its vicinity. Spin Web charges restore every 45 seconds. Spin Web can be cast from anywhere as long as the new web touches an existing web. Webs never expire, and can be manually destroyed. When the maximum limit of webs is exceeded, the oldest web disappears.",
+            "mana_cost": "50",
+            "cooldown": "0",
+            "video": "http:\/\/www.youtube.com\/embed\/rTMrFJkcWTk?hd=1&rel=0",
+            "lore": "Weaving a bed of silken fibers, Arachnia's web both protects her and her offspring, as well as giving advancing opponents a sense of forboding.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "MAX WEBS",
+                    "val": "2 \/ 4 \/ 6 \/ 8"
+                },
+                {
+                    "name": "HEALTH REGEN",
+                    "val": "3 \/ 5 \/ 7 \/ 9"
+                },
+                {
+                    "name": "MOVE INCREASE",
+                    "val": "25% \/ 40% \/ 55% \/ 70%"
+                },
+                {
+                    "name": "MAX WEB CHARGES",
+                    "val": "2 \/ 4 \/ 6 \/ 8"
+                },
+                {
+                    "name": "CHARGE RESTORE TIME",
+                    "val": "45"
+                }
+            ]
+        },
+        {
+            "id": "broodmother_incapacitating_bite",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/broodmother_incapacitating_bite_hp2.png?v=5027641",
+            "name": "Incapacitating Bite",
+            "desc": "Broodmother's venom cripples enemy units, causing her attacks to slow and giving the affected unit a chance to miss its attacks.",
+            "mana_cost": "",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/fewADuqpwLM?hd=1&rel=0",
+            "lore": "Paralytic toxins come from Black Arachnia's fangs, causing a slow and painful death to those who intrude on her webs.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "MISS CHANCE",
+                    "val": "30% \/ 40% \/ 50% \/ 60%"
+                },
+                {
+                    "name": "MOVE SLOW",
+                    "val": "16% \/ 26% \/ 36% \/ 46%"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "2 \/ 2 \/ 2 \/ 2"
+                }
+            ]
+        },
+        {
+            "id": "broodmother_insatiable_hunger",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/broodmother_insatiable_hunger_hp2.png?v=5027641",
+            "name": "Insatiable Hunger",
+            "desc": "A violent lust for vital fluids increases Broodmother's attack damage and gives her a vampiric attack.",
+            "mana_cost": "100\/100\/100",
+            "cooldown": "45",
+            "video": "http:\/\/www.youtube.com\/embed\/zxPfDpll2II?hd=1&rel=0",
+            "lore": "While most of her prey is wrapped in silken cocoons and saved for her young, the Broodmother herself has a taste for wandering heroes.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DURATION",
+                    "val": "14 \/ 14 \/ 14"
+                }
+            ]
+        }
+    ]
+}

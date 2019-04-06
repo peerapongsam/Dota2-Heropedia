@@ -1,0 +1,275 @@
+{
+    "id": "troll_warlord",
+    "name": "Troll Warlord",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/troll_warlord_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/troll_warlord_vert.jpg?v=5027641"
+    },
+    "attack": "Ranged",
+    "role": [
+        "Carry",
+        "Pusher",
+        "Disabler",
+        "Durable"
+    ],
+    "primary_attribs": "agi",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 13,
+                "gain": 1
+            },
+            "agi": {
+                "base": 21,
+                "gain": 2.9
+            },
+            "str": {
+                "base": 21,
+                "gain": 2.5
+            },
+            "dmg": {
+                "min": 23,
+                "max": 35
+            },
+            "ms": 290,
+            "armor": 1.94
+        },
+        "abilities": [
+            {
+                "id": "troll_warlord_berserkers_rage",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/troll_warlord_berserkers_rage_hp1.png?v=5027641",
+                "name": "Berserker's Rage",
+                "desc": "While active, Troll Warlord swaps from using ranged to melee attacks. Melee attacks have a chance to ensnare, preventing the target from moving or using mobility spells. Berserker's Rage also grants additional movement speed, armor, and increased attack speed.    Whirling Axes has different functionality while Berserker's Rage is active."
+            },
+            {
+                "id": "troll_warlord_whirling_axes_ranged",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/troll_warlord_whirling_axes_ranged_hp1.png?v=5027641",
+                "name": "Whirling Axes (Ranged)",
+                "desc": "Troll hurls a fistful of five axes in a cone shape over 900 range, slowing and damaging enemy units."
+            },
+            {
+                "id": "troll_warlord_whirling_axes_melee",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/troll_warlord_whirling_axes_melee_hp1.png?v=5027641",
+                "name": "Whirling Axes (Melee)",
+                "desc": "Troll hurls two axes around him in a close range area of effect, damaging enemy units and causing them to miss some attacks."
+            },
+            {
+                "id": "troll_warlord_fervor",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/troll_warlord_fervor_hp1.png?v=5027641",
+                "name": "Fervor",
+                "desc": "With each continuous blow on the same target, Troll gains increased attack speed.  If Troll changes targets, the stacks drop to zero."
+            },
+            {
+                "id": "troll_warlord_battle_trance",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/troll_warlord_battle_trance_hp1.png?v=5027641",
+                "name": "Battle Trance",
+                "desc": "Troll unleashes a powerful battle trance, that forces you to continuously attack the closest enemy unit within 900 range, prioritizing heroes. Damage does not kill you during this mode. Grants you bonus lifesteal, attack speed and movement speed. Applies a Basic Dispel."
+            }
+        ]
+    },
+    "bio": "It's an easy thing to offend a troll. A prickly and contentious race, trolls thrive on argument and strife, missing no excuse to raise their voices in dispute. Males grow to maturity in subterranean chambers beneath their matriarch's domicile, feeding and amusing themselves while contributing nothing. Often they stay for years beyond the age of maturity, while the matriarch provides them with sustenance. When young trolls are finally pushed from their sub-chamber, they gather with others of their kind, forming roving gangs of malcontents who complain loudly about all manner of vexation.      \r\n\r\n\t\tAs much as trolls love to argue, imagine how rare it is for a troll to be driven from his own kind for being too difficult to get along with. Such was Jah'rakal's fate, a monger troll from deep in the Hoven. So deluded was he, so bitter and abrasive, that even other trolls found his company intolerable. After one particularly vitriolic outburst in which he claimed the lion's share of loot from their latest raid, his cohorts finally snapped. They turned on him, beat him with clubs, and drove him from the encampment. Enraged at his banishment, he returned the next day, armed with steel, and slew them all, one by one. He then swore a blood oath: he would ever after be a fighting force unto himself. Now he roams the world as the Troll Warlord, bitter and angry, the Imperial high commander of an army of one.",
+    "stats": {
+        "hit_points": [
+            549,
+            1214,
+            2069
+        ],
+        "mana": [
+            169,
+            351,
+            741
+        ],
+        "damage": [
+            44,
+            85,
+            134
+        ],
+        "armor": [
+            2,
+            8,
+            14
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 500,
+        "missile_speed": "1200"
+    },
+    "abilities": [
+        {
+            "id": "troll_warlord_berserkers_rage",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/troll_warlord_berserkers_rage_hp2.png?v=5027641",
+            "name": "Berserker's Rage",
+            "desc": "While active, Troll Warlord swaps from using ranged to melee attacks. Melee attacks have a chance to ensnare, preventing the target from moving or using mobility spells. Berserker's Rage also grants additional movement speed, armor, and increased attack speed.    Whirling Axes has different functionality while Berserker's Rage is active.",
+            "mana_cost": "",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/5hm9QkwMsuk?hd=1&rel=0",
+            "lore": "Like his anger, Troll Warlord's supply of axes is infinite.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target, Toggle"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "BONUS MOVE SPEED",
+                    "val": "10 \/ 20 \/ 30 \/ 40"
+                },
+                {
+                    "name": "BONUS ARMOR",
+                    "val": "6"
+                },
+                {
+                    "name": "MELEE BASE ATTACK TIME",
+                    "val": "1.45"
+                },
+                {
+                    "name": "ENSNARE CHANCE",
+                    "val": "10% \/ 12% \/ 14% \/ 16%"
+                },
+                {
+                    "name": "ENSNARE DURATION",
+                    "val": "0.8 \/ 1.2 \/ 1.6 \/ 2"
+                }
+            ]
+        },
+        {
+            "id": "troll_warlord_whirling_axes_ranged",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/troll_warlord_whirling_axes_ranged_hp2.png?v=5027641",
+            "name": "Whirling Axes (Ranged)",
+            "desc": "Troll hurls a fistful of five axes in a cone shape over 900 range, slowing and damaging enemy units.",
+            "mana_cost": "50",
+            "cooldown": "9",
+            "video": "http:\/\/www.youtube.com\/embed\/pqe5QcZDAEE?hd=1&rel=0",
+            "lore": "Only axes fueled by hate whirl with such a deadly spin.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target, Point Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "SLOW DURATION",
+                    "val": "2.5 \/ 3 \/ 3.5 \/ 4"
+                },
+                {
+                    "name": "MOVEMENT SLOW",
+                    "val": "40%"
+                }
+            ]
+        },
+        {
+            "id": "troll_warlord_whirling_axes_melee",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/troll_warlord_whirling_axes_melee_hp2.png?v=5027641",
+            "name": "Whirling Axes (Melee)",
+            "desc": "Troll hurls two axes around him in a close range area of effect, damaging enemy units and causing them to miss some attacks.",
+            "mana_cost": "50",
+            "cooldown": "9",
+            "video": "http:\/\/www.youtube.com\/embed\/x9u8gk8vczg?hd=1&rel=0",
+            "lore": "Keep your enemies close.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RADIUS",
+                    "val": "450"
+                },
+                {
+                    "name": "BLIND DURATION",
+                    "val": "5"
+                },
+                {
+                    "name": "MISS CHANCE",
+                    "val": "60%"
+                },
+                {
+                    "name": "WHIRL DURATION",
+                    "val": "3"
+                }
+            ]
+        },
+        {
+            "id": "troll_warlord_fervor",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/troll_warlord_fervor_hp2.png?v=5027641",
+            "name": "Fervor",
+            "desc": "With each continuous blow on the same target, Troll gains increased attack speed.  If Troll changes targets, the stacks drop to zero.",
+            "mana_cost": "",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/Ba5LZHZaAts?hd=1&rel=0",
+            "lore": "If at first you don't succeed, strike, strike again.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "ATTACK SPEED PER STACK",
+                    "val": "15 \/ 20 \/ 25 \/ 30"
+                }
+            ]
+        },
+        {
+            "id": "troll_warlord_battle_trance",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/troll_warlord_battle_trance_hp2.png?v=5027641",
+            "name": "Battle Trance",
+            "desc": "Troll unleashes a powerful battle trance, that forces you to continuously attack the closest enemy unit within 900 range, prioritizing heroes. Damage does not kill you during this mode. Grants you bonus lifesteal, attack speed and movement speed. Applies a Basic Dispel.",
+            "mana_cost": "150",
+            "cooldown": "90",
+            "video": "http:\/\/www.youtube.com\/embed\/YLDwkaESv9U?hd=1&rel=0",
+            "lore": "An adrenaline rush of pure hatred quickens your blades.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "TRANCE DURATION",
+                    "val": "6.5"
+                },
+                {
+                    "name": "LIFESTEAL",
+                    "val": "40% \/ 60% \/ 80%"
+                },
+                {
+                    "name": "ATTACK SPEED",
+                    "val": "140 \/ 170 \/ 200"
+                },
+                {
+                    "name": "MOVEMENT SPEED",
+                    "val": "30% \/ 35% \/ 40%"
+                }
+            ]
+        }
+    ]
+}

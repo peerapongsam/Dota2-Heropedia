@@ -1,0 +1,253 @@
+{
+    "id": "pangolier",
+    "name": "Pangolier",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/pangolier_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/pangolier_vert.jpg?v=5027641"
+    },
+    "attack": "Melee",
+    "role": [
+        "Carry",
+        "Nuker",
+        "Disabler",
+        "Durable",
+        "Escape",
+        "Initiator"
+    ],
+    "primary_attribs": "agi",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 16,
+                "gain": 1.9
+            },
+            "agi": {
+                "base": 18,
+                "gain": 3.2
+            },
+            "str": {
+                "base": 17,
+                "gain": 2.5
+            },
+            "dmg": {
+                "min": 33,
+                "max": 39
+            },
+            "ms": 305,
+            "armor": 3.52
+        },
+        "abilities": [
+            {
+                "id": "pangolier_swashbuckle",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/pangolier_swashbuckle_hp1.png?v=5027641",
+                "name": "Swashbuckle",
+                "desc": "Vector Targeted. Pangolier dashes along the target line, then slashes all enemies in the drawn direction with several quick swipes.    Lucky Shot has a chance to activate from this damage."
+            },
+            {
+                "id": "pangolier_shield_crash",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/pangolier_shield_crash_hp1.png?v=5027641",
+                "name": "Shield Crash",
+                "desc": "Pangolier jumps in the air and slams back to the ground, damaging all enemies in a radius. For each enemy hero hit, he gains a percentage of incoming damage reduction for a short time.    Forward movement is maintained if Shield Crash is used while Rolling Thunder is active, and allows Rolling Thunder to clear walls or cliffs."
+            },
+            {
+                "id": "pangolier_lucky_shot",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/pangolier_lucky_shot_hp1.png?v=5027641",
+                "name": "Lucky Shot",
+                "desc": "Pangolier rolls the dice and lets fate decide the outcome for his enemies. Grants a chance to slow and apply either a Silence or a Disarm."
+            },
+            {
+                "id": "pangolier_gyroshell",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/pangolier_gyroshell_hp1.png?v=5027641",
+                "name": "Rolling Thunder",
+                "desc": "Pangolier curls into a magic-immune ball and rolls out. When rolling, he moves at an increased speed and can move through trees, but has a decreased ability to turn. Striking enemies knocks them back, inflicting damage and stunning them when they land.     Colliding with walls or cliffs will cause a temporary pause while Pangolier reverses in direction.    DISPEL TYPE: Basic Dispel"
+            }
+        ]
+    },
+    "bio": "The men and women that make up the Nivan Gallants live a life of swordplay, chandelier swinging, and tawdry romance. And while all adhere to their creed that \u201cA life of adventure is the only life worth living,\u201d the exploits of Dont\u00e9 Panlin still manage to raise the eyebrows of even the most hedonistic of swordsmen.\r\n\r\nThere is no monster he won\u2019t slay. No creature he won\u2019t woo. No tyrant he won\u2019t stand against. And no noble immune to his silver tongue.",
+    "stats": {
+        "hit_points": [
+            473,
+            1138,
+            1993
+        ],
+        "mana": [
+            208,
+            554,
+            1061
+        ],
+        "damage": [
+            51,
+            96,
+            148
+        ],
+        "armor": [
+            4,
+            10,
+            17
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 150,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "pangolier_swashbuckle",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/pangolier_swashbuckle_hp2.png?v=5027641",
+            "name": "Swashbuckle",
+            "desc": "Vector Targeted. Pangolier dashes along the target line, then slashes all enemies in the drawn direction with several quick swipes.    Lucky Shot has a chance to activate from this damage.",
+            "mana_cost": "80\/90\/100\/110",
+            "cooldown": "20\/16\/12\/8",
+            "lore": "The Pangolier's blade is even nimbler than his tongue.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Physical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DASH RANGE",
+                    "val": "1000"
+                },
+                {
+                    "name": "SLASH WIDTH",
+                    "val": "125"
+                },
+                {
+                    "name": "STRIKES",
+                    "val": "4"
+                }
+            ]
+        },
+        {
+            "id": "pangolier_shield_crash",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/pangolier_shield_crash_hp2.png?v=5027641",
+            "name": "Shield Crash",
+            "desc": "Pangolier jumps in the air and slams back to the ground, damaging all enemies in a radius. For each enemy hero hit, he gains a percentage of incoming damage reduction for a short time.    Forward movement is maintained if Shield Crash is used while Rolling Thunder is active, and allows Rolling Thunder to clear walls or cliffs.",
+            "mana_cost": "90\/100\/110\/120",
+            "cooldown": "19\/17\/15\/13",
+            "lore": "Only in the midst of his enemies does the Pangolier truly thrive.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "75 \/ 150 \/ 225 \/ 300"
+                },
+                {
+                    "name": "REDUCTION PER HERO",
+                    "val": "9% \/ 12% \/ 15% \/ 18%"
+                },
+                {
+                    "name": "REDUCTION DURATION",
+                    "val": "10"
+                }
+            ]
+        },
+        {
+            "id": "pangolier_lucky_shot",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/pangolier_lucky_shot_hp2.png?v=5027641",
+            "name": "Lucky Shot",
+            "desc": "Pangolier rolls the dice and lets fate decide the outcome for his enemies. Grants a chance to slow and apply either a Silence or a Disarm.",
+            "mana_cost": "",
+            "cooldown": "",
+            "lore": null,
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "CHANCE",
+                    "val": "17%"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "2 \/ 3 \/ 4 \/ 5"
+                },
+                {
+                    "name": "SLOW",
+                    "val": "35%"
+                }
+            ]
+        },
+        {
+            "id": "pangolier_gyroshell",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/pangolier_gyroshell_hp2.png?v=5027641",
+            "name": "Rolling Thunder",
+            "desc": "Pangolier curls into a magic-immune ball and rolls out. When rolling, he moves at an increased speed and can move through trees, but has a decreased ability to turn. Striking enemies knocks them back, inflicting damage and stunning them when they land.     Colliding with walls or cliffs will cause a temporary pause while Pangolier reverses in direction.    DISPEL TYPE: Basic Dispel",
+            "mana_cost": "100\/150\/200",
+            "cooldown": "70",
+            "lore": "Where his ancestors sought only refuge, the Pangolier saw opportunity...",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "200 \/ 275 \/ 350"
+                },
+                {
+                    "name": "TRANSFORM TIME",
+                    "val": "1.2"
+                },
+                {
+                    "name": "ROLL SPEED",
+                    "val": "600"
+                },
+                {
+                    "name": "RADIUS",
+                    "val": "150"
+                },
+                {
+                    "name": "STUN DURATION",
+                    "val": "1 \/ 1.25 \/ 1.5"
+                },
+                {
+                    "name": "KNOCKBACK DISTANCE",
+                    "val": "150"
+                }
+            ]
+        }
+    ]
+}

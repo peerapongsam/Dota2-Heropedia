@@ -1,0 +1,252 @@
+{
+    "id": "bloodseeker",
+    "name": "Bloodseeker",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/bloodseeker_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/bloodseeker_vert.jpg?v=5027641"
+    },
+    "attack": "Melee",
+    "role": [
+        "Carry",
+        "Disabler",
+        "Jungler",
+        "Nuker",
+        "Initiator"
+    ],
+    "primary_attribs": "agi",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 18,
+                "gain": 1.7
+            },
+            "agi": {
+                "base": 24,
+                "gain": 3.5
+            },
+            "str": {
+                "base": 24,
+                "gain": 2.7
+            },
+            "dmg": {
+                "min": 33,
+                "max": 39
+            },
+            "ms": 295,
+            "armor": 3.36
+        },
+        "abilities": [
+            {
+                "id": "bloodseeker_bloodrage",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/bloodseeker_bloodrage_hp1.png?v=5027641",
+                "name": "Bloodrage",
+                "desc": "Drives a unit into a bloodthirsty rage during which a unit deals, and takes, increased damage. Units affected by Bloodrage will be healed for a percentage of the max health of any units they kill. Units affected by Bloodrage when killed will heal a percentage of their max health to their killer. If you do not get the last hit, but are within 300 AoE of the dying hero, you will take 50% of the heal."
+            },
+            {
+                "id": "bloodseeker_blood_bath",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/bloodseeker_blood_bath_hp1.png?v=5027641",
+                "name": "Blood Rite",
+                "desc": "Bloodseeker baptizes an area in sacred blood. After 3 seconds the ritual completes, causing any enemies caught in the area to take damage and become silenced."
+            },
+            {
+                "id": "bloodseeker_thirst",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/bloodseeker_thirst_hp1.png?v=5027641",
+                "name": "Thirst",
+                "desc": "Bloodseeker is invigorated by the wounds of his enemies, gaining bonus movement speed and attack speed whenever an enemy hero's health falls below 75%, with the bonuses increasing as their health falls further. If an enemy hero's health falls below 25%, he will also gain vision and True Sight of that hero. Bonuses stack per hero."
+            },
+            {
+                "id": "bloodseeker_rupture",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/bloodseeker_rupture_hp1.png?v=5027641",
+                "name": "Rupture",
+                "desc": "Causes an enemy unit's skin to rupture. If the unit moves, it takes a percentage of current health as damage per 100 units moved.  The damage is dealt through spell immunity.    Upgradable by Aghanim's Scepter."
+            }
+        ]
+    },
+    "bio": "Strygwyr the Bloodseeker is a ritually sanctioned hunter, Hound of the Flayed Twins, sent down from the mist-shrouded peaks of Xhacatocatl in search of blood. The Flayed Ones require oceanic amounts of blood to keep them sated and placated, and would soon drain their mountain empire of its populace if the priests of the high plateaus did not appease them. Strygwyr therefore goes out in search of carnage. The vital energy of any blood he lets, flows immediately to the Twins through the sacred markings on his weapons and armor. Over the years, he has come to embody the energy of a vicious hound; in battle he is savage as a jackal. Beneath the Mask of the Bloodseeker, in the rush of bloody quenching, it is said that you can sometime see the features of the Flayers taking direct possession of their Hound.",
+    "stats": {
+        "hit_points": [
+            606,
+            1324,
+            2217
+        ],
+        "mana": [
+            234,
+            543,
+            1024
+        ],
+        "damage": [
+            57,
+            106,
+            161
+        ],
+        "armor": [
+            3,
+            10,
+            18
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 150,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "bloodseeker_bloodrage",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/bloodseeker_bloodrage_hp2.png?v=5027641",
+            "name": "Bloodrage",
+            "desc": "Drives a unit into a bloodthirsty rage during which a unit deals, and takes, increased damage. Units affected by Bloodrage will be healed for a percentage of the max health of any units they kill. Units affected by Bloodrage when killed will heal a percentage of their max health to their killer. If you do not get the last hit, but are within 300 AoE of the dying hero, you will take 50% of the heal.",
+            "mana_cost": "",
+            "cooldown": "9\/8\/7\/6",
+            "video": "http:\/\/www.youtube.com\/embed\/BnTDtOHIatY?hd=1&rel=0",
+            "lore": "Strygwyr shares his animalistic thirst for bloodshed.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Heroes"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DURATION",
+                    "val": "9 \/ 10 \/ 11 \/ 12"
+                },
+                {
+                    "name": "DAMAGE INCREASE",
+                    "val": "10% \/ 15% \/ 20% \/ 25%"
+                },
+                {
+                    "name": "KILL HEAL PERCENTAGE",
+                    "val": "16% \/ 19% \/ 22% \/ 25%"
+                }
+            ]
+        },
+        {
+            "id": "bloodseeker_blood_bath",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/bloodseeker_blood_bath_hp2.png?v=5027641",
+            "name": "Blood Rite",
+            "desc": "Bloodseeker baptizes an area in sacred blood. After 3 seconds the ritual completes, causing any enemies caught in the area to take damage and become silenced.",
+            "mana_cost": "100",
+            "cooldown": "18\/16\/14\/12",
+            "video": "http:\/\/www.youtube.com\/embed\/z2PQgLOoDZE?hd=1&rel=0",
+            "lore": "The Flayed Twins are ever willing to aid those who spill blood upon the field of battle.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Pure"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RITUAL AREA",
+                    "val": "600"
+                },
+                {
+                    "name": "SILENCE DURATION",
+                    "val": "3 \/ 4 \/ 5 \/ 6"
+                }
+            ]
+        },
+        {
+            "id": "bloodseeker_thirst",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/bloodseeker_thirst_hp2.png?v=5027641",
+            "name": "Thirst",
+            "desc": "Bloodseeker is invigorated by the wounds of his enemies, gaining bonus movement speed and attack speed whenever an enemy hero's health falls below 75%, with the bonuses increasing as their health falls further. If an enemy hero's health falls below 25%, he will also gain vision and True Sight of that hero. Bonuses stack per hero.",
+            "mana_cost": "",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/VcJPbm7kek8?hd=1&rel=0",
+            "lore": "Strygwyr becomes frenzied when blood is spilled.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "THIRST HEALTH THRESHHOLD",
+                    "val": "75%"
+                },
+                {
+                    "name": "MAX ATTACK SPEED",
+                    "val": "30 \/ 45 \/ 60 \/ 75"
+                },
+                {
+                    "name": "VISIBILITY HEALTH THRESHHOLD",
+                    "val": "25%"
+                }
+            ]
+        },
+        {
+            "id": "bloodseeker_rupture",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/bloodseeker_rupture_hp2.png?v=5027641",
+            "name": "Rupture",
+            "desc": "Causes an enemy unit's skin to rupture. If the unit moves, it takes a percentage of current health as damage per 100 units moved.  The damage is dealt through spell immunity.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "200\/225\/250",
+            "cooldown": "70\/60\/50",
+            "video": "http:\/\/www.youtube.com\/embed\/gf8HgbLF-7Y?hd=1&rel=0",
+            "lore": "When the Bloodseeker hunts you, injuries become fatalities.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Pure"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DURATION",
+                    "val": "8 \/ 10 \/ 12"
+                },
+                {
+                    "name": "MOVE DAMAGE",
+                    "val": "8%"
+                },
+                {
+                    "name": "CAST RANGE",
+                    "val": "700 \/ 800 \/ 900"
+                },
+                {
+                    "name": "SCEPTER CHARGES",
+                    "val": "2"
+                },
+                {
+                    "name": "SCEPTER REPLENISH TIME",
+                    "val": "40"
+                }
+            ]
+        }
+    ]
+}

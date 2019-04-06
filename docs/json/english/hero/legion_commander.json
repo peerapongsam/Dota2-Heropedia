@@ -1,0 +1,240 @@
+{
+    "id": "legion_commander",
+    "name": "Legion Commander",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/legion_commander_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/legion_commander_vert.jpg?v=5027641"
+    },
+    "attack": "Melee",
+    "role": [
+        "Carry",
+        "Disabler",
+        "Initiator",
+        "Durable",
+        "Nuker"
+    ],
+    "primary_attribs": "str",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 20,
+                "gain": 2.2
+            },
+            "agi": {
+                "base": 18,
+                "gain": 1.7
+            },
+            "str": {
+                "base": 26,
+                "gain": 3.3
+            },
+            "dmg": {
+                "min": 35,
+                "max": 39
+            },
+            "ms": 330,
+            "armor": 1.52
+        },
+        "abilities": [
+            {
+                "id": "legion_commander_overwhelming_odds",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/legion_commander_overwhelming_odds_hp1.png?v=5027641",
+                "name": "Overwhelming Odds",
+                "desc": "Turns the enemies' numbers against them, dealing damage and granting you bonus movement speed per unit or per hero.  Deals bonus damage to illusions and summoned units as a percent of their current health."
+            },
+            {
+                "id": "legion_commander_press_the_attack",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/legion_commander_press_the_attack_hp1.png?v=5027641",
+                "name": "Press The Attack",
+                "desc": "Removes debuffs and disables from the target friendly unit, and grants bonus attack speed and health regen for a short time.    DISPEL TYPE: Strong Dispel"
+            },
+            {
+                "id": "legion_commander_moment_of_courage",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/legion_commander_moment_of_courage_hp1.png?v=5027641",
+                "name": "Moment of Courage",
+                "desc": "When attacked, Legion Commander has a chance to immediately counterattack with bonus lifesteal."
+            },
+            {
+                "id": "legion_commander_duel",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/legion_commander_duel_hp1.png?v=5027641",
+                "name": "Duel",
+                "desc": "Legion Commander and the target enemy hero are forced to attack each other for a short duration.  Neither hero can use items or abilities.  If either hero dies during the duration, the hero winning the Duel gains permanent bonus damage.    Upgradable by Aghanim's Scepter."
+            }
+        ]
+    },
+    "bio": "They came without warning. Within the city walls of Stonehall there came a rumble and a terrible sound, and from blackness unknown came a force of beasts numbering beyond count, wielding flame and foul sorcery, slaying and snatching mothers and sons to dark purpose. Of once-mighty Stonehall's military strength only the Bronze Legion, led by the indomitable Commander Tresdin, was near enough to answer the call of battle. They rode into their city, fighting through bloodstained alleyways and burning markets, cutting their way through the monstrous throng to the source of the sudden invasion: an ethereal rift within the city square, and at its precipice thundered their dreaded champion. \r\n\r\n\t\tEnwrapped in a corrosive shimmer, the leader of the abyssal horde swung its massive blade, cleaving a legionnaire in two as his flesh began to spoil. Tresdin lifted her blood-stained sword and settled her sights on the beast. It turned, smiling at her through a maze of teeth. Heedless of the battle raging around them, they charged one another. \r\n\r\n\t\tDeflecting blow after blow, the pair danced their deadly duel as the Bronze Legion met its end around them. Tresdin leapt forward as her foe swung its sword to meet her. The odds turned. The attack smashed into Tresdin suddenly, a brutal thrust from the side, but even as her balance slipped she rallied her strength for another stroke. Blade scraped on blade, beyond the hilt to the gnarled paw below, carving it in two in a fearsome spray of sparks and blood. The vile audience looked on in astonishment as she pressed the attack, driving her blade through her foe's flesh into the stampeding heart within. With a scream that split the clouds above, the beast erupted in a torrent of gore and anguish. The stygian portal wavered, the power sustaining the chasm beyond vanishing as suddenly as it had appeared. The remaining invaders fell quickly to Stonehall steel. \r\n\r\n\t\tThough victorious, the survivors saw little to celebrate: the city lay in ruins, and survivors were few. Fires continued to spread. Unfurling her banners of war, Tresdin gathered what allies she could. Her anger smoldered as she pledged brutal vengeance upon the forces of the abyss, and damned be any who would dare stand in her way.",
+    "stats": {
+        "hit_points": [
+            644,
+            1522,
+            2529
+        ],
+        "mana": [
+            260,
+            660,
+            1206
+        ],
+        "damage": [
+            61,
+            107,
+            160
+        ],
+        "armor": [
+            2,
+            5,
+            10
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 150,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "legion_commander_overwhelming_odds",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/legion_commander_overwhelming_odds_hp2.png?v=5027641",
+            "name": "Overwhelming Odds",
+            "desc": "Turns the enemies' numbers against them, dealing damage and granting you bonus movement speed per unit or per hero.  Deals bonus damage to illusions and summoned units as a percent of their current health.",
+            "mana_cost": "100\/110\/120\/130",
+            "cooldown": "15",
+            "video": "http:\/\/www.youtube.com\/embed\/Xs5UU9xUQz4?hd=1&rel=0",
+            "lore": "The archers of Stonehall are ready at Tresdin's command.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "BASE DAMAGE",
+                    "val": "40 \/ 60 \/ 80 \/ 100"
+                },
+                {
+                    "name": "DAMAGE PER CREEP",
+                    "val": "14 \/ 16 \/ 18 \/ 20"
+                },
+                {
+                    "name": "BONUS SPEED (CREEPS)",
+                    "val": "3%"
+                },
+                {
+                    "name": "BONUS SPEED (HEROES)",
+                    "val": "9%"
+                },
+                {
+                    "name": "SPEED DURATION",
+                    "val": "7"
+                },
+                {
+                    "name": "RADIUS",
+                    "val": "330"
+                }
+            ]
+        },
+        {
+            "id": "legion_commander_press_the_attack",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/legion_commander_press_the_attack_hp2.png?v=5027641",
+            "name": "Press The Attack",
+            "desc": "Removes debuffs and disables from the target friendly unit, and grants bonus attack speed and health regen for a short time.    DISPEL TYPE: Strong Dispel",
+            "mana_cost": "110",
+            "cooldown": "16\/15\/14\/13",
+            "video": "http:\/\/www.youtube.com\/embed\/1xEPC7Eowsg?hd=1&rel=0",
+            "lore": "The rallying horn of the Bronze Legion is able to inspire any heart.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Allied Units"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DURATION",
+                    "val": "5"
+                },
+                {
+                    "name": "BONUS ATTACK SPEED",
+                    "val": "65 \/ 90 \/ 115 \/ 140"
+                },
+                {
+                    "name": "HP REGEN",
+                    "val": "30 \/ 40 \/ 50 \/ 60"
+                }
+            ]
+        },
+        {
+            "id": "legion_commander_moment_of_courage",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/legion_commander_moment_of_courage_hp2.png?v=5027641",
+            "name": "Moment of Courage",
+            "desc": "When attacked, Legion Commander has a chance to immediately counterattack with bonus lifesteal.",
+            "mana_cost": "",
+            "cooldown": "230180130080",
+            "video": "http:\/\/www.youtube.com\/embed\/WoCIKENH9-c?hd=1&rel=0",
+            "lore": "Tresdin knows that an enemy's most vulnerable moment often follows their fiercest stroke.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "LIFESTEAL",
+                    "val": "55% \/ 65% \/ 75% \/ 85%"
+                }
+            ]
+        },
+        {
+            "id": "legion_commander_duel",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/legion_commander_duel_hp2.png?v=5027641",
+            "name": "Duel",
+            "desc": "Legion Commander and the target enemy hero are forced to attack each other for a short duration.  Neither hero can use items or abilities.  If either hero dies during the duration, the hero winning the Duel gains permanent bonus damage.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "75\/75\/75",
+            "cooldown": "50",
+            "video": "http:\/\/www.youtube.com\/embed\/uK5sUO2zCTU?hd=1&rel=0",
+            "lore": "To face a soldier of Stonehall in single combat is a challenge few can resist.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Heroes"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DURATION",
+                    "val": "4 \/ 4.75 \/ 5.5"
+                },
+                {
+                    "name": "SCEPTER DURATION",
+                    "val": "6 \/ 7 \/ 8"
+                }
+            ]
+        }
+    ]
+}

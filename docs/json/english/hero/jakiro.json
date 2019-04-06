@@ -1,0 +1,287 @@
+{
+    "id": "jakiro",
+    "name": "Jakiro",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/jakiro_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/jakiro_vert.jpg?v=5027641"
+    },
+    "attack": "Ranged",
+    "role": [
+        "Support",
+        "Nuker",
+        "Pusher",
+        "Disabler"
+    ],
+    "primary_attribs": "int",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 26,
+                "gain": 3.2
+            },
+            "agi": {
+                "base": 10,
+                "gain": 1.2
+            },
+            "str": {
+                "base": 27,
+                "gain": 2.8
+            },
+            "dmg": {
+                "min": 27,
+                "max": 35
+            },
+            "ms": 290,
+            "armor": 2.4
+        },
+        "abilities": [
+            {
+                "id": "jakiro_dual_breath",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/jakiro_dual_breath_hp1.png?v=5027641",
+                "name": "Dual Breath",
+                "desc": "An icy blast followed by a wave of fire launches out in a path in front of Jakiro. The ice slows enemies, while the fire delivers damage over time."
+            },
+            {
+                "id": "jakiro_ice_path",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/jakiro_ice_path_hp1.png?v=5027641",
+                "name": "Ice Path",
+                "desc": "Creates a path of ice that stuns and damages enemies that touch it."
+            },
+            {
+                "id": "jakiro_liquid_fire",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/jakiro_liquid_fire_hp1.png?v=5027641",
+                "name": "Liquid Fire",
+                "desc": "Jakiro burns his enemies in an area of effect with fire added to his attack, while slowing their attacks."
+            },
+            {
+                "id": "jakiro_macropyre",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/jakiro_macropyre_hp1.png?v=5027641",
+                "name": "Macropyre",
+                "desc": "Jakiro exhales a wide line of lasting flames, which deals damage per second to any enemy units caught in the fire.    Upgradable by Aghanim's Scepter."
+            }
+        ]
+    },
+    "bio": "Even among magical beasts, a twin-headed dragon is a freak. Equal parts ice and fire, cunning and rage, the creature known as Jakiro glides over charred and ice-bound battlefields, laying waste to any who would bear arms against it. Pyrexae dragon clutches always contain two fledglings. Famous for their viciousness even from the first moments of life, newly hatched dragons of this species will try to kill their sibling while still in the nest. Only the strongest survive. In this way is the strength of the Pyrexae line ensured. By some accident of nature, the freak Jakiro hatched from a single egg, combining in a single individual the full range of abilities found within the diverse Pyrexae species. Trapped within the armature of its monstrous body, the powers of ice and fire combine, and now no enemy is safe.",
+    "stats": {
+        "hit_points": [
+            663,
+            1408,
+            2320
+        ],
+        "mana": [
+            338,
+            920,
+            1596
+        ],
+        "damage": [
+            53,
+            98,
+            150
+        ],
+        "armor": [
+            2,
+            5,
+            9
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 400,
+        "missile_speed": "1100"
+    },
+    "abilities": [
+        {
+            "id": "jakiro_dual_breath",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/jakiro_dual_breath_hp2.png?v=5027641",
+            "name": "Dual Breath",
+            "desc": "An icy blast followed by a wave of fire launches out in a path in front of Jakiro. The ice slows enemies, while the fire delivers damage over time.",
+            "mana_cost": "135\/140\/155\/170",
+            "cooldown": "10",
+            "video": "http:\/\/www.youtube.com\/embed\/TF0T7EZuxqU?hd=1&rel=0",
+            "lore": "Pyrexae dragons have tremendously dangerous breath for each branch of the species; combining them is unimaginable.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target, Point Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "START RADIUS",
+                    "val": "225"
+                },
+                {
+                    "name": "END RADIUS",
+                    "val": "275"
+                },
+                {
+                    "name": "MOVE SLOW",
+                    "val": "28% \/ 32% \/ 36% \/ 40%"
+                },
+                {
+                    "name": "ATTACK SLOW",
+                    "val": "28 \/ 32 \/ 36 \/ 40"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "5"
+                }
+            ]
+        },
+        {
+            "id": "jakiro_ice_path",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/jakiro_ice_path_hp2.png?v=5027641",
+            "name": "Ice Path",
+            "desc": "Creates a path of ice that stuns and damages enemies that touch it.",
+            "mana_cost": "90",
+            "cooldown": "12\/11\/10\/9",
+            "video": "http:\/\/www.youtube.com\/embed\/opuYKyouxJk?hd=1&rel=0",
+            "lore": "Jakiro's cunning right head calls upon its frozen heritage, glazing the earth with blistering cold.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "FORMATION DELAY",
+                    "val": "0.5"
+                },
+                {
+                    "name": "RADIUS",
+                    "val": "150"
+                },
+                {
+                    "name": "DAMAGE",
+                    "val": "50"
+                }
+            ]
+        },
+        {
+            "id": "jakiro_liquid_fire",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/jakiro_liquid_fire_hp2.png?v=5027641",
+            "name": "Liquid Fire",
+            "desc": "Jakiro burns his enemies in an area of effect with fire added to his attack, while slowing their attacks.",
+            "mana_cost": "",
+            "cooldown": "20\/15\/10\/4",
+            "video": "http:\/\/www.youtube.com\/embed\/cdBmGuFveks?hd=1&rel=0",
+            "lore": "The left maw of Jakiro opens, laying waste to any in its path.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Auto-Cast, Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RADIUS",
+                    "val": "300"
+                },
+                {
+                    "name": "BURN DAMAGE",
+                    "val": "12 \/ 16 \/ 20 \/ 24"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "5 \/ 5 \/ 5 \/ 5"
+                }
+            ]
+        },
+        {
+            "id": "jakiro_macropyre",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/jakiro_macropyre_hp2.png?v=5027641",
+            "name": "Macropyre",
+            "desc": "Jakiro exhales a wide line of lasting flames, which deals damage per second to any enemy units caught in the fire.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "220\/330\/440",
+            "cooldown": "60",
+            "video": "http:\/\/www.youtube.com\/embed\/RWGgjf-GEy4?hd=1&rel=0",
+            "lore": "Ice and fire combine to rip the battlefield to shreds with extreme temperatures.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE PER SECOND",
+                    "val": "100 \/ 140 \/ 180"
+                },
+                {
+                    "name": "FLAME LENGTH",
+                    "val": "1400"
+                },
+                {
+                    "name": "FLAME WIDTH",
+                    "val": "260"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "10"
+                },
+                {
+                    "name": "SCEPTER DAMAGE PER SECOND",
+                    "val": "125 \/ 175 \/ 225"
+                },
+                {
+                    "name": "SCEPTER FLAME LENGTH",
+                    "val": "1800"
+                },
+                {
+                    "name": "SCEPTER DURATION",
+                    "val": "30"
+                }
+            ]
+        }
+    ]
+}

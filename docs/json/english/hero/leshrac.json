@@ -1,0 +1,272 @@
+{
+    "id": "leshrac",
+    "name": "Leshrac",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/leshrac_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/leshrac_vert.jpg?v=5027641"
+    },
+    "attack": "Ranged",
+    "role": [
+        "Carry",
+        "Support",
+        "Nuker",
+        "Pusher",
+        "Disabler"
+    ],
+    "primary_attribs": "int",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 22,
+                "gain": 3.5
+            },
+            "agi": {
+                "base": 23,
+                "gain": 2.3
+            },
+            "str": {
+                "base": 18,
+                "gain": 2.3
+            },
+            "dmg": {
+                "min": 19,
+                "max": 23
+            },
+            "ms": 325,
+            "armor": 3.22
+        },
+        "abilities": [
+            {
+                "id": "leshrac_split_earth",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/leshrac_split_earth_hp1.png?v=5027641",
+                "name": "Split Earth",
+                "desc": "Splits the earth under enemies. Deals damage and stuns for a short duration."
+            },
+            {
+                "id": "leshrac_diabolic_edict",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/leshrac_diabolic_edict_hp1.png?v=5027641",
+                "name": "Diabolic Edict",
+                "desc": "Saturates the area around Leshrac with magical explosions that deal physical damage to enemy units and structures.  The fewer units available to attack, the more damage those units will take.  Deals 40% more damage to towers.  Lasts 10 seconds."
+            },
+            {
+                "id": "leshrac_lightning_storm",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/leshrac_lightning_storm_hp1.png?v=5027641",
+                "name": "Lightning Storm",
+                "desc": "Summons a lightning storm that blasts the target enemy unit, then strikes any nearby enemy units. Struck enemies are slowed.    Upgradable by Aghanim's Scepter."
+            },
+            {
+                "id": "leshrac_pulse_nova",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/leshrac_pulse_nova_hp1.png?v=5027641",
+                "name": "Pulse Nova",
+                "desc": "Creates waves of damaging energy around Leshrac, one per second, to damage nearby enemy units."
+            }
+        ]
+    },
+    "bio": "Leshrac, Tormented Soul, is an entity torn from the heart of nature, a liminal being that exists half in one plane of existence, half in another. His penetrating intelligence is such that he can never ignore for a moment the agonizing horror at the heart of all creation. Once a great philosopher who sought the meaning of existence, he plumbed the depths of nature with the haunted Chronoptic Crystals, and was forever altered by the hideous mysteries thereby revealed to him. Now the darkest depths of his enlightenment are illumined only by the fitful glare of his arrogance. Like other elemental characters, he is completely at one with nature, but in his case it is a nature lurid and vile. He alone sees the evil truth of reality, and has no use for those who believe the cosmos reserves a special reward for those who practice benevolence.",
+    "stats": {
+        "hit_points": [
+            492,
+            1104,
+            1921
+        ],
+        "mana": [
+            286,
+            923,
+            1638
+        ],
+        "damage": [
+            41,
+            90,
+            145
+        ],
+        "armor": [
+            3,
+            8,
+            14
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 600,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "leshrac_split_earth",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/leshrac_split_earth_hp2.png?v=5027641",
+            "name": "Split Earth",
+            "desc": "Splits the earth under enemies. Deals damage and stuns for a short duration.",
+            "mana_cost": "80\/100\/120\/140",
+            "cooldown": "9",
+            "video": "http:\/\/www.youtube.com\/embed\/pLGhNjlPRc8?hd=1&rel=0",
+            "lore": "Twisting nature to his vile will, the shifting earth consumes those unlucky enough to cross Leshrac's path.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "120 \/ 180 \/ 240 \/ 300"
+                },
+                {
+                    "name": "STUN DELAY",
+                    "val": "0.35"
+                },
+                {
+                    "name": "RADIUS",
+                    "val": "150 \/ 175 \/ 200 \/ 225"
+                },
+                {
+                    "name": "STUN DURATION",
+                    "val": "2"
+                }
+            ]
+        },
+        {
+            "id": "leshrac_diabolic_edict",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/leshrac_diabolic_edict_hp2.png?v=5027641",
+            "name": "Diabolic Edict",
+            "desc": "Saturates the area around Leshrac with magical explosions that deal physical damage to enemy units and structures.  The fewer units available to attack, the more damage those units will take.  Deals 40% more damage to towers.  Lasts 10 seconds.",
+            "mana_cost": "95\/120\/135\/155",
+            "cooldown": "22",
+            "video": "http:\/\/www.youtube.com\/embed\/bwzT7xBaEHE?hd=1&rel=0",
+            "lore": "Chronoptic energy bursts from one plane to the other, evaporating anything it touches.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Physical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "8 \/ 20 \/ 32 \/ 44"
+                },
+                {
+                    "name": "RADIUS",
+                    "val": "500"
+                }
+            ]
+        },
+        {
+            "id": "leshrac_lightning_storm",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/leshrac_lightning_storm_hp2.png?v=5027641",
+            "name": "Lightning Storm",
+            "desc": "Summons a lightning storm that blasts the target enemy unit, then strikes any nearby enemy units. Struck enemies are slowed.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "80\/100\/120\/140",
+            "cooldown": "4",
+            "video": "http:\/\/www.youtube.com\/embed\/bssFXEeOe4I?hd=1&rel=0",
+            "lore": "The Tormented Soul's mastery of the elements is evident in the massive storms that strike down armies before him.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "80 \/ 120 \/ 160 \/ 200"
+                },
+                {
+                    "name": "LIGHTNING STRIKES",
+                    "val": "4 \/ 6 \/ 8 \/ 10"
+                },
+                {
+                    "name": "LIGHTNING JUMP RADIUS",
+                    "val": "475"
+                },
+                {
+                    "name": "MOVEMENT SLOW",
+                    "val": "75%"
+                },
+                {
+                    "name": "SCEPTER INTERVAL",
+                    "val": "1.75"
+                },
+                {
+                    "name": "SCEPTER RADIUS",
+                    "val": "750"
+                }
+            ]
+        },
+        {
+            "id": "leshrac_pulse_nova",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/leshrac_pulse_nova_hp2.png?v=5027641",
+            "name": "Pulse Nova",
+            "desc": "Creates waves of damaging energy around Leshrac, one per second, to damage nearby enemy units.",
+            "mana_cost": "70\/90\/110",
+            "cooldown": "1",
+            "video": "http:\/\/www.youtube.com\/embed\/1IHJO2Tyl_0?hd=1&rel=0",
+            "lore": "If necessary, the Tormented Soul can manipulate space time itself, ravaging lesser beings.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target, Toggle"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "MANA\/SEC",
+                    "val": "20 \/ 40 \/ 60"
+                },
+                {
+                    "name": "RADIUS",
+                    "val": "450"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,235 @@
+{
+    "id": "zuus",
+    "name": "Zeus",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/zuus_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/zuus_vert.jpg?v=5027641"
+    },
+    "attack": "Ranged",
+    "role": [
+        "Nuker"
+    ],
+    "primary_attribs": "int",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 21,
+                "gain": 3.3
+            },
+            "agi": {
+                "base": 11,
+                "gain": 1.2
+            },
+            "str": {
+                "base": 21,
+                "gain": 2.1
+            },
+            "dmg": {
+                "min": 33,
+                "max": 41
+            },
+            "ms": 295,
+            "armor": 1.54
+        },
+        "abilities": [
+            {
+                "id": "zuus_arc_lightning",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/zuus_arc_lightning_hp1.png?v=5027641",
+                "name": "Arc Lightning",
+                "desc": "Hurls a bolt of lightning that leaps through nearby enemy units."
+            },
+            {
+                "id": "zuus_lightning_bolt",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/zuus_lightning_bolt_hp1.png?v=5027641",
+                "name": "Lightning Bolt",
+                "desc": "Calls down a bolt of lightning to strike an enemy unit, causing damage and a mini-stun. When cast, Lightning Bolt briefly provides unobstructed vision and True Sight around the target in a 750 radius. Can be cast on the ground, affecting the closest enemy hero in 325 range."
+            },
+            {
+                "id": "zuus_static_field",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/zuus_static_field_hp1.png?v=5027641",
+                "name": "Static Field",
+                "desc": "Zeus shocks any enemy hit by his abilities, causing damage proportional to their current health."
+            },
+            {
+                "id": "zuus_thundergods_wrath",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/zuus_thundergods_wrath_hp1.png?v=5027641",
+                "name": "Thundergod's Wrath",
+                "desc": "Strikes all enemy heroes with a bolt of lightning, no matter where they may be.  Thundergod's Wrath also provides True Sight around each hero struck.  If an enemy hero is invisible, it takes no damage, but the True Sight is still created at that hero's location."
+            }
+        ]
+    },
+    "bio": "Lord of Heaven, father of gods, Zeus treats all the Heroes as if they are his rambunctious, rebellious children. After being caught unnumbered times in the midst of trysts with countless mortal women, his divine wife finally gave him an ultimatum: 'If you love mortals so much, go and become one. If you can prove yourself faithful, then return to me as my immortal husband. Otherwise, go and die among your creatures.' Zeus found her logic (and her magic) irrefutable, and agreed to her plan. He has been on his best behavior ever since, being somewhat fonder of immortality than he is of mortals. But to prove himself worthy of his eternal spouse, he must continue to pursue victory on the field of battle.",
+    "stats": {
+        "hit_points": [
+            549,
+            1108,
+            1887
+        ],
+        "mana": [
+            273,
+            874,
+            1563
+        ],
+        "damage": [
+            54,
+            100,
+            153
+        ],
+        "armor": [
+            2,
+            4,
+            8
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 380,
+        "missile_speed": "1100"
+    },
+    "abilities": [
+        {
+            "id": "zuus_arc_lightning",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/zuus_arc_lightning_hp2.png?v=5027641",
+            "name": "Arc Lightning",
+            "desc": "Hurls a bolt of lightning that leaps through nearby enemy units.",
+            "mana_cost": "80",
+            "cooldown": "160",
+            "video": "http:\/\/www.youtube.com\/embed\/uHcb8gCUP3s?hd=1&rel=0",
+            "lore": "Arc Lightning is Zeus' favorite spell to use against puny mortals.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "JUMPS",
+                    "val": "5 \/ 7 \/ 9 \/ 15"
+                }
+            ]
+        },
+        {
+            "id": "zuus_lightning_bolt",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/zuus_lightning_bolt_hp2.png?v=5027641",
+            "name": "Lightning Bolt",
+            "desc": "Calls down a bolt of lightning to strike an enemy unit, causing damage and a mini-stun. When cast, Lightning Bolt briefly provides unobstructed vision and True Sight around the target in a 750 radius. Can be cast on the ground, affecting the closest enemy hero in 325 range.",
+            "mana_cost": "90\/105\/120\/135",
+            "cooldown": "6",
+            "video": "http:\/\/www.youtube.com\/embed\/S5xDQfHBSw4?hd=1&rel=0",
+            "lore": "A shocking punishment for rebellious heathen.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target, Point Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "125 \/ 200 \/ 275 \/ 350"
+                },
+                {
+                    "name": "CAST RANGE",
+                    "val": "700 \/ 750 \/ 800 \/ 850"
+                },
+                {
+                    "name": "SIGHT RADIUS",
+                    "val": "750"
+                },
+                {
+                    "name": "SIGHT DURATION",
+                    "val": "4.5"
+                }
+            ]
+        },
+        {
+            "id": "zuus_static_field",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/zuus_static_field_hp2.png?v=5027641",
+            "name": "Static Field",
+            "desc": "Zeus shocks any enemy hit by his abilities, causing damage proportional to their current health.",
+            "mana_cost": "",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/mZm0z2mlPvY?hd=1&rel=0",
+            "lore": "The air crackles with static when the Thundergod walks the world.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": []
+        },
+        {
+            "id": "zuus_thundergods_wrath",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/zuus_thundergods_wrath_hp2.png?v=5027641",
+            "name": "Thundergod's Wrath",
+            "desc": "Strikes all enemy heroes with a bolt of lightning, no matter where they may be.  Thundergod's Wrath also provides True Sight around each hero struck.  If an enemy hero is invisible, it takes no damage, but the True Sight is still created at that hero's location.",
+            "mana_cost": "225\/325\/450",
+            "cooldown": "90",
+            "video": "http:\/\/www.youtube.com\/embed\/IGhJdGh8CH8?hd=1&rel=0",
+            "lore": "The Lord of Heaven smites all who oppose him, near or far.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "TRUE SIGHT RADIUS",
+                    "val": "500"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "3 \/ 3 \/ 3 \/ 3"
+                },
+                {
+                    "name": "DAMAGE",
+                    "val": "225 \/ 325 \/ 425"
+                }
+            ]
+        }
+    ]
+}

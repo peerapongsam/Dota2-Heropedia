@@ -1,0 +1,267 @@
+{
+    "id": "axe",
+    "name": "Axe",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/axe_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/axe_vert.jpg?v=5027641"
+    },
+    "attack": "Melee",
+    "role": [
+        "Initiator",
+        "Durable",
+        "Disabler",
+        "Jungler"
+    ],
+    "primary_attribs": "str",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 18,
+                "gain": 1.6
+            },
+            "agi": {
+                "base": 20,
+                "gain": 2.2
+            },
+            "str": {
+                "base": 25,
+                "gain": 3.4
+            },
+            "dmg": {
+                "min": 24,
+                "max": 28
+            },
+            "ms": 295,
+            "armor": 0.8
+        },
+        "abilities": [
+            {
+                "id": "axe_berserkers_call",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/axe_berserkers_call_hp1.png?v=5027641",
+                "name": "Berserker's Call",
+                "desc": "Axe taunts nearby enemy units, forcing them to attack him, while he gains bonus armor during the duration."
+            },
+            {
+                "id": "axe_battle_hunger",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/axe_battle_hunger_hp1.png?v=5027641",
+                "name": "Battle Hunger",
+                "desc": "Enrages an enemy unit, causing it to be slowed and take damage over time until it kills another unit or the duration ends. Axe gains movement speed for each unit affected with Battle Hunger.    Upgradable by Aghanim's Scepter."
+            },
+            {
+                "id": "axe_counter_helix",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/axe_counter_helix_hp1.png?v=5027641",
+                "name": "Counter Helix",
+                "desc": "When attacked, Axe performs a helix counter attack, dealing pure damage to all nearby enemies."
+            },
+            {
+                "id": "axe_culling_blade",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/axe_culling_blade_hp1.png?v=5027641",
+                "name": "Culling Blade",
+                "desc": "Axe spots a weakness and strikes, instantly killing an enemy unit with low health, or dealing moderate damage otherwise. When an enemy hero is killed with Culling Blade, its cooldown is reset, and Axe and nearby allied units gain bonus movement speed."
+            }
+        ]
+    },
+    "bio": "As a grunt in the Army of Red Mist, Mogul Khan set his sights on the rank of Red Mist General. In battle after battle he proved his worth through gory deed. His rise through the ranks was helped by the fact that he never hesitated to decapitate a superior. Through the seven year Campaign of the Thousand Tarns, he distinguished himself in glorious carnage, his star of fame shining ever brighter, while the number of comrades in arms steadily dwindled. On the night of ultimate victory, Axe declared himself the new Red Mist General, and took on the ultimate title of 'Axe.' But his troops now numbered zero. Of course, many had died in battle, but a significant number had also fallen to Axe's blade. Needless to say, most soldiers now shun his leadership. But this matters not a whit to Axe, who knows that a one-man army is by far the best.",
+    "stats": {
+        "hit_points": [
+            625,
+            1529,
+            2555
+        ],
+        "mana": [
+            234,
+            525,
+            993
+        ],
+        "damage": [
+            49,
+            97,
+            151
+        ],
+        "armor": [
+            1,
+            5,
+            11
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 150,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "axe_berserkers_call",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/axe_berserkers_call_hp2.png?v=5027641",
+            "name": "Berserker's Call",
+            "desc": "Axe taunts nearby enemy units, forcing them to attack him, while he gains bonus armor during the duration.",
+            "mana_cost": "80\/90\/100\/110",
+            "cooldown": "16\/14\/12\/10",
+            "video": "http:\/\/www.youtube.com\/embed\/EYSMC12J9vw?hd=1&rel=0",
+            "lore": "Mogul Khan's warcry taunts opponents into engaging in an unconquerable battle with the Axe.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "0 \/ 0 \/ 0 \/ 0"
+                },
+                {
+                    "name": "BONUS ARMOR",
+                    "val": "30"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "2 \/ 2.4 \/ 2.8 \/ 3.2"
+                }
+            ]
+        },
+        {
+            "id": "axe_battle_hunger",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/axe_battle_hunger_hp2.png?v=5027641",
+            "name": "Battle Hunger",
+            "desc": "Enrages an enemy unit, causing it to be slowed and take damage over time until it kills another unit or the duration ends. Axe gains movement speed for each unit affected with Battle Hunger.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "50\/60\/70\/80",
+            "cooldown": "20\/15\/10\/5",
+            "video": "http:\/\/www.youtube.com\/embed\/1Xmzu79iaX0?hd=1&rel=0",
+            "lore": "Ordinary heroes cannot withstand Mogul Khan's rage for battle, such that it injures them until it is satisfied.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DURATION",
+                    "val": "12"
+                },
+                {
+                    "name": "MOVEMENT SLOW",
+                    "val": "12%"
+                },
+                {
+                    "name": "SPEED BONUS",
+                    "val": "12%"
+                },
+                {
+                    "name": "SCEPTER DAMAGE REDUCTION",
+                    "val": "30%"
+                }
+            ]
+        },
+        {
+            "id": "axe_counter_helix",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/axe_counter_helix_hp2.png?v=5027641",
+            "name": "Counter Helix",
+            "desc": "When attacked, Axe performs a helix counter attack, dealing pure damage to all nearby enemies.",
+            "mana_cost": "",
+            "cooldown": "045040035030",
+            "video": "http:\/\/www.youtube.com\/embed\/vSvMgF_gAqo?hd=1&rel=0",
+            "lore": "Axe is the only reinforcement this army needs.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Pure"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "60 \/ 100 \/ 140 \/ 180"
+                },
+                {
+                    "name": "RADIUS",
+                    "val": "275"
+                },
+                {
+                    "name": "CHANCE TO HELIX",
+                    "val": "20%"
+                }
+            ]
+        },
+        {
+            "id": "axe_culling_blade",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/axe_culling_blade_hp2.png?v=5027641",
+            "name": "Culling Blade",
+            "desc": "Axe spots a weakness and strikes, instantly killing an enemy unit with low health, or dealing moderate damage otherwise. When an enemy hero is killed with Culling Blade, its cooldown is reset, and Axe and nearby allied units gain bonus movement speed.",
+            "mana_cost": "60\/120\/180",
+            "cooldown": "75\/65\/55",
+            "video": "http:\/\/www.youtube.com\/embed\/iSkNp5ty7xI?hd=1&rel=0",
+            "lore": "Mogul Khan is the embodiment of battle and fury, launching into a gruesome fatality against those who dare engage the Axe in combat.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "KILL THRESHOLD",
+                    "val": "250 \/ 325 \/ 400"
+                },
+                {
+                    "name": "DAMAGE",
+                    "val": "150 \/ 250 \/ 300"
+                },
+                {
+                    "name": "KILL MOVE SPEED BONUS",
+                    "val": "30%"
+                },
+                {
+                    "name": "KILL ATTACK SPEED BONUS",
+                    "val": "30"
+                },
+                {
+                    "name": "KILL SPEED DURATION",
+                    "val": "6"
+                },
+                {
+                    "name": "KILL SPEED RADIUS",
+                    "val": "900"
+                }
+            ]
+        }
+    ]
+}

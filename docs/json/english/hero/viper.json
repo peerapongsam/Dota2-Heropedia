@@ -1,0 +1,275 @@
+{
+    "id": "viper",
+    "name": "Viper",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/viper_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/viper_vert.jpg?v=5027641"
+    },
+    "attack": "Ranged",
+    "role": [
+        "Carry",
+        "Durable",
+        "Initiator",
+        "Disabler"
+    ],
+    "primary_attribs": "agi",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 15,
+                "gain": 1.8
+            },
+            "agi": {
+                "base": 21,
+                "gain": 2.5
+            },
+            "str": {
+                "base": 21,
+                "gain": 2.4
+            },
+            "dmg": {
+                "min": 23,
+                "max": 25
+            },
+            "ms": 275,
+            "armor": 0.94
+        },
+        "abilities": [
+            {
+                "id": "viper_poison_attack",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/viper_poison_attack_hp1.png?v=5027641",
+                "name": "Poison Attack",
+                "desc": "Intensifies Viper's venom, adding an effect to his normal attack that slows attack and movement speed while dealing damage over time based on how low the target is."
+            },
+            {
+                "id": "viper_nethertoxin",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/viper_nethertoxin_hp1.png?v=5027641",
+                "name": "Nethertoxin",
+                "desc": "Viper releases a Nethertoxin at the targeted area. Units in that area take damage over time, have lower resistance and their passives do not work."
+            },
+            {
+                "id": "viper_corrosive_skin",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/viper_corrosive_skin_hp1.png?v=5027641",
+                "name": "Corrosive Skin",
+                "desc": "Viper exudes an infectious toxin that damages and slows the attack speed of any enemy that damages it in a 1400 radius. The acid exudate also increases Viper's resistance to magic."
+            },
+            {
+                "id": "viper_viper_strike",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/viper_viper_strike_hp1.png?v=5027641",
+                "name": "Viper Strike",
+                "desc": "Viper slows the targeted enemy unit's movement and attack speed while also dealing poison damage over time.  The slowing effect reduces over the duration of the poison.    Upgradable by Aghanim's Scepter."
+            }
+        ]
+    },
+    "bio": "The malevolent familiar of a sadistic wizard who captured and hoped to tame him, Viper was curiously glad to have been sprung from the sealed and unchanging subterranean Nether Reaches where his race had lived for millions of years, after tectonic slippage had sealed off the Netherdrakes in luminous caverns. Viper spent some time appearing to submit to the wizard's enchainments, hoping to learn what he could of the dark magics the mage practiced. But he soon realized that few spells were as deadly as the toxins that were his birthright. Exuding an acid that swiftly ate away the bars of his cage, the Netherdrake slipped free of his confines, spit poison in the old spellcaster's eyes, and soared out to let the world know that it had a new master.",
+    "stats": {
+        "hit_points": [
+            549,
+            1187,
+            2023
+        ],
+        "mana": [
+            195,
+            523,
+            1017
+        ],
+        "damage": [
+            44,
+            79,
+            124
+        ],
+        "armor": [
+            1,
+            6,
+            12
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 575,
+        "missile_speed": "1200"
+    },
+    "abilities": [
+        {
+            "id": "viper_poison_attack",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/viper_poison_attack_hp2.png?v=5027641",
+            "name": "Poison Attack",
+            "desc": "Intensifies Viper's venom, adding an effect to his normal attack that slows attack and movement speed while dealing damage over time based on how low the target is.",
+            "mana_cost": "40\/35\/30\/25",
+            "cooldown": "6\/4\/2\/0",
+            "video": "http:\/\/www.youtube.com\/embed\/FWLMTu44daQ?hd=1&rel=0",
+            "lore": "The Netherdrake's inborn toxic breath quickly drains the vitality of its afflicted.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Auto-Cast, Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "0 \/ 0 \/ 0 \/ 0"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "3"
+                },
+                {
+                    "name": "DAMAGE PER MISSING HEALTH PERCENTAGE",
+                    "val": "0.25 \/ 0.5 \/ 0.75 \/ 1"
+                },
+                {
+                    "name": "MOVE SLOW",
+                    "val": "10% \/ 20% \/ 30% \/ 40%"
+                },
+                {
+                    "name": "ATTACK SLOW",
+                    "val": "10 \/ 20 \/ 30 \/ 40"
+                }
+            ]
+        },
+        {
+            "id": "viper_nethertoxin",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/viper_nethertoxin_hp2.png?v=5027641",
+            "name": "Nethertoxin",
+            "desc": "Viper releases a Nethertoxin at the targeted area. Units in that area take damage over time, have lower resistance and their passives do not work.",
+            "mana_cost": "70\/80\/90\/100",
+            "cooldown": "6",
+            "video": "http:\/\/www.youtube.com\/embed\/OH2fLJO993U?hd=1&rel=0",
+            "lore": "Poison from the Nether Reaches turns wounds into fatalities, and fatigue into death.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE PER SECOND",
+                    "val": "30 \/ 45 \/ 60 \/ 75"
+                },
+                {
+                    "name": "RADIUS",
+                    "val": "380"
+                },
+                {
+                    "name": "MAGIC RESISTANCE REDUCTION",
+                    "val": "10% \/ 15% \/ 20% \/ 25%"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "8"
+                }
+            ]
+        },
+        {
+            "id": "viper_corrosive_skin",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/viper_corrosive_skin_hp2.png?v=5027641",
+            "name": "Corrosive Skin",
+            "desc": "Viper exudes an infectious toxin that damages and slows the attack speed of any enemy that damages it in a 1400 radius. The acid exudate also increases Viper's resistance to magic.",
+            "mana_cost": "",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/RGDVz0J6g2g?hd=1&rel=0",
+            "lore": "It is not unusual for sword and shield alike to corrode in the very hands of those who attack the Netherdrake.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DURATION",
+                    "val": "4"
+                },
+                {
+                    "name": "MAX RANGE RADIUS",
+                    "val": "1400"
+                }
+            ]
+        },
+        {
+            "id": "viper_viper_strike",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/viper_viper_strike_hp2.png?v=5027641",
+            "name": "Viper Strike",
+            "desc": "Viper slows the targeted enemy unit's movement and attack speed while also dealing poison damage over time.  The slowing effect reduces over the duration of the poison.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "125\/175\/250",
+            "cooldown": "50\/40\/30",
+            "video": "http:\/\/www.youtube.com\/embed\/109y0icISWw?hd=1&rel=0",
+            "lore": "Once used to slay his sadistic summoner, the most powerful of Netherdrake infections spreads through the veins of those foolish enough to cross Viper.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DURATION",
+                    "val": "5"
+                },
+                {
+                    "name": "MOVE SLOW",
+                    "val": "40% \/ 60% \/ 80%"
+                },
+                {
+                    "name": "ATTACK SLOW",
+                    "val": "40 \/ 60 \/ 80"
+                },
+                {
+                    "name": "SCEPTER MANA COST",
+                    "val": "125 \/ 125 \/ 125"
+                },
+                {
+                    "name": "SCEPTER COOLDOWN",
+                    "val": "10"
+                },
+                {
+                    "name": "SCEPTER CAST RANGE",
+                    "val": "900"
+                }
+            ]
+        }
+    ]
+}

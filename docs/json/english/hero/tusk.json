@@ -1,0 +1,269 @@
+{
+    "id": "tusk",
+    "name": "Tusk",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/tusk_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/tusk_vert.jpg?v=5027641"
+    },
+    "attack": "Melee",
+    "role": [
+        "Initiator",
+        "Disabler",
+        "Nuker"
+    ],
+    "primary_attribs": "str",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 18,
+                "gain": 1.7
+            },
+            "agi": {
+                "base": 23,
+                "gain": 2.1
+            },
+            "str": {
+                "base": 23,
+                "gain": 3.9
+            },
+            "dmg": {
+                "min": 27,
+                "max": 31
+            },
+            "ms": 300,
+            "armor": 2.22
+        },
+        "abilities": [
+            {
+                "id": "tusk_ice_shards",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/tusk_ice_shards_hp1.png?v=5027641",
+                "name": "Ice Shards",
+                "desc": "Tusk compresses shards of ice into a ball of frozen energy that damages all enemies it comes in contact with. When the ball reaches its target destination the shards are released, creating a barrier that lasts for 4 seconds."
+            },
+            {
+                "id": "tusk_snowball",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/tusk_snowball_hp1.png?v=5027641",
+                "name": "Snowball",
+                "desc": "Tusk begins rolling into a snowball. Allies within a 350 radius can also be added to the snowball by right-clicking on them, even while the snowball is moving. Once launched, any enemies caught in the snowball's path will be stunned and take damage. Each allied Hero in the snowball will add to its damage."
+            },
+            {
+                "id": "tusk_tag_team",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/tusk_tag_team_hp1.png?v=5027641",
+                "name": "Tag Team",
+                "desc": "Temporarily applies a negative debuff aura around you, causing enemies that are attacked under it to take bonus physical damage and reduced movement speed. Lasts 5 seconds."
+            },
+            {
+                "id": "tusk_walrus_punch",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/tusk_walrus_punch_hp1.png?v=5027641",
+                "name": "Walrus PUNCH!",
+                "desc": "Tusk connects with his mighty Walrus Punch, a critical strike so powerful it launches its victim into the air. The victim is slowed upon landing."
+            }
+        ]
+    },
+    "bio": "It had been a brawl to remember. There stood Ymir, the Tusk, the Terror from the Barrier, the Snowball from Cobalt, the only fighter to have bested the Bristled Bruiser in a fair fight, and now the last man standing in Wolfsden Tavern. What started as a simple bar bet of supremacy ended with four regulars, a blacksmith, and six of the Frost Brigade's best soldiers writhing against the shards and splinters of almost every bottle, mug, and chair in the building. The Tusk boasted and toasted his victory as he emptied his brew. \r\n\r\n\t\tNo sooner had the defeated regained consciousness than the cries for double-or-nothing rang out. The Tusk was pleased at the prospect, but none could think of a bet bigger than the one he just conquered. Horrified at the damage to his tavern and desperate to avoid another brawl, the barkeep had an idea. As skilled as he was, Ymir had never taken part in a real battle, never tested himself against the indiscriminate death and chaos of war. He proposed a wager to the fighter: seek out the biggest battle he could find, survive, and win it for whichever side he chose. The stakes? The next round of drinks.",
+    "stats": {
+        "hit_points": [
+            587,
+            1624,
+            2745
+        ],
+        "mana": [
+            234,
+            543,
+            1024
+        ],
+        "damage": [
+            50,
+            105,
+            164
+        ],
+        "armor": [
+            2,
+            6,
+            12
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 150,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "tusk_ice_shards",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/tusk_ice_shards_hp2.png?v=5027641",
+            "name": "Ice Shards",
+            "desc": "Tusk compresses shards of ice into a ball of frozen energy that damages all enemies it comes in contact with. When the ball reaches its target destination the shards are released, creating a barrier that lasts for 4 seconds.",
+            "mana_cost": "100\/105\/110\/115",
+            "cooldown": "23\/20\/17\/14",
+            "video": "http:\/\/www.youtube.com\/embed\/b0hv_O6t8PI?hd=1&rel=0",
+            "lore": "In the frozen tundra near the Barrier, after the last sun of autumn has set, ice can form with alarming speed.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RADIUS",
+                    "val": "200"
+                },
+                {
+                    "name": "SHARD DAMAGE",
+                    "val": "60 \/ 120 \/ 180 \/ 240"
+                },
+                {
+                    "name": "SHARD DURATION",
+                    "val": "4 \/ 5 \/ 6 \/ 7"
+                },
+                {
+                    "name": "CAST RANGE",
+                    "val": "1800"
+                }
+            ]
+        },
+        {
+            "id": "tusk_snowball",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/tusk_snowball_hp2.png?v=5027641",
+            "name": "Snowball",
+            "desc": "Tusk begins rolling into a snowball. Allies within a 350 radius can also be added to the snowball by right-clicking on them, even while the snowball is moving. Once launched, any enemies caught in the snowball's path will be stunned and take damage. Each allied Hero in the snowball will add to its damage.",
+            "mana_cost": "75\/75\/75\/75",
+            "cooldown": "21\/20\/19\/18",
+            "video": "http:\/\/www.youtube.com\/embed\/ZHvQHTdctGk?hd=1&rel=0",
+            "lore": "Tales are still told of the wild feat that ended the grand brawl at White Fields.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "BONUS DAMAGE PER ALLY",
+                    "val": "20 \/ 30 \/ 40 \/ 50"
+                },
+                {
+                    "name": "STUN DURATION",
+                    "val": "0.5 \/ 0.75 \/ 1 \/ 1.25"
+                },
+                {
+                    "name": "GATHER RADIUS",
+                    "val": "100"
+                },
+                {
+                    "name": "LAUNCH TIME",
+                    "val": "3"
+                }
+            ]
+        },
+        {
+            "id": "tusk_tag_team",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/tusk_tag_team_hp2.png?v=5027641",
+            "name": "Tag Team",
+            "desc": "Temporarily applies a negative debuff aura around you, causing enemies that are attacked under it to take bonus physical damage and reduced movement speed. Lasts 5 seconds.",
+            "mana_cost": "70",
+            "cooldown": "24\/21\/18\/15",
+            "lore": null,
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Physical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "BONUS DAMAGE",
+                    "val": "25 \/ 50 \/ 75 \/ 100"
+                },
+                {
+                    "name": "MOVEMENT SLOW",
+                    "val": "75%"
+                },
+                {
+                    "name": "SLOW DURATION",
+                    "val": "0.4"
+                },
+                {
+                    "name": "DEBUFF DURATION",
+                    "val": "5"
+                }
+            ]
+        },
+        {
+            "id": "tusk_walrus_punch",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/tusk_walrus_punch_hp2.png?v=5027641",
+            "name": "Walrus PUNCH!",
+            "desc": "Tusk connects with his mighty Walrus Punch, a critical strike so powerful it launches its victim into the air. The victim is slowed upon landing.",
+            "mana_cost": "50\/75\/100",
+            "cooldown": "36\/24\/12",
+            "video": "http:\/\/www.youtube.com\/embed\/wOQx_jM-dcE?hd=1&rel=0",
+            "lore": "It never matters who throws the first punch, only who throws the last.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Auto-Cast, Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "AIR TIME",
+                    "val": "1"
+                },
+                {
+                    "name": "SLOW DURATION",
+                    "val": "2 \/ 3 \/ 4"
+                },
+                {
+                    "name": "MOVEMENT SLOW",
+                    "val": "40%"
+                }
+            ]
+        }
+    ]
+}

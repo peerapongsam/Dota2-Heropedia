@@ -1,0 +1,237 @@
+{
+    "id": "alchemist",
+    "name": "Alchemist",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/alchemist_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/alchemist_vert.jpg?v=5027641"
+    },
+    "attack": "Melee",
+    "role": [
+        "Carry",
+        "Support",
+        "Durable",
+        "Disabler",
+        "Initiator",
+        "Nuker"
+    ],
+    "primary_attribs": "str",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 25,
+                "gain": 1.8
+            },
+            "agi": {
+                "base": 22,
+                "gain": 1.2
+            },
+            "str": {
+                "base": 25,
+                "gain": 2.4
+            },
+            "dmg": {
+                "min": 24,
+                "max": 33
+            },
+            "ms": 305,
+            "armor": 2.08
+        },
+        "abilities": [
+            {
+                "id": "alchemist_acid_spray",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/alchemist_acid_spray_hp1.png?v=5027641",
+                "name": "Acid Spray",
+                "desc": "Sprays high-pressure acid across a target area. Enemy units who step across the contaminated terrain take damage per second and have their armor reduced."
+            },
+            {
+                "id": "alchemist_unstable_concoction",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/alchemist_unstable_concoction_hp1.png?v=5027641",
+                "name": "Unstable Concoction",
+                "desc": "Alchemist brews up an unstable concoction that he can throw at an enemy hero, to stun and deal damage in an area around the explosion. The longer the concoction brews, the more damage it deals and the longer the stun. After 5 seconds, the brew reaches its maximum damage and stun time. However, after 5.5 seconds, the concoction will explode on Alchemist himself if not thrown."
+            },
+            {
+                "id": "alchemist_goblins_greed",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/alchemist_goblins_greed_hp1.png?v=5027641",
+                "name": "Greevil's Greed",
+                "desc": "Alchemist synthesizes additional gold from his enemies and bounty runes. With each kill, Alchemist earns base bonus gold and extra bonus gold. If Alchemist kills another unit which yields gold within the next 40 seconds, an additional instance of Extra Bonus Gold is added to the total. Additionally, causes bounty runes to yield more gold."
+            },
+            {
+                "id": "alchemist_chemical_rage",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/alchemist_chemical_rage_hp1.png?v=5027641",
+                "name": "Chemical Rage",
+                "desc": "Alchemist causes his Ogre to enter a chemically induced rage, reducing base attack cooldown and increasing movement speed and regeneration.    DISPEL TYPE: Basic Dispel"
+            }
+        ]
+    },
+    "bio": "The sacred science of Chymistry was a Darkbrew family tradition, but no Darkbrew had ever shown the kind of creativity, ambition, and recklessness of young Razzil. However, when adulthood came calling he pushed aside the family trade to try his hand at manufacturing gold through Alchemy. In an act of audacity befitting his reputation, Razzil announced he would transmute an entire mountain into gold. Following two decades of research and spending and preparation, he failed spectacularly, quickly finding himself imprisoned for the widespread destruction his experiment wrought. Yet Razzil was never one to take a setback lightly, and sought escape to continue his research. When his new cellmate turned out to be a fierce ogre, he found just the opportunity he needed. After convincing the ogre not to eat him, Razzil set about carefully concocting a tincture for it to drink, made from the moulds and mosses growing in the prison stone work. In a week's time, it seemed ready. When the ogre drank the potion, it flew into an unstoppable berserker rage, destroying the cell bars and exploding through walls and guards alike. They soon found themselves lost somewhere in the forest surrounding the city with a trail of wreckage in their wake and no signs of pursuit.  In the tonic's afterglow, the ogre seemed serene, happy, and even eager. Resolving to work together, the pair set off to collect the materials needed to attempt Razzil's Alchemic transmutation once more.",
+    "stats": {
+        "hit_points": [
+            625,
+            1263,
+            2099
+        ],
+        "mana": [
+            325,
+            653,
+            1147
+        ],
+        "damage": [
+            49,
+            83,
+            127
+        ],
+        "armor": [
+            2,
+            4,
+            9
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 150,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "alchemist_acid_spray",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/alchemist_acid_spray_hp2.png?v=5027641",
+            "name": "Acid Spray",
+            "desc": "Sprays high-pressure acid across a target area. Enemy units who step across the contaminated terrain take damage per second and have their armor reduced.",
+            "mana_cost": "130\/140\/150\/160",
+            "cooldown": "22",
+            "video": "http:\/\/www.youtube.com\/embed\/MUE1KNbho4Q?hd=1&rel=0",
+            "lore": "Using traditional Alchemy from the Darkbrew family, Razzil concocts an acid that dissolves even the toughest metals.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Physical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RADIUS",
+                    "val": "475 \/ 525 \/ 575 \/ 625"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "16"
+                },
+                {
+                    "name": "DAMAGE PER SECOND",
+                    "val": "15 \/ 20 \/ 25 \/ 30"
+                }
+            ]
+        },
+        {
+            "id": "alchemist_unstable_concoction",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/alchemist_unstable_concoction_hp2.png?v=5027641",
+            "name": "Unstable Concoction",
+            "desc": "Alchemist brews up an unstable concoction that he can throw at an enemy hero, to stun and deal damage in an area around the explosion. The longer the concoction brews, the more damage it deals and the longer the stun. After 5 seconds, the brew reaches its maximum damage and stun time. However, after 5.5 seconds, the concoction will explode on Alchemist himself if not thrown.",
+            "mana_cost": "120",
+            "cooldown": "22\/20\/18\/16",
+            "video": "http:\/\/www.youtube.com\/embed\/12jG2U6LH6s?hd=1&rel=0",
+            "lore": "A silver lining to the failure of turning a mountain into gold, this volatile solution has destructive potential.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Physical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "MAX STUN",
+                    "val": "1.75 \/ 2.5 \/ 3.25 \/ 4"
+                },
+                {
+                    "name": "EXPLOSION RADIUS",
+                    "val": "200"
+                }
+            ]
+        },
+        {
+            "id": "alchemist_goblins_greed",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/alchemist_goblins_greed_hp2.png?v=5027641",
+            "name": "Greevil's Greed",
+            "desc": "Alchemist synthesizes additional gold from his enemies and bounty runes. With each kill, Alchemist earns base bonus gold and extra bonus gold. If Alchemist kills another unit which yields gold within the next 40 seconds, an additional instance of Extra Bonus Gold is added to the total. Additionally, causes bounty runes to yield more gold.",
+            "mana_cost": "",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/uHDQHquQk6E?hd=1&rel=0",
+            "lore": "While it is not a mountain, Razzil has mastered the conversion of smaller compounds to line his pockets.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RECENT KILL WINDOW",
+                    "val": "40"
+                },
+                {
+                    "name": "BASE BONUS GOLD",
+                    "val": "4"
+                },
+                {
+                    "name": "EXTRA BONUS GOLD",
+                    "val": "4"
+                },
+                {
+                    "name": "MAX BONUS GOLD PER KILL",
+                    "val": "20 \/ 24 \/ 28 \/ 32"
+                },
+                {
+                    "name": "BOUNTY RUNE MULTIPLIER",
+                    "val": "2 \/ 2.5 \/ 3 \/ 3.5"
+                }
+            ]
+        },
+        {
+            "id": "alchemist_chemical_rage",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/alchemist_chemical_rage_hp2.png?v=5027641",
+            "name": "Chemical Rage",
+            "desc": "Alchemist causes his Ogre to enter a chemically induced rage, reducing base attack cooldown and increasing movement speed and regeneration.    DISPEL TYPE: Basic Dispel",
+            "mana_cost": "50\/100\/150",
+            "cooldown": "55",
+            "video": "http:\/\/www.youtube.com\/embed\/7SrgzbFp9Rw?hd=1&rel=0",
+            "lore": "The brew Razzil gave to the Ogre during their prison bust has become a useful potion in the midst of combat.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DURATION",
+                    "val": "25"
+                },
+                {
+                    "name": "BONUS MANA REGEN",
+                    "val": "4 \/ 10 \/ 16"
+                },
+                {
+                    "name": "BONUS MOVE SPEED",
+                    "val": "40 \/ 50 \/ 60"
+                }
+            ]
+        }
+    ]
+}

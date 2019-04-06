@@ -1,0 +1,220 @@
+{
+    "id": "dragon_knight",
+    "name": "Dragon Knight",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/dragon_knight_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/dragon_knight_vert.jpg?v=5027641"
+    },
+    "attack": "Melee",
+    "role": [
+        "Carry",
+        "Pusher",
+        "Durable",
+        "Disabler",
+        "Initiator",
+        "Nuker"
+    ],
+    "primary_attribs": "str",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 15,
+                "gain": 1.7
+            },
+            "agi": {
+                "base": 19,
+                "gain": 2
+            },
+            "str": {
+                "base": 19,
+                "gain": 3.6
+            },
+            "dmg": {
+                "min": 31,
+                "max": 37
+            },
+            "ms": 295,
+            "armor": 2.66
+        },
+        "abilities": [
+            {
+                "id": "dragon_knight_breathe_fire",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/dragon_knight_breathe_fire_hp1.png?v=5027641",
+                "name": "Breathe Fire",
+                "desc": "Unleashes a breath of fire in front of Dragon Knight that burns enemies and reduces the damage their attacks deal."
+            },
+            {
+                "id": "dragon_knight_dragon_tail",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/dragon_knight_dragon_tail_hp1.png?v=5027641",
+                "name": "Dragon Tail",
+                "desc": "Dragon Knight smites an enemy unit in melee range with his shield, stunning it while dealing minor damage.  When in Elder Dragon Form, the cast range increases to 400."
+            },
+            {
+                "id": "dragon_knight_dragon_blood",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/dragon_knight_dragon_blood_hp1.png?v=5027641",
+                "name": "Dragon Blood",
+                "desc": "The life blood of the Dragon improves health regeneration and strengthens armor."
+            },
+            {
+                "id": "dragon_knight_elder_dragon_form",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/dragon_knight_elder_dragon_form_hp1.png?v=5027641",
+                "name": "Elder Dragon Form",
+                "desc": "Dragon Knight takes the form of one of three powerful elder dragons, increasing his speed, and Dragon Tail's range, while granting him new powers.  LEVEL 1 Green Dragon - Corrosive Breath: attacks deal 20 poison damage per second for 5 seconds. Works on structures.  LEVEL 2 Red Dragon - Splash Attack: attacks damage all enemy units in a 300 radius for %splash_damage_percent%% damage, with Corrosive Breath added to the targets.  LEVEL 3 Blue Dragon - Frost Breath: slows movement speed by 30% and attack speed by 30 of enemy units in Splash Attack range for 3 seconds, with Corrosive Breath added to the targets."
+            }
+        ]
+    },
+    "bio": "After years on the trail of a legendary Eldwurm, the Knight Davion found himself facing a disappointing foe: the dreaded Slyrak had grown ancient and frail, its wings tattered, its few remaining scales stricken with scale-rot, its fangs ground to nubs, and its fire-gouts no more threatening than a pack of wet matchsticks. Seeing no honor to be gained in dragon-murder, Knight Davion prepared to turn away and leave his old foe to die in peace. But a voice crept into his thoughts, and Slyrak gave a whispered plea that Davion might honor him with death in combat. Davion agreed, and found himself rewarded beyond expectation for his act of mercy: As he sank his blade in Slyrak's breast, the dragon pierced Davion's throat with a talon. As their blood mingled, Slyrak sent his power out along the Blood Route, sending all its strength and centuries of wisdom to the knight.  The dragon's death sealed their bond and Dragon Knight was born. The ancient power slumbers in the Dragon Knight Davion, waking when he calls it. Or perhaps it is the Dragon that calls the Knight...",
+    "stats": {
+        "hit_points": [
+            511,
+            1469,
+            2533
+        ],
+        "mana": [
+            195,
+            504,
+            985
+        ],
+        "damage": [
+            50,
+            100,
+            156
+        ],
+        "armor": [
+            3,
+            7,
+            12
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 150,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "dragon_knight_breathe_fire",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/dragon_knight_breathe_fire_hp2.png?v=5027641",
+            "name": "Breathe Fire",
+            "desc": "Unleashes a breath of fire in front of Dragon Knight that burns enemies and reduces the damage their attacks deal.",
+            "mana_cost": "100\/110\/120\/130",
+            "cooldown": "14\/13\/12\/11",
+            "video": "http:\/\/www.youtube.com\/embed\/wrZnzBN1CmA?hd=1&rel=0",
+            "lore": "Knight Davion's breath has become that of the mighty Eldwurm Slyrak, remembered for burning numerous other knights to a crisp.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target, Point Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "90 \/ 170 \/ 240 \/ 300"
+                },
+                {
+                    "name": "REDUCTION DURATION",
+                    "val": "11"
+                }
+            ]
+        },
+        {
+            "id": "dragon_knight_dragon_tail",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/dragon_knight_dragon_tail_hp2.png?v=5027641",
+            "name": "Dragon Tail",
+            "desc": "Dragon Knight smites an enemy unit in melee range with his shield, stunning it while dealing minor damage.  When in Elder Dragon Form, the cast range increases to 400.",
+            "mana_cost": "100\/100\/100\/100",
+            "cooldown": "12\/11\/10\/9",
+            "video": "http:\/\/www.youtube.com\/embed\/gJSc04KMmbE?hd=1&rel=0",
+            "lore": "Davion's combination of dragon talents and knightly skills makes him a vicious opponent in melee combat.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "25 \/ 50 \/ 75 \/ 100"
+                }
+            ]
+        },
+        {
+            "id": "dragon_knight_dragon_blood",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/dragon_knight_dragon_blood_hp2.png?v=5027641",
+            "name": "Dragon Blood",
+            "desc": "The life blood of the Dragon improves health regeneration and strengthens armor.",
+            "mana_cost": "",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/mbzF8oyAUfc?hd=1&rel=0",
+            "lore": "Slyrak's blood still courses through Davion's veins, giving him twice the vitality of an ordinary knight.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                }
+            ],
+            "damage": []
+        },
+        {
+            "id": "dragon_knight_elder_dragon_form",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/dragon_knight_elder_dragon_form_hp2.png?v=5027641",
+            "name": "Elder Dragon Form",
+            "desc": "Dragon Knight takes the form of one of three powerful elder dragons, increasing his speed, and Dragon Tail's range, while granting him new powers.  LEVEL 1 Green Dragon - Corrosive Breath: attacks deal 20 poison damage per second for 5 seconds. Works on structures.  LEVEL 2 Red Dragon - Splash Attack: attacks damage all enemy units in a 300 radius for %splash_damage_percent%% damage, with Corrosive Breath added to the targets.  LEVEL 3 Blue Dragon - Frost Breath: slows movement speed by 30% and attack speed by 30 of enemy units in Splash Attack range for 3 seconds, with Corrosive Breath added to the targets.",
+            "mana_cost": "50\/50\/50",
+            "cooldown": "115",
+            "video": "http:\/\/www.youtube.com\/embed\/3HpgABQ8kpA?hd=1&rel=0",
+            "lore": "The dormant dragon power springs forth from within Davion, combining the powers of a legendary knight with a legendary Eldwurm.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DURATION",
+                    "val": "60"
+                },
+                {
+                    "name": "BONUS MOVE SPEED",
+                    "val": "30"
+                },
+                {
+                    "name": "BONUS ATTACK RANGE",
+                    "val": "350"
+                }
+            ]
+        }
+    ]
+}

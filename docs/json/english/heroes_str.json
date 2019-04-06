@@ -1,0 +1,630 @@
+[
+    {
+        "id": "earthshaker",
+        "name": "Earthshaker",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/earthshaker_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/earthshaker_vert.jpg?v=5027641"
+        },
+        "attack": "Melee",
+        "role": [
+            "Support",
+            "Initiator",
+            "Disabler",
+            "Nuker"
+        ],
+        "primary_attribs": "str"
+    },
+    {
+        "id": "sven",
+        "name": "Sven",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/sven_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/sven_vert.jpg?v=5027641"
+        },
+        "attack": "Melee",
+        "role": [
+            "Carry",
+            "Disabler",
+            "Initiator",
+            "Durable",
+            "Nuker"
+        ],
+        "primary_attribs": "str"
+    },
+    {
+        "id": "tiny",
+        "name": "Tiny",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/tiny_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/tiny_vert.jpg?v=5027641"
+        },
+        "attack": "Melee",
+        "role": [
+            "Carry",
+            "Nuker",
+            "Pusher",
+            "Initiator",
+            "Durable",
+            "Disabler"
+        ],
+        "primary_attribs": "str"
+    },
+    {
+        "id": "kunkka",
+        "name": "Kunkka",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/kunkka_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/kunkka_vert.jpg?v=5027641"
+        },
+        "attack": "Melee",
+        "role": [
+            "Carry",
+            "Support",
+            "Disabler",
+            "Initiator",
+            "Durable",
+            "Nuker"
+        ],
+        "primary_attribs": "str"
+    },
+    {
+        "id": "beastmaster",
+        "name": "Beastmaster",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/beastmaster_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/beastmaster_vert.jpg?v=5027641"
+        },
+        "attack": "Melee",
+        "role": [
+            "Initiator",
+            "Disabler",
+            "Durable",
+            "Nuker"
+        ],
+        "primary_attribs": "str"
+    },
+    {
+        "id": "dragon_knight",
+        "name": "Dragon Knight",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/dragon_knight_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/dragon_knight_vert.jpg?v=5027641"
+        },
+        "attack": "Melee",
+        "role": [
+            "Carry",
+            "Pusher",
+            "Durable",
+            "Disabler",
+            "Initiator",
+            "Nuker"
+        ],
+        "primary_attribs": "str"
+    },
+    {
+        "id": "rattletrap",
+        "name": "Clockwerk",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/rattletrap_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/rattletrap_vert.jpg?v=5027641"
+        },
+        "attack": "Melee",
+        "role": [
+            "Initiator",
+            "Disabler",
+            "Durable",
+            "Nuker"
+        ],
+        "primary_attribs": "str"
+    },
+    {
+        "id": "omniknight",
+        "name": "Omniknight",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/omniknight_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/omniknight_vert.jpg?v=5027641"
+        },
+        "attack": "Melee",
+        "role": [
+            "Support",
+            "Durable",
+            "Nuker"
+        ],
+        "primary_attribs": "str"
+    },
+    {
+        "id": "huskar",
+        "name": "Huskar",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/huskar_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/huskar_vert.jpg?v=5027641"
+        },
+        "attack": "Ranged",
+        "role": [
+            "Carry",
+            "Durable",
+            "Initiator"
+        ],
+        "primary_attribs": "str"
+    },
+    {
+        "id": "alchemist",
+        "name": "Alchemist",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/alchemist_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/alchemist_vert.jpg?v=5027641"
+        },
+        "attack": "Melee",
+        "role": [
+            "Carry",
+            "Support",
+            "Durable",
+            "Disabler",
+            "Initiator",
+            "Nuker"
+        ],
+        "primary_attribs": "str"
+    },
+    {
+        "id": "brewmaster",
+        "name": "Brewmaster",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/brewmaster_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/brewmaster_vert.jpg?v=5027641"
+        },
+        "attack": "Melee",
+        "role": [
+            "Carry",
+            "Initiator",
+            "Durable",
+            "Disabler",
+            "Nuker"
+        ],
+        "primary_attribs": "str"
+    },
+    {
+        "id": "treant",
+        "name": "Treant Protector",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/treant_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/treant_vert.jpg?v=5027641"
+        },
+        "attack": "Melee",
+        "role": [
+            "Support",
+            "Initiator",
+            "Durable",
+            "Disabler",
+            "Escape"
+        ],
+        "primary_attribs": "str"
+    },
+    {
+        "id": "wisp",
+        "name": "Io",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/wisp_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/wisp_vert.jpg?v=5027641"
+        },
+        "attack": "Ranged",
+        "role": [
+            "Support",
+            "Escape",
+            "Nuker"
+        ],
+        "primary_attribs": "str"
+    },
+    {
+        "id": "centaur",
+        "name": "Centaur Warrunner",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/centaur_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/centaur_vert.jpg?v=5027641"
+        },
+        "attack": "Melee",
+        "role": [
+            "Durable",
+            "Initiator",
+            "Disabler",
+            "Nuker",
+            "Escape"
+        ],
+        "primary_attribs": "str"
+    },
+    {
+        "id": "shredder",
+        "name": "Timbersaw",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/shredder_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/shredder_vert.jpg?v=5027641"
+        },
+        "attack": "Melee",
+        "role": [
+            "Nuker",
+            "Durable",
+            "Escape"
+        ],
+        "primary_attribs": "str"
+    },
+    {
+        "id": "bristleback",
+        "name": "Bristleback",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/bristleback_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/bristleback_vert.jpg?v=5027641"
+        },
+        "attack": "Melee",
+        "role": [
+            "Carry",
+            "Durable",
+            "Initiator",
+            "Nuker"
+        ],
+        "primary_attribs": "str"
+    },
+    {
+        "id": "tusk",
+        "name": "Tusk",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/tusk_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/tusk_vert.jpg?v=5027641"
+        },
+        "attack": "Melee",
+        "role": [
+            "Initiator",
+            "Disabler",
+            "Nuker"
+        ],
+        "primary_attribs": "str"
+    },
+    {
+        "id": "elder_titan",
+        "name": "Elder Titan",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/elder_titan_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/elder_titan_vert.jpg?v=5027641"
+        },
+        "attack": "Melee",
+        "role": [
+            "Initiator",
+            "Disabler",
+            "Nuker",
+            "Durable"
+        ],
+        "primary_attribs": "str"
+    },
+    {
+        "id": "legion_commander",
+        "name": "Legion Commander",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/legion_commander_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/legion_commander_vert.jpg?v=5027641"
+        },
+        "attack": "Melee",
+        "role": [
+            "Carry",
+            "Disabler",
+            "Initiator",
+            "Durable",
+            "Nuker"
+        ],
+        "primary_attribs": "str"
+    },
+    {
+        "id": "earth_spirit",
+        "name": "Earth Spirit",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/earth_spirit_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/earth_spirit_vert.jpg?v=5027641"
+        },
+        "attack": "Melee",
+        "role": [
+            "Nuker",
+            "Escape",
+            "Disabler",
+            "Initiator",
+            "Durable"
+        ],
+        "primary_attribs": "str"
+    },
+    {
+        "id": "phoenix",
+        "name": "Phoenix",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/phoenix_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/phoenix_vert.jpg?v=5027641"
+        },
+        "attack": "Ranged",
+        "role": [
+            "Support",
+            "Nuker",
+            "Initiator",
+            "Escape",
+            "Disabler"
+        ],
+        "primary_attribs": "str"
+    },
+    {
+        "id": "mars",
+        "name": "Mars",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/mars_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/mars_vert.jpg?v=5027641"
+        },
+        "attack": "Melee",
+        "role": [
+            "Carry",
+            "Initiator",
+            "Disabler",
+            "Durable"
+        ],
+        "primary_attribs": "str"
+    },
+    {
+        "id": "axe",
+        "name": "Axe",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/axe_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/axe_vert.jpg?v=5027641"
+        },
+        "attack": "Melee",
+        "role": [
+            "Initiator",
+            "Durable",
+            "Disabler",
+            "Jungler"
+        ],
+        "primary_attribs": "str"
+    },
+    {
+        "id": "pudge",
+        "name": "Pudge",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/pudge_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/pudge_vert.jpg?v=5027641"
+        },
+        "attack": "Melee",
+        "role": [
+            "Disabler",
+            "Initiator",
+            "Durable",
+            "Nuker"
+        ],
+        "primary_attribs": "str"
+    },
+    {
+        "id": "sand_king",
+        "name": "Sand King",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/sand_king_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/sand_king_vert.jpg?v=5027641"
+        },
+        "attack": "Melee",
+        "role": [
+            "Initiator",
+            "Disabler",
+            "Support",
+            "Nuker",
+            "Escape",
+            "Jungler"
+        ],
+        "primary_attribs": "str"
+    },
+    {
+        "id": "slardar",
+        "name": "Slardar",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/slardar_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/slardar_vert.jpg?v=5027641"
+        },
+        "attack": "Melee",
+        "role": [
+            "Carry",
+            "Durable",
+            "Initiator",
+            "Disabler",
+            "Escape"
+        ],
+        "primary_attribs": "str"
+    },
+    {
+        "id": "tidehunter",
+        "name": "Tidehunter",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/tidehunter_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/tidehunter_vert.jpg?v=5027641"
+        },
+        "attack": "Melee",
+        "role": [
+            "Initiator",
+            "Durable",
+            "Disabler",
+            "Nuker"
+        ],
+        "primary_attribs": "str"
+    },
+    {
+        "id": "skeleton_king",
+        "name": "Wraith King",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/skeleton_king_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/skeleton_king_vert.jpg?v=5027641"
+        },
+        "attack": "Melee",
+        "role": [
+            "Carry",
+            "Support",
+            "Durable",
+            "Disabler",
+            "Initiator"
+        ],
+        "primary_attribs": "str"
+    },
+    {
+        "id": "life_stealer",
+        "name": "Lifestealer",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/life_stealer_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/life_stealer_vert.jpg?v=5027641"
+        },
+        "attack": "Melee",
+        "role": [
+            "Carry",
+            "Durable",
+            "Jungler",
+            "Escape",
+            "Disabler"
+        ],
+        "primary_attribs": "str"
+    },
+    {
+        "id": "night_stalker",
+        "name": "Night Stalker",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/night_stalker_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/night_stalker_vert.jpg?v=5027641"
+        },
+        "attack": "Melee",
+        "role": [
+            "Carry",
+            "Initiator",
+            "Durable",
+            "Disabler",
+            "Nuker"
+        ],
+        "primary_attribs": "str"
+    },
+    {
+        "id": "doom_bringer",
+        "name": "Doom",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/doom_bringer_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/doom_bringer_vert.jpg?v=5027641"
+        },
+        "attack": "Melee",
+        "role": [
+            "Carry",
+            "Disabler",
+            "Initiator",
+            "Durable",
+            "Nuker"
+        ],
+        "primary_attribs": "str"
+    },
+    {
+        "id": "spirit_breaker",
+        "name": "Spirit Breaker",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/spirit_breaker_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/spirit_breaker_vert.jpg?v=5027641"
+        },
+        "attack": "Melee",
+        "role": [
+            "Carry",
+            "Initiator",
+            "Disabler",
+            "Durable",
+            "Escape"
+        ],
+        "primary_attribs": "str"
+    },
+    {
+        "id": "lycan",
+        "name": "Lycan",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/lycan_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/lycan_vert.jpg?v=5027641"
+        },
+        "attack": "Melee",
+        "role": [
+            "Carry",
+            "Pusher",
+            "Jungler",
+            "Durable",
+            "Escape"
+        ],
+        "primary_attribs": "str"
+    },
+    {
+        "id": "chaos_knight",
+        "name": "Chaos Knight",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/chaos_knight_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/chaos_knight_vert.jpg?v=5027641"
+        },
+        "attack": "Melee",
+        "role": [
+            "Carry",
+            "Disabler",
+            "Durable",
+            "Pusher",
+            "Initiator"
+        ],
+        "primary_attribs": "str"
+    },
+    {
+        "id": "undying",
+        "name": "Undying",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/undying_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/undying_vert.jpg?v=5027641"
+        },
+        "attack": "Melee",
+        "role": [
+            "Support",
+            "Durable",
+            "Disabler",
+            "Nuker"
+        ],
+        "primary_attribs": "str"
+    },
+    {
+        "id": "magnataur",
+        "name": "Magnus",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/magnataur_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/magnataur_vert.jpg?v=5027641"
+        },
+        "attack": "Melee",
+        "role": [
+            "Initiator",
+            "Disabler",
+            "Nuker",
+            "Escape"
+        ],
+        "primary_attribs": "str"
+    },
+    {
+        "id": "abaddon",
+        "name": "Abaddon",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/abaddon_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/abaddon_vert.jpg?v=5027641"
+        },
+        "attack": "Melee",
+        "role": [
+            "Support",
+            "Carry",
+            "Durable"
+        ],
+        "primary_attribs": "str"
+    },
+    {
+        "id": "abyssal_underlord",
+        "name": "Underlord",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/abyssal_underlord_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/abyssal_underlord_vert.jpg?v=5027641"
+        },
+        "attack": "Melee",
+        "role": [
+            "Support",
+            "Nuker",
+            "Disabler",
+            "Durable",
+            "Escape"
+        ],
+        "primary_attribs": "str"
+    }
+]

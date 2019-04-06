@@ -1,0 +1,215 @@
+{
+    "id": "furion",
+    "name": "Nature's Prophet",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/furion_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/furion_vert.jpg?v=5027641"
+    },
+    "attack": "Ranged",
+    "role": [
+        "Carry",
+        "Jungler",
+        "Pusher",
+        "Escape",
+        "Nuker"
+    ],
+    "primary_attribs": "int",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 23,
+                "gain": 3.3
+            },
+            "agi": {
+                "base": 18,
+                "gain": 3.3
+            },
+            "str": {
+                "base": 21,
+                "gain": 2.6
+            },
+            "dmg": {
+                "min": 29,
+                "max": 43
+            },
+            "ms": 290,
+            "armor": 4.52
+        },
+        "abilities": [
+            {
+                "id": "furion_sprout",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/furion_sprout_hp1.png?v=5027641",
+                "name": "Sprout",
+                "desc": "Sprouts a ring of trees around a unit, trapping it in place."
+            },
+            {
+                "id": "furion_teleportation",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/furion_teleportation_hp1.png?v=5027641",
+                "name": "Teleportation",
+                "desc": "Teleports to any point on the map."
+            },
+            {
+                "id": "furion_force_of_nature",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/furion_force_of_nature_hp1.png?v=5027641",
+                "name": "Nature's Call",
+                "desc": "Converts an area of trees into Treants. Treants have 550 health and deal 27 damage."
+            },
+            {
+                "id": "furion_wrath_of_nature",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/furion_wrath_of_nature_hp1.png?v=5027641",
+                "name": "Wrath of Nature",
+                "desc": "Damaging energy bounces around the map, striking enemies close to the cast point that are in vision. Each enemy hit beyond the first adds damage.    Upgradable by Aghanim's Scepter."
+            }
+        ]
+    },
+    "bio": "When Verodicia, Goddess of the Woods, had finished filling in the green places, having planted the coiled-up spirit in the seed, having lured the twining waters from deep within the rock, having sworn the sun its full attention to the growing things, she realized that her own time had reached its end, and like one of the leaves whose fate she had imprinted in the seed, she would fall without seeing the fruiting of her dream. It pained her to leave the world bereft, for the sprouts had not yet broken through the soil--and they would be tender and vulnerable to every sort of harm. She found in her seed pouch one last seed that she had missed in the sowing. She spoke a single word into the seed and swallowed it as she fell. Her vast body decomposed throughout the long winter, becoming the humus that would feed the seedlings in the spring. And on the morning of the vernal equinox, before the rest of the forest had begun to wake, that last seed ripened and burst in an instant. From it stepped Nature's Prophet, in full leaf, strong and wise, possessing Verodicia's power to foresee where he would be needed most in defense of the green places--and any who might be fortunate enough to call him an ally.",
+    "stats": {
+        "hit_points": [
+            549,
+            1241,
+            2115
+        ],
+        "mana": [
+            299,
+            900,
+            1589
+        ],
+        "damage": [
+            52,
+            98,
+            151
+        ],
+        "armor": [
+            5,
+            11,
+            18
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 600,
+        "missile_speed": "1125"
+    },
+    "abilities": [
+        {
+            "id": "furion_sprout",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/furion_sprout_hp2.png?v=5027641",
+            "name": "Sprout",
+            "desc": "Sprouts a ring of trees around a unit, trapping it in place.",
+            "mana_cost": "70\/90\/110\/130",
+            "cooldown": "11\/10\/9\/8",
+            "video": "http:\/\/www.youtube.com\/embed\/IKC9k4noGgI?hd=1&rel=0",
+            "lore": "Verdant overgrowth is a common ailment reported by Nature's Prophet's attackers.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target, Point Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Heroes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DURATION",
+                    "val": "3 \/ 4 \/ 5 \/ 6"
+                },
+                {
+                    "name": "CAST RANGE",
+                    "val": "625 \/ 700 \/ 775 \/ 850"
+                }
+            ]
+        },
+        {
+            "id": "furion_teleportation",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/furion_teleportation_hp2.png?v=5027641",
+            "name": "Teleportation",
+            "desc": "Teleports to any point on the map.",
+            "mana_cost": "50\/50\/50\/50",
+            "cooldown": "50\/40\/30\/20",
+            "video": "http:\/\/www.youtube.com\/embed\/4Z6E1mANiYY?hd=1&rel=0",
+            "lore": "The Prophet keeps his sentinel over the forest, protecting it when in need.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                }
+            ],
+            "damage": []
+        },
+        {
+            "id": "furion_force_of_nature",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/furion_force_of_nature_hp2.png?v=5027641",
+            "name": "Nature's Call",
+            "desc": "Converts an area of trees into Treants. Treants have 550 health and deal 27 damage.",
+            "mana_cost": "130\/140\/150\/160",
+            "cooldown": "37",
+            "video": "http:\/\/www.youtube.com\/embed\/h-4uJF0-P6w?hd=1&rel=0",
+            "lore": "Verodicia bestowed the Prophet with the ability to summon the Treant Guard, a mythical sentient army of the wild.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "TREANT DURATION",
+                    "val": "60 \/ 60 \/ 60 \/ 60"
+                }
+            ]
+        },
+        {
+            "id": "furion_wrath_of_nature",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/furion_wrath_of_nature_hp2.png?v=5027641",
+            "name": "Wrath of Nature",
+            "desc": "Damaging energy bounces around the map, striking enemies close to the cast point that are in vision. Each enemy hit beyond the first adds damage.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "175\/225\/275",
+            "cooldown": "60",
+            "video": "http:\/\/www.youtube.com\/embed\/gqPn_GVmLDY?hd=1&rel=0",
+            "lore": "Nature's Prophet calls Verodicia's fury to strike down those who might ravage the wilderness.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target, Point Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "MAX TARGETS",
+                    "val": "18"
+                },
+                {
+                    "name": "DAMAGE",
+                    "val": "110 \/ 140 \/ 170"
+                },
+                {
+                    "name": "ADDED DAMAGE PER BOUNCE",
+                    "val": "11%"
+                },
+                {
+                    "name": "SCEPTER DAMAGE",
+                    "val": "135 \/ 170 \/ 205"
+                },
+                {
+                    "name": "SCEPTER TREANT SPAWN TIMER",
+                    "val": "4"
+                }
+            ]
+        }
+    ]
+}

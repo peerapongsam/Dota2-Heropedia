@@ -1,0 +1,239 @@
+{
+    "id": "bane",
+    "name": "Bane",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/bane_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/bane_vert.jpg?v=5027641"
+    },
+    "attack": "Ranged",
+    "role": [
+        "Support",
+        "Disabler",
+        "Nuker",
+        "Durable"
+    ],
+    "primary_attribs": "int",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 23,
+                "gain": 2.6
+            },
+            "agi": {
+                "base": 23,
+                "gain": 2.6
+            },
+            "str": {
+                "base": 23,
+                "gain": 2.6
+            },
+            "dmg": {
+                "min": 35,
+                "max": 41
+            },
+            "ms": 305,
+            "armor": 4.22
+        },
+        "abilities": [
+            {
+                "id": "bane_enfeeble",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/bane_enfeeble_hp1.png?v=5027641",
+                "name": "Enfeeble",
+                "desc": "Lower's the target's status resistance and attack speed."
+            },
+            {
+                "id": "bane_brain_sap",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/bane_brain_sap_hp1.png?v=5027641",
+                "name": "Brain Sap",
+                "desc": "Feasts on the vital energies of an enemy unit, healing Bane and dealing damage.    Upgradable by Aghanim's Scepter."
+            },
+            {
+                "id": "bane_nightmare",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/bane_nightmare_hp1.png?v=5027641",
+                "name": "Nightmare",
+                "desc": "Puts the target enemy or friendly Hero to sleep. Sleeping units are awakened when attacked, but the Nightmare passes to the attacking unit. Bane can attack nightmared targets freely."
+            },
+            {
+                "id": "bane_fiends_grip",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/bane_fiends_grip_hp1.png?v=5027641",
+                "name": "Fiend's Grip",
+                "desc": "CHANNELED - Grips an enemy unit, disabling it and causing heavy damage over time, while stealing mana every 0.5 seconds based on the unit's maximum mana."
+            }
+        ]
+    },
+    "bio": "When the gods have nightmares, it is Bane Elemental who brings them.  Also known as Atropos, Bane was born from the midnight terrors of the goddess Nyctasha.  A force of terror too powerful to be contained by sleep, he surfaced from her slumbers, fed upon her immortality, and stole his vaporous form from her inky blood.  He is the essence of fear.  Mortals who hear his voice hear their darkest secrets whispered in their ear.  He calls to the hidden fear in every Hero's heart.  Wakefulness is no protection, for Bane's black blood, continuously dripping, is a tar that traps his enemies in nightmare.  In the presence of Bane, every Hero remembers to fear the dark.",
+    "stats": {
+        "hit_points": [
+            587,
+            1279,
+            2153
+        ],
+        "mana": [
+            299,
+            772,
+            1370
+        ],
+        "damage": [
+            58,
+            94,
+            140
+        ],
+        "armor": [
+            4,
+            9,
+            16
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 400,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "bane_enfeeble",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/bane_enfeeble_hp2.png?v=5027641",
+            "name": "Enfeeble",
+            "desc": "Lower's the target's status resistance and attack speed.",
+            "mana_cost": "50\/75\/100\/125",
+            "cooldown": "12\/10\/8\/6",
+            "video": "http:\/\/www.youtube.com\/embed\/cSZQr6qFcnQ?hd=1&rel=0",
+            "lore": null,
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Heroes"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "STATUS RESISTANCE REDUCTION",
+                    "val": "36% \/ 44% \/ 52% \/ 60%"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "8"
+                }
+            ]
+        },
+        {
+            "id": "bane_brain_sap",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/bane_brain_sap_hp2.png?v=5027641",
+            "name": "Brain Sap",
+            "desc": "Feasts on the vital energies of an enemy unit, healing Bane and dealing damage.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "90\/115\/140\/165",
+            "cooldown": "14\/13\/12\/11",
+            "video": "http:\/\/www.youtube.com\/embed\/aO14tLgQXVo?hd=1&rel=0",
+            "lore": "Atropos finds no greater pleasure than to harvest the fear he creates.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Pure"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "SCEPTER COOLDOWN",
+                    "val": "1.5"
+                }
+            ]
+        },
+        {
+            "id": "bane_nightmare",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/bane_nightmare_hp2.png?v=5027641",
+            "name": "Nightmare",
+            "desc": "Puts the target enemy or friendly Hero to sleep. Sleeping units are awakened when attacked, but the Nightmare passes to the attacking unit. Bane can attack nightmared targets freely.",
+            "mana_cost": "165\/165\/165\/165",
+            "cooldown": "22\/19\/16\/13",
+            "video": "http:\/\/www.youtube.com\/embed\/FExnzA0Pes4?hd=1&rel=0",
+            "lore": "A stolen prowess from the goddess Nyctasha is to put his prey into forever sleep.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Heroes"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Pure"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DURATION",
+                    "val": "4 \/ 5 \/ 6 \/ 7"
+                },
+                {
+                    "name": "CAST RANGE",
+                    "val": "425 \/ 500 \/ 575 \/ 650"
+                }
+            ]
+        },
+        {
+            "id": "bane_fiends_grip",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/bane_fiends_grip_hp2.png?v=5027641",
+            "name": "Fiend's Grip",
+            "desc": "CHANNELED - Grips an enemy unit, disabling it and causing heavy damage over time, while stealing mana every 0.5 seconds based on the unit's maximum mana.",
+            "mana_cost": "200\/300\/400",
+            "cooldown": "120\/110\/100",
+            "video": "http:\/\/www.youtube.com\/embed\/GFDyNOUnLFw?hd=1&rel=0",
+            "lore": "Victims of Atropos are frequently torn apart by vivid conjurations of their own nightmares.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Channeled, Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "MANA DRAIN",
+                    "val": "5%"
+                },
+                {
+                    "name": "DAMAGE",
+                    "val": "100 \/ 155 \/ 215"
+                }
+            ]
+        }
+    ]
+}

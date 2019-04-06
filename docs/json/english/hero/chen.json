@@ -1,0 +1,229 @@
+{
+    "id": "chen",
+    "name": "Chen",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/chen_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/chen_vert.jpg?v=5027641"
+    },
+    "attack": "Ranged",
+    "role": [
+        "Support",
+        "Jungler",
+        "Pusher"
+    ],
+    "primary_attribs": "int",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 19,
+                "gain": 3.2
+            },
+            "agi": {
+                "base": 15,
+                "gain": 2.1
+            },
+            "str": {
+                "base": 25,
+                "gain": 2
+            },
+            "dmg": {
+                "min": 29,
+                "max": 39
+            },
+            "ms": 305,
+            "armor": 1.1
+        },
+        "abilities": [
+            {
+                "id": "chen_penitence",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/chen_penitence_hp1.png?v=5027641",
+                "name": "Penitence",
+                "desc": "Forces an enemy unit to move slower and for allies to attack it more quickly."
+            },
+            {
+                "id": "chen_divine_favor",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/chen_divine_favor_hp1.png?v=5027641",
+                "name": "Divine Favor",
+                "desc": "Provides increased health regeneration, amplifies all health restore by a percentage, and boosts damage. Provides triple bonus damage for non-hero targets."
+            },
+            {
+                "id": "chen_holy_persuasion",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/chen_holy_persuasion_hp1.png?v=5027641",
+                "name": "Holy Persuasion",
+                "desc": "Chen takes control of an enemy or neutral creep. If the persuaded creep's base health is naturally below the health minimum, its base health will be raised to the health minimum.    Can be cast on allies to teleport them to Chen. If cast on Chen, all units controlled by Chen will be teleported to him. Taking damage will dispel the buff.      Upgradable by Aghanim's Scepter."
+            },
+            {
+                "id": "chen_hand_of_god",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/chen_hand_of_god_hp1.png?v=5027641",
+                "name": "Hand of God",
+                "desc": "Heals all allied heroes on the map as well as all units under Chen's control."
+            }
+        ]
+    },
+    "bio": "Born in the godless Hazhadal Barrens, Chen came of age among the outlaw tribes who eked out an existence in the shimmering heat of the desert.  Using an ancient form of animal enthrallment, Chen's people husbanded the hardy desert locuthi, a stunted species of burrowing dragon that melted desert sands into tubes of glass where twice-a-year rains collected.  Always on the edge of starvation and thirst, fighting amongst their neighbors and each other, Chen's clan made the mistake, one fateful day, of ambushing the wrong caravan.  \r\n\r\n\t\tIn the vicious battle that followed, Chen's clan was outmatched.  The armored Knights of the Fold made short work of the enthralled locuthi, who attacked and died in waves.  With their dragons dead, the tribesmen followed. Chen struggled, and slashed, and clawed, and perished--or would have. Defeated, on his knees, he faced his execution with humility, offering his neck to the blade. Moved by Chen's obvious courage, the executioner halted his sword. Instead of the blade, Chen was given a choice: death or conversion. Chen took to the faith with a ferocity. He joined the Fold and earned his armor one bloody conversion at a time. Now, with the fanaticism of a convert, and with his powers of animal enthrallment at their peak, he seeks out unbelievers and introduces them to their final reward.",
+    "stats": {
+        "hit_points": [
+            625,
+            1157,
+            1917
+        ],
+        "mana": [
+            247,
+            829,
+            1505
+        ],
+        "damage": [
+            48,
+            93,
+            145
+        ],
+        "armor": [
+            1,
+            5,
+            11
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 650,
+        "missile_speed": "1100"
+    },
+    "abilities": [
+        {
+            "id": "chen_penitence",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/chen_penitence_hp2.png?v=5027641",
+            "name": "Penitence",
+            "desc": "Forces an enemy unit to move slower and for allies to attack it more quickly.",
+            "mana_cost": "70",
+            "cooldown": "14\/13\/12\/11",
+            "video": "http:\/\/www.youtube.com\/embed\/Q0lQaxZ2bG8?hd=1&rel=0",
+            "lore": "Although Chen's brand of animal enthrallment isn't quite strong enough to control the minds of enemy heroes, it still tests their resolve in combat.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DURATION",
+                    "val": "5 \/ 6 \/ 7 \/ 8"
+                },
+                {
+                    "name": "MOVEMENT SLOW",
+                    "val": "18% \/ 24% \/ 30% \/ 36%"
+                },
+                {
+                    "name": "BONUS ATTACK SPEED",
+                    "val": "30 \/ 60 \/ 90 \/ 120"
+                }
+            ]
+        },
+        {
+            "id": "chen_divine_favor",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/chen_divine_favor_hp2.png?v=5027641",
+            "name": "Divine Favor",
+            "desc": "Provides increased health regeneration, amplifies all health restore by a percentage, and boosts damage. Provides triple bonus damage for non-hero targets.",
+            "mana_cost": "70\/80\/90\/100",
+            "cooldown": "26\/24\/22\/20",
+            "lore": null,
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Allied Units"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "HEAL INCREASE",
+                    "val": "25%"
+                },
+                {
+                    "name": "REGEN PER SEC",
+                    "val": "7 \/ 13 \/ 19 \/ 25"
+                },
+                {
+                    "name": "ATTACK DAMAGE",
+                    "val": "8 \/ 16 \/ 24 \/ 32"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "8 \/ 10 \/ 12 \/ 14"
+                }
+            ]
+        },
+        {
+            "id": "chen_holy_persuasion",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/chen_holy_persuasion_hp2.png?v=5027641",
+            "name": "Holy Persuasion",
+            "desc": "Chen takes control of an enemy or neutral creep. If the persuaded creep's base health is naturally below the health minimum, its base health will be raised to the health minimum.    Can be cast on allies to teleport them to Chen. If cast on Chen, all units controlled by Chen will be teleported to him. Taking damage will dispel the buff.      Upgradable by Aghanim's Scepter.",
+            "mana_cost": "70\/90\/110\/130",
+            "cooldown": "15",
+            "video": "http:\/\/www.youtube.com\/embed\/Jhk_gA5AeZo?hd=1&rel=0",
+            "lore": "Although they may not be knights, Chen incorporates beasts into the Fold in the same way he himself was converted.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "CREEP MAX LEVEL",
+                    "val": "4 \/ 5 \/ 6 \/ 6"
+                },
+                {
+                    "name": "TELEPORT DELAY",
+                    "val": "6"
+                }
+            ]
+        },
+        {
+            "id": "chen_hand_of_god",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/chen_hand_of_god_hp2.png?v=5027641",
+            "name": "Hand of God",
+            "desc": "Heals all allied heroes on the map as well as all units under Chen's control.",
+            "mana_cost": "200\/300\/400",
+            "cooldown": "160\/140\/120",
+            "video": "http:\/\/www.youtube.com\/embed\/BxXGyInKTpQ?hd=1&rel=0",
+            "lore": "Using the mental link with his thralls, Chen calls down restoration and well-being to those who share his fanaticism.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "SCEPTER HOLY PERSUASION ANCIENTS",
+                    "val": "1 \/ 2 \/ 3"
+                }
+            ]
+        }
+    ]
+}

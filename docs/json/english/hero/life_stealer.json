@@ -1,0 +1,211 @@
+{
+    "id": "life_stealer",
+    "name": "Lifestealer",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/life_stealer_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/life_stealer_vert.jpg?v=5027641"
+    },
+    "attack": "Melee",
+    "role": [
+        "Carry",
+        "Durable",
+        "Jungler",
+        "Escape",
+        "Disabler"
+    ],
+    "primary_attribs": "str",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 15,
+                "gain": 1.8
+            },
+            "agi": {
+                "base": 18,
+                "gain": 2.4
+            },
+            "str": {
+                "base": 25,
+                "gain": 2.9
+            },
+            "dmg": {
+                "min": 27,
+                "max": 37
+            },
+            "ms": 325,
+            "armor": 2.52
+        },
+        "abilities": [
+            {
+                "id": "life_stealer_rage",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/life_stealer_rage_hp1.png?v=5027641",
+                "name": "Rage",
+                "desc": "Launch into a maddened rage, becoming Spell Immune, 100% resistant to magic damage, and gaining increased attack speed.    DISPEL TYPE: Basic Dispel"
+            },
+            {
+                "id": "life_stealer_feast",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/life_stealer_feast_hp1.png?v=5027641",
+                "name": "Feast",
+                "desc": "Lifestealer's attacks damage enemies and heal himself for a percentage of his target's max health."
+            },
+            {
+                "id": "life_stealer_open_wounds",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/life_stealer_open_wounds_hp1.png?v=5027641",
+                "name": "Open Wounds",
+                "desc": "Lifestealer rends an enemy unit, slowing the victim's movement speed and allowing all allies to regain health for a percentage of the damage they deal to that unit. All damage dealt will steal life, including damage from spells. The victim recovers movement speed over the duration."
+            },
+            {
+                "id": "life_stealer_infest",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/life_stealer_infest_hp1.png?v=5027641",
+                "name": "Infest",
+                "desc": "Lifestealer infests the body of a target unit, becoming undetectable inside. He can then explode from the host body, dealing damage to nearby enemies. If the infested unit is an enemy creep or a neutral creep, he can take control of the unit's ability to move and attack, and when consumed the creep will heal Lifestealer's health equal to the creep's current health.  Does not work on enemy heroes.    DISPEL TYPE: Basic Dispel"
+            }
+        ]
+    },
+    "bio": "In the dungeons of Devarque, a vengeful wizard lay in shackles, plotting his escape. He shared his cell with a gibbering creature known as N'aix, a thief cursed by the Vile Council with longevity, so that its life-sentence for theft and cozening might be as punishing as possible. Over the years, its chains had corroded, along with its sanity; N'aix retained no memory of its former life and no longer dreamt of escape. Seeing a perfect vessel for his plans, the wizard wove a spell of Infestation and cast his life-force into N'aix's body, intending to compel N'aix to sacrifice itself in a frenzy of violence while the mage returned to his body and crept away unnoticed. Instead, the wizard found his mind caught in a vortex of madness so powerful that it swept away his plans and shattered his will. Jarred to consciousness by the sudden infusion of fresh life, N'aix woke from its nightmare of madness and obeyed the disembodied voice that filled its skull, which had only the one thought: To escape. In that moment Lifestealer was born. The creature cast its mind into dungeon guards and soldiers, compelling them to open locks and cut down their companions, opening an unobstructed path to freedom while feeding on their lives. Lifestealer still wears the broken shackles as a warning that none may hold him, but on the inside remains a prisoner. Two minds inhabit the single form--a nameless creature of malevolent cunning, and the Master whose voice he pretends to obey.",
+    "stats": {
+        "hit_points": [
+            625,
+            1396,
+            2327
+        ],
+        "mana": [
+            195,
+            523,
+            1017
+        ],
+        "damage": [
+            52,
+            93,
+            142
+        ],
+        "armor": [
+            3,
+            7,
+            13
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 150,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "life_stealer_rage",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/life_stealer_rage_hp2.png?v=5027641",
+            "name": "Rage",
+            "desc": "Launch into a maddened rage, becoming Spell Immune, 100% resistant to magic damage, and gaining increased attack speed.    DISPEL TYPE: Basic Dispel",
+            "mana_cost": "75\/75\/75\/75",
+            "cooldown": "18",
+            "video": "http:\/\/www.youtube.com\/embed\/ATQPbLwsReY?hd=1&rel=0",
+            "lore": "The madness and brutality of N'aix makes him a vicious and unrelenting foe in combat.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "ATTACK SPEED BONUS",
+                    "val": "40 \/ 50 \/ 60 \/ 70"
+                }
+            ]
+        },
+        {
+            "id": "life_stealer_feast",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/life_stealer_feast_hp2.png?v=5027641",
+            "name": "Feast",
+            "desc": "Lifestealer's attacks damage enemies and heal himself for a percentage of his target's max health.",
+            "mana_cost": "",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/Yhvj6uaaOBU?hd=1&rel=0",
+            "lore": "After escaping from his cell in Devarque, N'aix subsisted on flesh and bones of those unfortunate to cross his path.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": []
+        },
+        {
+            "id": "life_stealer_open_wounds",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/life_stealer_open_wounds_hp2.png?v=5027641",
+            "name": "Open Wounds",
+            "desc": "Lifestealer rends an enemy unit, slowing the victim's movement speed and allowing all allies to regain health for a percentage of the damage they deal to that unit. All damage dealt will steal life, including damage from spells. The victim recovers movement speed over the duration.",
+            "mana_cost": "140",
+            "cooldown": "24\/20\/16\/12",
+            "video": "http:\/\/www.youtube.com\/embed\/K3lZJEc_w_E?hd=1&rel=0",
+            "lore": "Fresh wounds and the scent of blood often draw out the scavengers to finish the job.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "MAX SLOW",
+                    "val": "70%"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "8"
+                },
+                {
+                    "name": "CAST RANGE",
+                    "val": "200 \/ 300 \/ 400 \/ 500"
+                }
+            ]
+        },
+        {
+            "id": "life_stealer_infest",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/life_stealer_infest_hp2.png?v=5027641",
+            "name": "Infest",
+            "desc": "Lifestealer infests the body of a target unit, becoming undetectable inside. He can then explode from the host body, dealing damage to nearby enemies. If the infested unit is an enemy creep or a neutral creep, he can take control of the unit's ability to move and attack, and when consumed the creep will heal Lifestealer's health equal to the creep's current health.  Does not work on enemy heroes.    DISPEL TYPE: Basic Dispel",
+            "mana_cost": "50\/50\/50",
+            "cooldown": "100\/75\/50",
+            "video": "http:\/\/www.youtube.com\/embed\/uvztpCPmci0?hd=1&rel=0",
+            "lore": "With this infestation, N'aix consumes the life blood of the host, restoring him back to full unholy power.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE RADIUS",
+                    "val": "700 \/ 700 \/ 700"
+                },
+                {
+                    "name": "DAMAGE",
+                    "val": "150 \/ 275 \/ 400"
+                }
+            ]
+        }
+    ]
+}

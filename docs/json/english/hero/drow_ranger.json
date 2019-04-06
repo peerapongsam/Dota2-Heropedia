@@ -1,0 +1,220 @@
+{
+    "id": "drow_ranger",
+    "name": "Drow Ranger",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/drow_ranger_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/drow_ranger_vert.jpg?v=5027641"
+    },
+    "attack": "Ranged",
+    "role": [
+        "Carry",
+        "Disabler",
+        "Pusher"
+    ],
+    "primary_attribs": "agi",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 15,
+                "gain": 1.4
+            },
+            "agi": {
+                "base": 29,
+                "gain": 2.8
+            },
+            "str": {
+                "base": 17,
+                "gain": 1.9
+            },
+            "dmg": {
+                "min": 19,
+                "max": 30
+            },
+            "ms": 285,
+            "armor": 1.06
+        },
+        "abilities": [
+            {
+                "id": "drow_ranger_frost_arrows",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/drow_ranger_frost_arrows_hp1.png?v=5027641",
+                "name": "Frost Arrows",
+                "desc": "Adds a freezing effect to Drow's attacks, slowing enemy movement.  Lasts 1.5 seconds on Heroes, and 7 seconds on creeps."
+            },
+            {
+                "id": "drow_ranger_wave_of_silence",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/drow_ranger_wave_of_silence_hp1.png?v=5027641",
+                "name": "Gust",
+                "desc": "Releases a wave that silences and knocks back enemy units. Knockback distance is relative to how close they are to you."
+            },
+            {
+                "id": "drow_ranger_trueshot",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/drow_ranger_trueshot_hp1.png?v=5027641",
+                "name": "Precision Aura",
+                "desc": "Adds bonus attack speed to allied, ranged Hero units based on a percentage of Drow's agility.  Affects creeps for 30 seconds when cast."
+            },
+            {
+                "id": "drow_ranger_marksmanship",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/drow_ranger_marksmanship_hp1.png?v=5027641",
+                "name": "Marksmanship",
+                "desc": "Drow's experiences in battle grant her a chance to launch arrows with incredible accuracy and effectiveness. Pierces through the enemy's defenses, ignoring their armor entirely. Instantly kills creeps and deals bonus proc physical damage to heroes. This ability is disabled if there is an enemy hero within 400 range.     Upgradable by Aghanim's Scepter."
+            }
+        ]
+    },
+    "bio": "Drow Ranger's given name is Traxex--a name well suited to the short, trollish, rather repulsive Drow people. But Traxex herself is not a Drow. Her parents were travelers in a caravan set upon by bandits, whose noisy slaughter of innocents roused the ire of the quiet Drow people. After the battle settled, the Drow discovered a small girl-child hiding in the ruined wagons, and agreed she could not be abandoned. Even as child, Traxex showed herself naturally adept at the arts they prized: Stealth, silence, subtlety. In spirit, if not in physique, she might have been a Drow changeling, returned to her proper home. But as she grew, she towered above her family and came to think of herself as ugly. After all,  her features were smooth and symmetrical, entirely devoid of warts and coarse whiskers. Estranged from her adopted tribe, she withdrew to live alone in the woods. Lost travelers who find their way from the forest sometimes speak of an impossibly beautiful Ranger who peered at them from deep among the trees, then vanished like a dream before they could approach. Lithe and stealthy, icy hot, she moves like mist in silence. That whispering you hear is her frozen arrows finding an enemy's heart.",
+    "stats": {
+        "hit_points": [
+            473,
+            978,
+            1719
+        ],
+        "mana": [
+            195,
+            450,
+            892
+        ],
+        "damage": [
+            48,
+            87,
+            135
+        ],
+        "armor": [
+            1,
+            7,
+            13
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 625,
+        "missile_speed": "1250"
+    },
+    "abilities": [
+        {
+            "id": "drow_ranger_frost_arrows",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/drow_ranger_frost_arrows_hp2.png?v=5027641",
+            "name": "Frost Arrows",
+            "desc": "Adds a freezing effect to Drow's attacks, slowing enemy movement.  Lasts 1.5 seconds on Heroes, and 7 seconds on creeps.",
+            "mana_cost": "12\/12\/12\/12",
+            "cooldown": "0",
+            "video": "http:\/\/www.youtube.com\/embed\/u6dvUwbjI_k?hd=1&rel=0",
+            "lore": "Ice-encased arrows pierce the silence, chilling their victims to the core.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Auto-Cast, Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "0 \/ 0 \/ 0 \/ 0"
+                },
+                {
+                    "name": "MOVEMENT SLOW",
+                    "val": "16% \/ 32% \/ 48% \/ 64%"
+                },
+                {
+                    "name": "HERO DURATION",
+                    "val": "1.5"
+                },
+                {
+                    "name": "CREEP DURATION",
+                    "val": "7"
+                }
+            ]
+        },
+        {
+            "id": "drow_ranger_wave_of_silence",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/drow_ranger_wave_of_silence_hp2.png?v=5027641",
+            "name": "Gust",
+            "desc": "Releases a wave that silences and knocks back enemy units. Knockback distance is relative to how close they are to you.",
+            "mana_cost": "90",
+            "cooldown": "16\/15\/14\/13",
+            "lore": "Traxex is rather fond of the tranquility of physical combat, calling on her Drow heritage to end the incantations of opposing magi.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "WIDTH",
+                    "val": "250"
+                },
+                {
+                    "name": "KNOCKBACK DURATION",
+                    "val": "0.6 \/ 0.7 \/ 0.8 \/ 0.9"
+                }
+            ]
+        },
+        {
+            "id": "drow_ranger_trueshot",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/drow_ranger_trueshot_hp2.png?v=5027641",
+            "name": "Precision Aura",
+            "desc": "Adds bonus attack speed to allied, ranged Hero units based on a percentage of Drow's agility.  Affects creeps for 30 seconds when cast.",
+            "mana_cost": "",
+            "cooldown": "100",
+            "video": "http:\/\/www.youtube.com\/embed\/wNzhcuzDmf0?hd=1&rel=0",
+            "lore": "Traxex' time spent alone in the forests of her Drow home has allowed her to teach other archers how to improve their bow skills.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Allies"
+                }
+            ],
+            "damage": []
+        },
+        {
+            "id": "drow_ranger_marksmanship",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/drow_ranger_marksmanship_hp2.png?v=5027641",
+            "name": "Marksmanship",
+            "desc": "Drow's experiences in battle grant her a chance to launch arrows with incredible accuracy and effectiveness. Pierces through the enemy's defenses, ignoring their armor entirely. Instantly kills creeps and deals bonus proc physical damage to heroes. This ability is disabled if there is an enemy hero within 400 range.     Upgradable by Aghanim's Scepter.",
+            "mana_cost": "",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/wfgqVIVWpr8?hd=1&rel=0",
+            "lore": "The Drow Ranger is the epitome of archery prowess.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "CHANCE",
+                    "val": "20% \/ 30% \/ 40%"
+                },
+                {
+                    "name": "BONUS PROC DAMAGE",
+                    "val": "120"
+                },
+                {
+                    "name": "SCEPTER SPLIT COUNT",
+                    "val": "2"
+                },
+                {
+                    "name": "SCEPTER DAMAGE REDUCTION",
+                    "val": "50%"
+                }
+            ]
+        }
+    ]
+}

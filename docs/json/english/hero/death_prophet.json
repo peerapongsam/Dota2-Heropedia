@@ -1,0 +1,250 @@
+{
+    "id": "death_prophet",
+    "name": "Death Prophet",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/death_prophet_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/death_prophet_vert.jpg?v=5027641"
+    },
+    "attack": "Ranged",
+    "role": [
+        "Carry",
+        "Pusher",
+        "Nuker",
+        "Disabler"
+    ],
+    "primary_attribs": "int",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 21,
+                "gain": 3.5
+            },
+            "agi": {
+                "base": 14,
+                "gain": 1.4
+            },
+            "str": {
+                "base": 19,
+                "gain": 3.1
+            },
+            "dmg": {
+                "min": 29,
+                "max": 41
+            },
+            "ms": 310,
+            "armor": 1.96
+        },
+        "abilities": [
+            {
+                "id": "death_prophet_carrion_swarm",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/death_prophet_carrion_swarm_hp1.png?v=5027641",
+                "name": "Crypt Swarm",
+                "desc": "Sends a swarm of winged beasts to savage enemy units in front of Death Prophet."
+            },
+            {
+                "id": "death_prophet_silence",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/death_prophet_silence_hp1.png?v=5027641",
+                "name": "Silence",
+                "desc": "Prevents enemy units in a target area from casting spells."
+            },
+            {
+                "id": "death_prophet_spirit_siphon",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/death_prophet_spirit_siphon_hp1.png?v=5027641",
+                "name": "Spirit Siphon",
+                "desc": "Creates a spirit link between Death Prophet and an enemy unit, draining 14 + %damage_pct%% Max HP per second and steal %movement_slow%% movement speed from the enemy."
+            },
+            {
+                "id": "death_prophet_exorcism",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/death_prophet_exorcism_hp1.png?v=5027641",
+                "name": "Exorcism",
+                "desc": "Unleashes evil spirits to drain the life of nearby enemy units and structures. At the end of the spell's duration, Death Prophet is healed in proportion to the damage dealt.  Lasts 35 seconds."
+            }
+        ]
+    },
+    "bio": "Krobelus was a Death Prophet--which is one way of saying she told fortunes for the wealthiest of those who wished to look beyond the veil. But after years of inquiring on behalf of others, she began to seek clues on her own fate. When death refused to yield its secrets, she tried to buy them with her life. But the ultimate price proved insufficient. Death disgorged her again and again, always holding back its deepest mysteries. Her jealousy grew. Others could die for eternity--why not she? Why must she alone be cast back on the shores of life with such tiresome regularity? Why was she not worthy of the one thing all other living creatures took for granted? Still, she would not be discouraged. Each time she returned from the grave, she brought a bit of death back with her. Wraiths followed her like fragments of her shattered soul; her blood grew thin and ectoplasmic; the feasting creatures of twilight took her for their kin.. She gave a little of her life with every demise, and it began to seem as if her end was in sight. With her dedication to death redoubled, and no client other than herself, Krobelus threw herself ever more fervently into death's abyss, intent on fulfilling the one prophecy that eluded her: That someday the Death Prophet would return from death no more.",
+    "stats": {
+        "hit_points": [
+            511,
+            1336,
+            2305
+        ],
+        "mana": [
+            273,
+            910,
+            1625
+        ],
+        "damage": [
+            50,
+            99,
+            154
+        ],
+        "armor": [
+            2,
+            5,
+            9
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 600,
+        "missile_speed": "1000"
+    },
+    "abilities": [
+        {
+            "id": "death_prophet_carrion_swarm",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/death_prophet_carrion_swarm_hp2.png?v=5027641",
+            "name": "Crypt Swarm",
+            "desc": "Sends a swarm of winged beasts to savage enemy units in front of Death Prophet.",
+            "mana_cost": "85\/110\/135\/160",
+            "cooldown": "8\/7\/6\/5",
+            "video": "http:\/\/www.youtube.com\/embed\/z_uGWWazyqg?hd=1&rel=0",
+            "lore": "Krobelus' many trips to the grave gather a flock of the damned.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target, Point Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "75 \/ 150 \/ 225 \/ 300"
+                },
+                {
+                    "name": "RANGE",
+                    "val": "810 \/ 810 \/ 810 \/ 810"
+                }
+            ]
+        },
+        {
+            "id": "death_prophet_silence",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/death_prophet_silence_hp2.png?v=5027641",
+            "name": "Silence",
+            "desc": "Prevents enemy units in a target area from casting spells.",
+            "mana_cost": "80\/90\/100\/110",
+            "cooldown": "15\/14\/13\/12",
+            "video": "http:\/\/www.youtube.com\/embed\/eLBBXHVFYgU?hd=1&rel=0",
+            "lore": "Peering into the veil of her opponent's demise, Krobelus sees a silent future.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RADIUS",
+                    "val": "425"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "3 \/ 4 \/ 5 \/ 6"
+                }
+            ]
+        },
+        {
+            "id": "death_prophet_spirit_siphon",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/death_prophet_spirit_siphon_hp2.png?v=5027641",
+            "name": "Spirit Siphon",
+            "desc": "Creates a spirit link between Death Prophet and an enemy unit, draining 14 + %damage_pct%% Max HP per second and steal %movement_slow%% movement speed from the enemy.",
+            "mana_cost": "70",
+            "cooldown": "",
+            "lore": "Krobelus willingly shows others the path she alone cannot follow.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "BASE DAMAGE",
+                    "val": "14"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "6"
+                },
+                {
+                    "name": "SPEED STEAL",
+                    "val": "4% \/ 6% \/ 8% \/ 10%"
+                },
+                {
+                    "name": "MAX CHARGES",
+                    "val": "1 \/ 2 \/ 3 \/ 4"
+                },
+                {
+                    "name": "CHARGE RESTORE TIME",
+                    "val": "60 \/ 52 \/ 44 \/ 36"
+                }
+            ]
+        },
+        {
+            "id": "death_prophet_exorcism",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/death_prophet_exorcism_hp2.png?v=5027641",
+            "name": "Exorcism",
+            "desc": "Unleashes evil spirits to drain the life of nearby enemy units and structures. At the end of the spell's duration, Death Prophet is healed in proportion to the damage dealt.  Lasts 35 seconds.",
+            "mana_cost": "200\/300\/400",
+            "cooldown": "145",
+            "video": "http:\/\/www.youtube.com\/embed\/UpxNoiCXx1g?hd=1&rel=0",
+            "lore": "Over time, the banshee remnants of her previous lives return to haunt the present.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Physical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RADIUS",
+                    "val": "700 \/ 700 \/ 700"
+                },
+                {
+                    "name": "LIFE DRAIN",
+                    "val": "25% \/ 25% \/ 25%"
+                },
+                {
+                    "name": "SPIRIT DAMAGE",
+                    "val": "58"
+                }
+            ]
+        }
+    ]
+}

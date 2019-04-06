@@ -1,0 +1,225 @@
+{
+    "id": "sniper",
+    "name": "Sniper",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/sniper_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/sniper_vert.jpg?v=5027641"
+    },
+    "attack": "Ranged",
+    "role": [
+        "Carry",
+        "Nuker"
+    ],
+    "primary_attribs": "agi",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 15,
+                "gain": 2.6
+            },
+            "agi": {
+                "base": 21,
+                "gain": 3.1
+            },
+            "str": {
+                "base": 19,
+                "gain": 1.7
+            },
+            "dmg": {
+                "min": 15,
+                "max": 21
+            },
+            "ms": 285,
+            "armor": 1.94
+        },
+        "abilities": [
+            {
+                "id": "sniper_shrapnel",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/sniper_shrapnel_hp1.png?v=5027641",
+                "name": "Shrapnel",
+                "desc": "Consumes a charge to launch a ball of shrapnel that showers the target area in explosive pellets. Enemies are subject to damage and slowed movement. Reveals the targeted area. Shrapnel charges restore every 40 seconds."
+            },
+            {
+                "id": "sniper_headshot",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/sniper_headshot_hp1.png?v=5027641",
+                "name": "Headshot",
+                "desc": "Sniper increases his accuracy, giving him a chance to deal extra damage and briefly stop the movements of his enemies."
+            },
+            {
+                "id": "sniper_take_aim",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/sniper_take_aim_hp1.png?v=5027641",
+                "name": "Take Aim",
+                "desc": "Extends the attack range of Sniper's rifle. Can be activated to double the attack range bonus for 1 attack."
+            },
+            {
+                "id": "sniper_assassinate",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/sniper_assassinate_hp1.png?v=5027641",
+                "name": "Assassinate",
+                "desc": "Sniper locks onto a target enemy unit and, after a short aiming duration, fires a devastating shot that deals damage at long range and mini-stuns the target.    Upgradable by Aghanim's Scepter."
+            }
+        ]
+    },
+    "bio": "Kardel Sharpeye was born deep in the mountains of Knollen where, since time immemorial, Keen Folk have survived by hunting the strange, cliff-dwelling steepstalkers above their village, shooting them from a distance and collecting the carcasses where they fell. Sharpeye was among the best of these strange mountain keens for whom projectile weapons are but another appendage, and to shoot is as natural as to touch. \r\n\r\n\t\tOn his day of summoning, when he was to gain full standing in his village, Sharpeye took the ancient test: a single shot from the valley floor to strike a beast down from the cliffs. To miss was to be dishonored. With his entire village standing vigil, Sharpeye took his shot. A steepstalker fell; the crowd cheered.  But when the carcass was collected, the village grew silent, for the elders found that the bullet had pierced its glittering central eye then fallen to be clenched in the steepstalker's mandibles. This ominous sign was the literal opening of a dark prophecy, foretelling both greatness and exile for the gunman who made such a shot. Sharpeye the Sniper was thus, by his own skill, condemned to make his way apart from his people--and unwelcome back among them until he has fulfilled the remainder of the prophecy by attaining legendary stature on a field of battle.",
+    "stats": {
+        "hit_points": [
+            511,
+            963,
+            1666
+        ],
+        "mana": [
+            195,
+            668,
+            1266
+        ],
+        "damage": [
+            36,
+            79,
+            130
+        ],
+        "armor": [
+            2,
+            8,
+            15
+        ],
+        "sight_range": [
+            1800,
+            1400
+        ],
+        "attack_range": 550,
+        "missile_speed": "3000"
+    },
+    "abilities": [
+        {
+            "id": "sniper_shrapnel",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/sniper_shrapnel_hp2.png?v=5027641",
+            "name": "Shrapnel",
+            "desc": "Consumes a charge to launch a ball of shrapnel that showers the target area in explosive pellets. Enemies are subject to damage and slowed movement. Reveals the targeted area. Shrapnel charges restore every 40 seconds.",
+            "mana_cost": "50",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/ZQuwiZ4LErM?hd=1&rel=0",
+            "lore": "Kardel's modular rifle also fires incendiary rounds, useful for assaulting entrenched locations.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RADIUS",
+                    "val": "450"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "10"
+                }
+            ]
+        },
+        {
+            "id": "sniper_headshot",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/sniper_headshot_hp2.png?v=5027641",
+            "name": "Headshot",
+            "desc": "Sniper increases his accuracy, giving him a chance to deal extra damage and briefly stop the movements of his enemies.",
+            "mana_cost": "",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/xwArHJFxywE?hd=1&rel=0",
+            "lore": "Taking potshots at steepstalkers in his childhood has been thoroughly refined into perfect leads on enemy combatants.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Physical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "30 \/ 60 \/ 90 \/ 120"
+                },
+                {
+                    "name": "CHANCE",
+                    "val": "40%"
+                }
+            ]
+        },
+        {
+            "id": "sniper_take_aim",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/sniper_take_aim_hp2.png?v=5027641",
+            "name": "Take Aim",
+            "desc": "Extends the attack range of Sniper's rifle. Can be activated to double the attack range bonus for 1 attack.",
+            "mana_cost": "30",
+            "cooldown": "9\/8\/7\/6",
+            "video": "http:\/\/www.youtube.com\/embed\/ZehVtSyXDaE?hd=1&rel=0",
+            "lore": "Kardel always takes it upon himself to stay as far from harm as he can while still performing his role - taking perfect aim.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "BONUS RANGE",
+                    "val": "100 \/ 200 \/ 300 \/ 400"
+                }
+            ]
+        },
+        {
+            "id": "sniper_assassinate",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/sniper_assassinate_hp2.png?v=5027641",
+            "name": "Assassinate",
+            "desc": "Sniper locks onto a target enemy unit and, after a short aiming duration, fires a devastating shot that deals damage at long range and mini-stuns the target.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "175\/225\/275",
+            "cooldown": "20\/15\/10",
+            "video": "http:\/\/www.youtube.com\/embed\/Ghp0_Dnk05A?hd=1&rel=0",
+            "lore": "In order to fulfill the prophecy and return to his home town, Kardel must make another shot as perfect as the one on the day of his ancient test.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "320 \/ 485 \/ 650"
+                },
+                {
+                    "name": "RANGE",
+                    "val": "3000"
+                },
+                {
+                    "name": "SCEPTER RADIUS",
+                    "val": "400"
+                },
+                {
+                    "name": "SCEPTER CRITICAL DAMAGE",
+                    "val": "280%"
+                }
+            ]
+        }
+    ]
+}

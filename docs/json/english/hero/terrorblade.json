@@ -1,0 +1,234 @@
+{
+    "id": "terrorblade",
+    "name": "Terrorblade",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/terrorblade_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/terrorblade_vert.jpg?v=5027641"
+    },
+    "attack": "Melee",
+    "role": [
+        "Carry",
+        "Pusher",
+        "Nuker"
+    ],
+    "primary_attribs": "agi",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 19,
+                "gain": 1.6
+            },
+            "agi": {
+                "base": 22,
+                "gain": 4.8
+            },
+            "str": {
+                "base": 15,
+                "gain": 1.5
+            },
+            "dmg": {
+                "min": 26,
+                "max": 32
+            },
+            "ms": 310,
+            "armor": 10.08
+        },
+        "abilities": [
+            {
+                "id": "terrorblade_reflection",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/terrorblade_reflection_hp1.png?v=5027641",
+                "name": "Reflection",
+                "desc": "Terrorblade brings forth an invulnerable dark reflection of all nearby enemy heroes. Affected enemy heroes are slowed and attacked by their reflection."
+            },
+            {
+                "id": "terrorblade_conjure_image",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/terrorblade_conjure_image_hp1.png?v=5027641",
+                "name": "Conjure Image",
+                "desc": "Creates an illusion of Terrorblade that deals damage."
+            },
+            {
+                "id": "terrorblade_metamorphosis",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/terrorblade_metamorphosis_hp1.png?v=5027641",
+                "name": "Metamorphosis",
+                "desc": "Terrorblade transforms into a powerful demon with a ranged attack. Any of Terrorblade's illusions that are within 1200 range will also be transformed by Metamorphosis."
+            },
+            {
+                "id": "terrorblade_sunder",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/terrorblade_sunder_hp1.png?v=5027641",
+                "name": "Sunder",
+                "desc": "Severs the life from both Terrorblade and a target hero, exchanging a percentage of both units' current health. Some health points must remain."
+            }
+        ]
+    },
+    "bio": "Terrorblade is the demon marauder--an outlaw hellion whom even other demons fear. A cosmic iconoclast, he stole from the Demon Lords, ignored the codified rites that should have bound his behavior, and broke every law of the seven Infernal Regions. For his crimes, he was taught this lesson: even Hell has a hell. A short, brutal trial ensued, with many dead on all sides, and he was finally incarcerated in Foulfell, a hidden dimension where demonkind imprison their own. \r\n\r\n\t\tBut Foulfell is no normal prison. In this dark mirror of reality, demons are sentenced to gaze eternally into the twisted reflection of their own souls. But instead of suffering, Terrorblade made himself master of his own reflected worst self--a raging, thieving demon of unimaginable power. With his inner beast under sway, he destroyed the fractal prison walls and burst free to turn his terror loose upon all creation.",
+    "stats": {
+        "hit_points": [
+            435,
+            834,
+            1499
+        ],
+        "mana": [
+            247,
+            538,
+            1006
+        ],
+        "damage": [
+            48,
+            115,
+            183
+        ],
+        "armor": [
+            10,
+            19,
+            29
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 150,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "terrorblade_reflection",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/terrorblade_reflection_hp2.png?v=5027641",
+            "name": "Reflection",
+            "desc": "Terrorblade brings forth an invulnerable dark reflection of all nearby enemy heroes. Affected enemy heroes are slowed and attacked by their reflection.",
+            "mana_cost": "50",
+            "cooldown": "22\/20\/18\/16",
+            "video": "http:\/\/www.youtube.com\/embed\/fuym8gNLAr0?hd=1&rel=0",
+            "lore": "In the fractal prison of Foulfell, Terrorblade learned the truth of this old tale: you are your own worst enemy.  Now it is a lesson he teaches others.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "REFLECTION DURATION",
+                    "val": "2.5 \/ 3.5 \/ 4.5 \/ 5.5"
+                },
+                {
+                    "name": "REFLECTION DAMAGE",
+                    "val": "40% \/ 60% \/ 80% \/ 100%"
+                },
+                {
+                    "name": "MOVEMENT SLOW",
+                    "val": "20%"
+                },
+                {
+                    "name": "RADIUS",
+                    "val": "900"
+                }
+            ]
+        },
+        {
+            "id": "terrorblade_conjure_image",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/terrorblade_conjure_image_hp2.png?v=5027641",
+            "name": "Conjure Image",
+            "desc": "Creates an illusion of Terrorblade that deals damage.",
+            "mana_cost": "70\/75\/80\/85",
+            "cooldown": "16",
+            "video": "http:\/\/www.youtube.com\/embed\/-b0yMS7uu2g?hd=1&rel=0",
+            "lore": "There's only one thing more dangerous than facing Terrorblade.  Facing MORE Terrrorblades!",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "ILLUSION DURATION",
+                    "val": "34"
+                },
+                {
+                    "name": "ILLUSION DAMAGE",
+                    "val": "30% \/ 40% \/ 50% \/ 60%"
+                },
+                {
+                    "name": "ILLUSION DAMAGE TAKEN",
+                    "val": "400%"
+                }
+            ]
+        },
+        {
+            "id": "terrorblade_metamorphosis",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/terrorblade_metamorphosis_hp2.png?v=5027641",
+            "name": "Metamorphosis",
+            "desc": "Terrorblade transforms into a powerful demon with a ranged attack. Any of Terrorblade's illusions that are within 1200 range will also be transformed by Metamorphosis.",
+            "mana_cost": "100",
+            "cooldown": "155",
+            "video": "http:\/\/www.youtube.com\/embed\/nGq0lqaBngU?hd=1&rel=0",
+            "lore": "Temper, temper. The rage rises up and takes control.  Meet Terrorblade's own worst self.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DURATION",
+                    "val": "40 \/ 44 \/ 48 \/ 52"
+                },
+                {
+                    "name": "TRANSFORMATION TIME",
+                    "val": "0.35"
+                },
+                {
+                    "name": "BASE ATTACK TIME",
+                    "val": "1.5"
+                },
+                {
+                    "name": "BONUS DAMAGE",
+                    "val": "20 \/ 40 \/ 60 \/ 80"
+                },
+                {
+                    "name": "MOVEMENT SPEED LOSS",
+                    "val": "30"
+                },
+                {
+                    "name": "ILLUSION AURA RADIUS",
+                    "val": "1200"
+                }
+            ]
+        },
+        {
+            "id": "terrorblade_sunder",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/terrorblade_sunder_hp2.png?v=5027641",
+            "name": "Sunder",
+            "desc": "Severs the life from both Terrorblade and a target hero, exchanging a percentage of both units' current health. Some health points must remain.",
+            "mana_cost": "200\/100\/50",
+            "cooldown": "120\/80\/40",
+            "video": "http:\/\/www.youtube.com\/embed\/_r-fKYPSnlw?hd=1&rel=0",
+            "lore": "You didn't need that life, did you?  The demon marauder steals that which you hold most dear.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Units"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "MINIMUM HP SWAP",
+                    "val": "35% \/ 30% \/ 25%"
+                }
+            ]
+        }
+    ]
+}

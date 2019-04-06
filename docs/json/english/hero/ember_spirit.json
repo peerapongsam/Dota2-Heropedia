@@ -1,0 +1,244 @@
+{
+    "id": "ember_spirit",
+    "name": "Ember Spirit",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/ember_spirit_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/ember_spirit_vert.jpg?v=5027641"
+    },
+    "attack": "Melee",
+    "role": [
+        "Carry",
+        "Escape",
+        "Nuker",
+        "Disabler",
+        "Initiator"
+    ],
+    "primary_attribs": "agi",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 20,
+                "gain": 1.8
+            },
+            "agi": {
+                "base": 22,
+                "gain": 2.1
+            },
+            "str": {
+                "base": 21,
+                "gain": 2.6
+            },
+            "dmg": {
+                "min": 33,
+                "max": 37
+            },
+            "ms": 305,
+            "armor": 3.08
+        },
+        "abilities": [
+            {
+                "id": "ember_spirit_searing_chains",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/ember_spirit_searing_chains_hp1.png?v=5027641",
+                "name": "Searing Chains",
+                "desc": "Ember Spirit unleashes fiery bolas that wrap around nearby enemies, anchoring them in place and dealing damage each second."
+            },
+            {
+                "id": "ember_spirit_sleight_of_fist",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/ember_spirit_sleight_of_fist_hp1.png?v=5027641",
+                "name": "Sleight of Fist",
+                "desc": "Ember Spirit dashes around with blazing speed, attacking all enemies in the targeted area of effect, then returning to his start location.  Deals bonus damage to heroes, and less damage to creeps."
+            },
+            {
+                "id": "ember_spirit_flame_guard",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/ember_spirit_flame_guard_hp1.png?v=5027641",
+                "name": "Flame Guard",
+                "desc": "Ember Spirit surrounds himself with a ring of fire that consumes incoming magic damage, leaving him unharmed.  Flame Guard deals damage per second in an area around Ember Spirit while Flame Guard is active.  If the shield is broken, the damage is also lost."
+            },
+            {
+                "id": "ember_spirit_fire_remnant",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/ember_spirit_fire_remnant_hp1.png?v=5027641",
+                "name": "Fire Remnant",
+                "desc": "Ember Spirit generates Fire Remnant charges every %charge_restore_time% seconds, with a max of 3 charges. Releasing a charge sends a Fire Remnant that runs to the target location at 2.5x Ember Spirit's speed.  Using Activate Fire Remnant, Ember Spirit can dash out to his Remnants, exploding them for area of effect damage.  The targeted Remnant will be arrived at last."
+            }
+        ]
+    },
+    "bio": "Lost within the Wailing Mountains, the Fortress of Flares lay abandoned, its training halls empty, its courtyard covered in leaves and dust. Upon a dais in its sealed temple rests a topaz cauldron filled with ancient ash, remnants of a pyre for the warrior-poet Xin. For three generations, Xin taught his acolytes the Bonds of the Guardian Flame, a series of mantras to train the mind and body for the harsh realities beyond the fortress walls. However, in teaching a warrior's way he earned a warrior's rivals, and in his autumn Xin was bested and slain. His followers spread to the wind. Yet as years turned to centuries and followers to descendants, his teachings endured by subtle whisper and deed. Touched by the teacher's lasting legacy, the Burning Celestial, inquisitive aspect of fire, cast himself to the Fortress of Flares and reignited the pyre ash. From these glowing embers emerged an image of Xin, wreathed in flame, his thoughtful countenance prepared to train and to teach, and to spread the fires of knowledge to all who seek guidance.",
+    "stats": {
+        "hit_points": [
+            549,
+            1241,
+            2115
+        ],
+        "mana": [
+            260,
+            588,
+            1082
+        ],
+        "damage": [
+            55,
+            84,
+            125
+        ],
+        "armor": [
+            3,
+            7,
+            13
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 150,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "ember_spirit_searing_chains",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/ember_spirit_searing_chains_hp2.png?v=5027641",
+            "name": "Searing Chains",
+            "desc": "Ember Spirit unleashes fiery bolas that wrap around nearby enemies, anchoring them in place and dealing damage each second.",
+            "mana_cost": "110",
+            "cooldown": "14\/12\/10\/8",
+            "video": "http:\/\/www.youtube.com\/embed\/ca7UulcBAjs?hd=1&rel=0",
+            "lore": "Xin's harshest lessons often employed the use of red-hot chains.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RADIUS",
+                    "val": "400"
+                },
+                {
+                    "name": "TOTAL DAMAGE",
+                    "val": "90 \/ 160 \/ 230 \/ 300"
+                },
+                {
+                    "name": "UNIT COUNT",
+                    "val": "2"
+                }
+            ]
+        },
+        {
+            "id": "ember_spirit_sleight_of_fist",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/ember_spirit_sleight_of_fist_hp2.png?v=5027641",
+            "name": "Sleight of Fist",
+            "desc": "Ember Spirit dashes around with blazing speed, attacking all enemies in the targeted area of effect, then returning to his start location.  Deals bonus damage to heroes, and less damage to creeps.",
+            "mana_cost": "50",
+            "cooldown": "18\/14\/10\/6",
+            "video": "http:\/\/www.youtube.com\/embed\/IwgpZwTKjco?hd=1&rel=0",
+            "lore": "The studied warrior must whip and weave through its enemies, burning each without pause.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Physical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RADIUS",
+                    "val": "250 \/ 350 \/ 450 \/ 550"
+                },
+                {
+                    "name": "ATTACK INTERVAL",
+                    "val": "0.2"
+                }
+            ]
+        },
+        {
+            "id": "ember_spirit_flame_guard",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/ember_spirit_flame_guard_hp2.png?v=5027641",
+            "name": "Flame Guard",
+            "desc": "Ember Spirit surrounds himself with a ring of fire that consumes incoming magic damage, leaving him unharmed.  Flame Guard deals damage per second in an area around Ember Spirit while Flame Guard is active.  If the shield is broken, the damage is also lost.",
+            "mana_cost": "80\/90\/100\/110",
+            "cooldown": "35",
+            "video": "http:\/\/www.youtube.com\/embed\/zw9G68rgHt0?hd=1&rel=0",
+            "lore": "An enemy should never be allowed to approach without difficulty.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DURATION",
+                    "val": "8 \/ 12 \/ 16 \/ 20"
+                },
+                {
+                    "name": "RADIUS",
+                    "val": "400"
+                }
+            ]
+        },
+        {
+            "id": "ember_spirit_fire_remnant",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/ember_spirit_fire_remnant_hp2.png?v=5027641",
+            "name": "Fire Remnant",
+            "desc": "Ember Spirit generates Fire Remnant charges every %charge_restore_time% seconds, with a max of 3 charges. Releasing a charge sends a Fire Remnant that runs to the target location at 2.5x Ember Spirit's speed.  Using Activate Fire Remnant, Ember Spirit can dash out to his Remnants, exploding them for area of effect damage.  The targeted Remnant will be arrived at last.",
+            "mana_cost": "",
+            "cooldown": "0",
+            "video": "http:\/\/www.youtube.com\/embed\/PbXcv1MG-go?hd=1&rel=0",
+            "lore": "By the spirit's power are Xin's teachings spread anew.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "MAX CHARGES",
+                    "val": "3"
+                },
+                {
+                    "name": "DAMAGE",
+                    "val": "100 \/ 200 \/ 300"
+                },
+                {
+                    "name": "RADIUS",
+                    "val": "450"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "45"
+                }
+            ]
+        }
+    ]
+}

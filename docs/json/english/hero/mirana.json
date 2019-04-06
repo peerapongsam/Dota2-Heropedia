@@ -1,0 +1,244 @@
+{
+    "id": "mirana",
+    "name": "Mirana",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/mirana_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/mirana_vert.jpg?v=5027641"
+    },
+    "attack": "Ranged",
+    "role": [
+        "Carry",
+        "Support",
+        "Escape",
+        "Nuker",
+        "Disabler"
+    ],
+    "primary_attribs": "agi",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 19,
+                "gain": 1.9
+            },
+            "agi": {
+                "base": 18,
+                "gain": 3.7
+            },
+            "str": {
+                "base": 18,
+                "gain": 2.2
+            },
+            "dmg": {
+                "min": 25,
+                "max": 30
+            },
+            "ms": 290,
+            "armor": 1.52
+        },
+        "abilities": [
+            {
+                "id": "mirana_starfall",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/mirana_starfall_hp1.png?v=5027641",
+                "name": "Starstorm",
+                "desc": "Calls down a wave of meteors to damage nearby enemy units. The closest enemy unit to Mirana in a 425 radius will be struck a second time for 75% of the damage.    Upgradable by Aghanim's Scepter."
+            },
+            {
+                "id": "mirana_arrow",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/mirana_arrow_hp1.png?v=5027641",
+                "name": "Sacred Arrow",
+                "desc": "Fires a long-range arrow with deadly precision, which stuns and damages the first enemy unit it strikes. The stun duration ranges from 0.01 to 5 seconds, with bonus damage up to 140 added, based on the distance the arrow travels to its target. Instantly kills the first non-ancient creep it hits."
+            },
+            {
+                "id": "mirana_leap",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/mirana_leap_hp1.png?v=5027641",
+                "name": "Leap",
+                "desc": "Mirana leaps forward into battle, empowering herself with a ferocious roar that grants bonus attack and movement speed. Speed bonus lasts 2.5 seconds."
+            },
+            {
+                "id": "mirana_invis",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/mirana_invis_hp1.png?v=5027641",
+                "name": "Moonlight Shadow",
+                "desc": "Turns Mirana and all allied heroes invisible. If a hero is revealed, invisibility will restore after the fade delay as long as Moonlight Shadow's duration has not expired."
+            }
+        ]
+    },
+    "bio": "Born to a royal family, a blood princess next in line for the Solar Throne, Mirana willingly surrendered any claim to mundane land or titles when she dedicated herself completely to the service of Selemene, Goddess of the Moon. Known ever since as Princess of the Moon, Mirana prowls the sacred Nightsilver Woods searching for any who would dare poach the sacred luminous lotus from the silvery pools of the Goddess's preserve. Riding on her enormous feline familiar, she is poised, proud and fearless, attuned to the phases of the moon and the wheeling of the greater constellations. Her bow, tipped with sharp shards of lunar ore, draws on the moon's power to charge its arrows of light.",
+    "stats": {
+        "hit_points": [
+            492,
+            1077,
+            1875
+        ],
+        "mana": [
+            247,
+            593,
+            1100
+        ],
+        "damage": [
+            43,
+            95,
+            152
+        ],
+        "armor": [
+            2,
+            9,
+            17
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 630,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "mirana_starfall",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/mirana_starfall_hp2.png?v=5027641",
+            "name": "Starstorm",
+            "desc": "Calls down a wave of meteors to damage nearby enemy units. The closest enemy unit to Mirana in a 425 radius will be struck a second time for 75% of the damage.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "80\/105\/130\/155",
+            "cooldown": "12",
+            "video": "http:\/\/www.youtube.com\/embed\/d1FZp9axctE?hd=1&rel=0",
+            "lore": "The Goddess breaks the strata to empower her Princess in the time of need.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "75 \/ 150 \/ 225 \/ 300"
+                },
+                {
+                    "name": "RADIUS",
+                    "val": "650"
+                },
+                {
+                    "name": "SCEPTER INTERVAL",
+                    "val": "10"
+                }
+            ]
+        },
+        {
+            "id": "mirana_arrow",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/mirana_arrow_hp2.png?v=5027641",
+            "name": "Sacred Arrow",
+            "desc": "Fires a long-range arrow with deadly precision, which stuns and damages the first enemy unit it strikes. The stun duration ranges from 0.01 to 5 seconds, with bonus damage up to 140 added, based on the distance the arrow travels to its target. Instantly kills the first non-ancient creep it hits.",
+            "mana_cost": "100\/100\/100\/100",
+            "cooldown": "17",
+            "video": "http:\/\/www.youtube.com\/embed\/BG-WZoCv3PA?hd=1&rel=0",
+            "lore": "Lunar energies make the Princess of the Moon's arrows more deadly than most.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "50 \/ 140 \/ 230 \/ 320"
+                },
+                {
+                    "name": "RANGE",
+                    "val": "3000"
+                },
+                {
+                    "name": "MINIMUM STUN",
+                    "val": "0.01"
+                },
+                {
+                    "name": "MAXIMUM STUN",
+                    "val": "5"
+                },
+                {
+                    "name": "MAXIMUM BONUS DAMAGE",
+                    "val": "140"
+                }
+            ]
+        },
+        {
+            "id": "mirana_leap",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/mirana_leap_hp2.png?v=5027641",
+            "name": "Leap",
+            "desc": "Mirana leaps forward into battle, empowering herself with a ferocious roar that grants bonus attack and movement speed. Speed bonus lasts 2.5 seconds.",
+            "mana_cost": "40",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/gB6cL5h6DgI?hd=1&rel=0",
+            "lore": "None can fail to recognize Mirana's iconic white beast in the heat of battle.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DISTANCE",
+                    "val": "550"
+                },
+                {
+                    "name": "MOVEMENT BONUS",
+                    "val": "8% \/ 16% \/ 24% \/ 32%"
+                },
+                {
+                    "name": "MAX CHARGES",
+                    "val": "3"
+                },
+                {
+                    "name": "CHARGE REPLENISH TIME",
+                    "val": "60 \/ 50 \/ 40 \/ 30"
+                }
+            ]
+        },
+        {
+            "id": "mirana_invis",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/mirana_invis_hp2.png?v=5027641",
+            "name": "Moonlight Shadow",
+            "desc": "Turns Mirana and all allied heroes invisible. If a hero is revealed, invisibility will restore after the fade delay as long as Moonlight Shadow's duration has not expired.",
+            "mana_cost": "75",
+            "cooldown": "140\/120\/100",
+            "video": "http:\/\/www.youtube.com\/embed\/FjieOflgUg0?hd=1&rel=0",
+            "lore": "Her tenure with Selemene allows Mirana to eclipse the ground, wrapping her allies in a cloak of shadows.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "FADE DELAY",
+                    "val": "2.5 \/ 2 \/ 1.5"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "18"
+                },
+                {
+                    "name": "MOVEMENT SPEED",
+                    "val": "15%"
+                }
+            ]
+        }
+    ]
+}

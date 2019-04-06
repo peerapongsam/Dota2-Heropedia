@@ -1,0 +1,301 @@
+{
+    "id": "dark_willow",
+    "name": "Dark Willow",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/dark_willow_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/dark_willow_vert.jpg?v=5027641"
+    },
+    "attack": "Ranged",
+    "role": [
+        "Support",
+        "Nuker",
+        "Disabler",
+        "Escape"
+    ],
+    "primary_attribs": "int",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 18,
+                "gain": 3.5
+            },
+            "agi": {
+                "base": 18,
+                "gain": 1.6
+            },
+            "str": {
+                "base": 20,
+                "gain": 2
+            },
+            "dmg": {
+                "min": 27,
+                "max": 35
+            },
+            "ms": 290,
+            "armor": 1.52
+        },
+        "abilities": [
+            {
+                "id": "dark_willow_bramble_maze",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/dark_willow_bramble_maze_hp1.png?v=5027641",
+                "name": "Bramble Maze",
+                "desc": "Dark Willow creates a maze of brambles that grow in the target area after 0.5 seconds.  Enemies that walk into a bramble are rooted and take damage over time."
+            },
+            {
+                "id": "dark_willow_shadow_realm",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/dark_willow_shadow_realm_hp1.png?v=5027641",
+                "name": "Shadow Realm",
+                "desc": "Dark Willow recedes into the shadows, becoming untargetable.  Her next attack has increased attack range and deals bonus magic damage, and will end Shadow Realm. Damage scales based on how long she remains under the effects of Shadow Realm, the maximum being reached after %max_damage_duration% seconds."
+            },
+            {
+                "id": "dark_willow_cursed_crown",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/dark_willow_cursed_crown_hp1.png?v=5027641",
+                "name": "Cursed Crown",
+                "desc": "Dark Willow casts an ancient fae curse on the target. After a delay, the target and nearby enemies are stunned."
+            },
+            {
+                "id": "dark_willow_bedlam",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/dark_willow_bedlam_hp1.png?v=5027641",
+                "name": "Bedlam",
+                "desc": "Dark Willow's pet wisp roams around her for the duration, rapidly attacking nearby enemies.  Bedlam cannot be used while Terrorize is active."
+            },
+            {
+                "id": "dark_willow_terrorize",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/dark_willow_terrorize_hp1.png?v=5027641",
+                "name": "Terrorize",
+                "desc": "Dark Willow releases her pet wisp to terrorize her enemies. After a short delay, all enemies in the target area become fearful and run toward their home fountain. Terrorize cannot be used while Bedlam is active."
+            }
+        ]
+    },
+    "bio": "Children love telling stories about the whimsical adventures of fairies... That\u2019s because children don\u2019t know that most fairies are spiteful jerks. And in the world of spiteful fairies there are few names spoken of with more contempt than Mireska Sunbreeze.\r\n\r\nBorn to a fae merchant king, Mireska grew up in Revtel; a cutthroat nation where manipulation and murder were the norm. But while she was quite adept at navigating the etiquette, unspoken laws, and social rituals that permeated every element of her life, she found the whole thing rather boring.\r\n\r\nSo, Mireska did what most rebellious children do: burn down her family estate and set off with her pet wisp Jex to live the life of a wandering grifter.",
+    "stats": {
+        "hit_points": [
+            530,
+            1062,
+            1822
+        ],
+        "mana": [
+            234,
+            871,
+            1586
+        ],
+        "damage": [
+            45,
+            94,
+            149
+        ],
+        "armor": [
+            2,
+            5,
+            10
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 475,
+        "missile_speed": "1200"
+    },
+    "abilities": [
+        {
+            "id": "dark_willow_bramble_maze",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/dark_willow_bramble_maze_hp2.png?v=5027641",
+            "name": "Bramble Maze",
+            "desc": "Dark Willow creates a maze of brambles that grow in the target area after 0.5 seconds.  Enemies that walk into a bramble are rooted and take damage over time.",
+            "mana_cost": "100\/120\/140\/160",
+            "cooldown": "25",
+            "lore": "The fae realm exists all around you, merely waiting to draw you in...",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "MAZE RADIUS",
+                    "val": "500"
+                },
+                {
+                    "name": "BRAMBLE COUNT",
+                    "val": "8"
+                },
+                {
+                    "name": "PLACEMENT DURATION",
+                    "val": "15"
+                },
+                {
+                    "name": "LATCH ROOT DURATION",
+                    "val": "1 \/ 1.5 \/ 2 \/ 2.5"
+                },
+                {
+                    "name": "BRAMBLE LATCH RADIUS",
+                    "val": "90"
+                },
+                {
+                    "name": "LATCH DAMAGE",
+                    "val": "125 \/ 150 \/ 175 \/ 200"
+                }
+            ]
+        },
+        {
+            "id": "dark_willow_shadow_realm",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/dark_willow_shadow_realm_hp2.png?v=5027641",
+            "name": "Shadow Realm",
+            "desc": "Dark Willow recedes into the shadows, becoming untargetable.  Her next attack has increased attack range and deals bonus magic damage, and will end Shadow Realm. Damage scales based on how long she remains under the effects of Shadow Realm, the maximum being reached after %max_damage_duration% seconds.",
+            "mana_cost": "70\/80\/90\/100",
+            "cooldown": "32\/26\/20\/14",
+            "lore": "What you can't see will most definitely hurt you.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DURATION",
+                    "val": "5"
+                },
+                {
+                    "name": "ATTACK RANGE BONUS",
+                    "val": "600"
+                }
+            ]
+        },
+        {
+            "id": "dark_willow_cursed_crown",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/dark_willow_cursed_crown_hp2.png?v=5027641",
+            "name": "Cursed Crown",
+            "desc": "Dark Willow casts an ancient fae curse on the target. After a delay, the target and nearby enemies are stunned.",
+            "mana_cost": "80\/100\/120\/140",
+            "cooldown": "18\/16\/14\/12",
+            "lore": "Didn't anyone ever tell you? Never strike a deal with a fairy...",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DELAY",
+                    "val": "4"
+                },
+                {
+                    "name": "STUN DURATION",
+                    "val": "1.75 \/ 2.25 \/ 2.75 \/ 3.25"
+                },
+                {
+                    "name": "STUN RADIUS",
+                    "val": "325"
+                }
+            ]
+        },
+        {
+            "id": "dark_willow_bedlam",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/dark_willow_bedlam_hp2.png?v=5027641",
+            "name": "Bedlam",
+            "desc": "Dark Willow's pet wisp roams around her for the duration, rapidly attacking nearby enemies.  Bedlam cannot be used while Terrorize is active.",
+            "mana_cost": "100\/150\/200",
+            "cooldown": "30",
+            "lore": "You'll have to excuse my friend Jex. He's really into murder.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemies"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "ATTACK DAMAGE",
+                    "val": "60 \/ 110 \/ 160"
+                },
+                {
+                    "name": "ATTACK INTERVAL",
+                    "val": "0.25"
+                },
+                {
+                    "name": "ATTACK RADIUS",
+                    "val": "300"
+                },
+                {
+                    "name": "ATTACK TARGETS",
+                    "val": "1"
+                },
+                {
+                    "name": "ROAMING RADIUS",
+                    "val": "200"
+                },
+                {
+                    "name": "ROAMING DURATION",
+                    "val": "5"
+                }
+            ]
+        },
+        {
+            "id": "dark_willow_terrorize",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/dark_willow_terrorize_hp2.png?v=5027641",
+            "name": "Terrorize",
+            "desc": "Dark Willow releases her pet wisp to terrorize her enemies. After a short delay, all enemies in the target area become fearful and run toward their home fountain. Terrorize cannot be used while Bedlam is active.",
+            "mana_cost": "150",
+            "cooldown": "100\/80\/60",
+            "lore": "You think you know the first thing about fear? Jex'll show you what that word truly means...",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemies"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": []
+        }
+    ]
+}

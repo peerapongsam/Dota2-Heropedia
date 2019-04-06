@@ -1,0 +1,215 @@
+{
+    "id": "faceless_void",
+    "name": "Faceless Void",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/faceless_void_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/faceless_void_vert.jpg?v=5027641"
+    },
+    "attack": "Melee",
+    "role": [
+        "Carry",
+        "Initiator",
+        "Disabler",
+        "Escape",
+        "Durable"
+    ],
+    "primary_attribs": "agi",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 15,
+                "gain": 1.5
+            },
+            "agi": {
+                "base": 23,
+                "gain": 3.2
+            },
+            "str": {
+                "base": 24,
+                "gain": 2.1
+            },
+            "dmg": {
+                "min": 33,
+                "max": 39
+            },
+            "ms": 300,
+            "armor": 3.22
+        },
+        "abilities": [
+            {
+                "id": "faceless_void_time_walk",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/faceless_void_time_walk_hp1.png?v=5027641",
+                "name": "Time Walk",
+                "desc": "Rushes to a target location while backtracking any damage taken the last 2 seconds."
+            },
+            {
+                "id": "faceless_void_time_dilation",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/faceless_void_time_dilation_hp1.png?v=5027641",
+                "name": "Time Dilation",
+                "desc": "Faceless Void traps all nearby enemies in a time dilation field for 6 seconds, freezing their cooldowns and slowing their movement and attack speed by 14% for each cooldown frozen."
+            },
+            {
+                "id": "faceless_void_time_lock",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/faceless_void_time_lock_hp1.png?v=5027641",
+                "name": "Time Lock",
+                "desc": "Adds the chance for an attack to lock an enemy unit in time while attacking it a second time."
+            },
+            {
+                "id": "faceless_void_chronosphere",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/faceless_void_chronosphere_hp1.png?v=5027641",
+                "name": "Chronosphere",
+                "desc": "Creates a blister in spacetime, trapping all units caught in its sphere of influence and causes you to move very quickly inside it.  Only Faceless Void and any units he controls are unaffected.  Invisible units in the sphere will be revealed.    Upgradable by Aghanim's Scepter."
+            }
+        ]
+    },
+    "bio": "Darkterror the Faceless Void is a visitor from Claszureme, a realm outside of time. It remains a mystery why this being from another dimension believes the struggle for the Nemesis Stones is worth entering our physical plane, but apparently an upset in the balance of power in this world has repercussions in adjacent dimensions. Time means nothing to Darkterror, except as a way to thwart his foes and aid his allies. His long-view of the cosmos has given him a remote, disconnected quality, although in battle he is quite capable of making it personal.",
+    "stats": {
+        "hit_points": [
+            606,
+            1165,
+            1944
+        ],
+        "mana": [
+            195,
+            468,
+            923
+        ],
+        "damage": [
+            56,
+            101,
+            153
+        ],
+        "armor": [
+            3,
+            9,
+            17
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 150,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "faceless_void_time_walk",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/faceless_void_time_walk_hp2.png?v=5027641",
+            "name": "Time Walk",
+            "desc": "Rushes to a target location while backtracking any damage taken the last 2 seconds.",
+            "mana_cost": "40",
+            "cooldown": "24\/18\/12\/6",
+            "video": "http:\/\/www.youtube.com\/embed\/oW2YcRO3Njc?hd=1&rel=0",
+            "lore": "Darkterror tears a hole in time, passing through Claszureme, and appearing back in an instant.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "BACKTRACK DURATION",
+                    "val": "2"
+                }
+            ]
+        },
+        {
+            "id": "faceless_void_time_dilation",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/faceless_void_time_dilation_hp2.png?v=5027641",
+            "name": "Time Dilation",
+            "desc": "Faceless Void traps all nearby enemies in a time dilation field for 6 seconds, freezing their cooldowns and slowing their movement and attack speed by 14% for each cooldown frozen.",
+            "mana_cost": "75",
+            "cooldown": "40\/34\/28\/22",
+            "lore": "For those facing off against Darkterror, each moment seems to stretch into eternity.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RADIUS",
+                    "val": "775"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "6 \/ 8 \/ 10 \/ 12"
+                },
+                {
+                    "name": "SLOW PER COOLDOWN",
+                    "val": "14%"
+                }
+            ]
+        },
+        {
+            "id": "faceless_void_time_lock",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/faceless_void_time_lock_hp2.png?v=5027641",
+            "name": "Time Lock",
+            "desc": "Adds the chance for an attack to lock an enemy unit in time while attacking it a second time.",
+            "mana_cost": "",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/ZGW8iNF3Xiw?hd=1&rel=0",
+            "lore": "The strike of the Faceless Void lands with dimension shifting force.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DURATION",
+                    "val": "0.75"
+                },
+                {
+                    "name": "CHANCE",
+                    "val": "10% \/ 14% \/ 18% \/ 22%"
+                }
+            ]
+        },
+        {
+            "id": "faceless_void_chronosphere",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/faceless_void_chronosphere_hp2.png?v=5027641",
+            "name": "Chronosphere",
+            "desc": "Creates a blister in spacetime, trapping all units caught in its sphere of influence and causes you to move very quickly inside it.  Only Faceless Void and any units he controls are unaffected.  Invisible units in the sphere will be revealed.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "150\/225\/300",
+            "cooldown": "140\/130\/120",
+            "video": "http:\/\/www.youtube.com\/embed\/PnQqKogpmeU?hd=1&rel=0",
+            "lore": "When a rift opens to Claszureme, all poor souls caught within will likely never return.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DURATION",
+                    "val": "4 \/ 4.5 \/ 5"
+                },
+                {
+                    "name": "SCEPTER COOLDOWN",
+                    "val": "60"
+                }
+            ]
+        }
+    ]
+}

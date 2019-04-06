@@ -1,0 +1,240 @@
+{
+    "id": "storm_spirit",
+    "name": "Storm Spirit",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/storm_spirit_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/storm_spirit_vert.jpg?v=5027641"
+    },
+    "attack": "Ranged",
+    "role": [
+        "Carry",
+        "Escape",
+        "Nuker",
+        "Initiator",
+        "Disabler"
+    ],
+    "primary_attribs": "int",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 23,
+                "gain": 3.9
+            },
+            "agi": {
+                "base": 22,
+                "gain": 1.5
+            },
+            "str": {
+                "base": 21,
+                "gain": 2
+            },
+            "dmg": {
+                "min": 26,
+                "max": 36
+            },
+            "ms": 285,
+            "armor": 5.08
+        },
+        "abilities": [
+            {
+                "id": "storm_spirit_static_remnant",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/storm_spirit_static_remnant_hp1.png?v=5027641",
+                "name": "Static Remnant",
+                "desc": "Creates an explosively charged image of Storm Spirit that lasts 12 seconds and will detonate and deal damage if an enemy unit comes near it."
+            },
+            {
+                "id": "storm_spirit_electric_vortex",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/storm_spirit_electric_vortex_hp1.png?v=5027641",
+                "name": "Electric Vortex",
+                "desc": "A vortex that pulls an enemy unit to Storm Spirit's location.    Upgradable by Aghanim's Scepter."
+            },
+            {
+                "id": "storm_spirit_overload",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/storm_spirit_overload_hp1.png?v=5027641",
+                "name": "Overload",
+                "desc": "Casting a spell creates an electrical charge, which is released in a burst on his next attack, dealing damage and slowing nearby enemies."
+            },
+            {
+                "id": "storm_spirit_ball_lightning",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/storm_spirit_ball_lightning_hp1.png?v=5027641",
+                "name": "Ball Lightning",
+                "desc": "Storm Spirit becomes volatile electricity, charging across the battlefield until he depletes his mana or reaches his target. The activation mana cost is 30+8% of his total mana pool, and the cost per 100 units traveled is 12+0.7% of his total mana pool.  Damage is expressed in damage per 100 units traveled."
+            }
+        ]
+    },
+    "bio": "Storm Spirit is literally a force of nature--the wild power of wind and weather, bottled in human form. And a boisterous, jovial, irrepressible form it is! As jolly as a favorite uncle, he injects every scene with crackling energy. But it was not always thus, and there was tragedy in his creation. Generations ago, in the plains beyond the Wailing Mountains, a good people lay starving in drought and famine. A simple elementalist, Thunderkeg by name, used a forbidden spell to summon the spirit of the storm, asking for rain. Enraged at this mortal's presumption, the Storm Celestial known as Raijin lay waste to the land, scouring it bare with winds and flood. Thunderkeg was no match for the Celestial--at least until he cast a suicidal spell that forged their fates into one: he captured the Celestial in the cage of his own body. Trapped together, Thunderkeg's boundless good humor fused with Raijin's crazed energy, creating the jovial Raijin Thunderkeg, a Celestial who walks the world in physical form.",
+    "stats": {
+        "hit_points": [
+            549,
+            1081,
+            1841
+        ],
+        "mana": [
+            299,
+            1009,
+            1776
+        ],
+        "damage": [
+            49,
+            104,
+            163
+        ],
+        "armor": [
+            5,
+            8,
+            13
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 480,
+        "missile_speed": "1100"
+    },
+    "abilities": [
+        {
+            "id": "storm_spirit_static_remnant",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/storm_spirit_static_remnant_hp2.png?v=5027641",
+            "name": "Static Remnant",
+            "desc": "Creates an explosively charged image of Storm Spirit that lasts 12 seconds and will detonate and deal damage if an enemy unit comes near it.",
+            "mana_cost": "70\/80\/90\/100",
+            "cooldown": "350",
+            "video": "http:\/\/www.youtube.com\/embed\/MZaI7VTnH4M?hd=1&rel=0",
+            "lore": "Raijin Thunderkeg's duality allows him to admire himself in shocking fashion.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RADIUS",
+                    "val": "260"
+                }
+            ]
+        },
+        {
+            "id": "storm_spirit_electric_vortex",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/storm_spirit_electric_vortex_hp2.png?v=5027641",
+            "name": "Electric Vortex",
+            "desc": "A vortex that pulls an enemy unit to Storm Spirit's location.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "60\/70\/80\/90",
+            "cooldown": "16",
+            "video": "http:\/\/www.youtube.com\/embed\/8oThvhyYgDk?hd=1&rel=0",
+            "lore": "Raijin's thunderous, boisterous energy often draws others into an electrifying situation.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "SCEPTER RADIUS",
+                    "val": "475"
+                }
+            ]
+        },
+        {
+            "id": "storm_spirit_overload",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/storm_spirit_overload_hp2.png?v=5027641",
+            "name": "Overload",
+            "desc": "Casting a spell creates an electrical charge, which is released in a burst on his next attack, dealing damage and slowing nearby enemies.",
+            "mana_cost": "",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/og2EaLlgRzI?hd=1&rel=0",
+            "lore": "Pow!  Zip!  Zap!",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RADIUS",
+                    "val": "300"
+                },
+                {
+                    "name": "MOVEMENT SLOW",
+                    "val": "80%"
+                },
+                {
+                    "name": "ATTACK SLOW",
+                    "val": "80"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "0.6 \/ 0.6 \/ 0.6 \/ 0.6"
+                }
+            ]
+        },
+        {
+            "id": "storm_spirit_ball_lightning",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/storm_spirit_ball_lightning_hp2.png?v=5027641",
+            "name": "Ball Lightning",
+            "desc": "Storm Spirit becomes volatile electricity, charging across the battlefield until he depletes his mana or reaches his target. The activation mana cost is 30+8% of his total mana pool, and the cost per 100 units traveled is 12+0.7% of his total mana pool.  Damage is expressed in damage per 100 units traveled.",
+            "mana_cost": "30",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/Km-2rbf6qcs?hd=1&rel=0",
+            "lore": "The Storm is coming in.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "8 \/ 12 \/ 16"
+                },
+                {
+                    "name": "SPEED",
+                    "val": "1250 \/ 1875 \/ 2500"
+                },
+                {
+                    "name": "RADIUS",
+                    "val": "200"
+                },
+                {
+                    "name": "MANA DRAIN PER UNIT",
+                    "val": "0.7%"
+                }
+            ]
+        }
+    ]
+}

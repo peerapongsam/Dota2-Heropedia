@@ -1,0 +1,235 @@
+{
+    "id": "doom_bringer",
+    "name": "Doom",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/doom_bringer_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/doom_bringer_vert.jpg?v=5027641"
+    },
+    "attack": "Melee",
+    "role": [
+        "Carry",
+        "Disabler",
+        "Initiator",
+        "Durable",
+        "Nuker"
+    ],
+    "primary_attribs": "str",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 15,
+                "gain": 2.1
+            },
+            "agi": {
+                "base": 11,
+                "gain": 0.9
+            },
+            "str": {
+                "base": 26,
+                "gain": 4
+            },
+            "dmg": {
+                "min": 27,
+                "max": 43
+            },
+            "ms": 285,
+            "armor": 0.54
+        },
+        "abilities": [
+            {
+                "id": "doom_bringer_devour",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/doom_bringer_devour_hp1.png?v=5027641",
+                "name": "Devour",
+                "desc": "Consumes an enemy or neutral creep, acquiring any special abilities that it possessed."
+            },
+            {
+                "id": "doom_bringer_scorched_earth",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/doom_bringer_scorched_earth_hp1.png?v=5027641",
+                "name": "Scorched Earth",
+                "desc": "Carpets the nearby earth in flames which damage enemies, while also granting him increased movement speed."
+            },
+            {
+                "id": "doom_bringer_infernal_blade",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/doom_bringer_infernal_blade_hp1.png?v=5027641",
+                "name": "Infernal Blade",
+                "desc": "Doom swings his burning sword, igniting the enemy. Stuns for 0.6 seconds and applies a 4 second burn that deals 25 + %burn_damage_pct%% of the target's Max HP as damage per second."
+            },
+            {
+                "id": "doom_bringer_doom",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/doom_bringer_doom_hp1.png?v=5027641",
+                "name": "Doom",
+                "desc": "Inflicts a curse that prevents an enemy Hero from casting spells or using items, while taking damage over time.    Upgradable by Aghanim's Scepter.    DISPEL TYPE: Basic Dispel"
+            }
+        ]
+    },
+    "bio": "He that burns and is not consumed, devours and is never sated, kills and is beyond all judgment--Lucifer brings doom to all who would stand against him. Bearing away souls on the tip of a fiery sword, he is the Fallen One, a once-favored general from the realm behind the light, cast out for the sin of defiance: he would not kneel.  \r\n\r\n\t\tSix times his name was tolled from the great bell of Vashundol. Six and sixty times his wings were branded, until only smoking stumps remained. Without wings, he slipped loose from the tethers that bound him within the light and he fell screaming to earth. A crater in the desert, Paradise lost.  Now he attacks without mercy, without motive, the only living being able to move freely between the seven dark dominions. Lashed by inescapable needs, twisted by unimaginable talents, Doom carries his own hell with him wherever he goes. Defiant to the last. Eventually, the world will belong to Doom.",
+    "stats": {
+        "hit_points": [
+            644,
+            1708,
+            2848
+        ],
+        "mana": [
+            195,
+            577,
+            1110
+        ],
+        "damage": [
+            53,
+            109,
+            169
+        ],
+        "armor": [
+            1,
+            2,
+            6
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 175,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "doom_bringer_devour",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/doom_bringer_devour_hp2.png?v=5027641",
+            "name": "Devour",
+            "desc": "Consumes an enemy or neutral creep, acquiring any special abilities that it possessed.",
+            "mana_cost": "40\/50\/60\/70",
+            "cooldown": "70\/60\/50\/40",
+            "video": "http:\/\/www.youtube.com\/embed\/hbJpllULcxo?hd=1&rel=0",
+            "lore": "Lucifer's appetite and greed are never sated.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Auto-Cast, Unit Target"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DEVOUR TIME",
+                    "val": "80"
+                },
+                {
+                    "name": "REGENERATION RATE",
+                    "val": "3 \/ 8 \/ 13 \/ 18"
+                }
+            ]
+        },
+        {
+            "id": "doom_bringer_scorched_earth",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/doom_bringer_scorched_earth_hp2.png?v=5027641",
+            "name": "Scorched Earth",
+            "desc": "Carpets the nearby earth in flames which damage enemies, while also granting him increased movement speed.",
+            "mana_cost": "60\/65\/70\/75",
+            "cooldown": "50\/45\/40\/35",
+            "video": "http:\/\/www.youtube.com\/embed\/Cma29C2JmqM?hd=1&rel=0",
+            "lore": null,
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RADIUS",
+                    "val": "600 \/ 600 \/ 600 \/ 600"
+                },
+                {
+                    "name": "BONUS MOVE SPEED",
+                    "val": "11% \/ 12% \/ 13% \/ 14%"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "10 \/ 12 \/ 14 \/ 16"
+                }
+            ]
+        },
+        {
+            "id": "doom_bringer_infernal_blade",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/doom_bringer_infernal_blade_hp2.png?v=5027641",
+            "name": "Infernal Blade",
+            "desc": "Doom swings his burning sword, igniting the enemy. Stuns for 0.6 seconds and applies a 4 second burn that deals 25 + %burn_damage_pct%% of the target's Max HP as damage per second.",
+            "mana_cost": "40",
+            "cooldown": "16\/12\/8\/4",
+            "lore": "Lucifer shares the fire branding bestowed upon him at the time of his exile.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Auto-Cast, Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "BASE BURN DAMAGE",
+                    "val": "25"
+                },
+                {
+                    "name": "BURN DURATION",
+                    "val": "4"
+                },
+                {
+                    "name": "STUN DURATION",
+                    "val": "0.6"
+                }
+            ]
+        },
+        {
+            "id": "doom_bringer_doom",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/doom_bringer_doom_hp2.png?v=5027641",
+            "name": "Doom",
+            "desc": "Inflicts a curse that prevents an enemy Hero from casting spells or using items, while taking damage over time.    Upgradable by Aghanim's Scepter.    DISPEL TYPE: Basic Dispel",
+            "mana_cost": "150\/200\/250",
+            "cooldown": "145",
+            "video": "http:\/\/www.youtube.com\/embed\/6fFIUnuh1r0?hd=1&rel=0",
+            "lore": "When a name is tolled from the bell of Vashundol, doom is sure to follow.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Pure"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DURATION",
+                    "val": "16"
+                }
+            ]
+        }
+    ]
+}

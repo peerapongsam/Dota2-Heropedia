@@ -1,0 +1,266 @@
+{
+    "id": "winter_wyvern",
+    "name": "Winter Wyvern",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/winter_wyvern_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/winter_wyvern_vert.jpg?v=5027641"
+    },
+    "attack": "Ranged",
+    "role": [
+        "Support",
+        "Disabler",
+        "Nuker"
+    ],
+    "primary_attribs": "int",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 26,
+                "gain": 3.6
+            },
+            "agi": {
+                "base": 16,
+                "gain": 1.9
+            },
+            "str": {
+                "base": 26,
+                "gain": 2.6
+            },
+            "dmg": {
+                "min": 12,
+                "max": 19
+            },
+            "ms": 285,
+            "armor": 1.24
+        },
+        "abilities": [
+            {
+                "id": "winter_wyvern_arctic_burn",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/winter_wyvern_arctic_burn_hp1.png?v=5027641",
+                "name": "Arctic Burn",
+                "desc": "Winter Wyvern soars upon an arctic wind, granting her unobstructed movement and allowing her to exhale a blistering chill into each attack. While soaring, her attacks travel further and faster, and slow enemies with a magical freeze that strips them of 6% of their current health each second. Her sight is also hardened against night's chill, granting her 400 additional vision range at night while soaring.    Upgradable by Aghanim's Scepter."
+            },
+            {
+                "id": "winter_wyvern_splinter_blast",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/winter_wyvern_splinter_blast_hp1.png?v=5027641",
+                "name": "Splinter Blast",
+                "desc": "Launches a ball of brittle ice toward an enemy. The ice shatters on impact, leaving the primary target completely unaffected, while hurling damaging splinters into nearby enemies in a 500 radius. Enemies struck by these splinters are slowed by 30%."
+            },
+            {
+                "id": "winter_wyvern_cold_embrace",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/winter_wyvern_cold_embrace_hp1.png?v=5027641",
+                "name": "Cold Embrace",
+                "desc": "Encases an ally in an icy cocoon, freezing them solid while healing a base amount as well as a percentage of their maximum health each second. The cocoon blocks all physical damage."
+            },
+            {
+                "id": "winter_wyvern_winters_curse",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/winter_wyvern_winters_curse_hp1.png?v=5027641",
+                "name": "Winter's Curse",
+                "desc": "Winter Wyvern freezes an enemy in place while striking those nearby with a maddening curse which causes them to attack their frozen ally with increased attack speed. The frozen ally and those cursed to attack their ally are immune to all damage from their enemies."
+            }
+        ]
+    },
+    "bio": "Like many great poets, Auroth just wants time to write, but the Winter Wyvern's life is full of interruptions. The epics of the Eldwurms have a long and colorful history, but some fear that the remaining dragon scholars are not as prolific as they once were, with few lines added to the Eldwurm Eddas since the last age of greatness. Auroth laments: \"We forget that there is more to life than triumph and dominion over enemies. We must also live our lives in the pursuit of creative expression.\" She embarks on research expeditions, collecting books for inspiration. But all this research can be terribly distracting, and she spends less time writing than she should. Although she knows she should be lurking in her lair, adding to the Eddas, she finds herself engaged in epic battles against powerful enemies. She loots castles, raids ancient libraries ... and if she happens to heap glory on herself in the process, she tells herself that it's merely a side effect of her research. The fact is, while her skill and power on the battlefield are legendary, her scholarly travails have thus far hardly been the stuff of literary acclaim. But she is not content to stand as a protagonist of heroic lore. She wishes also to create it.",
+    "stats": {
+        "hit_points": [
+            644,
+            1336,
+            2210
+        ],
+        "mana": [
+            338,
+            993,
+            1721
+        ],
+        "damage": [
+            38,
+            88,
+            144
+        ],
+        "armor": [
+            1,
+            5,
+            10
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 425,
+        "missile_speed": "700"
+    },
+    "abilities": [
+        {
+            "id": "winter_wyvern_arctic_burn",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/winter_wyvern_arctic_burn_hp2.png?v=5027641",
+            "name": "Arctic Burn",
+            "desc": "Winter Wyvern soars upon an arctic wind, granting her unobstructed movement and allowing her to exhale a blistering chill into each attack. While soaring, her attacks travel further and faster, and slow enemies with a magical freeze that strips them of 6% of their current health each second. Her sight is also hardened against night's chill, granting her 400 additional vision range at night while soaring.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "90",
+            "cooldown": "50\/40\/30\/20",
+            "video": "http:\/\/www.youtube.com\/embed\/QJjASKaV5pM?hd=1&rel=0",
+            "lore": "The same organ where some dragons stoke their inner flame is, in Auroth, a crucible of unimaginable cold. From deep within her frosty gullet, an exhalation sends enemies into burning agony.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "FLIGHT DURATION",
+                    "val": "8"
+                },
+                {
+                    "name": "BONUS ATTACK RANGE",
+                    "val": "350 \/ 425 \/ 500 \/ 575"
+                },
+                {
+                    "name": "HEALTH BURN",
+                    "val": "6% \/ 7% \/ 8% \/ 9%"
+                },
+                {
+                    "name": "BURN DURATION",
+                    "val": "5"
+                },
+                {
+                    "name": "ADDED NIGHT VISION RANGE",
+                    "val": "400"
+                },
+                {
+                    "name": "SCEPTER MANA PER SECOND",
+                    "val": "40"
+                }
+            ]
+        },
+        {
+            "id": "winter_wyvern_splinter_blast",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/winter_wyvern_splinter_blast_hp2.png?v=5027641",
+            "name": "Splinter Blast",
+            "desc": "Launches a ball of brittle ice toward an enemy. The ice shatters on impact, leaving the primary target completely unaffected, while hurling damaging splinters into nearby enemies in a 500 radius. Enemies struck by these splinters are slowed by 30%.",
+            "mana_cost": "105\/120\/135\/150",
+            "cooldown": "7",
+            "video": "http:\/\/www.youtube.com\/embed\/SCGete8RbbU?hd=1&rel=0",
+            "lore": "Produced slowly by specialized vesicles in her frozen gullet, Winter Wyvern blast shards of ice at her enemies.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "100 \/ 180 \/ 260 \/ 340"
+                },
+                {
+                    "name": "SHATTER RADIUS",
+                    "val": "500"
+                },
+                {
+                    "name": "MOVEMENT SLOW",
+                    "val": "30%"
+                },
+                {
+                    "name": "SLOW DURATION",
+                    "val": "4"
+                }
+            ]
+        },
+        {
+            "id": "winter_wyvern_cold_embrace",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/winter_wyvern_cold_embrace_hp2.png?v=5027641",
+            "name": "Cold Embrace",
+            "desc": "Encases an ally in an icy cocoon, freezing them solid while healing a base amount as well as a percentage of their maximum health each second. The cocoon blocks all physical damage.",
+            "mana_cost": "50\/60\/70\/80",
+            "cooldown": "24\/21\/18\/15",
+            "video": "http:\/\/www.youtube.com\/embed\/8UDmKdYAQP4?hd=1&rel=0",
+            "lore": "From winter's heart comes a cold, healing embrace. The ice slows the blood and allows the spell to better work its curative magic.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Allied Units"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DURATION",
+                    "val": "4"
+                },
+                {
+                    "name": "BASE HEALTH REGEN",
+                    "val": "14 \/ 18 \/ 22 \/ 26"
+                },
+                {
+                    "name": "MAX HEALTH REGEN",
+                    "val": "3% \/ 4% \/ 5% \/ 6%"
+                }
+            ]
+        },
+        {
+            "id": "winter_wyvern_winters_curse",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/winter_wyvern_winters_curse_hp2.png?v=5027641",
+            "name": "Winter's Curse",
+            "desc": "Winter Wyvern freezes an enemy in place while striking those nearby with a maddening curse which causes them to attack their frozen ally with increased attack speed. The frozen ally and those cursed to attack their ally are immune to all damage from their enemies.",
+            "mana_cost": "250",
+            "cooldown": "80",
+            "video": "http:\/\/www.youtube.com\/embed\/AW7PdQw92ak?hd=1&rel=0",
+            "lore": "The oldest of the bookwurm\u2019s spells, this curse lends truth to the old saw: sometimes the enemy of my enemy is my enemy still.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "CURSE RADIUS",
+                    "val": "500"
+                },
+                {
+                    "name": "CURSE DAMAGE REDUCTION",
+                    "val": "100%"
+                },
+                {
+                    "name": "CURSE ATTACK SPEED",
+                    "val": "55"
+                }
+            ]
+        }
+    ]
+}

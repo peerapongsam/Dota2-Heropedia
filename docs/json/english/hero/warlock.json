@@ -1,0 +1,270 @@
+{
+    "id": "warlock",
+    "name": "Warlock",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/warlock_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/warlock_vert.jpg?v=5027641"
+    },
+    "attack": "Ranged",
+    "role": [
+        "Support",
+        "Initiator",
+        "Disabler"
+    ],
+    "primary_attribs": "int",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 25,
+                "gain": 3.1
+            },
+            "agi": {
+                "base": 10,
+                "gain": 1
+            },
+            "str": {
+                "base": 26,
+                "gain": 3
+            },
+            "dmg": {
+                "min": 24,
+                "max": 34
+            },
+            "ms": 290,
+            "armor": 2.4
+        },
+        "abilities": [
+            {
+                "id": "warlock_fatal_bonds",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/warlock_fatal_bonds_hp1.png?v=5027641",
+                "name": "Fatal Bonds",
+                "desc": "Binds several enemy units together, causing a percentage of the damage dealt to one of them to be felt by the others."
+            },
+            {
+                "id": "warlock_shadow_word",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/warlock_shadow_word_hp1.png?v=5027641",
+                "name": "Shadow Word",
+                "desc": "Warlock whispers an incantation, healing a friendly unit or damaging an enemy unit over time."
+            },
+            {
+                "id": "warlock_upheaval",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/warlock_upheaval_hp1.png?v=5027641",
+                "name": "Upheaval",
+                "desc": "CHANNELED - A powerful slowing current that grows stronger as it's channelled. Lasts up to 16 seconds.  Enemies are slowed for 3 seconds after leaving the area or the spell ends."
+            },
+            {
+                "id": "warlock_rain_of_chaos",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/warlock_rain_of_chaos_hp1.png?v=5027641",
+                "name": "Chaotic Offering",
+                "desc": "Summons a Golem from the depths, stunning enemies for one second. The Golem lives 60 seconds, takes reduced damage from spells, has Permanent Immolation and Flaming Fists on attack.    Upgradable by Aghanim's Scepter."
+            }
+        ]
+    },
+    "bio": "As Chief Curator and Head of Acquisitions for the Arcane Archives of the Ultimyr Academy, Demnok Lannik was tireless in his pursuit of lost, rare and forbidden tomes. No cursed temple was so foreboding, no cavern path so treacherous, that any concern for his own survival could dissuade him from entering if rumors hinted that some pamphlet of primordial lore might still survive in its depths. However, so often did his investigations trigger the wrath of protector entities, that he finally found it necessary to master the arts of magic. He bent himself to learning sorcery with the same thorough obsessiveness that marked his quest for incunabula, becoming the most powerful Warlock of the Academy in less time than most practitioners required to complete a course of undergraduate work. Almost as an afterthought, he carved a staff of Dreadwood and summoned into it a captive spirit from the Outer Hells. And anticipating the day when he will have recovered every last lost spellbook, he has commenced writing his own Black Grimoire. It will undoubtedly be instructive.",
+    "stats": {
+        "hit_points": [
+            644,
+            1442,
+            2392
+        ],
+        "mana": [
+            325,
+            889,
+            1552
+        ],
+        "damage": [
+            49,
+            92,
+            143
+        ],
+        "armor": [
+            2,
+            4,
+            9
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 600,
+        "missile_speed": "1200"
+    },
+    "abilities": [
+        {
+            "id": "warlock_fatal_bonds",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/warlock_fatal_bonds_hp2.png?v=5027641",
+            "name": "Fatal Bonds",
+            "desc": "Binds several enemy units together, causing a percentage of the damage dealt to one of them to be felt by the others.",
+            "mana_cost": "140",
+            "cooldown": "24\/22\/20\/18",
+            "video": "http:\/\/www.youtube.com\/embed\/uRFLMNzJ7Vs?hd=1&rel=0",
+            "lore": "An ancient incantation that links the vital energies of multiple lifeforms into one collective body.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "0 \/ 0 \/ 0 \/ 0"
+                },
+                {
+                    "name": "ENEMIES BOUND",
+                    "val": "3 \/ 4 \/ 5 \/ 6"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "25"
+                }
+            ]
+        },
+        {
+            "id": "warlock_shadow_word",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/warlock_shadow_word_hp2.png?v=5027641",
+            "name": "Shadow Word",
+            "desc": "Warlock whispers an incantation, healing a friendly unit or damaging an enemy unit over time.",
+            "mana_cost": "120\/130\/140\/150",
+            "cooldown": "16",
+            "video": "http:\/\/www.youtube.com\/embed\/1ExGT5E8-FE?hd=1&rel=0",
+            "lore": "Demnok's arcane arts have a myriad of uses, allowing them to be powerful friendly enchantments or damaging curses.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Heroes"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "15 \/ 25 \/ 35 \/ 45"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "12"
+                },
+                {
+                    "name": "RANGE",
+                    "val": "450 \/ 550 \/ 650 \/ 750"
+                }
+            ]
+        },
+        {
+            "id": "warlock_upheaval",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/warlock_upheaval_hp2.png?v=5027641",
+            "name": "Upheaval",
+            "desc": "CHANNELED - A powerful slowing current that grows stronger as it's channelled. Lasts up to 16 seconds.  Enemies are slowed for 3 seconds after leaving the area or the spell ends.",
+            "mana_cost": "70\/90\/110\/130",
+            "cooldown": "50\/46\/42\/38",
+            "video": "http:\/\/www.youtube.com\/embed\/9VHxyxOkHek?hd=1&rel=0",
+            "lore": "Demnok manipulates space-time, impairing entire armies.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Channeled, Point Target"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "0 \/ 0 \/ 0 \/ 0"
+                },
+                {
+                    "name": "RADIUS",
+                    "val": "650 \/ 650 \/ 650 \/ 650"
+                },
+                {
+                    "name": "MAX SLOW CHANNEL",
+                    "val": "12.5 \/ 6.5 \/ 4.5 \/ 3.5"
+                },
+                {
+                    "name": "MAX SLOW",
+                    "val": "84%"
+                }
+            ]
+        },
+        {
+            "id": "warlock_rain_of_chaos",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/warlock_rain_of_chaos_hp2.png?v=5027641",
+            "name": "Chaotic Offering",
+            "desc": "Summons a Golem from the depths, stunning enemies for one second. The Golem lives 60 seconds, takes reduced damage from spells, has Permanent Immolation and Flaming Fists on attack.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "250\/375\/500",
+            "cooldown": "170",
+            "video": "http:\/\/www.youtube.com\/embed\/LlUYOShkrE0?hd=1&rel=0",
+            "lore": "Demnok unleashes the captive spirit in his Dreadwood staff, causing destruction in enemy ranks.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "SUMMON BLAST RADIUS",
+                    "val": "600"
+                },
+                {
+                    "name": "GOLEM HEALTH",
+                    "val": "1000 \/ 2000 \/ 3000"
+                },
+                {
+                    "name": "GOLEM DAMAGE",
+                    "val": "100 \/ 150 \/ 200"
+                },
+                {
+                    "name": "GOLEM HEALTH REGEN",
+                    "val": "25 \/ 50 \/ 75"
+                },
+                {
+                    "name": "SCEPTER NUMBER OF GOLEMS",
+                    "val": "2"
+                },
+                {
+                    "name": "SCEPTER GOLEM HEALTH",
+                    "val": "750 \/ 1500 \/ 2250"
+                },
+                {
+                    "name": "SCEPTER GOLEM DAMAGE",
+                    "val": "75 \/ 110 \/ 150"
+                },
+                {
+                    "name": "SCEPTER BOUNTY REDUCTION",
+                    "val": "50%"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,247 @@
+{
+    "id": "earthshaker",
+    "name": "Earthshaker",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/earthshaker_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/earthshaker_vert.jpg?v=5027641"
+    },
+    "attack": "Melee",
+    "role": [
+        "Support",
+        "Initiator",
+        "Disabler",
+        "Nuker"
+    ],
+    "primary_attribs": "str",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 16,
+                "gain": 1.8
+            },
+            "agi": {
+                "base": 12,
+                "gain": 1.4
+            },
+            "str": {
+                "base": 22,
+                "gain": 3.7
+            },
+            "dmg": {
+                "min": 27,
+                "max": 37
+            },
+            "ms": 310,
+            "armor": 3.68
+        },
+        "abilities": [
+            {
+                "id": "earthshaker_fissure",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/earthshaker_fissure_hp1.png?v=5027641",
+                "name": "Fissure",
+                "desc": "Slams the ground with a mighty totem, creating an impassable ridge of stone while stunning and damaging enemy units along its line."
+            },
+            {
+                "id": "earthshaker_enchant_totem",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/earthshaker_enchant_totem_hp1.png?v=5027641",
+                "name": "Enchant Totem",
+                "desc": "Empowers Earthshaker's totem, causing it to deal extra damage on the next attack.    Upgradable by Aghanim's Scepter."
+            },
+            {
+                "id": "earthshaker_aftershock",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/earthshaker_aftershock_hp1.png?v=5027641",
+                "name": "Aftershock",
+                "desc": "Causes the earth to shake underfoot, adding additional damage and stuns to nearby enemy units when Earthshaker casts his abilities."
+            },
+            {
+                "id": "earthshaker_echo_slam",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/earthshaker_echo_slam_hp1.png?v=5027641",
+                "name": "Echo Slam",
+                "desc": "Shockwaves travel through the ground, damaging enemy units.  Each enemy hit causes an echo to damage nearby units. Real heroes cause two echoes."
+            }
+        ]
+    },
+    "bio": "Like a golem or gargoyle, Earthshaker was one with the earth but now walks freely upon it. Unlike those other entities, he created himself through an act of will, and serves no other master. In restless slumbers, encased in a deep seam of stone, he became aware of the life drifting freely above him. He grew curious. During a season of tremors, the peaks of Nishai shook themselves loose of avalanches, shifting the course of rivers and turning shallow valleys into bottomless chasms. When the land finally ceased quaking, Earthshaker stepped from the settling dust, tossing aside massive boulders as if throwing off a light blanket. He had shaped himself in the image of a mortal beast, and named himself Raigor Stonehoof. He bleeds now, and breathes, and therefore he can die. But his spirit is still that of the earth; he carries its power in the magical totem that never leaves him. And on the day he returns to dust, the earth will greet him as a prodigal son.",
+    "stats": {
+        "hit_points": [
+            568,
+            1552,
+            2635
+        ],
+        "mana": [
+            208,
+            536,
+            1030
+        ],
+        "damage": [
+            49,
+            101,
+            158
+        ],
+        "armor": [
+            4,
+            6,
+            11
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 150,
+        "missile_speed": "N\/A"
+    },
+    "abilities": [
+        {
+            "id": "earthshaker_fissure",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/earthshaker_fissure_hp2.png?v=5027641",
+            "name": "Fissure",
+            "desc": "Slams the ground with a mighty totem, creating an impassable ridge of stone while stunning and damaging enemy units along its line.",
+            "mana_cost": "110\/130\/150\/170",
+            "cooldown": "21\/19\/17\/15",
+            "video": "http:\/\/www.youtube.com\/embed\/vTbNwc5Tqwc?hd=1&rel=0",
+            "lore": "The Nishian totem splits the world to its core with tectonic force.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "110 \/ 160 \/ 210 \/ 260"
+                },
+                {
+                    "name": "FISSURE DURATION",
+                    "val": "8"
+                },
+                {
+                    "name": "STUN DURATION",
+                    "val": "1 \/ 1.25 \/ 1.5 \/ 1.75"
+                }
+            ]
+        },
+        {
+            "id": "earthshaker_enchant_totem",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/earthshaker_enchant_totem_hp2.png?v=5027641",
+            "name": "Enchant Totem",
+            "desc": "Empowers Earthshaker's totem, causing it to deal extra damage on the next attack.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "35\/40\/45\/50",
+            "cooldown": "5",
+            "video": "http:\/\/www.youtube.com\/embed\/OkSsLAN7mbk?hd=1&rel=0",
+            "lore": "Raigor's gorilla strength can destroy mountains.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "0 \/ 0 \/ 0 \/ 0"
+                },
+                {
+                    "name": "BONUS",
+                    "val": "100% \/ 200% \/ 300% \/ 400%"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "14 \/ 14 \/ 14 \/ 14"
+                },
+                {
+                    "name": "SCEPTER JUMP DISTANCE",
+                    "val": "1100"
+                }
+            ]
+        },
+        {
+            "id": "earthshaker_aftershock",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/earthshaker_aftershock_hp2.png?v=5027641",
+            "name": "Aftershock",
+            "desc": "Causes the earth to shake underfoot, adding additional damage and stuns to nearby enemy units when Earthshaker casts his abilities.",
+            "mana_cost": "",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/2xcM8xccDIs?hd=1&rel=0",
+            "lore": "The earth trembles beneath the mighty footsteps of Raigor.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "75 \/ 100 \/ 125 \/ 150"
+                },
+                {
+                    "name": "RADIUS",
+                    "val": "300"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "0.6 \/ 0.9 \/ 1.2 \/ 1.5"
+                }
+            ]
+        },
+        {
+            "id": "earthshaker_echo_slam",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/earthshaker_echo_slam_hp2.png?v=5027641",
+            "name": "Echo Slam",
+            "desc": "Shockwaves travel through the ground, damaging enemy units.  Each enemy hit causes an echo to damage nearby units. Real heroes cause two echoes.",
+            "mana_cost": "145\/205\/265",
+            "cooldown": "150\/130\/110",
+            "video": "http:\/\/www.youtube.com\/embed\/1_C9UkV-27s?hd=1&rel=0",
+            "lore": "Tectonic plates crack, mountains fold, and foes are crushed by the Echo Slam.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RADIUS",
+                    "val": "600"
+                },
+                {
+                    "name": "INITIAL DAMAGE",
+                    "val": "100"
+                }
+            ]
+        }
+    ]
+}

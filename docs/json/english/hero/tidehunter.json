@@ -1,0 +1,243 @@
+{
+    "id": "tidehunter",
+    "name": "Tidehunter",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/tidehunter_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/tidehunter_vert.jpg?v=5027641"
+    },
+    "attack": "Melee",
+    "role": [
+        "Initiator",
+        "Durable",
+        "Disabler",
+        "Nuker"
+    ],
+    "primary_attribs": "str",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 16,
+                "gain": 1.7
+            },
+            "agi": {
+                "base": 15,
+                "gain": 1.5
+            },
+            "str": {
+                "base": 22,
+                "gain": 3.5
+            },
+            "dmg": {
+                "min": 25,
+                "max": 31
+            },
+            "ms": 300,
+            "armor": 2.1
+        },
+        "abilities": [
+            {
+                "id": "tidehunter_gush",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/tidehunter_gush_hp1.png?v=5027641",
+                "name": "Gush",
+                "desc": "Summons a gush of water to damage an enemy unit, reducing their movement speed and armor.  Lasts 4 seconds.    Upgradable by Aghanim's Scepter."
+            },
+            {
+                "id": "tidehunter_kraken_shell",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/tidehunter_kraken_shell_hp1.png?v=5027641",
+                "name": "Kraken Shell",
+                "desc": "Thickens Tidehunter's hide to passively block a portion of any incoming physical attack damage. The hide also removes negative status effects if the damage taken crosses a threshold.    Does not stack with items that provide Damage Block.    DISPEL TYPE: Strong Dispel"
+            },
+            {
+                "id": "tidehunter_anchor_smash",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/tidehunter_anchor_smash_hp1.png?v=5027641",
+                "name": "Anchor Smash",
+                "desc": "Tidehunter swings his mighty anchor to attack and deal bonus damage to nearby enemies and reduce their attack damage."
+            },
+            {
+                "id": "tidehunter_ravage",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/tidehunter_ravage_hp1.png?v=5027641",
+                "name": "Ravage",
+                "desc": "Slams the ground, causing tentacles to erupt in all directions, damaging and stunning all nearby enemy units."
+            }
+        ]
+    },
+    "bio": "The Tidehunter known as Leviathan was once the champion of the Sunken Isles, but his motives are as mysterious as those of his people. We all know the importance of the Drylanders' shipping lanes, how empires may rise and fall according to who controls the open water. Far less is known of the submarine lanes, and how the warring tribes of the Meranthic Diaspora have carved out habitations through endless undersea skirmishes. In the fragile treaties between the Mer and Men, we can glimpse the extent of the drowned empires, but their politics appear complex and opaque. It would seem that Leviathan tired of such petty strife, and set off on his own, loyal only to his abyssal god, Maelrawn the Tentacular. He stalks the shallows now in search of men or meranths who stray into his path, and with a particular loathing for Admiral Kunkka, who has long been his nemesis for reasons lost in the deepest trenches of the sea.",
+    "stats": {
+        "hit_points": [
+            568,
+            1499,
+            2544
+        ],
+        "mana": [
+            208,
+            517,
+            998
+        ],
+        "damage": [
+            47,
+            96,
+            151
+        ],
+        "armor": [
+            2,
+            5,
+            10
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 150,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "tidehunter_gush",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/tidehunter_gush_hp2.png?v=5027641",
+            "name": "Gush",
+            "desc": "Summons a gush of water to damage an enemy unit, reducing their movement speed and armor.  Lasts 4 seconds.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "90\/100\/110\/120",
+            "cooldown": "12",
+            "video": "http:\/\/www.youtube.com\/embed\/68728IYAiok?hd=1&rel=0",
+            "lore": "During his championship of the Sunken Isles, Leviathan gained mastery over the open sea.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "SLOW",
+                    "val": "40% \/ 40% \/ 40% \/ 40%"
+                },
+                {
+                    "name": "SCEPTER RADIUS",
+                    "val": "240"
+                },
+                {
+                    "name": "SCEPTER COOLDOWN",
+                    "val": "7"
+                },
+                {
+                    "name": "SCEPTER RANGE",
+                    "val": "1800"
+                }
+            ]
+        },
+        {
+            "id": "tidehunter_kraken_shell",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/tidehunter_kraken_shell_hp2.png?v=5027641",
+            "name": "Kraken Shell",
+            "desc": "Thickens Tidehunter's hide to passively block a portion of any incoming physical attack damage. The hide also removes negative status effects if the damage taken crosses a threshold.    Does not stack with items that provide Damage Block.    DISPEL TYPE: Strong Dispel",
+            "mana_cost": "",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/mbIfRCkRM6g?hd=1&rel=0",
+            "lore": "Claddish navymen tell tales of a mighty sea-faring beast that suffered spear and sword but continued to lay waste to the fleet.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE THRESHOLD",
+                    "val": "600 \/ 550 \/ 500 \/ 450"
+                },
+                {
+                    "name": "THRESHOLD TIMER",
+                    "val": "6 \/ 6 \/ 6 \/ 6"
+                }
+            ]
+        },
+        {
+            "id": "tidehunter_anchor_smash",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/tidehunter_anchor_smash_hp2.png?v=5027641",
+            "name": "Anchor Smash",
+            "desc": "Tidehunter swings his mighty anchor to attack and deal bonus damage to nearby enemies and reduce their attack damage.",
+            "mana_cost": "30\/40\/50\/60",
+            "cooldown": "7\/6\/5\/4",
+            "video": "http:\/\/www.youtube.com\/embed\/30uJcLr3ttA?hd=1&rel=0",
+            "lore": "Stolen from one of Admiral Kunkka's flagships, Leviathan's heavy anchor proves useful as a melee weapon.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Physical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "ATTACK BONUS DAMAGE",
+                    "val": "45 \/ 90 \/ 135 \/ 180"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "6 \/ 6 \/ 6 \/ 6"
+                },
+                {
+                    "name": "RADIUS",
+                    "val": "375"
+                }
+            ]
+        },
+        {
+            "id": "tidehunter_ravage",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/tidehunter_ravage_hp2.png?v=5027641",
+            "name": "Ravage",
+            "desc": "Slams the ground, causing tentacles to erupt in all directions, damaging and stunning all nearby enemy units.",
+            "mana_cost": "150\/225\/325",
+            "cooldown": "150",
+            "video": "http:\/\/www.youtube.com\/embed\/BZBsiD9wuWQ?hd=1&rel=0",
+            "lore": "Calling to the abyssal god Maelrawn has resulted in entire armadas being lost at sea.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "200 \/ 300 \/ 400"
+                },
+                {
+                    "name": "RADIUS",
+                    "val": "1250"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "2.4 \/ 2.6 \/ 2.8"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,249 @@
+{
+    "id": "huskar",
+    "name": "Huskar",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/huskar_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/huskar_vert.jpg?v=5027641"
+    },
+    "attack": "Ranged",
+    "role": [
+        "Carry",
+        "Durable",
+        "Initiator"
+    ],
+    "primary_attribs": "str",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 18,
+                "gain": 1.5
+            },
+            "agi": {
+                "base": 15,
+                "gain": 1.4
+            },
+            "str": {
+                "base": 21,
+                "gain": 3.1
+            },
+            "dmg": {
+                "min": 19,
+                "max": 24
+            },
+            "ms": 290,
+            "armor": 0.1
+        },
+        "abilities": [
+            {
+                "id": "huskar_inner_fire",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/huskar_inner_fire_hp1.png?v=5027641",
+                "name": "Inner Fire",
+                "desc": "In a fiery rage, knocks all nearby enemies away from you to a fixed distance, dealing damage and disarming them."
+            },
+            {
+                "id": "huskar_burning_spear",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/huskar_burning_spear_hp1.png?v=5027641",
+                "name": "Burning Spear",
+                "desc": "Huskar sets his spears aflame, dealing damage over time with his regular attack.  Multiple attacks will stack additional damage.  Each attack drains some of Huskar's health.  Lasts 8 seconds."
+            },
+            {
+                "id": "huskar_berserkers_blood",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/huskar_berserkers_blood_hp1.png?v=5027641",
+                "name": "Berserker's Blood",
+                "desc": "Huskar's injuries feed his power, giving increased attack speed and health regen based on missing health. Health regen is a percentage of your strength."
+            },
+            {
+                "id": "huskar_life_break",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/huskar_life_break_hp1.png?v=5027641",
+                "name": "Life Break",
+                "desc": "Huskar draws upon his health to break an enemy's life, leaping at a target within attack range to shatter a percentage of that hero's current health, and slowing them.  While leaping, Huskar is Spell Immune.    DISPEL TYPE: Basic Dispel    Upgradable by Aghanim's Scepter."
+            }
+        ]
+    },
+    "bio": "Emerging from the throes of the sacred Nothl Realm, Huskar opened his eyes to see the prodigal shadow priest Dazzle working a deep incantation over him. Against the ancient rites of the Dezun Order, Huskar's spirit had been saved from eternity, but like all who encounter the Nothl he found himself irrevocably changed. No longer at the mercy of a mortal body, his very lifeblood became a source of incredible power; every drop spilled was returned tenfold with a fierce, burning energy. However this newfound gift infuriated Huskar, for in his rescue from the Nothl, Dazzle had denied him a place among the gods. He had been denied his own holy sacrifice. In time the elders of the order sought to expand their influence and Huskar, they agreed, would be a formidable tool in their campaign. Yet becoming a mere weapon for the order that denied him his birthright only upset him further. As the first embers of war appeared on the horizon, he fled his ancestral home to find new allies, all the while seeking a cause worthy of unleashing the power his total sacrifice could bring.",
+    "stats": {
+        "hit_points": [
+            549,
+            1374,
+            2343
+        ],
+        "mana": [
+            234,
+            507,
+            962
+        ],
+        "damage": [
+            40,
+            83,
+            134
+        ],
+        "armor": [
+            0,
+            3,
+            8
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 400,
+        "missile_speed": "1400"
+    },
+    "abilities": [
+        {
+            "id": "huskar_inner_fire",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/huskar_inner_fire_hp2.png?v=5027641",
+            "name": "Inner Fire",
+            "desc": "In a fiery rage, knocks all nearby enemies away from you to a fixed distance, dealing damage and disarming them.",
+            "mana_cost": "75\/100\/125\/150",
+            "cooldown": "18\/16\/14\/12",
+            "lore": null,
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "100 \/ 155 \/ 210 \/ 265"
+                },
+                {
+                    "name": "RADIUS",
+                    "val": "500"
+                },
+                {
+                    "name": "DISARM DURATION",
+                    "val": "1.75 \/ 2.5 \/ 3.25 \/ 4"
+                },
+                {
+                    "name": "KNOCKBACK TO",
+                    "val": "550"
+                }
+            ]
+        },
+        {
+            "id": "huskar_burning_spear",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/huskar_burning_spear_hp2.png?v=5027641",
+            "name": "Burning Spear",
+            "desc": "Huskar sets his spears aflame, dealing damage over time with his regular attack.  Multiple attacks will stack additional damage.  Each attack drains some of Huskar's health.  Lasts 8 seconds.",
+            "mana_cost": "0\/0\/0\/0",
+            "cooldown": "0",
+            "video": "http:\/\/www.youtube.com\/embed\/OqiIX9VUBgk?hd=1&rel=0",
+            "lore": "The Sacred Warrior ignites his weaponry after marking it with his own blood - causing far greater pain than he himself feels.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Auto-Cast, Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "HEALTH COST",
+                    "val": "15"
+                }
+            ]
+        },
+        {
+            "id": "huskar_berserkers_blood",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/huskar_berserkers_blood_hp2.png?v=5027641",
+            "name": "Berserker's Blood",
+            "desc": "Huskar's injuries feed his power, giving increased attack speed and health regen based on missing health. Health regen is a percentage of your strength.",
+            "mana_cost": "",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/6Dx9pD12lEI?hd=1&rel=0",
+            "lore": "After losing his birthright, Huskar gained a lethality in physical combat that is only heightened as his own blood is spilled.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "MAX ATTACK SPEED",
+                    "val": "160 \/ 220 \/ 280 \/ 340"
+                },
+                {
+                    "name": "MAX STR REGEN",
+                    "val": "20% \/ 40% \/ 60% \/ 80%"
+                },
+                {
+                    "name": "HP FOR MAX BONUS",
+                    "val": "10%"
+                }
+            ]
+        },
+        {
+            "id": "huskar_life_break",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/huskar_life_break_hp2.png?v=5027641",
+            "name": "Life Break",
+            "desc": "Huskar draws upon his health to break an enemy's life, leaping at a target within attack range to shatter a percentage of that hero's current health, and slowing them.  While leaping, Huskar is Spell Immune.    DISPEL TYPE: Basic Dispel    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "0\/0\/0",
+            "cooldown": "12",
+            "video": "http:\/\/www.youtube.com\/embed\/uL4iSDlCveo?hd=1&rel=0",
+            "lore": "No matter the danger, Huskar thrusts himself into melees that only he can survive.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE DEALT",
+                    "val": "32% \/ 38% \/ 44%"
+                },
+                {
+                    "name": "MOVEMENT SLOW",
+                    "val": "40% \/ 50% \/ 60%"
+                },
+                {
+                    "name": "SLOW DURATION",
+                    "val": "4 \/ 5 \/ 6"
+                },
+                {
+                    "name": "SCEPTER DAMAGE DEALT",
+                    "val": "65%"
+                },
+                {
+                    "name": "SCEPTER COOLDOWN",
+                    "val": "4"
+                }
+            ]
+        }
+    ]
+}

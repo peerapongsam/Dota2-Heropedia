@@ -1,0 +1,240 @@
+{
+    "id": "vengefulspirit",
+    "name": "Vengeful Spirit",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/vengefulspirit_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/vengefulspirit_vert.jpg?v=5027641"
+    },
+    "attack": "Ranged",
+    "role": [
+        "Support",
+        "Initiator",
+        "Disabler",
+        "Nuker",
+        "Escape"
+    ],
+    "primary_attribs": "agi",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 13,
+                "gain": 1.5
+            },
+            "agi": {
+                "base": 27,
+                "gain": 3.8
+            },
+            "str": {
+                "base": 19,
+                "gain": 2.9
+            },
+            "dmg": {
+                "min": 12,
+                "max": 20
+            },
+            "ms": 290,
+            "armor": 3.78
+        },
+        "abilities": [
+            {
+                "id": "vengefulspirit_magic_missile",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/vengefulspirit_magic_missile_hp1.png?v=5027641",
+                "name": "Magic Missile",
+                "desc": "Fires a magic missile at an enemy unit, stunning and dealing damage."
+            },
+            {
+                "id": "vengefulspirit_wave_of_terror",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/vengefulspirit_wave_of_terror_hp1.png?v=5027641",
+                "name": "Wave of Terror",
+                "desc": "Vengeful Spirit lets loose a wicked cry, weakening the armor of enemies and giving vision of the path ahead."
+            },
+            {
+                "id": "vengefulspirit_command_aura",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/vengefulspirit_command_aura_hp1.png?v=5027641",
+                "name": "Vengeance Aura",
+                "desc": "Vengeful Spirit's presence increases the physical damage of nearby friendly units. Spawns a Vengeance Illusion when you die that lasts until you revive."
+            },
+            {
+                "id": "vengefulspirit_nether_swap",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/vengefulspirit_nether_swap_hp1.png?v=5027641",
+                "name": "Nether Swap",
+                "desc": "Instantaneously swaps positions with a target Hero, friend or enemy.  Nether Swap interrupts channeling abilities on the target.    Upgradable by Aghanim's Scepter."
+            }
+        ]
+    },
+    "bio": "Even the most contented Skywrath is an ill-tempered creature, naturally inclined to seek revenge for the slightest insult. But Vengeful Spirit is the essence of vengeance. Once a proud and savage Skywrath scion, Shendelzare was first in succession for the Ghastly Eyrie until a sister's treachery robbed her of her birthright. Snared in an assassin's net, Shendelzare tore free only at the cost of her wings, limping away in the ultimate humiliation: On foot. With her wings broken, she knew the Skywrath would never accept her as ruler; and in the highest roost of the Eyrie, inaccessible except by winged flight, her sister was untouchable. Unwilling to live as a flightless cripple, and desiring revenge far more than earthly power, the fallen princess drove a bargain with the goddess Scree'auk: She surrendered her broken body for an imperishable form of spirit energy, driven by vengeance, capable of doing great damage in the material plane. She may spend eternity flightless, but she will have her revenge.",
+    "stats": {
+        "hit_points": [
+            511,
+            1282,
+            2213
+        ],
+        "mana": [
+            169,
+            442,
+            897
+        ],
+        "damage": [
+            39,
+            92,
+            150
+        ],
+        "armor": [
+            4,
+            11,
+            19
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 400,
+        "missile_speed": "1500"
+    },
+    "abilities": [
+        {
+            "id": "vengefulspirit_magic_missile",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/vengefulspirit_magic_missile_hp2.png?v=5027641",
+            "name": "Magic Missile",
+            "desc": "Fires a magic missile at an enemy unit, stunning and dealing damage.",
+            "mana_cost": "110\/120\/130\/140",
+            "cooldown": "10",
+            "video": "http:\/\/www.youtube.com\/embed\/v0QcCg9lEzU?hd=1&rel=0",
+            "lore": "A simple Skywrath technique, the magic missile is Shendel's primary tool for vengeance.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "STUN DURATION",
+                    "val": "1.5 \/ 1.6 \/ 1.7 \/ 1.8"
+                }
+            ]
+        },
+        {
+            "id": "vengefulspirit_wave_of_terror",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/vengefulspirit_wave_of_terror_hp2.png?v=5027641",
+            "name": "Wave of Terror",
+            "desc": "Vengeful Spirit lets loose a wicked cry, weakening the armor of enemies and giving vision of the path ahead.",
+            "mana_cost": "25\/30\/35\/40",
+            "cooldown": "16\/14\/12\/10",
+            "video": "http:\/\/www.youtube.com\/embed\/M-40xlCUWac?hd=1&rel=0",
+            "lore": "Shendel's haunting voice hints at her approaching vindication.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "60 \/ 80 \/ 100 \/ 120"
+                },
+                {
+                    "name": "DEBUFF DURATION",
+                    "val": "8"
+                },
+                {
+                    "name": "VISION DURATION",
+                    "val": "3 \/ 3 \/ 3 \/ 3"
+                }
+            ]
+        },
+        {
+            "id": "vengefulspirit_command_aura",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/vengefulspirit_command_aura_hp2.png?v=5027641",
+            "name": "Vengeance Aura",
+            "desc": "Vengeful Spirit's presence increases the physical damage of nearby friendly units. Spawns a Vengeance Illusion when you die that lasts until you revive.",
+            "mana_cost": "",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/313ljmCbIiQ?hd=1&rel=0",
+            "lore": "Although they may not share her undying passion for revenge, allies do draw on her fanaticism in combat.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive, Aura"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Allies"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RADIUS",
+                    "val": "1200"
+                },
+                {
+                    "name": "ILLUSION DAMAGE DEALT",
+                    "val": "100%"
+                },
+                {
+                    "name": "ILLUSION DAMAGE TAKEN",
+                    "val": "150%"
+                }
+            ]
+        },
+        {
+            "id": "vengefulspirit_nether_swap",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/vengefulspirit_nether_swap_hp2.png?v=5027641",
+            "name": "Nether Swap",
+            "desc": "Instantaneously swaps positions with a target Hero, friend or enemy.  Nether Swap interrupts channeling abilities on the target.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "100\/150\/200",
+            "cooldown": "0",
+            "video": "http:\/\/www.youtube.com\/embed\/MSS_SNkHVEo?hd=1&rel=0",
+            "lore": "Martyrdom is a small price to pay for vengeance.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RANGE",
+                    "val": "700 \/ 850 \/ 1000"
+                },
+                {
+                    "name": "MAX CHARGES",
+                    "val": "2"
+                },
+                {
+                    "name": "CHARGE RESTORE TIME",
+                    "val": "90 \/ 80 \/ 70"
+                },
+                {
+                    "name": "SCEPTER CHARGE RESTORE TIME",
+                    "val": "10"
+                }
+            ]
+        }
+    ]
+}

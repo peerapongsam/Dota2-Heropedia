@@ -1,0 +1,242 @@
+{
+    "id": "tinker",
+    "name": "Tinker",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/tinker_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/tinker_vert.jpg?v=5027641"
+    },
+    "attack": "Ranged",
+    "role": [
+        "Carry",
+        "Nuker",
+        "Pusher"
+    ],
+    "primary_attribs": "int",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 28,
+                "gain": 2.5
+            },
+            "agi": {
+                "base": 13,
+                "gain": 1.2
+            },
+            "str": {
+                "base": 17,
+                "gain": 2.5
+            },
+            "dmg": {
+                "min": 24,
+                "max": 30
+            },
+            "ms": 290,
+            "armor": 3.82
+        },
+        "abilities": [
+            {
+                "id": "tinker_laser",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/tinker_laser_hp1.png?v=5027641",
+                "name": "Laser",
+                "desc": "Fires an intense energy beam, dealing damage and blinding the target, causing it to miss all physical attacks.     Upgradable by Aghanim's Scepter."
+            },
+            {
+                "id": "tinker_heat_seeking_missile",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/tinker_heat_seeking_missile_hp1.png?v=5027641",
+                "name": "Heat-Seeking Missile",
+                "desc": "Launches a pair of rockets at the nearest visible enemy heroes within 2500 range.     Upgradable by Aghanim's Scepter."
+            },
+            {
+                "id": "tinker_march_of_the_machines",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/tinker_march_of_the_machines_hp1.png?v=5027641",
+                "name": "March of the Machines",
+                "desc": "Enlists an army of robotic minions to destroy enemy units in an area around Tinker."
+            },
+            {
+                "id": "tinker_rearm",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/tinker_rearm_hp1.png?v=5027641",
+                "name": "Rearm",
+                "desc": "CHANNELED - Resets the cooldown on most of Tinker's items and abilities."
+            }
+        ]
+    },
+    "bio": "Boush the Tinker's diminutive race is known for its intelligence, its cunning, and its prickly relationship with magic. As a matter of pride, they survive by their wits, and use only those powers of nature that may be unlocked through rational methodologies. Even this forbearance has led to a great deal of trouble, as Boush can attest. Once a key investigator of natural law, Boush the Tinker led a vast intellectual investigation into the workings of nature, founding a subterranean laboratory in the rumored, mist-wreathed wastes of the Violet Plateau. While scorning mages for the dangers they visit upon the world, Boush and his Tinker associates haughtily wrenched open a portal to some realm beyond comprehension and ushered in some nightmares of their own. A black mist rose from the cavernous interior of the Violet Plateau, shrouding it in permanent darkness from which sounds of horror perpetually emanate. Boush escaped with only his wits and the contraptions he carried, the sole Tinker to survive the Violet Plateau Incident.",
+    "stats": {
+        "hit_points": [
+            473,
+            1138,
+            1993
+        ],
+        "mana": [
+            364,
+            819,
+            1404
+        ],
+        "damage": [
+            52,
+            87,
+            132
+        ],
+        "armor": [
+            4,
+            6,
+            11
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 500,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "tinker_laser",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/tinker_laser_hp2.png?v=5027641",
+            "name": "Laser",
+            "desc": "Fires an intense energy beam, dealing damage and blinding the target, causing it to miss all physical attacks.     Upgradable by Aghanim's Scepter.",
+            "mana_cost": "110\/130\/150\/170",
+            "cooldown": "20\/18\/16\/14",
+            "video": "http:\/\/www.youtube.com\/embed\/2tDx6grjLns?hd=1&rel=0",
+            "lore": "Boush perfected this rock cutting laser in his subterranean laboratory, never considering its combat utility.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Pure"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "BLIND MISS RATE",
+                    "val": "100% \/ 100% \/ 100% \/ 100%"
+                },
+                {
+                    "name": "HERO BLIND DURATION",
+                    "val": "3 \/ 3.5 \/ 4 \/ 4.5"
+                },
+                {
+                    "name": "CREEP BLIND DURATION",
+                    "val": "6 \/ 6 \/ 6 \/ 6"
+                },
+                {
+                    "name": "CAST RANGE",
+                    "val": "650"
+                },
+                {
+                    "name": "SCEPTER REFRACT RADIUS",
+                    "val": "400"
+                }
+            ]
+        },
+        {
+            "id": "tinker_heat_seeking_missile",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/tinker_heat_seeking_missile_hp2.png?v=5027641",
+            "name": "Heat-Seeking Missile",
+            "desc": "Launches a pair of rockets at the nearest visible enemy heroes within 2500 range.     Upgradable by Aghanim's Scepter.",
+            "mana_cost": "80\/100\/120\/140",
+            "cooldown": "25",
+            "video": "http:\/\/www.youtube.com\/embed\/jK4Sn_EDBpE?hd=1&rel=0",
+            "lore": "The last contraption Boush was able to save was a retrofitted rocket launcher with a homing mechanism.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "125 \/ 200 \/ 275 \/ 350"
+                },
+                {
+                    "name": "TARGETS",
+                    "val": "2 \/ 2 \/ 2 \/ 2"
+                },
+                {
+                    "name": "SCEPTER TARGETS",
+                    "val": "4 \/ 4 \/ 4 \/ 4"
+                }
+            ]
+        },
+        {
+            "id": "tinker_march_of_the_machines",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/tinker_march_of_the_machines_hp2.png?v=5027641",
+            "name": "March of the Machines",
+            "desc": "Enlists an army of robotic minions to destroy enemy units in an area around Tinker.",
+            "mana_cost": "145\/150\/165\/190",
+            "cooldown": "35",
+            "video": "http:\/\/www.youtube.com\/embed\/AmXRvkaYhIE?hd=1&rel=0",
+            "lore": "Even though the laboratory has since been sealed off, the ability to radio in robotic drones is still in working order.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "16 \/ 24 \/ 32 \/ 40"
+                },
+                {
+                    "name": "RADIUS",
+                    "val": "900"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "6"
+                }
+            ]
+        },
+        {
+            "id": "tinker_rearm",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/tinker_rearm_hp2.png?v=5027641",
+            "name": "Rearm",
+            "desc": "CHANNELED - Resets the cooldown on most of Tinker's items and abilities.",
+            "mana_cost": "100\/200\/300",
+            "cooldown": "0",
+            "video": "http:\/\/www.youtube.com\/embed\/eHlwkFnGtzs?hd=1&rel=0",
+            "lore": "A new battery here, another set of rockets there, Boush continually improves on existing technology.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target, Channeled"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "TIME TO REARM",
+                    "val": "3 \/ 1.5 \/ 0.75"
+                }
+            ]
+        }
+    ]
+}

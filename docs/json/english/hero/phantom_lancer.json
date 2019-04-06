@@ -1,0 +1,251 @@
+{
+    "id": "phantom_lancer",
+    "name": "Phantom Lancer",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/phantom_lancer_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/phantom_lancer_vert.jpg?v=5027641"
+    },
+    "attack": "Melee",
+    "role": [
+        "Carry",
+        "Escape",
+        "Pusher",
+        "Nuker"
+    ],
+    "primary_attribs": "agi",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 19,
+                "gain": 2
+            },
+            "agi": {
+                "base": 29,
+                "gain": 3
+            },
+            "str": {
+                "base": 19,
+                "gain": 2
+            },
+            "dmg": {
+                "min": 22,
+                "max": 44
+            },
+            "ms": 290,
+            "armor": 4.06
+        },
+        "abilities": [
+            {
+                "id": "phantom_lancer_spirit_lance",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/phantom_lancer_spirit_lance_hp1.png?v=5027641",
+                "name": "Spirit Lance",
+                "desc": "Sends a magical spirit lance to a target enemy unit that damages and slows, while summoning an illusory phantom to attack the unit.    Upgradable by Aghanim's Scepter."
+            },
+            {
+                "id": "phantom_lancer_doppelwalk",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/phantom_lancer_doppelwalk_hp1.png?v=5027641",
+                "name": "Doppelganger",
+                "desc": "Phantom Lancer briefly vanishes from the battlefield. After 1 second, Phantom Lancer and any of his nearby illusions reappear at a random position within the targeted location, along with two additional doppelgangers. Extends duration of all illusions. The two added doppelgangers have different properties: one takes normal damage and deals none, while the other takes 600% damage and deals 20% damage.    DISPEL TYPE: Basic Dispel"
+            },
+            {
+                "id": "phantom_lancer_phantom_edge",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/phantom_lancer_phantom_edge_hp1.png?v=5027641",
+                "name": "Phantom Rush",
+                "desc": "When targetting an enemy for an attack, Phantom Lancer quickly charges into range, gaining a temporary agility boost upon reaching the target. Phantom Lancer's illusions also have this ability."
+            },
+            {
+                "id": "phantom_lancer_juxtapose",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/phantom_lancer_juxtapose_hp1.png?v=5027641",
+                "name": "Juxtapose",
+                "desc": "Phantom Lancer has a chance to fracture his presence, creating an illusion of himself. Illusions also have a chance to fracture further. Illusions created from Phantom Lancer last for 8 seconds, while illusions created from other illusions last 4 seconds."
+            }
+        ]
+    },
+    "bio": "The remote village of Pole had no knowledge of the wars raging in the heart of the kingdom. For them, the quiet of spear fishing, and a family meal were all that a full life required. Yet war came for them nonetheless. Joining the able-bodied conscripts as they filed passed their homes, the humble lancer Azwraith vowed to bring peace to his kingdom, and in so doing, his people. Placed with his kin in the vanguard of the final assault against the Dread Magus Vorn, the cost to his fellows was absolute. As the charging force battled toward the fortress, Azwraith alone among his kind remained standing, and he alone was able to infiltrate the keep. Focused and infuriated by the slaughter of his brothers, Azwraith bested each of the wizard's deadly traps and conjured guardians. Soon the simple fisherman arrived at Vorn's tower sanctum. The pair dueled through the night, pike to staff, as chaos raged below, and with a deafening cry Azwraith pierced his enemy. But the wizard did not simply expire; he exploded into uncountable shards of light, penetrating his killer with power. As the dust settled and the smoke of combat began to clear, Azwraith found himself standing among a throng of his kin. Each seemed to be dressed as he was, each seemed armed as he was, and he could sense that each thought as he did. Aware that his allies were approaching, he willed these phantoms to hide themselves, and one by one they began to vanish into nothingness. As the soldiers came upon the sanctum, they found the warrior that had bested the wizard. When they approached their champion, the lancer vanished. The pikeman who had stood before them was no more than another phantom.",
+    "stats": {
+        "hit_points": [
+            511,
+            1043,
+            1803
+        ],
+        "mana": [
+            247,
+            611,
+            1131
+        ],
+        "damage": [
+            51,
+            93,
+            143
+        ],
+        "armor": [
+            4,
+            10,
+            17
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 150,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "phantom_lancer_spirit_lance",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/phantom_lancer_spirit_lance_hp2.png?v=5027641",
+            "name": "Spirit Lance",
+            "desc": "Sends a magical spirit lance to a target enemy unit that damages and slows, while summoning an illusory phantom to attack the unit.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "125\/130\/135\/140",
+            "cooldown": "7",
+            "video": "http:\/\/www.youtube.com\/embed\/kAQg8iTEvWA?hd=1&rel=0",
+            "lore": "Azwraith's proficiency at spearing his family's meal of fish is proving quite useful in the battlefield.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "SLOW DURATION",
+                    "val": "3.25"
+                },
+                {
+                    "name": "MOVEMENT SLOW",
+                    "val": "10% \/ 18% \/ 26% \/ 34%"
+                },
+                {
+                    "name": "ILLUSION DURATION",
+                    "val": "2 \/ 4 \/ 6 \/ 8"
+                },
+                {
+                    "name": "ILLUSION DAMAGE",
+                    "val": "20%"
+                },
+                {
+                    "name": "ILLUSION DAMAGE TAKEN",
+                    "val": "400% \/ 400% \/ 400% \/ 400%"
+                },
+                {
+                    "name": "SCEPTER BOUNCE RADIUS",
+                    "val": "400"
+                },
+                {
+                    "name": "SCEPTER BOUNCES",
+                    "val": "5"
+                }
+            ]
+        },
+        {
+            "id": "phantom_lancer_doppelwalk",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/phantom_lancer_doppelwalk_hp2.png?v=5027641",
+            "name": "Doppelganger",
+            "desc": "Phantom Lancer briefly vanishes from the battlefield. After 1 second, Phantom Lancer and any of his nearby illusions reappear at a random position within the targeted location, along with two additional doppelgangers. Extends duration of all illusions. The two added doppelgangers have different properties: one takes normal damage and deals none, while the other takes 600% damage and deals 20% damage.    DISPEL TYPE: Basic Dispel",
+            "mana_cost": "50",
+            "cooldown": "25\/20\/15\/10",
+            "video": "http:\/\/www.youtube.com\/embed\/_HLFI68EP-Y?hd=1&rel=0",
+            "lore": "Dread Magus Vorn's death imbued the Phantom Lancer with the ability to bend and fracture all spectrums of light.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "TARGET AREA SIZE",
+                    "val": "325"
+                },
+                {
+                    "name": "ILLUSION GATHER RANGE",
+                    "val": "900"
+                },
+                {
+                    "name": "REAPPEAR DELAY",
+                    "val": "1"
+                },
+                {
+                    "name": "DOPPELGANGER DURATION",
+                    "val": "8"
+                },
+                {
+                    "name": "ILLUSION DURATION EXTENSION",
+                    "val": "2"
+                }
+            ]
+        },
+        {
+            "id": "phantom_lancer_phantom_edge",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/phantom_lancer_phantom_edge_hp2.png?v=5027641",
+            "name": "Phantom Rush",
+            "desc": "When targetting an enemy for an attack, Phantom Lancer quickly charges into range, gaining a temporary agility boost upon reaching the target. Phantom Lancer's illusions also have this ability.",
+            "mana_cost": "",
+            "cooldown": "16\/12\/8\/4",
+            "video": "http:\/\/www.youtube.com\/embed\/_bfdarOBBU8?hd=1&rel=0",
+            "lore": "Azwraith knows that on the field of battle, speed can mean everything.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target, Toggle"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "MIN RUSH DISTANCE",
+                    "val": "250"
+                },
+                {
+                    "name": "BONUS AGILITY",
+                    "val": "11 \/ 22 \/ 33 \/ 44"
+                }
+            ]
+        },
+        {
+            "id": "phantom_lancer_juxtapose",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/phantom_lancer_juxtapose_hp2.png?v=5027641",
+            "name": "Juxtapose",
+            "desc": "Phantom Lancer has a chance to fracture his presence, creating an illusion of himself. Illusions also have a chance to fracture further. Illusions created from Phantom Lancer last for 8 seconds, while illusions created from other illusions last 4 seconds.",
+            "mana_cost": "",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/rti6D9kGcKY?hd=1&rel=0",
+            "lore": "Each of Azwraith's lance attacks feels like two from a normal warrior; or three; or four...",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "HERO TRIGGER CHANCE",
+                    "val": "40% \/ 45% \/ 50%"
+                },
+                {
+                    "name": "ILLUSION TRIGGER CHANCE",
+                    "val": "8%"
+                },
+                {
+                    "name": "ILLUSION DAMAGE",
+                    "val": "16%"
+                },
+                {
+                    "name": "ILLUSION DAMAGE TAKEN",
+                    "val": "650%"
+                }
+            ]
+        }
+    ]
+}

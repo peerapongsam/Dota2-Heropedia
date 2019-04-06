@@ -1,0 +1,233 @@
+{
+    "id": "abaddon",
+    "name": "Abaddon",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/abaddon_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/abaddon_vert.jpg?v=5027641"
+    },
+    "attack": "Melee",
+    "role": [
+        "Support",
+        "Carry",
+        "Durable"
+    ],
+    "primary_attribs": "str",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 21,
+                "gain": 2
+            },
+            "agi": {
+                "base": 23,
+                "gain": 1.5
+            },
+            "str": {
+                "base": 23,
+                "gain": 3
+            },
+            "dmg": {
+                "min": 32,
+                "max": 42
+            },
+            "ms": 325,
+            "armor": 1.22
+        },
+        "abilities": [
+            {
+                "id": "abaddon_death_coil",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/abaddon_death_coil_hp1.png?v=5027641",
+                "name": "Mist Coil",
+                "desc": "Abaddon releases a coil of deathly mist that can damage an enemy unit or heal a friendly unit at the cost of some of Abaddon's health."
+            },
+            {
+                "id": "abaddon_aphotic_shield",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/abaddon_aphotic_shield_hp1.png?v=5027641",
+                "name": "Aphotic Shield",
+                "desc": "Summons dark energies around an ally unit, creating a shield that absorbs a set amount of damage before expiring. When the shield is destroyed it will burst and deal damage equal to the amount it could absorb to an area around it. Removes certain types of negative buffs and stuns on cast.    DISPEL TYPE: Strong Dispel"
+            },
+            {
+                "id": "abaddon_frostmourne",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/abaddon_frostmourne_hp1.png?v=5027641",
+                "name": "Curse of Avernus",
+                "desc": "Abaddon strikes an enemy, slowing the target's movement speed. If the target gets hit 4 times, they become affected by a chilling curse causing them to be silenced and slowed, and all attacks against them gain an attack speed boost."
+            },
+            {
+                "id": "abaddon_borrowed_time",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/abaddon_borrowed_time_hp1.png?v=5027641",
+                "name": "Borrowed Time",
+                "desc": "When activated, all damage dealt to you will heal instead of harm. Most negative buffs will also be removed. If the ability is not on cooldown, it will automatically activate if your health falls below 400.    Upgradable by Aghanim's Scepter.    DISPEL TYPE: Strong Dispel"
+            }
+        ]
+    },
+    "bio": "The Font of Avernus is the source of a family's strength, a crack in primal stones from which vapors of prophetic power have issued for generations. Each newborn of the cavernous House Avernus is bathed in the black mist, and by this baptism they are given an innate connection to the mystic energies of the land. They grow up believing themselves fierce protectors of their lineal traditions, the customs of the realm--but what they really are protecting is the Font itself. And the motives of the mist are unclear. \r\n\r\n\t\t\t\tWhen the infant Abaddon was bathed in the Font, they say something went awry. In the child's eyes there flared a light of comprehension that startled all present and set the sacerdotes to whispering. He was raised with every expectation of following the path all scions of Avernus took--to train in war, that in times of need he might lead the family's army in defense of the ancestral lands. But Abaddon was always one apart. Where others trained with weapons, he bent himself to meditation in the presence of the mist. He drank deep from the vapors that welled from the Font, learning to blend his spirit with the potency that flowed from far beneath the House; he became a creature of the black mist. \r\n\r\n\t\t\t\tThere was bitterness within the House Avernus--elders and young alike accusing him of neglecting his responsibilities. But all such accusations stopped when Abaddon rode into battle, and they saw how the powers of the mist had given him mastery over life and death beyond those of any lord the House had ever known.",
+    "stats": {
+        "hit_points": [
+            587,
+            1385,
+            2335
+        ],
+        "mana": [
+            273,
+            637,
+            1157
+        ],
+        "damage": [
+            55,
+            97,
+            147
+        ],
+        "armor": [
+            1,
+            4,
+            9
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 150,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "abaddon_death_coil",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/abaddon_death_coil_hp2.png?v=5027641",
+            "name": "Mist Coil",
+            "desc": "Abaddon releases a coil of deathly mist that can damage an enemy unit or heal a friendly unit at the cost of some of Abaddon's health.",
+            "mana_cost": "50",
+            "cooldown": "450",
+            "video": "http:\/\/www.youtube.com\/embed\/stcWsFoEfag?hd=1&rel=0",
+            "lore": "A mysterious vapor from the Font of Avernus now infuses the breath of Abaddon, who releases it at will.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Heroes"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": []
+        },
+        {
+            "id": "abaddon_aphotic_shield",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/abaddon_aphotic_shield_hp2.png?v=5027641",
+            "name": "Aphotic Shield",
+            "desc": "Summons dark energies around an ally unit, creating a shield that absorbs a set amount of damage before expiring. When the shield is destroyed it will burst and deal damage equal to the amount it could absorb to an area around it. Removes certain types of negative buffs and stuns on cast.    DISPEL TYPE: Strong Dispel",
+            "mana_cost": "100\/105\/110\/115",
+            "cooldown": "12\/10\/8\/6",
+            "video": "http:\/\/www.youtube.com\/embed\/AUZPOPV0FiU?hd=1&rel=0",
+            "lore": "The powers of the black mist rise to absorb attacks like the black mist absorbs light.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Allied Units"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DURATION",
+                    "val": "15"
+                },
+                {
+                    "name": "BURST RADIUS",
+                    "val": "675"
+                }
+            ]
+        },
+        {
+            "id": "abaddon_frostmourne",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/abaddon_frostmourne_hp2.png?v=5027641",
+            "name": "Curse of Avernus",
+            "desc": "Abaddon strikes an enemy, slowing the target's movement speed. If the target gets hit 4 times, they become affected by a chilling curse causing them to be silenced and slowed, and all attacks against them gain an attack speed boost.",
+            "mana_cost": "",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/83iU74QhxWw?hd=1&rel=0",
+            "lore": null,
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "BASIC DURATION",
+                    "val": "4"
+                },
+                {
+                    "name": "BASIC SLOW",
+                    "val": "10% \/ 15% \/ 20% \/ 25%"
+                },
+                {
+                    "name": "CURSE DURATION",
+                    "val": "4.5"
+                },
+                {
+                    "name": "CURSE SLOW",
+                    "val": "30% \/ 40% \/ 50% \/ 60%"
+                }
+            ]
+        },
+        {
+            "id": "abaddon_borrowed_time",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/abaddon_borrowed_time_hp2.png?v=5027641",
+            "name": "Borrowed Time",
+            "desc": "When activated, all damage dealt to you will heal instead of harm. Most negative buffs will also be removed. If the ability is not on cooldown, it will automatically activate if your health falls below 400.    Upgradable by Aghanim's Scepter.    DISPEL TYPE: Strong Dispel",
+            "mana_cost": "0\/0\/0",
+            "cooldown": "60\/50\/40",
+            "video": "http:\/\/www.youtube.com\/embed\/9J7CPbAg9dU?hd=1&rel=0",
+            "lore": "The most unnatural of all the gifts of the Font of Avernus, this power defies mortal understanding.  What should hurt, instead heals; and what should kill gives strength anew.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "HEALTH THRESHOLD",
+                    "val": "400"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "4 \/ 5 \/ 6"
+                },
+                {
+                    "name": "SCEPTER DURATION",
+                    "val": "5 \/ 6 \/ 7"
+                },
+                {
+                    "name": "SCEPTER DAMAGE REDIRECT",
+                    "val": "50%"
+                },
+                {
+                    "name": "SCEPTER REDIRECT RANGE",
+                    "val": "1200"
+                }
+            ]
+        }
+    ]
+}

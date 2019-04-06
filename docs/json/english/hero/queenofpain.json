@@ -1,0 +1,242 @@
+{
+    "id": "queenofpain",
+    "name": "Queen of Pain",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/queenofpain_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/queenofpain_vert.jpg?v=5027641"
+    },
+    "attack": "Ranged",
+    "role": [
+        "Carry",
+        "Nuker",
+        "Escape"
+    ],
+    "primary_attribs": "int",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 25,
+                "gain": 2.9
+            },
+            "agi": {
+                "base": 22,
+                "gain": 2.2
+            },
+            "str": {
+                "base": 18,
+                "gain": 2.3
+            },
+            "dmg": {
+                "min": 20,
+                "max": 28
+            },
+            "ms": 290,
+            "armor": 3.08
+        },
+        "abilities": [
+            {
+                "id": "queenofpain_shadow_strike",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/queenofpain_shadow_strike_hp1.png?v=5027641",
+                "name": "Shadow Strike",
+                "desc": "Hurls a poisoned dagger which deals large initial damage, and then deals damage over time. The poisoned unit has its movement speed slowed for 15 seconds.  An instance of damage is dealt every 3 seconds."
+            },
+            {
+                "id": "queenofpain_blink",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/queenofpain_blink_hp1.png?v=5027641",
+                "name": "Blink",
+                "desc": "Short distance teleportation that allows Queen of Pain to move in and out of combat."
+            },
+            {
+                "id": "queenofpain_scream_of_pain",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/queenofpain_scream_of_pain_hp1.png?v=5027641",
+                "name": "Scream Of Pain",
+                "desc": "The Queen of Pain lets loose a piercing scream around her, damaging nearby enemies."
+            },
+            {
+                "id": "queenofpain_sonic_wave",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/queenofpain_sonic_wave_hp1.png?v=5027641",
+                "name": "Sonic Wave",
+                "desc": "Creates a gigantic wave of sound in front of Queen of Pain, dealing heavy damage to all enemy units in its wake and pushing them back.    Upgradable by Aghanim's Scepter."
+            }
+        ]
+    },
+    "bio": "The Ecclesiast-King of Elze nursed a desire for pain--forbidden pain. In a less prominent political figure, such desires might be considered unwise, but in a monarch of his stature, to satisfy such thirsts would have threatened the virtue of the Divine Throne itself. Therefore he turned to his dungeon full of demonologists, promising freedom to whoever could summon a personal succubus of torment and bind it entirely to his service. The creature who arrived, Akasha by name, visited upon him such exquisite torments that he named her his Secret Queen, and he began to spend all his spare moments submitting to her clever torments--eventually abdicating all his responsibilities in his pursuit of the painful pleasures that only she could bring. Queen of Pain could bring him to the brink of death, but she was rune-bound to keep him alive. At last the King's neglect of state brought on an uprising. He was dragged from his chamber and hurled from the Tower of Invocations, and at the moment of death, Queen of Pain was let loose into the world, freed from servitude--freed to visit her sufferings on anyone she deigned to notice.",
+    "stats": {
+        "hit_points": [
+            492,
+            1104,
+            1921
+        ],
+        "mana": [
+            325,
+            853,
+            1490
+        ],
+        "damage": [
+            45,
+            86,
+            135
+        ],
+        "armor": [
+            3,
+            7,
+            13
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 550,
+        "missile_speed": "1500"
+    },
+    "abilities": [
+        {
+            "id": "queenofpain_shadow_strike",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/queenofpain_shadow_strike_hp2.png?v=5027641",
+            "name": "Shadow Strike",
+            "desc": "Hurls a poisoned dagger which deals large initial damage, and then deals damage over time. The poisoned unit has its movement speed slowed for 15 seconds.  An instance of damage is dealt every 3 seconds.",
+            "mana_cost": "110",
+            "cooldown": "16\/12\/8\/4",
+            "video": "http:\/\/www.youtube.com\/embed\/Qnv17DFLvbc?hd=1&rel=0",
+            "lore": "Akasha's envenomed dagger allows her to delight in the drawn out suffering of her victims.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "INITIAL DAMAGE",
+                    "val": "50 \/ 75 \/ 100 \/ 125"
+                },
+                {
+                    "name": "DAMAGE PER TICK",
+                    "val": "30 \/ 50 \/ 70 \/ 90"
+                },
+                {
+                    "name": "MOVEMENT SLOW",
+                    "val": "20% \/ 30% \/ 40% \/ 50%"
+                },
+                {
+                    "name": "CAST RANGE",
+                    "val": "450 \/ 500 \/ 550 \/ 600"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "15"
+                }
+            ]
+        },
+        {
+            "id": "queenofpain_blink",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/queenofpain_blink_hp2.png?v=5027641",
+            "name": "Blink",
+            "desc": "Short distance teleportation that allows Queen of Pain to move in and out of combat.",
+            "mana_cost": "60\/60\/60\/60",
+            "cooldown": "15\/12\/9\/6",
+            "video": "http:\/\/www.youtube.com\/embed\/ZaFlZ5YZhbw?hd=1&rel=0",
+            "lore": "The Secret Queen lives up to her title, making her pain impossible to escape.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RANGE",
+                    "val": "1300"
+                }
+            ]
+        },
+        {
+            "id": "queenofpain_scream_of_pain",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/queenofpain_scream_of_pain_hp2.png?v=5027641",
+            "name": "Scream Of Pain",
+            "desc": "The Queen of Pain lets loose a piercing scream around her, damaging nearby enemies.",
+            "mana_cost": "80\/100\/120\/140",
+            "cooldown": "7",
+            "video": "http:\/\/www.youtube.com\/embed\/Jb_qB9V9jpE?hd=1&rel=0",
+            "lore": "The sultry voice of Akasha beckons her opponents while stealing their souls.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "75 \/ 150 \/ 225 \/ 300"
+                },
+                {
+                    "name": "RADIUS",
+                    "val": "475"
+                }
+            ]
+        },
+        {
+            "id": "queenofpain_sonic_wave",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/queenofpain_sonic_wave_hp2.png?v=5027641",
+            "name": "Sonic Wave",
+            "desc": "Creates a gigantic wave of sound in front of Queen of Pain, dealing heavy damage to all enemy units in its wake and pushing them back.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "250\/360\/500",
+            "cooldown": "135",
+            "video": "http:\/\/www.youtube.com\/embed\/nfaHlauWaog?hd=1&rel=0",
+            "lore": "Her most exquisite of all of torments, Akasha's Sonic Wave puts her poor foes out of their misery.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Pure"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "WAVE MAX RADIUS",
+                    "val": "450"
+                },
+                {
+                    "name": "DAMAGE",
+                    "val": "340 \/ 430 \/ 520"
+                },
+                {
+                    "name": "SCEPTER COOLDOWN",
+                    "val": "40"
+                },
+                {
+                    "name": "SCEPTER DAMAGE",
+                    "val": "390 \/ 500 \/ 610"
+                }
+            ]
+        }
+    ]
+}

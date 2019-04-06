@@ -1,0 +1,212 @@
+{
+    "id": "clinkz",
+    "name": "Clinkz",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/clinkz_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/clinkz_vert.jpg?v=5027641"
+    },
+    "attack": "Ranged",
+    "role": [
+        "Carry",
+        "Escape",
+        "Pusher"
+    ],
+    "primary_attribs": "agi",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 18,
+                "gain": 1.7
+            },
+            "agi": {
+                "base": 22,
+                "gain": 3
+            },
+            "str": {
+                "base": 12,
+                "gain": 1.9
+            },
+            "dmg": {
+                "min": 15,
+                "max": 21
+            },
+            "ms": 290,
+            "armor": 3.08
+        },
+        "abilities": [
+            {
+                "id": "clinkz_strafe",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/clinkz_strafe_hp1.png?v=5027641",
+                "name": "Strafe",
+                "desc": "Clinkz nimbly attacks with a barrage of arrows. Dramatically increases attack speed for a short time and grants Clinkz the ability to automatically dodge projectiles."
+            },
+            {
+                "id": "clinkz_searing_arrows",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/clinkz_searing_arrows_hp1.png?v=5027641",
+                "name": "Searing Arrows",
+                "desc": "Imbues Clinkz's arrows with fire for extra damage."
+            },
+            {
+                "id": "clinkz_wind_walk",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/clinkz_wind_walk_hp1.png?v=5027641",
+                "name": "Skeleton Walk",
+                "desc": "Clinkz moves invisibly through units until the moment he attacks or uses an ability."
+            },
+            {
+                "id": "clinkz_burning_army",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/clinkz_burning_army_hp1.png?v=5027641",
+                "name": "Burning Army",
+                "desc": "Clinkz summons an army of fiery ranged skeleton archers. Archers are immobile and die with 2 attacks from a hero. Skeletons use your current Searing Arrows ability and attack only heroes. Base damage is equal to your hero's base damage. Attack range is equal to your hero's attack range."
+            }
+        ]
+    },
+    "bio": "At the base of the Bleeding Hills stretches a thousand-league wood, a place called The Hoven, where black pools gather the tarry blood of the uplands, and the king-mage Sutherex sits in benevolent rule. Once a sworn protector of the Hoven lands, Clinkz earned a reputation for his skill with a bow. In the three-hundredth year of the king-mage, the demon Maraxiform rose from sixth hell to lay claim to the forest. In response, the king-mage decreed an unbreakable spell: to any who slew the demon would be granted Life Without End. \r\n\r\n\t\tUnaware of the spell, Clinkz waded into battle, defending his lands against the demon's fiery onslaught. Clinkz drove Maraxiform back to the gates of sixth-hell itself, where on that fiery threshold the two locked in a mortal conflict. Grievously wounded, the demon let out a blast of hellfire as Clinkz loosed his final arrow. The arrow struck the demon true as hellfire poured out across the land, lighting the black pools and burning Clinkz alive at the instant of the demon's death. Thus, the mage's spell took effect at the very moment of the archer's conflagration, preserving him in this unholy state, leaving him a being of bones and rage, caught in the very act of dying, carrying hell's breath with him on his journey into eternity.",
+    "stats": {
+        "hit_points": [
+            378,
+            883,
+            1624
+        ],
+        "mana": [
+            234,
+            543,
+            1024
+        ],
+        "damage": [
+            37,
+            79,
+            129
+        ],
+        "armor": [
+            3,
+            9,
+            16
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 650,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "clinkz_strafe",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/clinkz_strafe_hp2.png?v=5027641",
+            "name": "Strafe",
+            "desc": "Clinkz nimbly attacks with a barrage of arrows. Dramatically increases attack speed for a short time and grants Clinkz the ability to automatically dodge projectiles.",
+            "mana_cost": "75\/80\/85\/90",
+            "cooldown": "30\/25\/20\/15",
+            "video": "http:\/\/www.youtube.com\/embed\/6ZXx_EB7RqA?hd=1&rel=0",
+            "lore": "It's hard to say whether the blur around the Bone Fletcher is from his flaming heart or his speed with the quiver.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "BONUS ATTACK SPEED",
+                    "val": "110 \/ 160 \/ 210 \/ 260"
+                }
+            ]
+        },
+        {
+            "id": "clinkz_searing_arrows",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/clinkz_searing_arrows_hp2.png?v=5027641",
+            "name": "Searing Arrows",
+            "desc": "Imbues Clinkz's arrows with fire for extra damage.",
+            "mana_cost": "12",
+            "cooldown": "0",
+            "video": "http:\/\/www.youtube.com\/embed\/jYysnmhcZ7Y?hd=1&rel=0",
+            "lore": "Clinkz simply lights his arrows from his flaming essence for quite the destructive effect.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Auto-Cast, Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Physical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": []
+        },
+        {
+            "id": "clinkz_wind_walk",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/clinkz_wind_walk_hp2.png?v=5027641",
+            "name": "Skeleton Walk",
+            "desc": "Clinkz moves invisibly through units until the moment he attacks or uses an ability.",
+            "mana_cost": "75\/75\/75\/75",
+            "cooldown": "20\/19\/18\/17",
+            "video": "http:\/\/www.youtube.com\/embed\/zr56m_VHdCU?hd=1&rel=0",
+            "lore": "With a burst of fire and puff of smoke, the Bone Fletcher was nowhere to be seen.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DURATION",
+                    "val": "20 \/ 25 \/ 30 \/ 35"
+                },
+                {
+                    "name": "BONUS MOVEMENT SPEED",
+                    "val": "15% \/ 25% \/ 35% \/ 45%"
+                }
+            ]
+        },
+        {
+            "id": "clinkz_burning_army",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/clinkz_burning_army_hp2.png?v=5027641",
+            "name": "Burning Army",
+            "desc": "Clinkz summons an army of fiery ranged skeleton archers. Archers are immobile and die with 2 attacks from a hero. Skeletons use your current Searing Arrows ability and attack only heroes. Base damage is equal to your hero's base damage. Attack range is equal to your hero's attack range.",
+            "mana_cost": "125\/175\/225",
+            "cooldown": "110",
+            "lore": null,
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Physical"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RANGE",
+                    "val": "1300"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "20"
+                },
+                {
+                    "name": "COUNT",
+                    "val": "4 \/ 5 \/ 6"
+                },
+                {
+                    "name": "ATTACK RATE",
+                    "val": "1.75 \/ 1.6 \/ 1.45"
+                },
+                {
+                    "name": "SPAWN INTERVAL",
+                    "val": "0.8"
+                }
+            ]
+        }
+    ]
+}

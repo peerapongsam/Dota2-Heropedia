@@ -1,0 +1,247 @@
+{
+    "id": "batrider",
+    "name": "Batrider",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/batrider_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/batrider_vert.jpg?v=5027641"
+    },
+    "attack": "Ranged",
+    "role": [
+        "Initiator",
+        "Jungler",
+        "Disabler",
+        "Escape"
+    ],
+    "primary_attribs": "int",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 22,
+                "gain": 2.9
+            },
+            "agi": {
+                "base": 15,
+                "gain": 1.5
+            },
+            "str": {
+                "base": 28,
+                "gain": 2.9
+            },
+            "dmg": {
+                "min": 16,
+                "max": 20
+            },
+            "ms": 290,
+            "armor": 2.1
+        },
+        "abilities": [
+            {
+                "id": "batrider_sticky_napalm",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/batrider_sticky_napalm_hp1.png?v=5027641",
+                "name": "Sticky Napalm",
+                "desc": "Drenches an area in sticky oil, amplifying damage from Batrider's attacks and abilities and slowing the movement speed and turn rate of enemies in the area.  Additional casts of Sticky Napalm continue to increase damage, up to 10 stacks.  The extra damage is halved against creeps."
+            },
+            {
+                "id": "batrider_flamebreak",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/batrider_flamebreak_hp1.png?v=5027641",
+                "name": "Flamebreak",
+                "desc": "Hurls an explosive cocktail that explodes when it reaches the target location, knocking back, and dealing damage over time to enemies in the area."
+            },
+            {
+                "id": "batrider_firefly",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/batrider_firefly_hp1.png?v=5027641",
+                "name": "Firefly",
+                "desc": "Batrider takes to the skies, laying down a trail of flames from the air.  The fire damages any enemies it touches, and destroys trees below Batrider. While flying, Batrider gains unobstructed movement and vision."
+            },
+            {
+                "id": "batrider_flaming_lasso",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/batrider_flaming_lasso_hp1.png?v=5027641",
+                "name": "Flaming Lasso",
+                "desc": "Lassoes an enemy and drags them in Batrider's wake.  Victims cannot be dragged over impassable terrain. Dragged units cannot move, attack, or use abilities.  Teleporting or blinking will break the lasso.    Upgradable by Aghanim's Scepter."
+            }
+        ]
+    },
+    "bio": "There is no such thing as harmony among the creatures of the Yama Raskav Jungle. By bite, or claw, or pincer, or hoof, even the slightest sign of weakness means a swift death. They say the Rider was just a lad cutting chaff in his family's field when he was taken, swept up by a massive morde-bat looking for take-out. But this boy had a better idea, and wriggled his way from his captor's grip, onto the beast's back, and hacked it down with his tools. Emerging from the bloody wreckage and intoxicated by the thrill of flight, the boy realized he'd found his calling.  The boy grew, and every summer he'd return to his family's field, often setting out into the bush seeking to reclaim that first thrill of facing death in the form of jaws or a fatal fall. The years went on, but his fire only grew stronger. He studied the overgrowth, plunging deeper with each expedition, until finally he found his way to the caves at the heart of hostility. They say the Rider, on the eve of a scorching summer night, had nothing but a rope, a bottle of liquid courage and a burning determination to feel the skies once more, when he plunged inside...",
+    "stats": {
+        "hit_points": [
+            682,
+            1453,
+            2384
+        ],
+        "mana": [
+            286,
+            814,
+            1451
+        ],
+        "damage": [
+            38,
+            79,
+            128
+        ],
+        "armor": [
+            2,
+            5,
+            10
+        ],
+        "sight_range": [
+            1200,
+            800
+        ],
+        "attack_range": 375,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "batrider_sticky_napalm",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/batrider_sticky_napalm_hp2.png?v=5027641",
+            "name": "Sticky Napalm",
+            "desc": "Drenches an area in sticky oil, amplifying damage from Batrider's attacks and abilities and slowing the movement speed and turn rate of enemies in the area.  Additional casts of Sticky Napalm continue to increase damage, up to 10 stacks.  The extra damage is halved against creeps.",
+            "mana_cost": "20\/20\/20\/20",
+            "cooldown": "3",
+            "video": "http:\/\/www.youtube.com\/embed\/jru8juajIig?hd=1&rel=0",
+            "lore": "It's not uncommon to hear the Rider cackle while he increases the flammability of his opponents.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RADIUS",
+                    "val": "375 \/ 375 \/ 375 \/ 375"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "8 \/ 8 \/ 8 \/ 8"
+                },
+                {
+                    "name": "MOVEMENT SLOW",
+                    "val": "3% \/ 5% \/ 7% \/ 9%"
+                },
+                {
+                    "name": "TURN RATE SLOW",
+                    "val": "70% \/ 70% \/ 70% \/ 70%"
+                }
+            ]
+        },
+        {
+            "id": "batrider_flamebreak",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/batrider_flamebreak_hp2.png?v=5027641",
+            "name": "Flamebreak",
+            "desc": "Hurls an explosive cocktail that explodes when it reaches the target location, knocking back, and dealing damage over time to enemies in the area.",
+            "mana_cost": "110\/120\/130\/140",
+            "cooldown": "17",
+            "video": "http:\/\/www.youtube.com\/embed\/uQuU3UPz4lE?hd=1&rel=0",
+            "lore": "A molotov cocktail is the weapon of choice for Batrider.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE PER SECOND",
+                    "val": "25 \/ 30 \/ 35 \/ 40"
+                },
+                {
+                    "name": "TOTAL DAMAGE",
+                    "val": "100 \/ 150 \/ 210 \/ 280"
+                },
+                {
+                    "name": "RADIUS",
+                    "val": "375"
+                }
+            ]
+        },
+        {
+            "id": "batrider_firefly",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/batrider_firefly_hp2.png?v=5027641",
+            "name": "Firefly",
+            "desc": "Batrider takes to the skies, laying down a trail of flames from the air.  The fire damages any enemies it touches, and destroys trees below Batrider. While flying, Batrider gains unobstructed movement and vision.",
+            "mana_cost": "125",
+            "cooldown": "34",
+            "video": "http:\/\/www.youtube.com\/embed\/X4vRNtSfFwE?hd=1&rel=0",
+            "lore": "When an enemy escapes into the Yama Raskav Jungle, most would cut through the brush to find the fugitive.  Batrider just chooses to destroy the jungle along with his foes.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE PER SECOND",
+                    "val": "10 \/ 30 \/ 50 \/ 70"
+                },
+                {
+                    "name": "MOVEMENT SPEED",
+                    "val": "4% \/ 7% \/ 10% \/ 13%"
+                },
+                {
+                    "name": "RADIUS",
+                    "val": "200 \/ 200 \/ 200 \/ 200"
+                }
+            ]
+        },
+        {
+            "id": "batrider_flaming_lasso",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/batrider_flaming_lasso_hp2.png?v=5027641",
+            "name": "Flaming Lasso",
+            "desc": "Lassoes an enemy and drags them in Batrider's wake.  Victims cannot be dragged over impassable terrain. Dragged units cannot move, attack, or use abilities.  Teleporting or blinking will break the lasso.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "225",
+            "cooldown": "100\/80\/60",
+            "video": "http:\/\/www.youtube.com\/embed\/Fem29nDrc04?hd=1&rel=0",
+            "lore": "Few dare to ask to ride on the bat, as Batrider gives them free of charge.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DURATION",
+                    "val": "3 \/ 3.5 \/ 4"
+                },
+                {
+                    "name": "SCEPTER TETHER RANGE",
+                    "val": "400"
+                },
+                {
+                    "name": "DAMAGE PER SECOND",
+                    "val": "20 \/ 40 \/ 60"
+                }
+            ]
+        }
+    ]
+}

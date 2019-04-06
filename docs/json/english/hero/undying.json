@@ -1,0 +1,267 @@
+{
+    "id": "undying",
+    "name": "Undying",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/undying_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/undying_vert.jpg?v=5027641"
+    },
+    "attack": "Melee",
+    "role": [
+        "Support",
+        "Durable",
+        "Disabler",
+        "Nuker"
+    ],
+    "primary_attribs": "str",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 27,
+                "gain": 2.8
+            },
+            "agi": {
+                "base": 10,
+                "gain": 0.8
+            },
+            "str": {
+                "base": 22,
+                "gain": 2.8
+            },
+            "dmg": {
+                "min": 35,
+                "max": 43
+            },
+            "ms": 300,
+            "armor": 3.4
+        },
+        "abilities": [
+            {
+                "id": "undying_decay",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/undying_decay_hp1.png?v=5027641",
+                "name": "Decay",
+                "desc": "Undying steals strength from all enemy heroes in an area, dealing base damage as he claims the enemy's strength for himself.    Upgradable by Aghanim's Scepter."
+            },
+            {
+                "id": "undying_soul_rip",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/undying_soul_rip_hp1.png?v=5027641",
+                "name": "Soul Rip",
+                "desc": "Undying rips health away from all nearby units and uses it to heal an ally, or damage an enemy. Soul Rip can also be used to heal Tombstone."
+            },
+            {
+                "id": "undying_tombstone",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/undying_tombstone_hp1.png?v=5027641",
+                "name": "Tombstone",
+                "desc": "Summons a tombstone at the target point.  Zombies will frequently spawn next to every enemy unit in the area around the Tombstone, and attack them.  Zombies have the Deathlust ability, which causes their attacks to slow the target, and if the target reaches below a certain amount of health, increases the attack and movement speed of the zombie."
+            },
+            {
+                "id": "undying_flesh_golem",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/undying_flesh_golem_hp1.png?v=5027641",
+                "name": "Flesh Golem",
+                "desc": "Undying transforms into a horrifying flesh golem that possesses a Plague Aura.  This aura slows all enemy units within 375 range and causes them to lose a percentage of their current health per second."
+            }
+        ]
+    },
+    "bio": "How long has it been since he lost his name? The torn ruin of his mind no longer knows. \r\n\r\n\t\tDimly he recalls armor and banners and grim-faced kin riding at his side. He remembers a battle: pain and fear as pale hands ripped him from his saddle. He remembers terror as they threw him into the yawning pit of the Dead God alongside his brothers, to hear the Dirge and be consumed into nothingness. In the darkness below, time left them. Thought left them. Sanity left them. Hunger, however, did not. They turned on each other with split fingernails and shattered teeth. Then it came: distant at first, a fragile note at the edge of perception, joined by another, then another, inescapable and unending. The chorus grew into a living wall of sound pulsing in his mind until no other thought survived. With the Dirge consuming him, he opened his arms to the Dead God and welcomed his obliteration. Yet destruction was not what he'd been chosen for. The Dead God demanded war. In the belly of the great nothing, he was granted a new purpose: to spread the Dirge across the land, to rally the sleepless dead against the living. He was to become the Undying, the herald of the Dead God, to rise and fall and rise again whenever his body failed him. To trudge on through death unending, that the Dirge might never end.",
+    "stats": {
+        "hit_points": [
+            568,
+            1313,
+            2225
+        ],
+        "mana": [
+            351,
+            861,
+            1485
+        ],
+        "damage": [
+            57,
+            96,
+            144
+        ],
+        "armor": [
+            3,
+            5,
+            9
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 150,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "undying_decay",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/undying_decay_hp2.png?v=5027641",
+            "name": "Decay",
+            "desc": "Undying steals strength from all enemy heroes in an area, dealing base damage as he claims the enemy's strength for himself.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "70\/85\/100\/115",
+            "cooldown": "10\/8\/6\/4",
+            "video": "http:\/\/www.youtube.com\/embed\/oiPPDIIyLF4?hd=1&rel=0",
+            "lore": "The strength of the living is simply borrowed from the strength of the dead.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "BASE DAMAGE",
+                    "val": "20 \/ 50 \/ 80 \/ 110"
+                },
+                {
+                    "name": "STRENGTH STEAL",
+                    "val": "4"
+                },
+                {
+                    "name": "RADIUS",
+                    "val": "325"
+                },
+                {
+                    "name": "SCEPTER STRENGTH STEAL",
+                    "val": "10"
+                }
+            ]
+        },
+        {
+            "id": "undying_soul_rip",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/undying_soul_rip_hp2.png?v=5027641",
+            "name": "Soul Rip",
+            "desc": "Undying rips health away from all nearby units and uses it to heal an ally, or damage an enemy. Soul Rip can also be used to heal Tombstone.",
+            "mana_cost": "80\/95\/110\/125",
+            "cooldown": "24\/18\/12\/6",
+            "video": "http:\/\/www.youtube.com\/embed\/8NDBna9Mi1E?hd=1&rel=0",
+            "lore": "Even allies feel despair in Undying's presence.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE\/HEAL PER UNIT",
+                    "val": "18 \/ 22 \/ 26 \/ 30"
+                },
+                {
+                    "name": "MAX UNITS",
+                    "val": "10 \/ 12 \/ 14 \/ 16"
+                },
+                {
+                    "name": "RIP RADIUS",
+                    "val": "1300"
+                },
+                {
+                    "name": "TOMBSTONE HEAL",
+                    "val": "2 \/ 4 \/ 6 \/ 8"
+                }
+            ]
+        },
+        {
+            "id": "undying_tombstone",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/undying_tombstone_hp2.png?v=5027641",
+            "name": "Tombstone",
+            "desc": "Summons a tombstone at the target point.  Zombies will frequently spawn next to every enemy unit in the area around the Tombstone, and attack them.  Zombies have the Deathlust ability, which causes their attacks to slow the target, and if the target reaches below a certain amount of health, increases the attack and movement speed of the zombie.",
+            "mana_cost": "120\/130\/140\/150",
+            "cooldown": "85\/80\/75\/70",
+            "video": "http:\/\/www.youtube.com\/embed\/hb931I8cwiM?hd=1&rel=0",
+            "lore": "Dirge calls on his fallen brothers to fight for the Dead God.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "TOMBSTONE DURATION",
+                    "val": "30"
+                },
+                {
+                    "name": "ZOMBIE SPAWN RADIUS",
+                    "val": "1200"
+                },
+                {
+                    "name": "DEATHLUST FLAT HEALTH THRESHOLD",
+                    "val": "100 \/ 200 \/ 300 \/ 400"
+                },
+                {
+                    "name": "DEATHLUST PCT HEALTH THRESHOLD",
+                    "val": "20% \/ 25% \/ 30% \/ 35%"
+                },
+                {
+                    "name": "ZOMBIE SPAWN INTERVAL",
+                    "val": "4 \/ 3.5 \/ 3 \/ 2.5"
+                }
+            ]
+        },
+        {
+            "id": "undying_flesh_golem",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/undying_flesh_golem_hp2.png?v=5027641",
+            "name": "Flesh Golem",
+            "desc": "Undying transforms into a horrifying flesh golem that possesses a Plague Aura.  This aura slows all enemy units within 375 range and causes them to lose a percentage of their current health per second.",
+            "mana_cost": "100",
+            "cooldown": "125",
+            "video": "http:\/\/www.youtube.com\/embed\/pfTqhK3DWsc?hd=1&rel=0",
+            "lore": "The flesh of the recently dead add to the power of Dirge's plague.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "SLOW",
+                    "val": "24% \/ 32% \/ 40%"
+                },
+                {
+                    "name": "CURRENT HEALTH DAMAGE PER SECOND",
+                    "val": "7%"
+                },
+                {
+                    "name": "RADIUS",
+                    "val": "375"
+                },
+                {
+                    "name": "HEALTH BONUS",
+                    "val": "400 \/ 1000 \/ 1600"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "30"
+                }
+            ]
+        }
+    ]
+}

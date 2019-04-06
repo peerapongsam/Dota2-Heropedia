@@ -1,0 +1,250 @@
+{
+    "id": "ancient_apparition",
+    "name": "Ancient Apparition",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/ancient_apparition_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/ancient_apparition_vert.jpg?v=5027641"
+    },
+    "attack": "Ranged",
+    "role": [
+        "Support",
+        "Disabler",
+        "Nuker"
+    ],
+    "primary_attribs": "int",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 23,
+                "gain": 3.4
+            },
+            "agi": {
+                "base": 20,
+                "gain": 2.2
+            },
+            "str": {
+                "base": 20,
+                "gain": 1.9
+            },
+            "dmg": {
+                "min": 21,
+                "max": 31
+            },
+            "ms": 290,
+            "armor": 1.8
+        },
+        "abilities": [
+            {
+                "id": "ancient_apparition_cold_feet",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/ancient_apparition_cold_feet_hp1.png?v=5027641",
+                "name": "Cold Feet",
+                "desc": "Places a frozen hex on an enemy unit that deals damage over time, but can be dispelled by moving away from the initial cast point.  If the enemy unit doesn't move outside of the given range, it will be stunned and frozen in place after 4 seconds."
+            },
+            {
+                "id": "ancient_apparition_ice_vortex",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/ancient_apparition_ice_vortex_hp1.png?v=5027641",
+                "name": "Ice Vortex",
+                "desc": "Creates a vortex of icy energy that slows movement speed and increases magic damage done in its range."
+            },
+            {
+                "id": "ancient_apparition_chilling_touch",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/ancient_apparition_chilling_touch_hp1.png?v=5027641",
+                "name": "Chilling Touch",
+                "desc": "Enhances your attacks with heavy magic damage and slow. Grants increased range for this attack."
+            },
+            {
+                "id": "ancient_apparition_ice_blast",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/ancient_apparition_ice_blast_hp1.png?v=5027641",
+                "name": "Ice Blast",
+                "desc": "Launches a tracer toward any location on the battlefield, which must be triggered again to mark the area to be blasted by a damaging explosion of hail. The further the tracer travels, the larger the explosion will be. Enemies caught in the explosion, or who touch the icy ball of hail as it travels, are Frostbitten, taking damage and prevented from regenerating or healing. If a Frostbitten unit's health drops below a certain percentage, they will instantly shatter.    Upgradable by Aghanim's Scepter."
+            }
+        ]
+    },
+    "bio": "Kaldr, the Ancient Apparition, is an image projected from outside time. He springs from the cold, infinite void that both predates the universe and awaits its end. Kaldr is, Kaldr was, Kaldr shall be...and what we perceive, powerful as it appears to us, is but the faintest faded echo of the true, eternal Kaldr. Some believe that as the cosmos ages and approaches its final moments, the brightness and power of Kaldr will also intensify--that the Ancient Apparition will grow younger and stronger as eternity's end draws nigh. His grip of ice will bring all matter to a stop, his image will cast a light too terrible to behold. An Apparition no longer!",
+    "stats": {
+        "hit_points": [
+            530,
+            1035,
+            1776
+        ],
+        "mana": [
+            299,
+            918,
+            1620
+        ],
+        "damage": [
+            44,
+            92,
+            146
+        ],
+        "armor": [
+            2,
+            6,
+            12
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 675,
+        "missile_speed": "1250"
+    },
+    "abilities": [
+        {
+            "id": "ancient_apparition_cold_feet",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/ancient_apparition_cold_feet_hp2.png?v=5027641",
+            "name": "Cold Feet",
+            "desc": "Places a frozen hex on an enemy unit that deals damage over time, but can be dispelled by moving away from the initial cast point.  If the enemy unit doesn't move outside of the given range, it will be stunned and frozen in place after 4 seconds.",
+            "mana_cost": "125",
+            "cooldown": "10\/9\/8\/7",
+            "video": "http:\/\/www.youtube.com\/embed\/wq_I0TQFqG8?hd=1&rel=0",
+            "lore": "Kaldr's presence draws those around him into a frozen void, threatening to lock them in an icy prison for eternity.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE PER TICK",
+                    "val": "30 \/ 50 \/ 70 \/ 90"
+                },
+                {
+                    "name": "BREAK DISTANCE",
+                    "val": "740 \/ 740 \/ 740 \/ 740"
+                },
+                {
+                    "name": "STUN DURATION",
+                    "val": "2 \/ 2.5 \/ 3 \/ 3.5"
+                },
+                {
+                    "name": "CAST RANGE",
+                    "val": "700 \/ 800 \/ 900 \/ 1000"
+                }
+            ]
+        },
+        {
+            "id": "ancient_apparition_ice_vortex",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/ancient_apparition_ice_vortex_hp2.png?v=5027641",
+            "name": "Ice Vortex",
+            "desc": "Creates a vortex of icy energy that slows movement speed and increases magic damage done in its range.",
+            "mana_cost": "50\/70\/90\/110",
+            "cooldown": "4",
+            "video": "http:\/\/www.youtube.com\/embed\/ZK9v1WLg7lc?hd=1&rel=0",
+            "lore": "Frozen, caustic winds are at the whim of Kaldr, chilling the field of battle.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RADIUS",
+                    "val": "275 \/ 275 \/ 275 \/ 275"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "16"
+                }
+            ]
+        },
+        {
+            "id": "ancient_apparition_chilling_touch",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/ancient_apparition_chilling_touch_hp2.png?v=5027641",
+            "name": "Chilling Touch",
+            "desc": "Enhances your attacks with heavy magic damage and slow. Grants increased range for this attack.",
+            "mana_cost": "30\/50\/70\/90",
+            "cooldown": "15\/11\/7\/3",
+            "video": "http:\/\/www.youtube.com\/embed\/vmYw33RAlCE?hd=1&rel=0",
+            "lore": "The Ancient Apparition's eternal knowledge brings a frigid enchantment to his attacks.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Auto-Cast, Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "MOVEMENT SLOW",
+                    "val": "100%"
+                },
+                {
+                    "name": "SLOW DURATION",
+                    "val": "0.5"
+                },
+                {
+                    "name": "ATTACK RANGE BONUS",
+                    "val": "60 \/ 120 \/ 180 \/ 240"
+                }
+            ]
+        },
+        {
+            "id": "ancient_apparition_ice_blast",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/ancient_apparition_ice_blast_hp2.png?v=5027641",
+            "name": "Ice Blast",
+            "desc": "Launches a tracer toward any location on the battlefield, which must be triggered again to mark the area to be blasted by a damaging explosion of hail. The further the tracer travels, the larger the explosion will be. Enemies caught in the explosion, or who touch the icy ball of hail as it travels, are Frostbitten, taking damage and prevented from regenerating or healing. If a Frostbitten unit's health drops below a certain percentage, they will instantly shatter.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "150",
+            "cooldown": "40",
+            "video": "http:\/\/www.youtube.com\/embed\/j97qGajoj1s?hd=1&rel=0",
+            "lore": "Ice storms from ages past flow through Kaldr's frosty limbs, crashing into the world and turning its inhabitants into monuments to his eternal power.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "250 \/ 350 \/ 450"
+                },
+                {
+                    "name": "FROSTBITTEN DURATION",
+                    "val": "10 \/ 11 \/ 12"
+                },
+                {
+                    "name": "FROSTBITTEN DAMAGE PER SECOND",
+                    "val": "12.5 \/ 20 \/ 32"
+                },
+                {
+                    "name": "SCEPTER FROSTBITTEN DURATION",
+                    "val": "17"
+                }
+            ]
+        }
+    ]
+}

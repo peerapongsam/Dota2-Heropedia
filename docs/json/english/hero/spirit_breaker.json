@@ -1,0 +1,243 @@
+{
+    "id": "spirit_breaker",
+    "name": "Spirit Breaker",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/spirit_breaker_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/spirit_breaker_vert.jpg?v=5027641"
+    },
+    "attack": "Melee",
+    "role": [
+        "Carry",
+        "Initiator",
+        "Disabler",
+        "Durable",
+        "Escape"
+    ],
+    "primary_attribs": "str",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 14,
+                "gain": 1.8
+            },
+            "agi": {
+                "base": 17,
+                "gain": 1.7
+            },
+            "str": {
+                "base": 29,
+                "gain": 3.1
+            },
+            "dmg": {
+                "min": 31,
+                "max": 41
+            },
+            "ms": 285,
+            "armor": 4.38
+        },
+        "abilities": [
+            {
+                "id": "spirit_breaker_charge_of_darkness",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/spirit_breaker_charge_of_darkness_hp1.png?v=5027641",
+                "name": "Charge of Darkness",
+                "desc": "Spirit Breaker fixes his sight on an enemy unit and starts charging through all objects.  All enemy units passed through and the targeted unit will be hit by a Greater Bash.  If the targeted unit dies, Spirit Breaker will change his target to the nearest enemy unit to that location."
+            },
+            {
+                "id": "spirit_breaker_bulldoze",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/spirit_breaker_bulldoze_hp1.png?v=5027641",
+                "name": "Bulldoze",
+                "desc": "Spirit Breaker gains movement speed and status resistance to ram through enemies. Can be used while charging."
+            },
+            {
+                "id": "spirit_breaker_greater_bash",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/spirit_breaker_greater_bash_hp1.png?v=5027641",
+                "name": "Greater Bash",
+                "desc": "Gives a chance to stun and knockback an enemy unit on an attack, as well as gaining bonus movement speed after a bash occurs. Deals a percentage of movement speed as damage."
+            },
+            {
+                "id": "spirit_breaker_nether_strike",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/spirit_breaker_nether_strike_hp1.png?v=5027641",
+                "name": "Nether Strike",
+                "desc": "Spirit Breaker slips into the nether realm, reappearing next to his hapless victim. Upon reappearing, a Greater Bash of the current level occurs and deals bonus damage. Knocks back for double the normal distance.     Upgradable by Aghanim's Scepter."
+            }
+        ]
+    },
+    "bio": "Barathrum the Spirit Breaker is a lordly and powerful being, a fierce and elemental intelligence which chose to plane-shift into the world of matter to take part in events with repercussions in the elemental realm that is his home. To that end, he assembled a form that would serve him well, both in our world and out of it. His physical form borrows from the strengths of this world, blending features both bovine and simian--horns, hooves and hands--as outward emblems of his inner qualities of strength, speed and cunning. He wears a ring in his nose, as a reminder that he serves a hidden master, and that this world in which he works is but a shadow of the real one.",
+    "stats": {
+        "hit_points": [
+            701,
+            1526,
+            2495
+        ],
+        "mana": [
+            182,
+            510,
+            1004
+        ],
+        "damage": [
+            60,
+            103,
+            154
+        ],
+        "armor": [
+            4,
+            8,
+            13
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 150,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "spirit_breaker_charge_of_darkness",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/spirit_breaker_charge_of_darkness_hp2.png?v=5027641",
+            "name": "Charge of Darkness",
+            "desc": "Spirit Breaker fixes his sight on an enemy unit and starts charging through all objects.  All enemy units passed through and the targeted unit will be hit by a Greater Bash.  If the targeted unit dies, Spirit Breaker will change his target to the nearest enemy unit to that location.",
+            "mana_cost": "100\/100\/100\/100",
+            "cooldown": "11",
+            "video": "http:\/\/www.youtube.com\/embed\/agoz4rtoSIw?hd=1&rel=0",
+            "lore": "Barathrum erupts from the darkness with unwieldy force.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "CHARGE BONUS SPEED",
+                    "val": "300 \/ 325 \/ 350 \/ 375"
+                },
+                {
+                    "name": "STUN DURATION",
+                    "val": "1.2 \/ 1.6 \/ 2 \/ 2.4"
+                }
+            ]
+        },
+        {
+            "id": "spirit_breaker_bulldoze",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/spirit_breaker_bulldoze_hp2.png?v=5027641",
+            "name": "Bulldoze",
+            "desc": "Spirit Breaker gains movement speed and status resistance to ram through enemies. Can be used while charging.",
+            "mana_cost": "25\/30\/35\/40",
+            "cooldown": "22",
+            "lore": null,
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "MOVEMENT SPEED",
+                    "val": "12% \/ 18% \/ 24% \/ 30%"
+                },
+                {
+                    "name": "STATUS RESISTANCE",
+                    "val": "30% \/ 40% \/ 50% \/ 60%"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "8"
+                }
+            ]
+        },
+        {
+            "id": "spirit_breaker_greater_bash",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/spirit_breaker_greater_bash_hp2.png?v=5027641",
+            "name": "Greater Bash",
+            "desc": "Gives a chance to stun and knockback an enemy unit on an attack, as well as gaining bonus movement speed after a bash occurs. Deals a percentage of movement speed as damage.",
+            "mana_cost": "",
+            "cooldown": "150",
+            "video": "http:\/\/www.youtube.com\/embed\/-GTN7_EjR7A?hd=1&rel=0",
+            "lore": "The signature strike of Barathrum's ghostly ball and chain.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "STUN DURATION",
+                    "val": "1.2 \/ 1.4 \/ 1.6 \/ 1.8"
+                },
+                {
+                    "name": "KNOCKBACK DURATION",
+                    "val": "0.5 \/ 0.5 \/ 0.5 \/ 0.5"
+                }
+            ]
+        },
+        {
+            "id": "spirit_breaker_nether_strike",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/spirit_breaker_nether_strike_hp2.png?v=5027641",
+            "name": "Nether Strike",
+            "desc": "Spirit Breaker slips into the nether realm, reappearing next to his hapless victim. Upon reappearing, a Greater Bash of the current level occurs and deals bonus damage. Knocks back for double the normal distance.     Upgradable by Aghanim's Scepter.",
+            "mana_cost": "125\/150\/175",
+            "cooldown": "100\/80\/60",
+            "video": "http:\/\/www.youtube.com\/embed\/OGmmniz9Oeo?hd=1&rel=0",
+            "lore": "Barathrum temporarily returns to the realm from where he came, bringing with him the retribution of both worlds.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "BONUS DAMAGE",
+                    "val": "150 \/ 200 \/ 250"
+                },
+                {
+                    "name": "RANGE",
+                    "val": "700"
+                },
+                {
+                    "name": "SCEPTER RANGE",
+                    "val": "850"
+                },
+                {
+                    "name": "SCEPTER BASH RADIUS",
+                    "val": "250 \/ 250 \/ 250"
+                },
+                {
+                    "name": "SCEPTER COOLDOWN",
+                    "val": "20 \/ 20 \/ 20"
+                }
+            ]
+        }
+    ]
+}

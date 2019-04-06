@@ -1,0 +1,225 @@
+{
+    "id": "naga_siren",
+    "name": "Naga Siren",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/naga_siren_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/naga_siren_vert.jpg?v=5027641"
+    },
+    "attack": "Melee",
+    "role": [
+        "Carry",
+        "Support",
+        "Pusher",
+        "Disabler",
+        "Initiator",
+        "Escape"
+    ],
+    "primary_attribs": "agi",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 21,
+                "gain": 2
+            },
+            "agi": {
+                "base": 21,
+                "gain": 3.7
+            },
+            "str": {
+                "base": 22,
+                "gain": 2.8
+            },
+            "dmg": {
+                "min": 23,
+                "max": 25
+            },
+            "ms": 320,
+            "armor": 5.94
+        },
+        "abilities": [
+            {
+                "id": "naga_siren_mirror_image",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/naga_siren_mirror_image_hp1.png?v=5027641",
+                "name": "Mirror Image",
+                "desc": "Creates multiple images of Naga Siren under her control.    DISPEL TYPE: Basic Dispel"
+            },
+            {
+                "id": "naga_siren_ensnare",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/naga_siren_ensnare_hp1.png?v=5027641",
+                "name": "Ensnare",
+                "desc": "Interrupts the target and traps them in place, preventing movement or blinking."
+            },
+            {
+                "id": "naga_siren_rip_tide",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/naga_siren_rip_tide_hp1.png?v=5027641",
+                "name": "Rip Tide",
+                "desc": "The Naga Siren and her images have a chance on attack to hit all nearby units with a damaging wave of water that lowers armor for 4 seconds."
+            },
+            {
+                "id": "naga_siren_song_of_the_siren",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/naga_siren_song_of_the_siren_hp1.png?v=5027641",
+                "name": "Song of the Siren",
+                "desc": "All enemies in range of the Naga Siren are put into a magical stasis where they cannot act or be attacked. Using Song of the Siren again will end the duration early.    Upgradable by Aghanim's Scepter."
+            }
+        ]
+    },
+    "bio": "Among the high-sworn of the Slithereen Guard there is a solemn vow oft repeated before battle: No Slithereen may fail.  In truth, these words are equal parts oath and enforceable covenant, for those who fall short of their duty are banished from the order.  To fail is to be other than Slithereen. \r\n\r\n\t\tOnce most highly esteemed of her race, Slithice for many years commanded a battalion of her fellows, using her formidable voice as her greatest weapon.  Powerful, sinuous, serpentine, she led her deadly Guard in defense of the Deep Ones, and the great wealth of the sunken cities.  But in the final battle of Crey, her forces were driven back by a marauding army of levianths intent on finding tribute for their god Maelrawn.  After the long and bloody onslaught, as the bodies were cleared from the sunken halls, a single jeweled chalice was found missing from the trove.  Of her hundred Guard, only a handful survived, but their bravery and sacrifice were of little consequence.  What mattered was that treasure was taken.  Honor destroyed.  And so Naga Siren was cast out.  Banished to search for the stolen chalice.  Though she might add a hundred times her weight to the golden trove, she is doomed to live apart until that day she returns that which was taken.  For no amount of gold is equal in honor to the honor she lost.",
+    "stats": {
+        "hit_points": [
+            568,
+            1313,
+            2225
+        ],
+        "mana": [
+            273,
+            637,
+            1157
+        ],
+        "damage": [
+            44,
+            96,
+            153
+        ],
+        "armor": [
+            6,
+            13,
+            21
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 150,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "naga_siren_mirror_image",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/naga_siren_mirror_image_hp2.png?v=5027641",
+            "name": "Mirror Image",
+            "desc": "Creates multiple images of Naga Siren under her control.    DISPEL TYPE: Basic Dispel",
+            "mana_cost": "70\/85\/100\/115",
+            "cooldown": "45\/40\/35\/30",
+            "video": "http:\/\/www.youtube.com\/embed\/v70MJ69BXHc?hd=1&rel=0",
+            "lore": "Slithice, while being strong in her own right, is notoriously hard to track down.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "IMAGE DURATION",
+                    "val": "26"
+                },
+                {
+                    "name": "IMAGE DAMAGE TAKEN",
+                    "val": "350%"
+                }
+            ]
+        },
+        {
+            "id": "naga_siren_ensnare",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/naga_siren_ensnare_hp2.png?v=5027641",
+            "name": "Ensnare",
+            "desc": "Interrupts the target and traps them in place, preventing movement or blinking.",
+            "mana_cost": "70\/80\/90\/100",
+            "cooldown": "14",
+            "video": "http:\/\/www.youtube.com\/embed\/EmB60RoN_Do?hd=1&rel=0",
+            "lore": "The only way to escape the onslaught of a Slithereen is to never oppose one in the first place.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DURATION",
+                    "val": "2 \/ 3 \/ 4 \/ 5"
+                }
+            ]
+        },
+        {
+            "id": "naga_siren_rip_tide",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/naga_siren_rip_tide_hp2.png?v=5027641",
+            "name": "Rip Tide",
+            "desc": "The Naga Siren and her images have a chance on attack to hit all nearby units with a damaging wave of water that lowers armor for 4 seconds.",
+            "mana_cost": "",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/kOUYkdJzR0E?hd=1&rel=0",
+            "lore": "A torrent from the Deep Ones crushes the defenses of the Siren's enemies.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "CHANCE",
+                    "val": "17%"
+                },
+                {
+                    "name": "DAMAGE",
+                    "val": "30 \/ 40 \/ 50 \/ 60"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "4"
+                }
+            ]
+        },
+        {
+            "id": "naga_siren_song_of_the_siren",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/naga_siren_song_of_the_siren_hp2.png?v=5027641",
+            "name": "Song of the Siren",
+            "desc": "All enemies in range of the Naga Siren are put into a magical stasis where they cannot act or be attacked. Using Song of the Siren again will end the duration early.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "150\/175\/200",
+            "cooldown": "160\/120\/80",
+            "video": "http:\/\/www.youtube.com\/embed\/P5Lmhv9mBR4?hd=1&rel=0",
+            "lore": "Slithice's powerful voice enchants leagues of opponents, while calling her Slithereen kin in a time of need.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RADIUS",
+                    "val": "1000 \/ 1200 \/ 1400"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "7 \/ 7 \/ 7"
+                },
+                {
+                    "name": "SCEPTER HEALTH REGEN",
+                    "val": "10%"
+                }
+            ]
+        }
+    ]
+}

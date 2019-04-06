@@ -1,0 +1,230 @@
+{
+    "id": "silencer",
+    "name": "Silencer",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/silencer_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/silencer_vert.jpg?v=5027641"
+    },
+    "attack": "Ranged",
+    "role": [
+        "Carry",
+        "Support",
+        "Disabler",
+        "Initiator",
+        "Nuker"
+    ],
+    "primary_attribs": "int",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 25,
+                "gain": 2.9
+            },
+            "agi": {
+                "base": 22,
+                "gain": 3
+            },
+            "str": {
+                "base": 19,
+                "gain": 2.7
+            },
+            "dmg": {
+                "min": 18,
+                "max": 32
+            },
+            "ms": 290,
+            "armor": 2.08
+        },
+        "abilities": [
+            {
+                "id": "silencer_curse_of_the_silent",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/silencer_curse_of_the_silent_hp1.png?v=5027641",
+                "name": "Arcane Curse",
+                "desc": "Curses the target area, causing enemy heroes to take damage and slowing their movement speed. Anytime affected enemies cast a spell, the duration is increased."
+            },
+            {
+                "id": "silencer_glaives_of_wisdom",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/silencer_glaives_of_wisdom_hp1.png?v=5027641",
+                "name": "Glaives of Wisdom",
+                "desc": "Silencer enchants his glaives with his wisdom, dealing additional damage based on his Intelligence.    Upgradable by Aghanim's Scepter."
+            },
+            {
+                "id": "silencer_last_word",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/silencer_last_word_hp1.png?v=5027641",
+                "name": "Last Word",
+                "desc": "Enchants a target, causing them to be damaged and silenced if they cast a spell or if the enchantment timer expires."
+            },
+            {
+                "id": "silencer_global_silence",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/silencer_global_silence_hp1.png?v=5027641",
+                "name": "Global Silence",
+                "desc": "Silencer stops all sound, preventing enemy heroes and units on the map from casting spells."
+            }
+        ]
+    },
+    "bio": "Part of the seventh and final generation of a carefully designed pedigree, Nortrom was bred by the ancient order of the Aeol Drias to be the greatest magic user the world had ever seen. He was the prophesied one, the culmination of two-hundred years of careful pairings, a war-mage who would bring glory to the order, and destruction to their sworn enemies, The Knights of the Fold.  \r\n\r\n\t\tRaised with other young mages in a hidden cantonment among the hills of the Hazhadal barrens, the order's preceptors waited for Nortrom's abilities to manifest. While the other students honed their talents with fire, or ice, or incantatory spells, Nortrom sat silent and talentless, unable to cast so much as a hex. As the day of final testing approached, he still hadn't found his magic. In disgust, the preceptors berated him, while the children laughed. \"You are no mage,\" the head of the order declared. Still, Nortrom did not slink away. He entered the day of testing and faced down the young mages who had mocked him. And then his preceptors learned a valuable lesson: a lack of magic can be the greatest magic of all. Nortrom silenced the young mages one by one and defeated them in single combat, until he alone stood as champion of the Aeol Drias, in fulfillment of the prophecy.",
+    "stats": {
+        "hit_points": [
+            511,
+            1229,
+            2122
+        ],
+        "mana": [
+            325,
+            853,
+            1490
+        ],
+        "damage": [
+            43,
+            84,
+            133
+        ],
+        "armor": [
+            2,
+            8,
+            15
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 600,
+        "missile_speed": "1000"
+    },
+    "abilities": [
+        {
+            "id": "silencer_curse_of_the_silent",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/silencer_curse_of_the_silent_hp2.png?v=5027641",
+            "name": "Arcane Curse",
+            "desc": "Curses the target area, causing enemy heroes to take damage and slowing their movement speed. Anytime affected enemies cast a spell, the duration is increased.",
+            "mana_cost": "125\/130\/135\/140",
+            "cooldown": "20\/18\/16\/14",
+            "video": "http:\/\/www.youtube.com\/embed\/1iiB545M6C0?hd=1&rel=0",
+            "lore": "Nortrom's lack of incantations is less of a problem for him than it is for his adversaries.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RADIUS",
+                    "val": "425"
+                },
+                {
+                    "name": "BASE DURATION",
+                    "val": "6"
+                },
+                {
+                    "name": "PENALTY DURATION",
+                    "val": "5"
+                },
+                {
+                    "name": "MOVEMENT SLOW",
+                    "val": "9% \/ 12% \/ 15% \/ 18%"
+                }
+            ]
+        },
+        {
+            "id": "silencer_glaives_of_wisdom",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/silencer_glaives_of_wisdom_hp2.png?v=5027641",
+            "name": "Glaives of Wisdom",
+            "desc": "Silencer enchants his glaives with his wisdom, dealing additional damage based on his Intelligence.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "15\/15\/15\/15",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/9-yINiC8IE4?hd=1&rel=0",
+            "lore": "Although lacking in traditional incantations, Nortrom's pedigree of the Aeol Drias gives him uncanny wisdom, which he applies to physical combat.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Auto-Cast, Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Pure"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": []
+        },
+        {
+            "id": "silencer_last_word",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/silencer_last_word_hp2.png?v=5027641",
+            "name": "Last Word",
+            "desc": "Enchants a target, causing them to be damaged and silenced if they cast a spell or if the enchantment timer expires.",
+            "mana_cost": "115",
+            "cooldown": "22\/18\/14\/10",
+            "video": "http:\/\/www.youtube.com\/embed\/VLHLahl4RDw?hd=1&rel=0",
+            "lore": "Nortrom ensures that spells uttered by his opponents will be their last.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "75 \/ 150 \/ 225 \/ 300"
+                },
+                {
+                    "name": "ENEMY CAST TIMER",
+                    "val": "4"
+                },
+                {
+                    "name": "SILENCE DURATION",
+                    "val": "3 \/ 4 \/ 5 \/ 6"
+                }
+            ]
+        },
+        {
+            "id": "silencer_global_silence",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/silencer_global_silence_hp2.png?v=5027641",
+            "name": "Global Silence",
+            "desc": "Silencer stops all sound, preventing enemy heroes and units on the map from casting spells.",
+            "mana_cost": "300\/450\/600",
+            "cooldown": "130",
+            "video": "http:\/\/www.youtube.com\/embed\/snCtUcpilzA?hd=1&rel=0",
+            "lore": "With a shock to the ground, all magic and sound pauses, and Nortrom fulfills his prophecy.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": []
+        }
+    ]
+}

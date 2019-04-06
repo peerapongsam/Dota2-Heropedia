@@ -1,0 +1,216 @@
+{
+    "id": "meepo",
+    "name": "Meepo",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/meepo_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/meepo_vert.jpg?v=5027641"
+    },
+    "attack": "Melee",
+    "role": [
+        "Carry",
+        "Escape",
+        "Nuker",
+        "Disabler",
+        "Initiator",
+        "Pusher"
+    ],
+    "primary_attribs": "agi",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 20,
+                "gain": 1.6
+            },
+            "agi": {
+                "base": 24,
+                "gain": 1.8
+            },
+            "str": {
+                "base": 24,
+                "gain": 1.8
+            },
+            "dmg": {
+                "min": 20,
+                "max": 26
+            },
+            "ms": 330,
+            "armor": 6.36
+        },
+        "abilities": [
+            {
+                "id": "meepo_earthbind",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/meepo_earthbind_hp1.png?v=5027641",
+                "name": "Earthbind",
+                "desc": "Tosses a net at the target point, pinning down all enemy units.  Earthbind prevents invisibility and blink."
+            },
+            {
+                "id": "meepo_poof",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/meepo_poof_hp1.png?v=5027641",
+                "name": "Poof",
+                "desc": "Drawing mystical energies from the earth, a Meepo can teleport to another Meepo or itself after channeling for 1.5 seconds, dealing damage in both the departure and arrival locations."
+            },
+            {
+                "id": "meepo_ransack",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/meepo_ransack_hp1.png?v=5027641",
+                "name": "Ransack",
+                "desc": "Steals health from the enemy with each strike and heals all other Meepos for that amount."
+            },
+            {
+                "id": "meepo_divided_we_stand",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/meepo_divided_we_stand_hp1.png?v=5027641",
+                "name": "Divided We Stand",
+                "desc": "Meepo summons an imperfect, semi-autonomous duplicate of himself, which can gain gold and experience as he does and shares his experience, attributes and abilities. However, the clones cannot wield any items but the boots that Meepo himself wears.  If any of the clones die, they all die.    Upgradable by Aghanim's Scepter."
+            }
+        ]
+    },
+    "bio": "\"If you ask me, life is all about who you know and what you can find. When you live up in the Riftshadow Ruins, just finding food can be tough. So you need to cut corners, you need to scrounge, you need to know your strengths. Some of the beasts up there can kill you, so you need a way to trap the weak and duck the strong. On the upside, the ruins have history, and history is worth a lot to some people. There used to be a palace there, where they had all these dark rituals. Bad stuff. If you survived the ceremony, they would shatter a crystal and split your soul into pieces. They made great art though! Sculptures and such. Let me tell you: sometimes you stumble onto some of those old carvings. Take a pack full of those to town and sell them, then get yourself food for a few weeks. If luck is really on your side, you might find a Riftshadow crystal. Get it appraised and start asking around. Someone always knows some crazy fool looking for this kind of thing. If all else fails, sell it to a Magus the next time one's in town. They love that stuff. Still, whatever you do, be careful handling those crystals. You do not want one to go off on you. It really hurts.\"",
+    "stats": {
+        "hit_points": [
+            606,
+            1085,
+            1807
+        ],
+        "mana": [
+            260,
+            551,
+            1019
+        ],
+        "damage": [
+            44,
+            69,
+            107
+        ],
+        "armor": [
+            6,
+            10,
+            15
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 150,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "meepo_earthbind",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/meepo_earthbind_hp2.png?v=5027641",
+            "name": "Earthbind",
+            "desc": "Tosses a net at the target point, pinning down all enemy units.  Earthbind prevents invisibility and blink.",
+            "mana_cost": "100",
+            "cooldown": "20\/16\/12\/8",
+            "video": "http:\/\/www.youtube.com\/embed\/i1tAJ-RJ27Q?hd=1&rel=0",
+            "lore": "Catching dinner in the Riftshadow Ruins can be quite the task.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DURATION",
+                    "val": "2"
+                },
+                {
+                    "name": "RADIUS",
+                    "val": "220"
+                }
+            ]
+        },
+        {
+            "id": "meepo_poof",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/meepo_poof_hp2.png?v=5027641",
+            "name": "Poof",
+            "desc": "Drawing mystical energies from the earth, a Meepo can teleport to another Meepo or itself after channeling for 1.5 seconds, dealing damage in both the departure and arrival locations.",
+            "mana_cost": "80",
+            "cooldown": "12\/10\/8\/6",
+            "video": "http:\/\/www.youtube.com\/embed\/-alsToHm2BM?hd=1&rel=0",
+            "lore": "Sometimes breaking one of the Riftshadow Crystals can be just the trick for getting yourself out of a bind.  Or your other self.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target, Point Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Allied Heroes"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RADIUS",
+                    "val": "375"
+                }
+            ]
+        },
+        {
+            "id": "meepo_ransack",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/meepo_ransack_hp2.png?v=5027641",
+            "name": "Ransack",
+            "desc": "Steals health from the enemy with each strike and heals all other Meepos for that amount.",
+            "mana_cost": "",
+            "cooldown": "",
+            "lore": null,
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Pure"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "HEALTH STEAL (HEROES)",
+                    "val": "6 \/ 10 \/ 14 \/ 18"
+                },
+                {
+                    "name": "HEALTH STEAL (CREEPS)",
+                    "val": "4 \/ 6 \/ 8 \/ 10"
+                }
+            ]
+        },
+        {
+            "id": "meepo_divided_we_stand",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/meepo_divided_we_stand_hp2.png?v=5027641",
+            "name": "Divided We Stand",
+            "desc": "Meepo summons an imperfect, semi-autonomous duplicate of himself, which can gain gold and experience as he does and shares his experience, attributes and abilities. However, the clones cannot wield any items but the boots that Meepo himself wears.  If any of the clones die, they all die.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/aa1ksGfZ6fY?hd=1&rel=0",
+            "lore": "Do I know you?",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "NUMBER OF MEEPOES",
+                    "val": "1 \/ 2 \/ 3"
+                }
+            ]
+        }
+    ]
+}

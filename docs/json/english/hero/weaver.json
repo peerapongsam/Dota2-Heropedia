@@ -1,0 +1,233 @@
+{
+    "id": "weaver",
+    "name": "Weaver",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/weaver_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/weaver_vert.jpg?v=5027641"
+    },
+    "attack": "Ranged",
+    "role": [
+        "Carry",
+        "Escape"
+    ],
+    "primary_attribs": "agi",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 13,
+                "gain": 1.8
+            },
+            "agi": {
+                "base": 14,
+                "gain": 3.6
+            },
+            "str": {
+                "base": 16,
+                "gain": 1.8
+            },
+            "dmg": {
+                "min": 36,
+                "max": 46
+            },
+            "ms": 275,
+            "armor": 0.96
+        },
+        "abilities": [
+            {
+                "id": "weaver_the_swarm",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/weaver_the_swarm_hp1.png?v=5027641",
+                "name": "The Swarm",
+                "desc": "Weaver launches a swarm of 12 young Weavers that latch on any enemy unit in their path, attacking and reducing armor until it is killed."
+            },
+            {
+                "id": "weaver_shukuchi",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/weaver_shukuchi_hp1.png?v=5027641",
+                "name": "Shukuchi",
+                "desc": "Weaver shifts out of visibility, gaining the ability to move at maximum speed through physical units--doing harm to any enemies it passes through."
+            },
+            {
+                "id": "weaver_geminate_attack",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/weaver_geminate_attack_hp1.png?v=5027641",
+                "name": "Geminate Attack",
+                "desc": "Allows Weaver to dispatch two attacks at once."
+            },
+            {
+                "id": "weaver_time_lapse",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/weaver_time_lapse_hp1.png?v=5027641",
+                "name": "Time Lapse",
+                "desc": "Weaver warps backward to whatever position it was in five seconds earlier--regaining the HP and mana from that time. No effect on cooldown, gold or experience.    Upgradable by Aghanim's Scepter.    DISPEL TYPE: Strong Dispel"
+            }
+        ]
+    },
+    "bio": "The fabric of creation needs constant care, lest it grow tattered; for when it unravels, whole worlds come undone. It is the work of the Weavers to keep the fabric tight, to repair worn spots in the mesh of reality. They also defend from the things that gnaw and lay their eggs in frayed regions, whose young can quickly devour an entire universe if the Weavers let their attention lapse. Skitskurr was a master Weaver, charged with keeping one small patch of creation tightly woven and unfaded. But the job was not enough to satisfy. It nagged him that the original work of creation all lay in the past; the Loom had done its work and travelled on. He wanted to create rather than merely maintain--to weave worlds of his own devising.  He began making small changes to his domain, but the thrill of creation proved addictive, and his strokes became bolder, pulling against the pattern that the Loom had woven. The guardians came, with their scissors, and Weaver's world was pared off, snipped from the cosmic tapestry, which they rewove without him in it. Skitskurr found himself alone, apart from his kind, a state that would have been torment for any other Weaver. But Skitskurr rejoiced, for now he was free. Free to create for himself, to begin anew. The raw materials he needed to weave a new reality were all around him. All he had to do was tear apart this old world at the seams.",
+    "stats": {
+        "hit_points": [
+            454,
+            933,
+            1655
+        ],
+        "mana": [
+            169,
+            497,
+            991
+        ],
+        "damage": [
+            50,
+            100,
+            156
+        ],
+        "armor": [
+            1,
+            8,
+            16
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 425,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "weaver_the_swarm",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/weaver_the_swarm_hp2.png?v=5027641",
+            "name": "The Swarm",
+            "desc": "Weaver launches a swarm of 12 young Weavers that latch on any enemy unit in their path, attacking and reducing armor until it is killed.",
+            "mana_cost": "110",
+            "cooldown": "44\/36\/28\/20",
+            "video": "http:\/\/www.youtube.com\/embed\/YfngG2WLpfc?hd=1&rel=0",
+            "lore": "Skitskurr opens a gap in the space time fabric, allowing young Weavers to slip through and aid him in combat.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Physical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "ATTACK DAMAGE",
+                    "val": "18 \/ 20 \/ 22 \/ 24"
+                },
+                {
+                    "name": "ATTACK FREQUENCY",
+                    "val": "1.25 \/ 1.1 \/ 0.95 \/ 0.8"
+                },
+                {
+                    "name": "COUNT",
+                    "val": "12 \/ 12 \/ 12 \/ 12"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "16"
+                },
+                {
+                    "name": "ATTACKS TO DESTROY",
+                    "val": "8 \/ 8 \/ 8 \/ 8"
+                }
+            ]
+        },
+        {
+            "id": "weaver_shukuchi",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/weaver_shukuchi_hp2.png?v=5027641",
+            "name": "Shukuchi",
+            "desc": "Weaver shifts out of visibility, gaining the ability to move at maximum speed through physical units--doing harm to any enemies it passes through.",
+            "mana_cost": "70",
+            "cooldown": "12\/10\/8\/6",
+            "video": "http:\/\/www.youtube.com\/embed\/d5tRF1b5L5E?hd=1&rel=0",
+            "lore": "As the Weavers worked in the fabric of creation, small wormholes allowed them to slip through time to better work their craft.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RADIUS",
+                    "val": "175 \/ 175 \/ 175 \/ 175"
+                },
+                {
+                    "name": "FADE TIME",
+                    "val": "0.25 \/ 0.25 \/ 0.25 \/ 0.25"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "4 \/ 4 \/ 4 \/ 4"
+                }
+            ]
+        },
+        {
+            "id": "weaver_geminate_attack",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/weaver_geminate_attack_hp2.png?v=5027641",
+            "name": "Geminate Attack",
+            "desc": "Allows Weaver to dispatch two attacks at once.",
+            "mana_cost": "",
+            "cooldown": "9\/7\/5\/3",
+            "video": "http:\/\/www.youtube.com\/embed\/UGW_dID1W5c?hd=1&rel=0",
+            "lore": "Skitskurr's relationship with time is somewhat variable, causing his actions to be witnessed - and felt - more than once.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "GEMINATE ATTACK DAMAGE",
+                    "val": "10 \/ 20 \/ 30 \/ 40"
+                }
+            ]
+        },
+        {
+            "id": "weaver_time_lapse",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/weaver_time_lapse_hp2.png?v=5027641",
+            "name": "Time Lapse",
+            "desc": "Weaver warps backward to whatever position it was in five seconds earlier--regaining the HP and mana from that time. No effect on cooldown, gold or experience.    Upgradable by Aghanim's Scepter.    DISPEL TYPE: Strong Dispel",
+            "mana_cost": "150\/75\/0",
+            "cooldown": "70\/55\/40",
+            "video": "http:\/\/www.youtube.com\/embed\/cmgRjaiscEg?hd=1&rel=0",
+            "lore": "If Skitskurr does not deem the current reality of the world to fit his desires, he simply crawls back in time to right what was wronged.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Allied Heroes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "SCEPTER COOLDOWN",
+                    "val": "16"
+                },
+                {
+                    "name": "SCEPTER ALLY CAST RANGE",
+                    "val": "1000"
+                }
+            ]
+        }
+    ]
+}

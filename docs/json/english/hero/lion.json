@@ -1,0 +1,251 @@
+{
+    "id": "lion",
+    "name": "Lion",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/lion_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/lion_vert.jpg?v=5027641"
+    },
+    "attack": "Ranged",
+    "role": [
+        "Support",
+        "Disabler",
+        "Nuker",
+        "Initiator"
+    ],
+    "primary_attribs": "int",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 18,
+                "gain": 3.5
+            },
+            "agi": {
+                "base": 15,
+                "gain": 1.5
+            },
+            "str": {
+                "base": 18,
+                "gain": 2.2
+            },
+            "dmg": {
+                "min": 29,
+                "max": 35
+            },
+            "ms": 290,
+            "armor": 1.1
+        },
+        "abilities": [
+            {
+                "id": "lion_impale",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/lion_impale_hp1.png?v=5027641",
+                "name": "Earth Spike",
+                "desc": "Rock spikes burst from the earth along a straight path. Enemy units are hurled into the air, then are stunned and take damage when they fall."
+            },
+            {
+                "id": "lion_voodoo",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/lion_voodoo_hp1.png?v=5027641",
+                "name": "Hex",
+                "desc": "Transforms an enemy unit into a harmless beast, with all special abilities disabled."
+            },
+            {
+                "id": "lion_mana_drain",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/lion_mana_drain_hp1.png?v=5027641",
+                "name": "Mana Drain",
+                "desc": "CHANNELED - Absorbs the magical energies of a target enemy unit by taking mana from it every second."
+            },
+            {
+                "id": "lion_finger_of_death",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/lion_finger_of_death_hp1.png?v=5027641",
+                "name": "Finger of Death",
+                "desc": "Rips at an enemy unit, trying to turn it inside-out. Deals massive damage and grows stronger with each life it consumes.    Upgradable by Aghanim's Scepter."
+            }
+        ]
+    },
+    "bio": "Once a Grandmaster of the Demon Witch tradition of sorcery, Lion earned fame among his brethren for fighting on the side of light and righteousness. But adulation corrupts. With powers surpassed only by his ambition, the mage was seduced by a demon and turned to evil, trading his soul for prestige. After committing horrible crimes that marred his soul, he was abandoned. The demon betrayed him, striking better deals with his enemies. Such was Lion's rage that he followed the demon back to hell and slew it, ripping it limb from limb, taking its demonic hand for his own. However, such demonoplasty comes at a cost. Lion was transfigured by the process, his body transformed into something unrecognizable. He rose from hell, rage incarnate, slaying even those who had once called him master, and laying waste to the lands where he had once been so adored. He survives now as the sole practitioner of the Demon Witch tradition, and those who present themselves as acolytes or students are soon relieved of their mana and carried off by the faintest gust of wind.",
+    "stats": {
+        "hit_points": [
+            492,
+            1077,
+            1875
+        ],
+        "mana": [
+            234,
+            871,
+            1586
+        ],
+        "damage": [
+            47,
+            96,
+            151
+        ],
+        "armor": [
+            1,
+            4,
+            9
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 600,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "lion_impale",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/lion_impale_hp2.png?v=5027641",
+            "name": "Earth Spike",
+            "desc": "Rock spikes burst from the earth along a straight path. Enemy units are hurled into the air, then are stunned and take damage when they fall.",
+            "mana_cost": "70\/100\/130\/160",
+            "cooldown": "12",
+            "video": "http:\/\/www.youtube.com\/embed\/IS20TjZpD2M?hd=1&rel=0",
+            "lore": "The Demon Witch exercises his demonic covenant, opening a fissure from hell.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target, Point Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "80 \/ 140 \/ 200 \/ 260"
+                },
+                {
+                    "name": "STUN DURATION",
+                    "val": "1.4 \/ 1.8 \/ 2.2 \/ 2.6"
+                }
+            ]
+        },
+        {
+            "id": "lion_voodoo",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/lion_voodoo_hp2.png?v=5027641",
+            "name": "Hex",
+            "desc": "Transforms an enemy unit into a harmless beast, with all special abilities disabled.",
+            "mana_cost": "125\/150\/175\/200",
+            "cooldown": "30\/24\/18\/12",
+            "video": "http:\/\/www.youtube.com\/embed\/1H8xWP_19Lo?hd=1&rel=0",
+            "lore": "Lion is compelled to share his transfiguration, twisting the essence of those who oppose him.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DURATION",
+                    "val": "2.5 \/ 3 \/ 3.5 \/ 4"
+                }
+            ]
+        },
+        {
+            "id": "lion_mana_drain",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/lion_mana_drain_hp2.png?v=5027641",
+            "name": "Mana Drain",
+            "desc": "CHANNELED - Absorbs the magical energies of a target enemy unit by taking mana from it every second.",
+            "mana_cost": "10\/10\/10\/10",
+            "cooldown": "16\/12\/8\/4",
+            "video": "http:\/\/www.youtube.com\/embed\/jclbhiTM7aA?hd=1&rel=0",
+            "lore": "Lesser magi are nothing more than a source of magical restoration for the Demon Witch.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Channeled, Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "CHANNEL TIME",
+                    "val": "5"
+                },
+                {
+                    "name": "MANA PER SECOND",
+                    "val": "20 \/ 40 \/ 60 \/ 120"
+                },
+                {
+                    "name": "BREAK DISTANCE",
+                    "val": "1200"
+                },
+                {
+                    "name": "MOVEMENT SLOW",
+                    "val": "20% \/ 24% \/ 28% \/ 32%"
+                }
+            ]
+        },
+        {
+            "id": "lion_finger_of_death",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/lion_finger_of_death_hp2.png?v=5027641",
+            "name": "Finger of Death",
+            "desc": "Rips at an enemy unit, trying to turn it inside-out. Deals massive damage and grows stronger with each life it consumes.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "200\/420\/650",
+            "cooldown": "160\/100\/40",
+            "video": "http:\/\/www.youtube.com\/embed\/PoS308yRk5c?hd=1&rel=0",
+            "lore": "Lion's disfigured hand is also the source of his greatest power, capable of flooding victims with malefic force.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE PER KILL",
+                    "val": "50"
+                },
+                {
+                    "name": "SCEPTER MANA COST",
+                    "val": "200 \/ 420 \/ 625"
+                },
+                {
+                    "name": "SCEPTER COOLDOWN",
+                    "val": "100 \/ 60 \/ 20"
+                },
+                {
+                    "name": "SCEPTER AREA OF EFFECT",
+                    "val": "325"
+                }
+            ]
+        }
+    ]
+}

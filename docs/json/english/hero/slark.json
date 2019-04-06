@@ -1,0 +1,223 @@
+{
+    "id": "slark",
+    "name": "Slark",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/slark_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/slark_vert.jpg?v=5027641"
+    },
+    "attack": "Melee",
+    "role": [
+        "Carry",
+        "Escape",
+        "Disabler",
+        "Nuker"
+    ],
+    "primary_attribs": "agi",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 16,
+                "gain": 1.7
+            },
+            "agi": {
+                "base": 21,
+                "gain": 1.7
+            },
+            "str": {
+                "base": 21,
+                "gain": 1.9
+            },
+            "dmg": {
+                "min": 33,
+                "max": 41
+            },
+            "ms": 300,
+            "armor": 2.94
+        },
+        "abilities": [
+            {
+                "id": "slark_dark_pact",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/slark_dark_pact_hp1.png?v=5027641",
+                "name": "Dark Pact",
+                "desc": "After a short delay, Slark sacrifices some of his life blood, purging most negative debuffs and dealing damage to enemy units around him and to himself.  Slark only takes 50% of the damage.    DISPEL TYPE: Strong Dispel"
+            },
+            {
+                "id": "slark_pounce",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/slark_pounce_hp1.png?v=5027641",
+                "name": "Pounce",
+                "desc": "Slark leaps forward, grabbing the first hero he connects with.  That unit is leashed, and can only move a limited distance away from Slark's landing position."
+            },
+            {
+                "id": "slark_essence_shift",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/slark_essence_shift_hp1.png?v=5027641",
+                "name": "Essence Shift",
+                "desc": "Slark steals the life essence of enemy heroes with his attacks, draining each of their attributes and converting them to bonus Agility. If Slark kills an affected enemy hero, he permanently steals 1 Agility."
+            },
+            {
+                "id": "slark_shadow_dance",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/slark_shadow_dance_hp1.png?v=5027641",
+                "name": "Shadow Dance",
+                "desc": "When used, Slark hides himself in a cloud of shadows, becoming immune to detection. Attacking, casting spells, and using items will not reveal Slark.  Passively, when not visible to the enemy team, Slark gains bonus movement speed and health regeneration.    Upgradable by Aghanim's Scepter."
+            }
+        ]
+    },
+    "bio": "Little known to the inhabitants of the dry world, Dark Reef is a sunken prison where the worst of the sea-bred are sent for crimes against their fellows. It is a razor barbed warren full of murderous slithereen, treacherous Deep Ones, sociopathic meranths. In this dim labyrinth, patrolled by eels and guarded by enormous anemones, only the vicious survive. Pitched into Dark Reef for crimes unknown, Slark spent half a lifetime without kin or kindness, trusting no one, surviving through a combination of stealth and ruthlessness, keeping his thoughts and his plans to himself. When the infamous Dark Reef Dozen plotted their ill-fated breakout, they kept their plans a perfect secret, murdering anyone who could have put the pieces together--but somehow Slark discovered their scheme and made a place for himself in it. Ten of the Dozen died in the escape attempt, and two were captured, hauled back to Dark Reef, then executed for the entertainment of their fellow inmates. But Slark, the unsung thirteenth, used the commotion as cover and slipped away, never to be caught. Now a furtive resident of the carnivorous mangrove scrub that grips the southern reach of Shadeshore, Slark remains the only successful escapee from Dark Reef.",
+    "stats": {
+        "hit_points": [
+            549,
+            1054,
+            1795
+        ],
+        "mana": [
+            208,
+            517,
+            998
+        ],
+        "damage": [
+            54,
+            78,
+            115
+        ],
+        "armor": [
+            3,
+            6,
+            11
+        ],
+        "sight_range": [
+            1800,
+            1800
+        ],
+        "attack_range": 150,
+        "missile_speed": "N\/A"
+    },
+    "abilities": [
+        {
+            "id": "slark_dark_pact",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/slark_dark_pact_hp2.png?v=5027641",
+            "name": "Dark Pact",
+            "desc": "After a short delay, Slark sacrifices some of his life blood, purging most negative debuffs and dealing damage to enemy units around him and to himself.  Slark only takes 50% of the damage.    DISPEL TYPE: Strong Dispel",
+            "mana_cost": "60",
+            "cooldown": "9\/8\/7\/6",
+            "video": "http:\/\/www.youtube.com\/embed\/OHGQ_BUhySI?hd=1&rel=0",
+            "lore": "Slithereen are capable of quickly regrowing appendages, in case of critical injury, to save their own lives.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DELAY",
+                    "val": "1.5"
+                },
+                {
+                    "name": "RADIUS",
+                    "val": "325"
+                }
+            ]
+        },
+        {
+            "id": "slark_pounce",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/slark_pounce_hp2.png?v=5027641",
+            "name": "Pounce",
+            "desc": "Slark leaps forward, grabbing the first hero he connects with.  That unit is leashed, and can only move a limited distance away from Slark's landing position.",
+            "mana_cost": "75\/75\/75\/75",
+            "cooldown": "20\/16\/12\/8",
+            "video": "http:\/\/www.youtube.com\/embed\/opGqZyhkBYw?hd=1&rel=0",
+            "lore": "Time in the Dark Reef made Slark a dangerous assassin; aggressive and fearless.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DISTANCE",
+                    "val": "700"
+                },
+                {
+                    "name": "LEASH RADIUS",
+                    "val": "400"
+                }
+            ]
+        },
+        {
+            "id": "slark_essence_shift",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/slark_essence_shift_hp2.png?v=5027641",
+            "name": "Essence Shift",
+            "desc": "Slark steals the life essence of enemy heroes with his attacks, draining each of their attributes and converting them to bonus Agility. If Slark kills an affected enemy hero, he permanently steals 1 Agility.",
+            "mana_cost": "",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/60HPDokFuvU?hd=1&rel=0",
+            "lore": "With each strike at his adversaries, Slark's knowledge of their weaknesses improves.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "AGILITY GAINED",
+                    "val": "3"
+                },
+                {
+                    "name": "ALL ATTRIBUTE LOSS",
+                    "val": "1"
+                }
+            ]
+        },
+        {
+            "id": "slark_shadow_dance",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/slark_shadow_dance_hp2.png?v=5027641",
+            "name": "Shadow Dance",
+            "desc": "When used, Slark hides himself in a cloud of shadows, becoming immune to detection. Attacking, casting spells, and using items will not reveal Slark.  Passively, when not visible to the enemy team, Slark gains bonus movement speed and health regeneration.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "120\/120\/120",
+            "cooldown": "80\/70\/60",
+            "video": "http:\/\/www.youtube.com\/embed\/k8jpsm0VhGk?hd=1&rel=0",
+            "lore": "The hidden Thirteenth is a slippery foe.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "BONUS MOVEMENT SPEED",
+                    "val": "20% \/ 35% \/ 50%"
+                },
+                {
+                    "name": "HEALTH GAINED PER SECOND",
+                    "val": "3% \/ 5% \/ 7%"
+                },
+                {
+                    "name": "SCEPTER RADIUS",
+                    "val": "325"
+                }
+            ]
+        }
+    ]
+}

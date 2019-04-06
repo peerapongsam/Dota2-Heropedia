@@ -1,0 +1,233 @@
+{
+    "id": "bounty_hunter",
+    "name": "Bounty Hunter",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/bounty_hunter_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/bounty_hunter_vert.jpg?v=5027641"
+    },
+    "attack": "Melee",
+    "role": [
+        "Escape",
+        "Nuker"
+    ],
+    "primary_attribs": "agi",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 19,
+                "gain": 2
+            },
+            "agi": {
+                "base": 21,
+                "gain": 2.6
+            },
+            "str": {
+                "base": 20,
+                "gain": 2.5
+            },
+            "dmg": {
+                "min": 24,
+                "max": 38
+            },
+            "ms": 315,
+            "armor": 5.94
+        },
+        "abilities": [
+            {
+                "id": "bounty_hunter_shuriken_toss",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/bounty_hunter_shuriken_toss_hp1.png?v=5027641",
+                "name": "Shuriken Toss",
+                "desc": "Hurls a deadly shuriken at an enemy unit, dealing damage and mini-stunning the target.  The shuriken will bounce between any Tracked units who are within a 1200 radius of each other.    Upgradable by Aghanim's Scepter."
+            },
+            {
+                "id": "bounty_hunter_jinada",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/bounty_hunter_jinada_hp1.png?v=5027641",
+                "name": "Jinada",
+                "desc": "Bounty Hunter plans his next hit, dealing bonus damage and stealing some unreliable gold."
+            },
+            {
+                "id": "bounty_hunter_wind_walk",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/bounty_hunter_wind_walk_hp1.png?v=5027641",
+                "name": "Shadow Walk",
+                "desc": "Bounty Hunter becomes invisible and gains the ability to move through other units until he attacks or uses an ability.  If he breaks the invisibility with an attack, that attack will slow the target's movement speed."
+            },
+            {
+                "id": "bounty_hunter_track",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/bounty_hunter_track_hp1.png?v=5027641",
+                "name": "Track",
+                "desc": "Tracks an enemy hero, granting True Sight of the target, and information on how much gold it is carrying. You move fast when near the tracked unit and deal critical strikes when attacking it. If the target dies, Bounty Hunter and nearby heroes collect a bonus bounty of gold. Casting Track does not take you out of invisibility."
+            }
+        ]
+    },
+    "bio": "When the hunted tell tales of Gondar the Bounty Hunter, none are sure of which are true. In whispered tones they say he was abandoned as a kit, learning his skill in tracking as a matter of simple survival. Others hear he was an orphan of war, taken in by the great Soruq the Hunter to learn the master's skill with a blade as they plumbed the dark forests for big game. Still others believe he was a lowly street urchin raised among a guild of cutpurses and thieves, trained in the arts of stealth and misdirection. Around campfires in the wild countryside his quarry speaks the rumors of Gondar's work, growing ever more fearful: they say it was he who tracked down the tyrant King Goff years after the mad regent went into hiding, delivering his head and scepter as proof. That it was he who infiltrated the rebel camps at Highseat, finally bringing the legendary thief White Cape to be judged for his crimes. And that it was he who ended the career of Soruq the Hunter, condemned as a criminal for killing the Prince's prized hellkite. The tales of Gondar's incredible skill stretch on, with each daring feat more unbelievable than the last, each target more elusive. For the right price, the hunted know, anyone can be found. For the right price, even the mightiest may find fear in the shadows.",
+    "stats": {
+        "hit_points": [
+            530,
+            1195,
+            2050
+        ],
+        "mana": [
+            247,
+            611,
+            1131
+        ],
+        "damage": [
+            45,
+            81,
+            127
+        ],
+        "armor": [
+            6,
+            11,
+            17
+        ],
+        "sight_range": [
+            1800,
+            1000
+        ],
+        "attack_range": 150,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "bounty_hunter_shuriken_toss",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/bounty_hunter_shuriken_toss_hp2.png?v=5027641",
+            "name": "Shuriken Toss",
+            "desc": "Hurls a deadly shuriken at an enemy unit, dealing damage and mini-stunning the target.  The shuriken will bounce between any Tracked units who are within a 1200 radius of each other.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "150",
+            "cooldown": "9",
+            "video": "http:\/\/www.youtube.com\/embed\/THFY7EAD7HY?hd=1&rel=0",
+            "lore": "While the shuriken may be small, Gondar's precise aim can cause critical damage.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "TRACK BOUNCE RANGE",
+                    "val": "1200"
+                }
+            ]
+        },
+        {
+            "id": "bounty_hunter_jinada",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/bounty_hunter_jinada_hp2.png?v=5027641",
+            "name": "Jinada",
+            "desc": "Bounty Hunter plans his next hit, dealing bonus damage and stealing some unreliable gold.",
+            "mana_cost": "",
+            "cooldown": "12\/9\/6\/3",
+            "video": "http:\/\/www.youtube.com\/embed\/JVqW1Gyi5FM?hd=1&rel=0",
+            "lore": null,
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "BONUS DAMAGE",
+                    "val": "80 \/ 110 \/ 140 \/ 170"
+                }
+            ]
+        },
+        {
+            "id": "bounty_hunter_wind_walk",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/bounty_hunter_wind_walk_hp2.png?v=5027641",
+            "name": "Shadow Walk",
+            "desc": "Bounty Hunter becomes invisible and gains the ability to move through other units until he attacks or uses an ability.  If he breaks the invisibility with an attack, that attack will slow the target's movement speed.",
+            "mana_cost": "65",
+            "cooldown": "15",
+            "video": "http:\/\/www.youtube.com\/embed\/A1pTdYaSDo0?hd=1&rel=0",
+            "lore": "The court jesters present during King Goff's assassination can recount no other image than a dancing shadow.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Physical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "INVISIBILITY DURATION",
+                    "val": "20 \/ 25 \/ 30 \/ 35"
+                },
+                {
+                    "name": "FADE TIME",
+                    "val": "1 \/ 0.75 \/ 0.5 \/ 0.25"
+                },
+                {
+                    "name": "MOVEMENT SLOW",
+                    "val": "14% \/ 20% \/ 26% \/ 32%"
+                },
+                {
+                    "name": "SLOW DURATION",
+                    "val": "4"
+                }
+            ]
+        },
+        {
+            "id": "bounty_hunter_track",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/bounty_hunter_track_hp2.png?v=5027641",
+            "name": "Track",
+            "desc": "Tracks an enemy hero, granting True Sight of the target, and information on how much gold it is carrying. You move fast when near the tracked unit and deal critical strikes when attacking it. If the target dies, Bounty Hunter and nearby heroes collect a bonus bounty of gold. Casting Track does not take you out of invisibility.",
+            "mana_cost": "65",
+            "cooldown": "4",
+            "video": "http:\/\/www.youtube.com\/embed\/QUR30zbpNDs?hd=1&rel=0",
+            "lore": "Using his elevated senses of sight and smell, Gondar's hits have quite a good chance of success.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Heroes"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "SELF CRITICAL STRIKE",
+                    "val": "140% \/ 170% \/ 200%"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "30 \/ 30 \/ 30"
+                },
+                {
+                    "name": "CAST RANGE",
+                    "val": "1000"
+                },
+                {
+                    "name": "SELF BONUS SPEED",
+                    "val": "16% \/ 18% \/ 20%"
+                }
+            ]
+        }
+    ]
+}

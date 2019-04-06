@@ -1,0 +1,251 @@
+{
+    "id": "dark_seer",
+    "name": "Dark Seer",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/dark_seer_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/dark_seer_vert.jpg?v=5027641"
+    },
+    "attack": "Melee",
+    "role": [
+        "Initiator",
+        "Jungler",
+        "Escape",
+        "Disabler"
+    ],
+    "primary_attribs": "int",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 21,
+                "gain": 3.1
+            },
+            "agi": {
+                "base": 12,
+                "gain": 1.8
+            },
+            "str": {
+                "base": 24,
+                "gain": 3.1
+            },
+            "dmg": {
+                "min": 33,
+                "max": 39
+            },
+            "ms": 300,
+            "armor": 4.68
+        },
+        "abilities": [
+            {
+                "id": "dark_seer_vacuum",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/dark_seer_vacuum_hp1.png?v=5027641",
+                "name": "Vacuum",
+                "desc": "Dark Seer creates a vacuum over the target area that sucks in enemy units, disrupting them and dealing damage."
+            },
+            {
+                "id": "dark_seer_ion_shell",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/dark_seer_ion_shell_hp1.png?v=5027641",
+                "name": "Ion Shell",
+                "desc": "Surrounds the target unit with a bristling shield that damages enemy units in an area around it."
+            },
+            {
+                "id": "dark_seer_surge",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/dark_seer_surge_hp1.png?v=5027641",
+                "name": "Surge",
+                "desc": "Charges a target friendly unit with power, giving it a brief burst of movement speed and removes unit collisions. Allows the unit to surpass the movement speed limit and cannot be slowed."
+            },
+            {
+                "id": "dark_seer_wall_of_replica",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/dark_seer_wall_of_replica_hp1.png?v=5027641",
+                "name": "Wall of Replica",
+                "desc": "Raises a wall of warping light that slows and creates replicas of any enemy hero who crosses it. Enemy replicas serve at the Dark Seer's will. Replicas last until they are destroyed, or until the wall's duration ends.    Upgradable by Aghanim's Scepter."
+            }
+        ]
+    },
+    "bio": "Fast when he needs to be, and a cunning strategist, Ish'Kafel the Dark Seer requires no edged weapons to vanquish his enemies, relying instead on the strength of his powerful mind. His talent lies in his ability to maneuver the fight to his advantage. Hailing from a place he calls 'The Land behind the wall,' Dark Seer remains an outsider here--a warrior from a realm beyond the veil of this reality.   \r\n\r\n\t\tOnce a great general among his people, and a valiant defender of the god-king Damathryx, Dark Seer's army was wiped out by a much larger force in the final days of the Great Boundaries War. Facing certain defeat, he made one last desperate act: he led the enemy forces into the maze between the walls. At the last moment, just before capture, he crossed over--then sealed the walls forever in an explosive release of dark energy. When the dust settled, he saw that he had saved his people but found himself blinking at the sun of a different world, with no way to return.  Now he is committed to proving his worth as a military strategist, and vows to show that he's the greatest tactician this strange new world has ever seen.",
+    "stats": {
+        "hit_points": [
+            606,
+            1431,
+            2400
+        ],
+        "mana": [
+            273,
+            837,
+            1500
+        ],
+        "damage": [
+            54,
+            97,
+            148
+        ],
+        "armor": [
+            5,
+            8,
+            14
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 150,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "dark_seer_vacuum",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/dark_seer_vacuum_hp2.png?v=5027641",
+            "name": "Vacuum",
+            "desc": "Dark Seer creates a vacuum over the target area that sucks in enemy units, disrupting them and dealing damage.",
+            "mana_cost": "100\/130\/160\/190",
+            "cooldown": "60\/50\/40\/30",
+            "video": "http:\/\/www.youtube.com\/embed\/X9BW1-PhEY8?hd=1&rel=0",
+            "lore": "Ish'Kafel modifies the center of gravity to a place of his choosing.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "25 \/ 50 \/ 100 \/ 200"
+                },
+                {
+                    "name": "CAST RANGE",
+                    "val": "450 \/ 500 \/ 550 \/ 600"
+                }
+            ]
+        },
+        {
+            "id": "dark_seer_ion_shell",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/dark_seer_ion_shell_hp2.png?v=5027641",
+            "name": "Ion Shell",
+            "desc": "Surrounds the target unit with a bristling shield that damages enemy units in an area around it.",
+            "mana_cost": "100\/110\/120\/130",
+            "cooldown": "9",
+            "video": "http:\/\/www.youtube.com\/embed\/ZnXjN2FdNQA?hd=1&rel=0",
+            "lore": "The Dark Seer slices holes into the 'Land Behind the Wall,' causing prismatic energy to seep forth.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Heroes"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RADIUS",
+                    "val": "250"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "25"
+                }
+            ]
+        },
+        {
+            "id": "dark_seer_surge",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/dark_seer_surge_hp2.png?v=5027641",
+            "name": "Surge",
+            "desc": "Charges a target friendly unit with power, giving it a brief burst of movement speed and removes unit collisions. Allows the unit to surpass the movement speed limit and cannot be slowed.",
+            "mana_cost": "50",
+            "cooldown": "16\/14\/12\/10",
+            "video": "http:\/\/www.youtube.com\/embed\/Vi9f-Bs2KX0?hd=1&rel=0",
+            "lore": "Ish'Kafel once used his speed of mind to navigate the maze between the walls.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Allied Units"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DURATION",
+                    "val": "6"
+                },
+                {
+                    "name": "SPEED BONUS",
+                    "val": "30% \/ 45% \/ 60% \/ 75%"
+                }
+            ]
+        },
+        {
+            "id": "dark_seer_wall_of_replica",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/dark_seer_wall_of_replica_hp2.png?v=5027641",
+            "name": "Wall of Replica",
+            "desc": "Raises a wall of warping light that slows and creates replicas of any enemy hero who crosses it. Enemy replicas serve at the Dark Seer's will. Replicas last until they are destroyed, or until the wall's duration ends.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "125\/250\/375",
+            "cooldown": "100",
+            "video": "http:\/\/www.youtube.com\/embed\/3Z1ndpKQZVg?hd=1&rel=0",
+            "lore": "The Dark Seer, while unable to return to his natural realm, can channel part of the prismatic wall with powerful strength of mind, sowing confusion amongst enemy ranks.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "WALL DURATION",
+                    "val": "45"
+                },
+                {
+                    "name": "REPLICA DAMAGE",
+                    "val": "70% \/ 85% \/ 100%"
+                },
+                {
+                    "name": "CAST RANGE",
+                    "val": "1300"
+                },
+                {
+                    "name": "SCEPTER REPLICA DAMAGE",
+                    "val": "100% \/ 120% \/ 140%"
+                },
+                {
+                    "name": "MOVEMENT SLOW",
+                    "val": "50% \/ 60% \/ 70%"
+                },
+                {
+                    "name": "SLOW DURATION",
+                    "val": "0.75"
+                }
+            ]
+        }
+    ]
+}

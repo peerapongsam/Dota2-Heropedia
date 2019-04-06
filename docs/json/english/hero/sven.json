@@ -1,0 +1,228 @@
+{
+    "id": "sven",
+    "name": "Sven",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/sven_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/sven_vert.jpg?v=5027641"
+    },
+    "attack": "Melee",
+    "role": [
+        "Carry",
+        "Disabler",
+        "Initiator",
+        "Durable",
+        "Nuker"
+    ],
+    "primary_attribs": "str",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 16,
+                "gain": 1.3
+            },
+            "agi": {
+                "base": 21,
+                "gain": 2
+            },
+            "str": {
+                "base": 23,
+                "gain": 3.2
+            },
+            "dmg": {
+                "min": 43,
+                "max": 45
+            },
+            "ms": 310,
+            "armor": 3.94
+        },
+        "abilities": [
+            {
+                "id": "sven_storm_bolt",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/sven_storm_bolt_hp1.png?v=5027641",
+                "name": "Storm Hammer",
+                "desc": "Sven unleashes his magical gauntlet that deals damage and stuns enemy units."
+            },
+            {
+                "id": "sven_great_cleave",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/sven_great_cleave_hp1.png?v=5027641",
+                "name": "Great Cleave",
+                "desc": "Sven strikes with great force, cleaving all nearby enemy units with his attack."
+            },
+            {
+                "id": "sven_warcry",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/sven_warcry_hp1.png?v=5027641",
+                "name": "Warcry",
+                "desc": "Sven's Warcry heartens his allied heroes for battle, increasing their movement speed and provides them with an attack damage shield. Buff ends if the shield is consumed. Shield health grows based on Sven's strength."
+            },
+            {
+                "id": "sven_gods_strength",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/sven_gods_strength_hp1.png?v=5027641",
+                "name": "God's Strength",
+                "desc": "Sven channels his rogue strength, granting bonus damage for 25 seconds.    Upgradable by Aghanim's Scepter."
+            }
+        ]
+    },
+    "bio": "Sven is the bastard son of a Vigil Knight, born of a Pallid Meranth, raised in the Shadeshore Ruins.  With his father executed for violating the Vigil Codex, and his mother shunned by her wild race, Sven believes that honor is to be found in no social order, but only in himself.  After tending his mother through a lingering death, he offered himself as a novice to the Vigil Knights, never revealing his identity.  For thirteen years he studied in his father's school, mastering the rigid code that declared his existence an abomination.  Then, on the day that should have been his In-Swearing, he seized the Outcast Blade, shattered the Sacred Helm, and burned the Codex in the Vigil's Holy Flame.  He strode from Vigil Keep, forever solitary, following his private code to the last strict rune. Still a knight, yes...but a Rogue Knight. He answers only to himself.",
+    "stats": {
+        "hit_points": [
+            587,
+            1438,
+            2426
+        ],
+        "mana": [
+            208,
+            445,
+            874
+        ],
+        "damage": [
+            66,
+            111,
+            163
+        ],
+        "armor": [
+            4,
+            8,
+            13
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 150,
+        "missile_speed": "N\/A"
+    },
+    "abilities": [
+        {
+            "id": "sven_storm_bolt",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/sven_storm_bolt_hp2.png?v=5027641",
+            "name": "Storm Hammer",
+            "desc": "Sven unleashes his magical gauntlet that deals damage and stuns enemy units.",
+            "mana_cost": "110\/120\/130\/140",
+            "cooldown": "16\/15\/14\/13",
+            "video": "http:\/\/www.youtube.com\/embed\/-BNx6j67GMM?hd=1&rel=0",
+            "lore": "The Rogue Knight's iron gauntlet, taken from the school of his father, strikes his foes to their core.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "80 \/ 160 \/ 240 \/ 320"
+                },
+                {
+                    "name": "RADIUS",
+                    "val": "255"
+                }
+            ]
+        },
+        {
+            "id": "sven_great_cleave",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/sven_great_cleave_hp2.png?v=5027641",
+            "name": "Great Cleave",
+            "desc": "Sven strikes with great force, cleaving all nearby enemy units with his attack.",
+            "mana_cost": "",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/XRI-eUBr_S8?hd=1&rel=0",
+            "lore": "The Vigil Knights still seek to reclaim the stolen Outcast Blade from Sven, a weapon capable of cutting wide swaths through lesser warriors.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "CLEAVE DAMAGE",
+                    "val": "30% \/ 50% \/ 70% \/ 90%"
+                }
+            ]
+        },
+        {
+            "id": "sven_warcry",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/sven_warcry_hp2.png?v=5027641",
+            "name": "Warcry",
+            "desc": "Sven's Warcry heartens his allied heroes for battle, increasing their movement speed and provides them with an attack damage shield. Buff ends if the shield is consumed. Shield health grows based on Sven's strength.",
+            "mana_cost": "40",
+            "cooldown": "36\/32\/28\/24",
+            "video": "http:\/\/www.youtube.com\/embed\/npLme9BdTy8?hd=1&rel=0",
+            "lore": "Calling a few lines from the Vigil Codex fortifies Sven's obedience to his rogue code. So poetic!",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "BONUS SPEED",
+                    "val": "5% \/ 10% \/ 15% \/ 20%"
+                },
+                {
+                    "name": "SHIELD HEALTH",
+                    "val": "60 \/ 90 \/ 120 \/ 150"
+                },
+                {
+                    "name": "SHIELD HEALTH STR MULTIPLIER",
+                    "val": "1 \/ 1.5 \/ 2 \/ 2.5"
+                },
+                {
+                    "name": "RADIUS",
+                    "val": "700"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "10"
+                }
+            ]
+        },
+        {
+            "id": "sven_gods_strength",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/sven_gods_strength_hp2.png?v=5027641",
+            "name": "God's Strength",
+            "desc": "Sven channels his rogue strength, granting bonus damage for 25 seconds.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "100\/150\/200",
+            "cooldown": "100",
+            "video": "http:\/\/www.youtube.com\/embed\/EbnTUOTMvkg?hd=1&rel=0",
+            "lore": "With the strength that shattered the Sacred Helm, the Rogue Knight stands unopposed in melee combat.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "BONUS DAMAGE",
+                    "val": "80% \/ 120% \/ 160%"
+                },
+                {
+                    "name": "SCEPTER ALLY AURA RADIUS",
+                    "val": "1200"
+                },
+                {
+                    "name": "SCEPTER ALLY BONUS DAMAGE",
+                    "val": "75% \/ 100% \/ 125%"
+                }
+            ]
+        }
+    ]
+}

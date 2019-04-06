@@ -1,0 +1,235 @@
+{
+    "id": "mars",
+    "name": "Mars",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/mars_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/mars_vert.jpg?v=5027641"
+    },
+    "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
+    "role": [
+        "\u0e15\u0e31\u0e27\u0e41\u0e04\u0e23\u0e4c\u0e23\u0e35",
+        "\u0e15\u0e31\u0e27\u0e40\u0e1b\u0e34\u0e14",
+        "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14",
+        "\u0e15\u0e31\u0e27\u0e22\u0e37\u0e19"
+    ],
+    "primary_attribs": "str",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 17,
+                "gain": 1.4
+            },
+            "agi": {
+                "base": 20,
+                "gain": 1.9
+            },
+            "str": {
+                "base": 23,
+                "gain": 3.2
+            },
+            "dmg": {
+                "min": 35,
+                "max": 43
+            },
+            "ms": 310,
+            "armor": 2.8
+        },
+        "abilities": [
+            {
+                "id": "mars_spear",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/mars_spear_hp1.png?v=5027641",
+                "name": "Spear of Mars",
+                "desc": "Mars throws his legendary Spear with deadly precision, damaging each enemy unit it strikes. The first enemy hero it hits is skewered on the spear, pushing it back. If a skewered hero hits a tree, building, or cliff, they will be impaled to it and stunned."
+            },
+            {
+                "id": "mars_gods_rebuke",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/mars_gods_rebuke_hp1.png?v=5027641",
+                "name": "God's Rebuke",
+                "desc": "Mars smashes enemies in front of him with his shield, knocking them back and damaging them with a critical hit based on his attack. Bonus damage is added when hitting heroes. Has True Strike."
+            },
+            {
+                "id": "mars_bulwark",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/mars_bulwark_hp1.png?v=5027641",
+                "name": "Bulwark",
+                "desc": "Mars wields his massive shield to block a portion of each physical attack when hit from the front or sides."
+            },
+            {
+                "id": "mars_arena_of_blood",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/mars_arena_of_blood_hp1.png?v=5027641",
+                "name": "Arena Of Blood",
+                "desc": "After a short formation time, Mars summons an arena lined with the undead warriors of the Ash Legion, who block enemy attacks and movement. Enemy heroes near the inside edge of the arena will be attacked by spears, dealing damage and knocking them back."
+            }
+        ]
+    },
+    "bio": "Mars, first son of heaven, spent a long existence waging endless war, and saw countless more crusades waged beneath the banner of his old name. Wars of conquest and of vengeance. Just and unjust... Always cruel. So much like his father, Mars indulged his basest impulses--with inclinations much more monstrous than those of Zeus--and he inflicted suffering untold.\r\n\r\nBut as the epochs vanished behind him, the selfish ways of his father--the ways of many amongst his godly kin, they who judged him despicable--eventually began to ring hollow. War for its own sake was no longer enough to satisfy his desires. For the first time in his ageless days, the god of war began to question to what ends he swung his glorious spear.\r\n\r\nAs the Fates would have it, his solution came easily: he must wage war for a larger purpose, and inspire more than mere savagery and sorrow at the sight of his crest. He must at last lay claim to the mantle of leadership that is his birthright, for the time has come to burn down the pantheon of the old age and build a just new empire atop the ashes of his kin. Only then might he find satisfaction, and make the glory of Mars evident to all.",
+    "stats": {
+        "hit_points": [
+            587,
+            1438,
+            2426
+        ],
+        "mana": [
+            221,
+            476,
+            918
+        ],
+        "damage": [
+            58,
+            103,
+            155
+        ],
+        "armor": [
+            3,
+            7,
+            12
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 250,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "mars_spear",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/mars_spear_hp2.png?v=5027641",
+            "name": "Spear of Mars",
+            "desc": "Mars throws his legendary Spear with deadly precision, damaging each enemy unit it strikes. The first enemy hero it hits is skewered on the spear, pushing it back. If a skewered hero hits a tree, building, or cliff, they will be impaled to it and stunned.",
+            "mana_cost": "100",
+            "cooldown": "14",
+            "lore": "The legendary Spear of Mars still glows with the heat of the forge god's fires.",
+            "affects": [
+                {
+                    "name": "\u0e1b\u0e23\u0e30\u0e40\u0e20\u0e17\u0e2a\u0e01\u0e34\u0e25",
+                    "val": "\u0e15\u0e33\u0e41\u0e2b\u0e19\u0e48\u0e07\u0e40\u0e1b\u0e49\u0e32\u0e2b\u0e21\u0e32\u0e22"
+                },
+                {
+                    "name": "\u0e2a\u0e48\u0e07\u0e1c\u0e25\u0e15\u0e48\u0e2d",
+                    "val": "\u0e22\u0e39\u0e19\u0e34\u0e15\u0e1d\u0e48\u0e32\u0e22\u0e28\u0e31\u0e15\u0e23\u0e39"
+                },
+                {
+                    "name": "\u0e1b\u0e23\u0e30\u0e40\u0e20\u0e17\u0e04\u0e27\u0e32\u0e21\u0e40\u0e2a\u0e35\u0e22\u0e2b\u0e32\u0e22",
+                    "val": "\u0e40\u0e27\u0e17\u0e21\u0e19\u0e15\u0e23\u0e4c"
+                },
+                {
+                    "name": "\u0e17\u0e30\u0e25\u0e38\u0e1c\u0e48\u0e32\u0e19\u0e01\u0e32\u0e23\u0e1b\u0e49\u0e2d\u0e07\u0e01\u0e31\u0e19\u0e40\u0e27\u0e17\u0e42\u0e14\u0e22\u0e2a\u0e21\u0e1a\u0e39\u0e23\u0e13\u0e4c",
+                    "val": "\u0e44\u0e21\u0e48\u0e44\u0e14\u0e49"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RANGE",
+                    "val": "900 \/ 1000 \/ 1100 \/ 1200"
+                },
+                {
+                    "name": "STUN DURATION",
+                    "val": "1.6 \/ 2 \/ 2.4 \/ 2.8"
+                }
+            ]
+        },
+        {
+            "id": "mars_gods_rebuke",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/mars_gods_rebuke_hp2.png?v=5027641",
+            "name": "God's Rebuke",
+            "desc": "Mars smashes enemies in front of him with his shield, knocking them back and damaging them with a critical hit based on his attack. Bonus damage is added when hitting heroes. Has True Strike.",
+            "mana_cost": "65\/70\/75\/80",
+            "cooldown": "16\/14\/12\/10",
+            "lore": "There isn't a warrior alive who can stand unmoved by the sting of Mars' rebuke.",
+            "affects": [
+                {
+                    "name": "\u0e1b\u0e23\u0e30\u0e40\u0e20\u0e17\u0e2a\u0e01\u0e34\u0e25",
+                    "val": "\u0e15\u0e33\u0e41\u0e2b\u0e19\u0e48\u0e07\u0e40\u0e1b\u0e49\u0e32\u0e2b\u0e21\u0e32\u0e22"
+                },
+                {
+                    "name": "\u0e2a\u0e48\u0e07\u0e1c\u0e25\u0e15\u0e48\u0e2d",
+                    "val": "\u0e22\u0e39\u0e19\u0e34\u0e15\u0e1d\u0e48\u0e32\u0e22\u0e28\u0e31\u0e15\u0e23\u0e39"
+                },
+                {
+                    "name": "\u0e1b\u0e23\u0e30\u0e40\u0e20\u0e17\u0e04\u0e27\u0e32\u0e21\u0e40\u0e2a\u0e35\u0e22\u0e2b\u0e32\u0e22",
+                    "val": "\u0e01\u0e32\u0e22\u0e20\u0e32\u0e1e"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DISTANCE",
+                    "val": "500"
+                },
+                {
+                    "name": "BONUS DAMAGE VS HEROES",
+                    "val": "25"
+                }
+            ]
+        },
+        {
+            "id": "mars_bulwark",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/mars_bulwark_hp2.png?v=5027641",
+            "name": "Bulwark",
+            "desc": "Mars wields his massive shield to block a portion of each physical attack when hit from the front or sides.",
+            "mana_cost": "",
+            "cooldown": "",
+            "lore": "Only the very foolish dare to fight fair with the god of war.",
+            "affects": [
+                {
+                    "name": "\u0e1b\u0e23\u0e30\u0e40\u0e20\u0e17\u0e2a\u0e01\u0e34\u0e25",
+                    "val": "\u0e15\u0e34\u0e14\u0e15\u0e31\u0e27"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "FRONT REDUCTION",
+                    "val": "25% \/ 40% \/ 55% \/ 70%"
+                },
+                {
+                    "name": "SIDE REDUCTION",
+                    "val": "12% \/ 20% \/ 27% \/ 35%"
+                }
+            ]
+        },
+        {
+            "id": "mars_arena_of_blood",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/mars_arena_of_blood_hp2.png?v=5027641",
+            "name": "Arena Of Blood",
+            "desc": "After a short formation time, Mars summons an arena lined with the undead warriors of the Ash Legion, who block enemy attacks and movement. Enemy heroes near the inside edge of the arena will be attacked by spears, dealing damage and knocking them back.",
+            "mana_cost": "200",
+            "cooldown": "90\/75\/60",
+            "lore": "The long-dead members of the Ash Legion, assembled from the finest warriors to ever test the might of Mars, still revel in the thrill of combat, gladly beholden to the hand that fell them for as long as he so commands.",
+            "affects": [
+                {
+                    "name": "\u0e1b\u0e23\u0e30\u0e40\u0e20\u0e17\u0e2a\u0e01\u0e34\u0e25",
+                    "val": ""
+                },
+                {
+                    "name": "\u0e2a\u0e48\u0e07\u0e1c\u0e25\u0e15\u0e48\u0e2d",
+                    "val": "\u0e22\u0e39\u0e19\u0e34\u0e15\u0e1d\u0e48\u0e32\u0e22\u0e28\u0e31\u0e15\u0e23\u0e39"
+                },
+                {
+                    "name": "\u0e1b\u0e23\u0e30\u0e40\u0e20\u0e17\u0e04\u0e27\u0e32\u0e21\u0e40\u0e2a\u0e35\u0e22\u0e2b\u0e32\u0e22",
+                    "val": "\u0e40\u0e27\u0e17\u0e21\u0e19\u0e15\u0e23\u0e4c"
+                },
+                {
+                    "name": "\u0e17\u0e30\u0e25\u0e38\u0e1c\u0e48\u0e32\u0e19\u0e01\u0e32\u0e23\u0e1b\u0e49\u0e2d\u0e07\u0e01\u0e31\u0e19\u0e40\u0e27\u0e17\u0e42\u0e14\u0e22\u0e2a\u0e21\u0e1a\u0e39\u0e23\u0e13\u0e4c",
+                    "val": "\u0e44\u0e21\u0e48\u0e44\u0e14\u0e49"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DURATION",
+                    "val": "5 \/ 6 \/ 7"
+                },
+                {
+                    "name": "RADIUS",
+                    "val": "550"
+                },
+                {
+                    "name": "SPEAR DAMAGE",
+                    "val": "150 \/ 200 \/ 250"
+                },
+                {
+                    "name": "FORMATION TIME",
+                    "val": "0.6"
+                }
+            ]
+        }
+    ]
+}

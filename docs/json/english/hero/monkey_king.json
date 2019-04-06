@@ -1,0 +1,223 @@
+{
+    "id": "monkey_king",
+    "name": "Monkey King",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/monkey_king_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/monkey_king_vert.jpg?v=5027641"
+    },
+    "attack": "Melee",
+    "role": [
+        "Carry",
+        "Escape",
+        "Disabler",
+        "Initiator"
+    ],
+    "primary_attribs": "agi",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 20,
+                "gain": 1.8
+            },
+            "agi": {
+                "base": 22,
+                "gain": 3.7
+            },
+            "str": {
+                "base": 19,
+                "gain": 2.8
+            },
+            "dmg": {
+                "min": 29,
+                "max": 35
+            },
+            "ms": 305,
+            "armor": 0.08
+        },
+        "abilities": [
+            {
+                "id": "monkey_king_boundless_strike",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/monkey_king_boundless_strike_hp1.png?v=5027641",
+                "name": "Boundless Strike",
+                "desc": "Monkey King enlarges his staff and slams it against the ground, stunning enemies in a line and damaging them with a critical hit based on his attack. Has True Strike."
+            },
+            {
+                "id": "monkey_king_tree_dance",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/monkey_king_tree_dance_hp1.png?v=5027641",
+                "name": "Tree Dance",
+                "desc": "Monkey King jumps to a tree and perches atop it. While perched, he gains the Primal Spring ability-a channeled leap attack. If Monkey King's tree is destroyed, he falls and is stunned for 4 seconds. Taking damage from player controlled units or Roshan while on the ground puts Tree Dance on cooldown."
+            },
+            {
+                "id": "monkey_king_jingu_mastery",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/monkey_king_jingu_mastery_hp1.png?v=5027641",
+                "name": "Jingu Mastery",
+                "desc": "Monkey King's attacks awaken the Jingu Bang's power. Upon the fourth hit on the same enemy hero, Monkey King earns four charged attacks that have bonus damage and lifesteal."
+            },
+            {
+                "id": "monkey_king_wukongs_command",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/monkey_king_wukongs_command_hp1.png?v=5027641",
+                "name": "Wukong's Command",
+                "desc": "Monkey King creates a circular formation of soldiers that spread out from his position. If Monkey King leaves the area his soldiers disperse. The soldiers have Monkey King's attack and only target heroes. Monkey King is granted bonus armor for the spell's duration."
+            }
+        ]
+    },
+    "bio": "For 500 years the mountain pressed down upon him, only his head free from the crushing weight of the stonewrought prison the elder gods had summoned to halt his childish rebellion. Moss grew along the lines of his exposed face, tufts of grass sprouted from his ears; his vision was framed in wildflowers reaching from the soil around his cheeks. Most thought him long dead, tormented by the gods for waging war against the heavens until naught but his legend survived. But, as the stories go, the Monkey King cannot die.\r\n\r\nSo he waited. Until the gods came to offer a chance at absolution, he endured. And when they did come to name the price, Sun Wukong accepted their charge: he would accompany a young acolyte on a secret pilgrimage, protect him from demons and dangers of the road, and guide the man home in possession of a coveted relic. Do that, and humbly obey the human's commands in service to their holy mission, and Wukong would prove himself reformed.\r\n\r\nFor a change, Sun Wukong fulfilled his oath to the gods with honor, and atoned for the sins of past insurrections. The acolyte, much learned in hardships, was returned to his home temple, relic in hand; and Wukong-finding himself for the first time in proper standing with any gods of consequence-was content for a short while to give up his old thirst for adventure and glory. But the Monkey King was born for mischief...and offending the gods never gets old.",
+    "stats": {
+        "hit_points": [
+            511,
+            1256,
+            2168
+        ],
+        "mana": [
+            260,
+            588,
+            1082
+        ],
+        "damage": [
+            51,
+            103,
+            160
+        ],
+        "armor": [
+            0,
+            7,
+            15
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 300,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "monkey_king_boundless_strike",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/monkey_king_boundless_strike_hp2.png?v=5027641",
+            "name": "Boundless Strike",
+            "desc": "Monkey King enlarges his staff and slams it against the ground, stunning enemies in a line and damaging them with a critical hit based on his attack. Has True Strike.",
+            "mana_cost": "100",
+            "cooldown": "22",
+            "lore": "The legendary Jingu Bang grows to match its master's will, ensuring no enemy can escape the Monkey King's reach.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Physical"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "STUN DURATION",
+                    "val": "0.4 \/ 0.8 \/ 1.2 \/ 1.6"
+                },
+                {
+                    "name": "DISTANCE",
+                    "val": "1200"
+                }
+            ]
+        },
+        {
+            "id": "monkey_king_tree_dance",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/monkey_king_tree_dance_hp2.png?v=5027641",
+            "name": "Tree Dance",
+            "desc": "Monkey King jumps to a tree and perches atop it. While perched, he gains the Primal Spring ability-a channeled leap attack. If Monkey King's tree is destroyed, he falls and is stunned for 4 seconds. Taking damage from player controlled units or Roshan while on the ground puts Tree Dance on cooldown.",
+            "mana_cost": "",
+            "cooldown": "120",
+            "lore": "Sun Wukong dances nimbly along the treetop canopy, always just out of arm's reach.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemies"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE COOLDOWN",
+                    "val": "3"
+                },
+                {
+                    "name": "PRIMAL SPRING SLOW",
+                    "val": "20% \/ 40% \/ 60% \/ 80%"
+                }
+            ]
+        },
+        {
+            "id": "monkey_king_jingu_mastery",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/monkey_king_jingu_mastery_hp2.png?v=5027641",
+            "name": "Jingu Mastery",
+            "desc": "Monkey King's attacks awaken the Jingu Bang's power. Upon the fourth hit on the same enemy hero, Monkey King earns four charged attacks that have bonus damage and lifesteal.",
+            "mana_cost": "",
+            "cooldown": "",
+            "lore": "Always sensitive to the moods of its master, the Jingu Bang radiates power when Sun Wukong's combat fervor is on full display.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "REQUIRED HITS",
+                    "val": "4"
+                },
+                {
+                    "name": "COUNTER DURATION",
+                    "val": "10"
+                },
+                {
+                    "name": "CHARGES",
+                    "val": "4"
+                },
+                {
+                    "name": "BONUS LIFESTEAL",
+                    "val": "15% \/ 30% \/ 45% \/ 60%"
+                }
+            ]
+        },
+        {
+            "id": "monkey_king_wukongs_command",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/monkey_king_wukongs_command_hp2.png?v=5027641",
+            "name": "Wukong's Command",
+            "desc": "Monkey King creates a circular formation of soldiers that spread out from his position. If Monkey King leaves the area his soldiers disperse. The soldiers have Monkey King's attack and only target heroes. Monkey King is granted bonus armor for the spell's duration.",
+            "mana_cost": "100",
+            "cooldown": "130\/110\/90",
+            "lore": "Monkey King rips out a tuft of fur to blow at his enemies, charging each strand to transform into a copy of himself.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Physical"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "SOLDIER ATK SPEED",
+                    "val": "1.2"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "13"
+                }
+            ]
+        }
+    ]
+}

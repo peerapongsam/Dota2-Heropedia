@@ -1,0 +1,244 @@
+{
+    "id": "treant",
+    "name": "Treant Protector",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/treant_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/treant_vert.jpg?v=5027641"
+    },
+    "attack": "Melee",
+    "role": [
+        "Support",
+        "Initiator",
+        "Durable",
+        "Disabler",
+        "Escape"
+    ],
+    "primary_attribs": "str",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 20,
+                "gain": 1.8
+            },
+            "agi": {
+                "base": 15,
+                "gain": 2
+            },
+            "str": {
+                "base": 25,
+                "gain": 4.1
+            },
+            "dmg": {
+                "min": 62,
+                "max": 70
+            },
+            "ms": 270,
+            "armor": 0.1
+        },
+        "abilities": [
+            {
+                "id": "treant_natures_guise",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/treant_natures_guise_hp1.png?v=5027641",
+                "name": "Nature's Guise",
+                "desc": "Turns Treant invisible after a short delay when he is within close radius of a tree. Increases movement speed while invisible, and causes a disarming root when attacking out of invisibility."
+            },
+            {
+                "id": "treant_leech_seed",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/treant_leech_seed_hp1.png?v=5027641",
+                "name": "Leech Seed",
+                "desc": "Treant plants a life-sapping seed in an enemy unit, draining its health, while simultaneously slowing it. The seed heals friendly units around it.  Pulses 7 times."
+            },
+            {
+                "id": "treant_living_armor",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/treant_living_armor_hp1.png?v=5027641",
+                "name": "Living Armor",
+                "desc": "Infuses the target hero or structure with a protective coating which grants bonus regeneration. Also blocks some damage from all sources. Dispels when a number of damage instances are taken."
+            },
+            {
+                "id": "treant_overgrowth",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/treant_overgrowth_hp1.png?v=5027641",
+                "name": "Overgrowth",
+                "desc": "Summons an overgrowth of vines and branches around Treant that prevent afflicted enemies from moving, blinking, going invisible, or attacking."
+            }
+        ]
+    },
+    "bio": "Far to the west, in the mountains beyond the Vale of Augury, lie the remains of an ancient power, a fount of eldritch energy nestled deep in the high woods. It is said that the things that grow here, grow strangely. To the forces of nature this is a sacred place, made to stay hidden and unknown. Many are the traps and dangers of this land.  There are all-consuming grasses, crossbred fauna and poisonous flowers, but none are so fierce as the mighty Treant Protectors. These ageless, titanic beings, charged with keeping the peace in this dangerous land, ensure that none within encroach without reason, and none without poach their secrets. For time untold they tended to their holy ground, uninterrupted, only dimly aware of the changing world beyond. Yet inevitably the wider world grew aware of this untamed land, and with each passing winter the outsiders grew bolder. Soon they arrived with tools to cut and with flames to burn, and often the Treants would ponder: who are these fragile, industrious creatures? What now had become of the wild, green world? There came and went an age of questions and of doubts, a thousand summers of long traditions set to scrutiny, while more and more the outsiders died and fed their earth. When all that bloomed had finally finished their say, curiosity had overcome caution. It was decided: a lone Protector would be sent into the wider world, and instructed to wander until the glaciers arose once more, to observe the changing land and its creatures, and to discover what unknown dangers could threaten their sacred ground.",
+    "stats": {
+        "hit_points": [
+            625,
+            1716,
+            2875
+        ],
+        "mana": [
+            260,
+            588,
+            1082
+        ],
+        "damage": [
+            87,
+            144,
+            205
+        ],
+        "armor": [
+            0,
+            4,
+            10
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 150,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "treant_natures_guise",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/treant_natures_guise_hp2.png?v=5027641",
+            "name": "Nature's Guise",
+            "desc": "Turns Treant invisible after a short delay when he is within close radius of a tree. Increases movement speed while invisible, and causes a disarming root when attacking out of invisibility.",
+            "mana_cost": "",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/RrG1oa36SLk?hd=1&rel=0",
+            "lore": "The Protectors don't often come into vision; their natural state being nestled within their leafy brethren.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "FADE TIME",
+                    "val": "4 \/ 3.5 \/ 3 \/ 2.5"
+                },
+                {
+                    "name": "TREE RADIUS",
+                    "val": "265"
+                },
+                {
+                    "name": "MOVEMENT SPEED",
+                    "val": "14% \/ 18% \/ 22% \/ 26%"
+                },
+                {
+                    "name": "TOTAL DAMAGE",
+                    "val": "30 \/ 90 \/ 150 \/ 210"
+                }
+            ]
+        },
+        {
+            "id": "treant_leech_seed",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/treant_leech_seed_hp2.png?v=5027641",
+            "name": "Leech Seed",
+            "desc": "Treant plants a life-sapping seed in an enemy unit, draining its health, while simultaneously slowing it. The seed heals friendly units around it.  Pulses 7 times.",
+            "mana_cost": "100\/110\/120\/130",
+            "cooldown": "16\/13\/10\/7",
+            "video": "http:\/\/www.youtube.com\/embed\/DxUAavLdUNM?hd=1&rel=0",
+            "lore": "Rooftrellen nurtures the beings under his stewardship, sustained by the lifeforce of trespassers into his sacred ground.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "MOVEMENT SLOW",
+                    "val": "16% \/ 20% \/ 24% \/ 28%"
+                },
+                {
+                    "name": "RADIUS",
+                    "val": "500"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "5.25"
+                }
+            ]
+        },
+        {
+            "id": "treant_living_armor",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/treant_living_armor_hp2.png?v=5027641",
+            "name": "Living Armor",
+            "desc": "Infuses the target hero or structure with a protective coating which grants bonus regeneration. Also blocks some damage from all sources. Dispels when a number of damage instances are taken.",
+            "mana_cost": "50",
+            "cooldown": "30\/24\/18\/12",
+            "video": "http:\/\/www.youtube.com\/embed\/DkpjC57bU_g?hd=1&rel=0",
+            "lore": "The roots and tendrils of the Treant Protectors are far-reaching, stimulating the growth and rejuvenation of all of nature.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target, Point Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Allied Units"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "REGEN",
+                    "val": "4 \/ 8 \/ 12 \/ 16"
+                },
+                {
+                    "name": "BLOCK",
+                    "val": "40 \/ 60 \/ 80 \/ 100"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "15"
+                }
+            ]
+        },
+        {
+            "id": "treant_overgrowth",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/treant_overgrowth_hp2.png?v=5027641",
+            "name": "Overgrowth",
+            "desc": "Summons an overgrowth of vines and branches around Treant that prevent afflicted enemies from moving, blinking, going invisible, or attacking.",
+            "mana_cost": "150\/175\/200",
+            "cooldown": "100\/85\/70",
+            "video": "http:\/\/www.youtube.com\/embed\/Sz6oCVgEAIY?hd=1&rel=0",
+            "lore": "Rooftrellen calls the ancestral spirit of nature, releasing its power through all of his kin.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DURATION",
+                    "val": "3.25 \/ 4 \/ 4.75"
+                }
+            ]
+        }
+    ]
+}

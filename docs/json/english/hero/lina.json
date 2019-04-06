@@ -1,0 +1,227 @@
+{
+    "id": "lina",
+    "name": "Lina",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/lina_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/lina_vert.jpg?v=5027641"
+    },
+    "attack": "Ranged",
+    "role": [
+        "Support",
+        "Carry",
+        "Nuker",
+        "Disabler"
+    ],
+    "primary_attribs": "int",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 30,
+                "gain": 3.7
+            },
+            "agi": {
+                "base": 23,
+                "gain": 1.8
+            },
+            "str": {
+                "base": 20,
+                "gain": 2
+            },
+            "dmg": {
+                "min": 21,
+                "max": 33
+            },
+            "ms": 290,
+            "armor": 4.22
+        },
+        "abilities": [
+            {
+                "id": "lina_dragon_slave",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/lina_dragon_slave_hp1.png?v=5027641",
+                "name": "Dragon Slave",
+                "desc": "Lina channels the breath of a dragon, sending out a wave of fire that scorches every enemy in its path."
+            },
+            {
+                "id": "lina_light_strike_array",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/lina_light_strike_array_hp1.png?v=5027641",
+                "name": "Light Strike Array",
+                "desc": "Summons a column of flames that damages and stuns enemies."
+            },
+            {
+                "id": "lina_fiery_soul",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/lina_fiery_soul_hp1.png?v=5027641",
+                "name": "Fiery Soul",
+                "desc": "Grants bonus attack and movement speed each time Lina casts a spell. Stacks with itself. Lasts 10 seconds."
+            },
+            {
+                "id": "lina_laguna_blade",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/lina_laguna_blade_hp1.png?v=5027641",
+                "name": "Laguna Blade",
+                "desc": "Fires off a bolt of lightning at a single enemy unit, dealing massive damage.    Upgradable by Aghanim's Scepter."
+            }
+        ]
+    },
+    "bio": "The sibling rivalries between Lina the Slayer, and her younger sister Rylai, the Crystal Maiden, were the stuff of legend in the temperate region where they spent their quarrelsome childhoods together. Lina always had the advantage, however, for while Crystal was guileless and naive, Lina's fiery ardor was tempered by cleverness and conniving. The exasperated parents of these incompatible offspring went through half a dozen homesteads, losing one to fire, the next to ice, before they realized life would be simpler if the children were separated. As the oldest, Lina was sent far south to live with a patient aunt in the blazing Desert of Misrule, a climate that proved more than comfortable for the fiery Slayer. Her arrival made quite an impression on the somnolent locals, and more than one would-be suitor scorched his fingers or went away with singed eyebrows, his advances spurned. Lina is proud and confident, and nothing can dampen her flame.",
+    "stats": {
+        "hit_points": [
+            530,
+            1062,
+            1822
+        ],
+        "mana": [
+            390,
+            1063,
+            1804
+        ],
+        "damage": [
+            51,
+            103,
+            160
+        ],
+        "armor": [
+            4,
+            8,
+            13
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 670,
+        "missile_speed": "1000"
+    },
+    "abilities": [
+        {
+            "id": "lina_dragon_slave",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/lina_dragon_slave_hp2.png?v=5027641",
+            "name": "Dragon Slave",
+            "desc": "Lina channels the breath of a dragon, sending out a wave of fire that scorches every enemy in its path.",
+            "mana_cost": "100\/115\/130\/145",
+            "cooldown": "8",
+            "video": "http:\/\/www.youtube.com\/embed\/2BShtaRLhhQ?hd=1&rel=0",
+            "lore": "In the scorched barren of Misrule, Lina learned to manipulate the fiery breath of the Desert Wyrm as a form of entertainment.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target, Point Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "85 \/ 160 \/ 235 \/ 310"
+                }
+            ]
+        },
+        {
+            "id": "lina_light_strike_array",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/lina_light_strike_array_hp2.png?v=5027641",
+            "name": "Light Strike Array",
+            "desc": "Summons a column of flames that damages and stuns enemies.",
+            "mana_cost": "100\/110\/120\/130",
+            "cooldown": "7",
+            "video": "http:\/\/www.youtube.com\/embed\/RBxhLSGnDig?hd=1&rel=0",
+            "lore": "Lina's essence allows her to focus the sun's energies, causing air to combust at will.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RADIUS",
+                    "val": "225"
+                },
+                {
+                    "name": "CAST DELAY",
+                    "val": "0.5"
+                },
+                {
+                    "name": "STUN DURATION",
+                    "val": "1.6 \/ 1.9 \/ 2.2 \/ 2.5"
+                }
+            ]
+        },
+        {
+            "id": "lina_fiery_soul",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/lina_fiery_soul_hp2.png?v=5027641",
+            "name": "Fiery Soul",
+            "desc": "Grants bonus attack and movement speed each time Lina casts a spell. Stacks with itself. Lasts 10 seconds.",
+            "mana_cost": "",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/6R6-qq2PkIo?hd=1&rel=0",
+            "lore": "Dancing flames embody Lina's playful nature, bringing out her true blazing self.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "MAX STACKS",
+                    "val": "3"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "10"
+                }
+            ]
+        },
+        {
+            "id": "lina_laguna_blade",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/lina_laguna_blade_hp2.png?v=5027641",
+            "name": "Laguna Blade",
+            "desc": "Fires off a bolt of lightning at a single enemy unit, dealing massive damage.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "280\/420\/680",
+            "cooldown": "70\/60\/50",
+            "video": "http:\/\/www.youtube.com\/embed\/HbhoCPFse_c?hd=1&rel=0",
+            "lore": "The air around Lina becomes so intensely torrid that it scorches a foe that comes too close with white-hot lightning.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "450 \/ 650 \/ 850"
+                }
+            ]
+        }
+    ]
+}

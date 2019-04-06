@@ -1,0 +1,255 @@
+{
+    "id": "crystal_maiden",
+    "name": "Crystal Maiden",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/crystal_maiden_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/crystal_maiden_vert.jpg?v=5027641"
+    },
+    "attack": "Ranged",
+    "role": [
+        "Support",
+        "Disabler",
+        "Nuker",
+        "Jungler"
+    ],
+    "primary_attribs": "int",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 14,
+                "gain": 3.3
+            },
+            "agi": {
+                "base": 16,
+                "gain": 1.6
+            },
+            "str": {
+                "base": 18,
+                "gain": 2.2
+            },
+            "dmg": {
+                "min": 30,
+                "max": 36
+            },
+            "ms": 275,
+            "armor": 2.24
+        },
+        "abilities": [
+            {
+                "id": "crystal_maiden_crystal_nova",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/crystal_maiden_crystal_nova_hp1.png?v=5027641",
+                "name": "Crystal Nova",
+                "desc": "A burst of damaging frost slows enemy movement and attack rate in the targeted area."
+            },
+            {
+                "id": "crystal_maiden_frostbite",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/crystal_maiden_frostbite_hp1.png?v=5027641",
+                "name": "Frostbite",
+                "desc": "Encases an enemy unit in ice, prohibiting movement and attack, while dealing damage over time. Lasts 10 seconds on creeps level 6 or lower."
+            },
+            {
+                "id": "crystal_maiden_brilliance_aura",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/crystal_maiden_brilliance_aura_hp1.png?v=5027641",
+                "name": "Arcane Aura",
+                "desc": "Gives additional mana regeneration to all friendly units on the map. This bonus is increased for Crystal Maiden."
+            },
+            {
+                "id": "crystal_maiden_freezing_field",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/crystal_maiden_freezing_field_hp1.png?v=5027641",
+                "name": "Freezing Field",
+                "desc": "CHANNELED - Surrounds Crystal Maiden with random icy explosions that slow enemies and deal massive damage. Grants bonus armor while channeling. Lasts 10 seconds.    Upgradable by Aghanim's Scepter."
+            }
+        ]
+    },
+    "bio": "Born in a temperate realm, raised with her fiery older sister Lina, Rylai the Crystal Maiden soon found that her innate elemental affinity to ice created trouble for all those around her. Wellsprings and mountain rivers froze in moments if she stopped to rest nearby; ripening crops were bitten by frost, and fruiting orchards turned to mazes of ice and came crashing down, spoiled. When their exasperated parents packed Lina off to the equator, Rylai found herself banished to the cold northern realm of Icewrack, where she was taken in by an Ice Wizard who had carved himself a hermitage at the crown of the Blueheart Glacier. After long study, the wizard pronounced her ready for solitary practice and left her to take his place, descending into the glacier to hibernate for a thousand years. Her mastery of the Frozen Arts has only deepened since that time, and now her skills are unmatched.",
+    "stats": {
+        "hit_points": [
+            492,
+            1077,
+            1875
+        ],
+        "mana": [
+            182,
+            783,
+            1472
+        ],
+        "damage": [
+            44,
+            90,
+            143
+        ],
+        "armor": [
+            2,
+            5,
+            10
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 600,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "crystal_maiden_crystal_nova",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/crystal_maiden_crystal_nova_hp2.png?v=5027641",
+            "name": "Crystal Nova",
+            "desc": "A burst of damaging frost slows enemy movement and attack rate in the targeted area.",
+            "mana_cost": "130\/145\/160\/175",
+            "cooldown": "11\/10\/9\/8",
+            "video": "http:\/\/www.youtube.com\/embed\/hv-wIna71VQ?hd=1&rel=0",
+            "lore": "The air temperature around Rylai drops rapidly, chilling all around her to the core.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RADIUS",
+                    "val": "425"
+                },
+                {
+                    "name": "MOVEMENT SLOW",
+                    "val": "20% \/ 30% \/ 40% \/ 50%"
+                },
+                {
+                    "name": "ATTACK SLOW",
+                    "val": "20 \/ 30 \/ 40 \/ 50"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "4.5"
+                }
+            ]
+        },
+        {
+            "id": "crystal_maiden_frostbite",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/crystal_maiden_frostbite_hp2.png?v=5027641",
+            "name": "Frostbite",
+            "desc": "Encases an enemy unit in ice, prohibiting movement and attack, while dealing damage over time. Lasts 10 seconds on creeps level 6 or lower.",
+            "mana_cost": "140\/145\/150\/155",
+            "cooldown": "9\/8\/7\/6",
+            "video": "http:\/\/www.youtube.com\/embed\/6FnrLNZxtxQ?hd=1&rel=0",
+            "lore": "Rylai channels winds from the Blueheart Glacier, imprisoning attackers in thick blocks of ice.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "HERO TOTAL DAMAGE",
+                    "val": "150 \/ 200 \/ 250 \/ 300"
+                },
+                {
+                    "name": "CREEP TOTAL DAMAGE",
+                    "val": "1000"
+                },
+                {
+                    "name": "CREEP DURATION",
+                    "val": "10"
+                }
+            ]
+        },
+        {
+            "id": "crystal_maiden_brilliance_aura",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/crystal_maiden_brilliance_aura_hp2.png?v=5027641",
+            "name": "Arcane Aura",
+            "desc": "Gives additional mana regeneration to all friendly units on the map. This bonus is increased for Crystal Maiden.",
+            "mana_cost": "",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/JGBd1B3UW38?hd=1&rel=0",
+            "lore": "Cold temperatures promote the essence of magic, causing Rylai's presence to allow spell usage in abundance.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Allies"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "ALLY MANA REGEN",
+                    "val": "1 \/ 1.5 \/ 2 \/ 2.5"
+                },
+                {
+                    "name": "SELF MANA REGEN",
+                    "val": "2.5 \/ 4.5 \/ 6.5 \/ 8.5"
+                }
+            ]
+        },
+        {
+            "id": "crystal_maiden_freezing_field",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/crystal_maiden_freezing_field_hp2.png?v=5027641",
+            "name": "Freezing Field",
+            "desc": "CHANNELED - Surrounds Crystal Maiden with random icy explosions that slow enemies and deal massive damage. Grants bonus armor while channeling. Lasts 10 seconds.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "200\/400\/600",
+            "cooldown": "110\/100\/90",
+            "video": "http:\/\/www.youtube.com\/embed\/xesyW_27uJc?hd=1&rel=0",
+            "lore": "Once the place of her exile, Icewrack has become an anchor for Rylai's frigid onslaught.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target, Channeled"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RADIUS",
+                    "val": "835"
+                },
+                {
+                    "name": "EXPLOSION RADIUS",
+                    "val": "300"
+                },
+                {
+                    "name": "BONUS ARMOR",
+                    "val": "20"
+                },
+                {
+                    "name": "MOVEMENT SLOW",
+                    "val": "30%"
+                },
+                {
+                    "name": "ATTACK SLOW",
+                    "val": "60"
+                }
+            ]
+        }
+    ]
+}

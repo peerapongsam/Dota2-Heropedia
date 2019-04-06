@@ -1,0 +1,255 @@
+{
+    "id": "necrolyte",
+    "name": "Necrophos",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/necrolyte_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/necrolyte_vert.jpg?v=5027641"
+    },
+    "attack": "Ranged",
+    "role": [
+        "Carry",
+        "Nuker",
+        "Durable",
+        "Disabler"
+    ],
+    "primary_attribs": "int",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 20,
+                "gain": 2.9
+            },
+            "agi": {
+                "base": 12,
+                "gain": 1.3
+            },
+            "str": {
+                "base": 18,
+                "gain": 2.8
+            },
+            "dmg": {
+                "min": 26,
+                "max": 30
+            },
+            "ms": 280,
+            "armor": 2.68
+        },
+        "abilities": [
+            {
+                "id": "necrolyte_death_pulse",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/necrolyte_death_pulse_hp1.png?v=5027641",
+                "name": "Death Pulse",
+                "desc": "Necrophos releases a wave of death around him, dealing damage to enemy units and healing allied units."
+            },
+            {
+                "id": "necrolyte_sadist",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/necrolyte_sadist_hp1.png?v=5027641",
+                "name": "Ghost Shroud",
+                "desc": "Necrophos slips into the realm that separates the living from the dead. Unable to attack or be attacked, he emits an aura that slows enemies around him. He takes additional magic damage in this form, but his restorative powers are amplified."
+            },
+            {
+                "id": "necrolyte_heartstopper_aura",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/necrolyte_heartstopper_aura_hp1.png?v=5027641",
+                "name": "Heartstopper Aura",
+                "desc": "Necrophos stills the hearts of his opponents, causing nearby enemy units to lose a percentage of their max health over time. Passively provides regen for 7 seconds for each unit Necrophos kills."
+            },
+            {
+                "id": "necrolyte_reapers_scythe",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/necrolyte_reapers_scythe_hp1.png?v=5027641",
+                "name": "Reaper's Scythe",
+                "desc": "Stuns the target enemy hero, then deals damage based on how much life it is missing. Heroes killed by Reaper's Scythe will have 15 seconds added to their respawn timer. Any kill under this effect is credited to Necrophos.    Upgradable by Aghanim's Scepter."
+            }
+        ]
+    },
+    "bio": "In a time of great plague, an obscure monk of dark inclinations, one Rotund'jere, found himself promoted to the rank of Cardinal by the swift death of all his superiors. While others of the order went out to succor the ill, the newly ordained cardinal secluded himself within the Cathedral of Rumusque, busily scheming to acquire the property of dying nobles, promising them spiritual rewards if they signed over their terrestrial domains. As the plague receded to a few stubborn pockets, his behavior came to the attention of the greater order, which found him guilty of heresy and sentenced him to serve in the plague ward, ensorcelled with spells that would ensure him a slow and lingering illness. But they had not counted on his natural immunity. Rotund'jere caught the pox, but instead of dying, found it feeding his power, transforming him into a veritable plague-mage, a Pope of Pestilence. Proclaiming himself Necrophos, he travels the world, spreading plague wherever he goes, and growing in terrible power with every village his pestilential presence obliterates.",
+    "stats": {
+        "hit_points": [
+            492,
+            1237,
+            2149
+        ],
+        "mana": [
+            260,
+            788,
+            1425
+        ],
+        "damage": [
+            46,
+            87,
+            136
+        ],
+        "armor": [
+            3,
+            5,
+            10
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 500,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "necrolyte_death_pulse",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/necrolyte_death_pulse_hp2.png?v=5027641",
+            "name": "Death Pulse",
+            "desc": "Necrophos releases a wave of death around him, dealing damage to enemy units and healing allied units.",
+            "mana_cost": "100\/130\/160\/190",
+            "cooldown": "8\/7\/6\/5",
+            "video": "http:\/\/www.youtube.com\/embed\/T0DSPAolJJI?hd=1&rel=0",
+            "lore": "Poor souls who succumb to Rotund'jere's plagues are recycled for future use.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "100 \/ 150 \/ 200 \/ 250"
+                },
+                {
+                    "name": "RADIUS",
+                    "val": "475"
+                }
+            ]
+        },
+        {
+            "id": "necrolyte_sadist",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/necrolyte_sadist_hp2.png?v=5027641",
+            "name": "Ghost Shroud",
+            "desc": "Necrophos slips into the realm that separates the living from the dead. Unable to attack or be attacked, he emits an aura that slows enemies around him. He takes additional magic damage in this form, but his restorative powers are amplified.",
+            "mana_cost": "50",
+            "cooldown": "28\/24\/20\/16",
+            "video": "http:\/\/www.youtube.com\/embed\/SMMewm8ck-w?hd=1&rel=0",
+            "lore": "Rotund'jere uses the souls of his victims as bridge from life to afterlife.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DURATION",
+                    "val": "3 \/ 3.5 \/ 4 \/ 4.5"
+                },
+                {
+                    "name": "RESTORATION AMPLIFICATION",
+                    "val": "75%"
+                },
+                {
+                    "name": "SLOW RADIUS",
+                    "val": "750"
+                },
+                {
+                    "name": "INCREASED MAGIC DAMAGE",
+                    "val": "40%"
+                }
+            ]
+        },
+        {
+            "id": "necrolyte_heartstopper_aura",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/necrolyte_heartstopper_aura_hp2.png?v=5027641",
+            "name": "Heartstopper Aura",
+            "desc": "Necrophos stills the hearts of his opponents, causing nearby enemy units to lose a percentage of their max health over time. Passively provides regen for 7 seconds for each unit Necrophos kills.",
+            "mana_cost": "",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/CBznxq8uUJM?hd=1&rel=0",
+            "lore": "Those who come within a short distance of Necrophos can feel pestilence and plague in the air.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive, Aura"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemies"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RADIUS",
+                    "val": "700"
+                },
+                {
+                    "name": "HEALTH REGEN PER KILL",
+                    "val": "2 \/ 3.5 \/ 5 \/ 6.5"
+                },
+                {
+                    "name": "MANA REGEN PER KILL",
+                    "val": "3 \/ 4 \/ 5 \/ 6"
+                },
+                {
+                    "name": "REGEN DURATION",
+                    "val": "7"
+                },
+                {
+                    "name": "HERO KILL REGEN MULTIPLIER",
+                    "val": "6"
+                }
+            ]
+        },
+        {
+            "id": "necrolyte_reapers_scythe",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/necrolyte_reapers_scythe_hp2.png?v=5027641",
+            "name": "Reaper's Scythe",
+            "desc": "Stuns the target enemy hero, then deals damage based on how much life it is missing. Heroes killed by Reaper's Scythe will have 15 seconds added to their respawn timer. Any kill under this effect is credited to Necrophos.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "200\/350\/500",
+            "cooldown": "120",
+            "video": "http:\/\/www.youtube.com\/embed\/q-yTpAiBoFM?hd=1&rel=0",
+            "lore": "The amount of death and suffering in the air increases the power of Necrophos's plague magic.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Heroes"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE PER MISSING HP",
+                    "val": "0.6 \/ 0.75 \/ 0.9"
+                },
+                {
+                    "name": "STUN DURATION",
+                    "val": "1.5 \/ 1.5 \/ 1.5"
+                },
+                {
+                    "name": "SCEPTER COOLDOWN",
+                    "val": "60 \/ 50 \/ 40"
+                },
+                {
+                    "name": "ADDED RESPAWN TIME",
+                    "val": "15 \/ 30 \/ 45"
+                }
+            ]
+        }
+    ]
+}

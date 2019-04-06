@@ -1,0 +1,223 @@
+{
+    "id": "ursa",
+    "name": "Ursa",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/ursa_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/ursa_vert.jpg?v=5027641"
+    },
+    "attack": "Melee",
+    "role": [
+        "Carry",
+        "Jungler",
+        "Durable",
+        "Disabler"
+    ],
+    "primary_attribs": "agi",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 16,
+                "gain": 1.5
+            },
+            "agi": {
+                "base": 18,
+                "gain": 2.4
+            },
+            "str": {
+                "base": 24,
+                "gain": 3.3
+            },
+            "dmg": {
+                "min": 24,
+                "max": 28
+            },
+            "ms": 325,
+            "armor": 4.52
+        },
+        "abilities": [
+            {
+                "id": "ursa_earthshock",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/ursa_earthshock_hp1.png?v=5027641",
+                "name": "Earthshock",
+                "desc": "Ursa slams the earth, causing a powerful shock to damage and slow all enemy units in a nearby area for 4 seconds."
+            },
+            {
+                "id": "ursa_overpower",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/ursa_overpower_hp1.png?v=5027641",
+                "name": "Overpower",
+                "desc": "Using his skill in combat, Ursa gains increased attack speed for a number of subsequent attacks."
+            },
+            {
+                "id": "ursa_fury_swipes",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/ursa_fury_swipes_hp1.png?v=5027641",
+                "name": "Fury Swipes",
+                "desc": "Ursa's claws dig deeper wounds in the enemy, causing consecutive attacks to the same enemy to deal more damage.  If the same target is not attacked after %bonus_reset_time% seconds, the bonus damage is lost."
+            },
+            {
+                "id": "ursa_enrage",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/ursa_enrage_hp1.png?v=5027641",
+                "name": "Enrage",
+                "desc": "Ursa goes into a frenzy, multiplying his Fury Swipes damage and causing him to take 80% less damage. Removes any existing debuffs.    Upgradable by Aghanim's Scepter.    DISPEL TYPE: Strong Dispel"
+            }
+        ]
+    },
+    "bio": "Ulfsaar the Warrior is the fiercest member of an ursine tribe, protective of his land and his people. During the long winters, while the mothers sleep and nurse their cubs, the males patrol the lands above as tireless, vigilant defenders of their ancient ways. Hearing dim but growing rumors of a spreading evil, Ulfsaar headed out beyond the boundaries of his wild wooded homeland, intending to track down and destroy the threat at its source, before it could endanger his people. He is a proud creature with a bright strong spirit, utterly trustworthy, a staunch ally and defender.",
+    "stats": {
+        "hit_points": [
+            606,
+            1484,
+            2491
+        ],
+        "mana": [
+            208,
+            481,
+            936
+        ],
+        "damage": [
+            42,
+            76,
+            120
+        ],
+        "armor": [
+            5,
+            9,
+            15
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 150,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "ursa_earthshock",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/ursa_earthshock_hp2.png?v=5027641",
+            "name": "Earthshock",
+            "desc": "Ursa slams the earth, causing a powerful shock to damage and slow all enemy units in a nearby area for 4 seconds.",
+            "mana_cost": "75\/75\/75\/75",
+            "cooldown": "5",
+            "video": "http:\/\/www.youtube.com\/embed\/uF9RW4aDK-I?hd=1&rel=0",
+            "lore": "The very steps of a male ursine shake the ground as well as the resolve of opposing warriors.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "50 \/ 100 \/ 150 \/ 200"
+                },
+                {
+                    "name": "SLOW",
+                    "val": "25% \/ 35% \/ 45% \/ 55%"
+                }
+            ]
+        },
+        {
+            "id": "ursa_overpower",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/ursa_overpower_hp2.png?v=5027641",
+            "name": "Overpower",
+            "desc": "Using his skill in combat, Ursa gains increased attack speed for a number of subsequent attacks.",
+            "mana_cost": "75",
+            "cooldown": "16\/14\/12\/10",
+            "video": "http:\/\/www.youtube.com\/embed\/HnjRrXrXoVo?hd=1&rel=0",
+            "lore": "For a behemoth of his size, Ursa is deceptively nimble.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "ATTACKS",
+                    "val": "4 \/ 5 \/ 6 \/ 7"
+                },
+                {
+                    "name": "BONUS ATTACK SPEED",
+                    "val": "400 \/ 400 \/ 400 \/ 400"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "20"
+                }
+            ]
+        },
+        {
+            "id": "ursa_fury_swipes",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/ursa_fury_swipes_hp2.png?v=5027641",
+            "name": "Fury Swipes",
+            "desc": "Ursa's claws dig deeper wounds in the enemy, causing consecutive attacks to the same enemy to deal more damage.  If the same target is not attacked after %bonus_reset_time% seconds, the bonus damage is lost.",
+            "mana_cost": "",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/Ehq2ElYhdls?hd=1&rel=0",
+            "lore": "In nature, the wounded rarely survive the attacks of hungry predators.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Physical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RESET TIME (ROSHAN)",
+                    "val": "10"
+                }
+            ]
+        },
+        {
+            "id": "ursa_enrage",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/ursa_enrage_hp2.png?v=5027641",
+            "name": "Enrage",
+            "desc": "Ursa goes into a frenzy, multiplying his Fury Swipes damage and causing him to take 80% less damage. Removes any existing debuffs.    Upgradable by Aghanim's Scepter.    DISPEL TYPE: Strong Dispel",
+            "mana_cost": "0\/0\/0",
+            "cooldown": "50\/40\/30",
+            "video": "http:\/\/www.youtube.com\/embed\/eZf3Yz_BAbk?hd=1&rel=0",
+            "lore": "Ulfsaar succumbs to his ancient spirit, becoming the most ferocious creature on the battlefield.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "FURY SWIPES MULTIPLIER",
+                    "val": "1.4 \/ 1.7 \/ 2"
+                },
+                {
+                    "name": "DAMAGE REDUCTION",
+                    "val": "80%"
+                },
+                {
+                    "name": "SCEPTER COOLDOWN",
+                    "val": "30 \/ 24 \/ 18"
+                }
+            ]
+        }
+    ]
+}

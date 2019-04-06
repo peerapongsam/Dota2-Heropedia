@@ -1,0 +1,273 @@
+{
+    "id": "kunkka",
+    "name": "Kunkka",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/kunkka_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/kunkka_vert.jpg?v=5027641"
+    },
+    "attack": "Melee",
+    "role": [
+        "Carry",
+        "Support",
+        "Disabler",
+        "Initiator",
+        "Durable",
+        "Nuker"
+    ],
+    "primary_attribs": "str",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 18,
+                "gain": 1.5
+            },
+            "agi": {
+                "base": 14,
+                "gain": 1.3
+            },
+            "str": {
+                "base": 24,
+                "gain": 3.8
+            },
+            "dmg": {
+                "min": 26,
+                "max": 36
+            },
+            "ms": 300,
+            "armor": 2.96
+        },
+        "abilities": [
+            {
+                "id": "kunkka_torrent",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/kunkka_torrent_hp1.png?v=5027641",
+                "name": "Torrent",
+                "desc": "Summons a rising torrent that, after a short delay, hurls enemy units into the sky, stunning, dealing damage and slowing movement speed."
+            },
+            {
+                "id": "kunkka_tidebringer",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/kunkka_tidebringer_hp1.png?v=5027641",
+                "name": "Tidebringer",
+                "desc": "Kunkka's legendary sword grants increased damage and cleaves a large area of effect in front of him for a single strike."
+            },
+            {
+                "id": "kunkka_x_marks_the_spot",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/kunkka_x_marks_the_spot_hp1.png?v=5027641",
+                "name": "X Marks the Spot",
+                "desc": "Targets a friendly or enemy Hero, marks their position with an X, and returns them to it after several seconds.  Kunkka can trigger the return at any time during the duration. Lasts twice as long on allied heroes."
+            },
+            {
+                "id": "kunkka_ghostship",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/kunkka_ghostship_hp1.png?v=5027641",
+                "name": "Ghostship",
+                "desc": "Summons a ghostly ship that sails through the battle before smashing apart, damaging and stunning all enemies caught near the wreckage. Allied heroes touched by the Ghostship are given a swig of The Admiral's Rum, receiving bonus movement speed and a delayed reaction to incoming damage.    Upgradeable by Aghanim's Scepter."
+            }
+        ]
+    },
+    "bio": "As The Admiral of the mighty Claddish Navy, Kunkka was charged with protecting the isles of his homeland when the demons of the Cataract made a concerted grab at the lands of men. After years of small sorties, and increasingly bold and devastating attacks, the demon fleet flung all its carnivorous ships at the Trembling Isle. Desperate, the Suicide-Mages of Cladd committed their ultimate rite, summoning a host of ancestral spirits to protect the fleet. Against the demons, this was just barely enough to turn the tide. As Kunkka watched the demons take his ships down one by one, he had the satisfaction of wearing away their fleet with his ancestral magic. But at the battle's peak, something in the clash of demons, men and atavistic spirits must have stirred a fourth power that had been slumbering in the depths. The waves rose up in towering spouts around the few remaining ships, and Maelrawn the Tentacular appeared amid the fray. His tendrils wove among the ships, drawing demon and human craft together, churning the water and wind into a raging chaos. What happened in the crucible of that storm, none may truly say. The Cataract roars off into the void, deserted by its former denizens. Kunkka is now The Admiral of but one ship, a ghostly rig which endlessly replays the final seconds of its destruction. Whether he died in that crash is anyone's guess. Not even Tidehunter, who summoned Maelrawn, knows for sure.",
+    "stats": {
+        "hit_points": [
+            606,
+            1617,
+            2719
+        ],
+        "mana": [
+            234,
+            507,
+            962
+        ],
+        "damage": [
+            50,
+            103,
+            161
+        ],
+        "armor": [
+            3,
+            6,
+            10
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 150,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "kunkka_torrent",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/kunkka_torrent_hp2.png?v=5027641",
+            "name": "Torrent",
+            "desc": "Summons a rising torrent that, after a short delay, hurls enemy units into the sky, stunning, dealing damage and slowing movement speed.",
+            "mana_cost": "90\/100\/110\/120",
+            "cooldown": "16\/14\/12\/10",
+            "video": "http:\/\/www.youtube.com\/embed\/2NeN4ToMrfY?hd=1&rel=0",
+            "lore": "An ancestral rush of water explodes from the center of the world, called upon by the Admiral.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "MOVE SLOW",
+                    "val": "35%"
+                },
+                {
+                    "name": "SLOW DURATION",
+                    "val": "1.75 \/ 2.5 \/ 3.25 \/ 4"
+                },
+                {
+                    "name": "STUN DURATION",
+                    "val": "1.6"
+                },
+                {
+                    "name": "DELAY",
+                    "val": "1.6 \/ 1.6 \/ 1.6 \/ 1.6"
+                }
+            ]
+        },
+        {
+            "id": "kunkka_tidebringer",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/kunkka_tidebringer_hp2.png?v=5027641",
+            "name": "Tidebringer",
+            "desc": "Kunkka's legendary sword grants increased damage and cleaves a large area of effect in front of him for a single strike.",
+            "mana_cost": "",
+            "cooldown": "13\/10\/7\/4",
+            "video": "http:\/\/www.youtube.com\/embed\/GrJOoGLZyWg?hd=1&rel=0",
+            "lore": "A lost Claddish soul inhabits Kunkka's trusty Tidebringer, empowering it to destroy demons of the Cataract.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Auto-Cast, Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Physical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "CLEAVE RANGE",
+                    "val": "650 \/ 800 \/ 950 \/ 1100"
+                },
+                {
+                    "name": "DAMAGE BONUS",
+                    "val": "25 \/ 50 \/ 75 \/ 100"
+                }
+            ]
+        },
+        {
+            "id": "kunkka_x_marks_the_spot",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/kunkka_x_marks_the_spot_hp2.png?v=5027641",
+            "name": "X Marks the Spot",
+            "desc": "Targets a friendly or enemy Hero, marks their position with an X, and returns them to it after several seconds.  Kunkka can trigger the return at any time during the duration. Lasts twice as long on allied heroes.",
+            "mana_cost": "50",
+            "cooldown": "26\/20\/14\/8",
+            "video": "http:\/\/www.youtube.com\/embed\/uF1OsHjC-tY?hd=1&rel=0",
+            "lore": "The Admiral's set of arcane abilities includes some that can be used for battle as well as entertainment.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Heroes"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "ENEMY DELAY",
+                    "val": "4"
+                },
+                {
+                    "name": "ALLIED DELAY",
+                    "val": "8"
+                },
+                {
+                    "name": "RANGE",
+                    "val": "400 \/ 600 \/ 800 \/ 1000"
+                }
+            ]
+        },
+        {
+            "id": "kunkka_ghostship",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/kunkka_ghostship_hp2.png?v=5027641",
+            "name": "Ghostship",
+            "desc": "Summons a ghostly ship that sails through the battle before smashing apart, damaging and stunning all enemies caught near the wreckage. Allied heroes touched by the Ghostship are given a swig of The Admiral's Rum, receiving bonus movement speed and a delayed reaction to incoming damage.    Upgradeable by Aghanim's Scepter.",
+            "mana_cost": "125\/175\/225",
+            "cooldown": "60\/50\/40",
+            "video": "http:\/\/www.youtube.com\/embed\/lfnAIKZ6suE?hd=1&rel=0",
+            "lore": "The final ship of the Claddish Navy is nothing but a phantom, but it is all too real to the enemies of the Admiral.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "400 \/ 500 \/ 600"
+                },
+                {
+                    "name": "IMPACT DELAY",
+                    "val": "3.1"
+                },
+                {
+                    "name": "RANGE",
+                    "val": "2000"
+                },
+                {
+                    "name": "WIDTH",
+                    "val": "425 \/ 425 \/ 425"
+                },
+                {
+                    "name": "RUM BONUS SPEED",
+                    "val": "10% \/ 10% \/ 10%"
+                },
+                {
+                    "name": "RUM DURATION",
+                    "val": "10"
+                },
+                {
+                    "name": "STUN DURATION",
+                    "val": "1.4 \/ 1.4 \/ 1.4"
+                },
+                {
+                    "name": "DAMAGE DELAYED",
+                    "val": "40% \/ 45% \/ 50%"
+                }
+            ]
+        }
+    ]
+}

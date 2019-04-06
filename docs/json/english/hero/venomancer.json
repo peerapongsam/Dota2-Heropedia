@@ -1,0 +1,240 @@
+{
+    "id": "venomancer",
+    "name": "Venomancer",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/venomancer_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/venomancer_vert.jpg?v=5027641"
+    },
+    "attack": "Ranged",
+    "role": [
+        "Support",
+        "Nuker",
+        "Initiator",
+        "Pusher",
+        "Disabler"
+    ],
+    "primary_attribs": "agi",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 17,
+                "gain": 1.8
+            },
+            "agi": {
+                "base": 26,
+                "gain": 3.2
+            },
+            "str": {
+                "base": 19,
+                "gain": 2.1
+            },
+            "dmg": {
+                "min": 16,
+                "max": 18
+            },
+            "ms": 275,
+            "armor": 3.64
+        },
+        "abilities": [
+            {
+                "id": "venomancer_venomous_gale",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/venomancer_venomous_gale_hp1.png?v=5027641",
+                "name": "Venomous Gale",
+                "desc": "Launches a ball of venom in a line, poisoning enemy units so that they take both initial damage and damage over time, as well as suffering slowed movement.  Venomous Gale deals damage every 3 seconds over its duration."
+            },
+            {
+                "id": "venomancer_poison_sting",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/venomancer_poison_sting_hp1.png?v=5027641",
+                "name": "Poison Sting",
+                "desc": "Adds poison damage to Venomancer's normal attacks, slowing movement speed."
+            },
+            {
+                "id": "venomancer_plague_ward",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/venomancer_plague_ward_hp1.png?v=5027641",
+                "name": "Plague Ward",
+                "desc": "Summons a plague ward to attack enemy units and structures. The ward is immune to magic. Wards gain the Poison Sting level from Venomancer, dealing 50% of the full damage."
+            },
+            {
+                "id": "venomancer_poison_nova",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/venomancer_poison_nova_hp1.png?v=5027641",
+                "name": "Poison Nova",
+                "desc": "A spreading ring of poison that does damage over time to enemy units around Venomancer.  Poison Nova cannot deal lethal damage; targets will be left with at least 1 health.    Upgradable by Aghanim's Scepter."
+            }
+        ]
+    },
+    "bio": "In the Acid Jungles of Jidi Isle, poison runs in the veins and bubbles in the guts of every creature that scuttles, climbs or swoops between fluorescent vines dripping with caustic sap. Yet even in this toxic menagerie, Venomancer is acknowledged as the most venomous. Ages ago, an Herbalist named Lesale crossed the Bay of Fradj by coracle, searching for potent essences that might be extracted from bark and root, and found instead a nightmare transformation. Two leagues into Jidi's jungle, Lesale encountered a reptile camouflaged as an epiphyte, which stung him as he mistakenly plucked it. In desperation, he used his partial knowledge of the jungle's herbal bounty, mixing the venom of the (swiftly throttled) reptile with the nectar of an armored orchid, to compound an antidote. In the moments before a black paralysis claimed him completely, he injected himself by orchid-thorn, and instantly fell into a coma. Seventeen years later, something stirred in the spot where he had fallen, throwing off the years' accumulation of humus: Venomancer. Lesale the Herbalist no longer--but Lesale the Deathbringer. His mind was all but erased, and his flesh had been consumed and replaced by a new type of matter--one fusing the venom of the reptile with the poisonous integument of the orchid. Jidi's Acid Jungles knew a new master, one before whom even the most vicious predators soon learned to bow or burrow for their lives. The lurid isle proved too confining, and some human hunger deep in the heart of the Venomancer drove Lesale out in search of new poisons--and new deaths to bring.",
+    "stats": {
+        "hit_points": [
+            511,
+            1070,
+            1849
+        ],
+        "mana": [
+            221,
+            549,
+            1043
+        ],
+        "damage": [
+            42,
+            87,
+            139
+        ],
+        "armor": [
+            4,
+            10,
+            17
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 450,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "venomancer_venomous_gale",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/venomancer_venomous_gale_hp2.png?v=5027641",
+            "name": "Venomous Gale",
+            "desc": "Launches a ball of venom in a line, poisoning enemy units so that they take both initial damage and damage over time, as well as suffering slowed movement.  Venomous Gale deals damage every 3 seconds over its duration.",
+            "mana_cost": "125",
+            "cooldown": "21\/20\/19\/18",
+            "video": "http:\/\/www.youtube.com\/embed\/NMl5uOEHfCM?hd=1&rel=0",
+            "lore": "A concoction of various stings, poisons, and toxins gathered from the jungles of Jidi Isle, victims surviving it are rare.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DURATION",
+                    "val": "15 \/ 15 \/ 15 \/ 15"
+                },
+                {
+                    "name": "INITIAL DAMAGE",
+                    "val": "25 \/ 50 \/ 75 \/ 100"
+                },
+                {
+                    "name": "DAMAGE PER TICK",
+                    "val": "10 \/ 40 \/ 70 \/ 100"
+                },
+                {
+                    "name": "SLOW",
+                    "val": "50% \/ 50% \/ 50% \/ 50%"
+                }
+            ]
+        },
+        {
+            "id": "venomancer_poison_sting",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/venomancer_poison_sting_hp2.png?v=5027641",
+            "name": "Poison Sting",
+            "desc": "Adds poison damage to Venomancer's normal attacks, slowing movement speed.",
+            "mana_cost": "",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/wHPx7hm2j8w?hd=1&rel=0",
+            "lore": "The paralytic sting of the creature which caused his transformation now belongs to the Venomancer.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DURATION",
+                    "val": "6 \/ 9 \/ 12 \/ 15"
+                },
+                {
+                    "name": "DAMAGE PER SECOND",
+                    "val": "6 \/ 14 \/ 22 \/ 30"
+                }
+            ]
+        },
+        {
+            "id": "venomancer_plague_ward",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/venomancer_plague_ward_hp2.png?v=5027641",
+            "name": "Plague Ward",
+            "desc": "Summons a plague ward to attack enemy units and structures. The ward is immune to magic. Wards gain the Poison Sting level from Venomancer, dealing 50% of the full damage.",
+            "mana_cost": "20\/20\/20\/20",
+            "cooldown": "5",
+            "video": "http:\/\/www.youtube.com\/embed\/vQ0AFxdBUwk?hd=1&rel=0",
+            "lore": "A mixture of his old herbalist talents and newfound toxic mastery creates a living embodiment of plague.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Physical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DURATION",
+                    "val": "40"
+                }
+            ]
+        },
+        {
+            "id": "venomancer_poison_nova",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/venomancer_poison_nova_hp2.png?v=5027641",
+            "name": "Poison Nova",
+            "desc": "A spreading ring of poison that does damage over time to enemy units around Venomancer.  Poison Nova cannot deal lethal damage; targets will be left with at least 1 health.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "200\/300\/400",
+            "cooldown": "140\/120\/100",
+            "video": "http:\/\/www.youtube.com\/embed\/gL3GCUp1Ins?hd=1&rel=0",
+            "lore": "In the Acid Jungles, creatures releasing noxious poison to their attackers is common; Venomancer spreads this plague beyond the Jidi Isle.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "40 \/ 65 \/ 90"
+                },
+                {
+                    "name": "SCEPTER COOLDOWN",
+                    "val": "140 \/ 120 \/ 60"
+                },
+                {
+                    "name": "SCEPTER DAMAGE",
+                    "val": "75 \/ 100 \/ 125"
+                }
+            ]
+        }
+    ]
+}

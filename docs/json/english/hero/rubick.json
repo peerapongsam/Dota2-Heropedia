@@ -1,0 +1,233 @@
+{
+    "id": "rubick",
+    "name": "Rubick",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/rubick_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/rubick_vert.jpg?v=5027641"
+    },
+    "attack": "Ranged",
+    "role": [
+        "Support",
+        "Disabler",
+        "Nuker"
+    ],
+    "primary_attribs": "int",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 25,
+                "gain": 3.1
+            },
+            "agi": {
+                "base": 19,
+                "gain": 2.1
+            },
+            "str": {
+                "base": 21,
+                "gain": 2
+            },
+            "dmg": {
+                "min": 22,
+                "max": 32
+            },
+            "ms": 290,
+            "armor": 1.66
+        },
+        "abilities": [
+            {
+                "id": "rubick_telekinesis",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/rubick_telekinesis_hp1.png?v=5027641",
+                "name": "Telekinesis",
+                "desc": "Rubick uses his telekinetic powers to lift the enemy into the air briefly and then hurls them back at the ground. The unit lands on the ground with such force that it stuns nearby enemies."
+            },
+            {
+                "id": "rubick_fade_bolt",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/rubick_fade_bolt_hp1.png?v=5027641",
+                "name": "Fade Bolt",
+                "desc": "Rubick creates a powerful stream of arcane energy that travels between enemy units, dealing damage and reducing their attack damage.  Each jump deals less damage."
+            },
+            {
+                "id": "rubick_arcane_supremacy",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/rubick_arcane_supremacy_hp1.png?v=5027641",
+                "name": "Arcane Supremacy",
+                "desc": "Rubick's mastery of the arcane allows him to deal more spell damage and create spells that last longer on enemies."
+            },
+            {
+                "id": "rubick_spell_steal",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/rubick_spell_steal_hp1.png?v=5027641",
+                "name": "Spell Steal",
+                "desc": "Rubick studies the trace magical essence of one enemy hero, learning the secrets of the last spell the hero cast. Rubick can use this spell as his own for several minutes or until he dies.    Upgradable by Aghanim's Scepter."
+            }
+        ]
+    },
+    "bio": "Any mage can cast a spell or two, and a few may even study long enough to become a wizard, but only the most talented are allowed to be recognized as a Magus. Yet as with any sorcerer's circle, a sense of community has never guaranteed competitive courtesy. \r\n\r\n\t\tAlready a renowned duelist and scholar of the grander world of sorcery, it had never occurred to Rubick that he might perhaps be Magus material until he was in the midst of his seventh assassination attempt. As he casually tossed the twelfth of a string of would-be killers from a high balcony, it dawned on him how utterly unimaginative the attempts on his life had become. Where once the interruption of a fingersnap or firehand might have put a cheerful spring in his step, it had all become so very predictable. He craved greater competition. Therefore, donning his combat mask, he did what any wizard seeking to ascend the ranks would do: he announced his intention to kill a Magus. \r\n\r\n\t\tRubick quickly discovered that to threaten one Magus is to threaten them all, and they fell upon him in force. Each antagonist's spell was an unstoppable torrent of energy, and every attack a calculated killing blow. But very soon something occurred that Rubick's foes found unexpected: their arts appeared to turn against them. Inside the magic maelstrom, Rubick chuckled, subtly reading and replicating the powers of one in order to cast it against another, sowing chaos among those who had allied against him. Accusations of betrayal began to fly, and soon the sorcerers turned one upon another without suspecting who was behind their undoing. \r\n\r\n\t\tWhen the battle finally drew to a close, all were singed and frozen, soaked and cut and pierced. More than one lay dead by an ally's craft. Rubick stood apart, sore but delighted in the week's festivities. None had the strength to argue when he presented his petition of assumption to the Hidden Council, and the Insubstantial Eleven agreed as one to grant him the title of Grand Magus.",
+    "stats": {
+        "hit_points": [
+            549,
+            1081,
+            1841
+        ],
+        "mana": [
+            325,
+            889,
+            1552
+        ],
+        "damage": [
+            47,
+            90,
+            141
+        ],
+        "armor": [
+            2,
+            6,
+            12
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 550,
+        "missile_speed": "1125"
+    },
+    "abilities": [
+        {
+            "id": "rubick_telekinesis",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/rubick_telekinesis_hp2.png?v=5027641",
+            "name": "Telekinesis",
+            "desc": "Rubick uses his telekinetic powers to lift the enemy into the air briefly and then hurls them back at the ground. The unit lands on the ground with such force that it stuns nearby enemies.",
+            "mana_cost": "125",
+            "cooldown": "34\/30\/26\/22",
+            "video": "http:\/\/www.youtube.com\/embed\/SbfekAl6ZBM?hd=1&rel=0",
+            "lore": "Even the Grandest Magus may use his powers for enjoyment.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "LIFT DURATION",
+                    "val": "0.8 \/ 1.2 \/ 1.6 \/ 2"
+                },
+                {
+                    "name": "STUN DURATION",
+                    "val": "1 \/ 1.25 \/ 1.5 \/ 1.75"
+                },
+                {
+                    "name": "IMPACT RADIUS",
+                    "val": "325 \/ 325 \/ 325 \/ 325"
+                },
+                {
+                    "name": "CAST RANGE",
+                    "val": "550 \/ 575 \/ 600 \/ 625"
+                }
+            ]
+        },
+        {
+            "id": "rubick_fade_bolt",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/rubick_fade_bolt_hp2.png?v=5027641",
+            "name": "Fade Bolt",
+            "desc": "Rubick creates a powerful stream of arcane energy that travels between enemy units, dealing damage and reducing their attack damage.  Each jump deals less damage.",
+            "mana_cost": "120\/130\/140\/150",
+            "cooldown": "16\/14\/12\/10",
+            "video": "http:\/\/www.youtube.com\/embed\/eZ6g4fnlkC8?hd=1&rel=0",
+            "lore": "Rubick's favorite spell for dispatching would-be assassins is a rather simple conjuration.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "80 \/ 160 \/ 240 \/ 320"
+                },
+                {
+                    "name": "DEBUFF DURATION",
+                    "val": "10 \/ 10 \/ 10 \/ 10"
+                }
+            ]
+        },
+        {
+            "id": "rubick_arcane_supremacy",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/rubick_arcane_supremacy_hp2.png?v=5027641",
+            "name": "Arcane Supremacy",
+            "desc": "Rubick's mastery of the arcane allows him to deal more spell damage and create spells that last longer on enemies.",
+            "mana_cost": "",
+            "cooldown": "",
+            "lore": "Not every magus can be a Grand Magus...",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "SPELL AMPLIFICATION",
+                    "val": "14% \/ 18% \/ 22% \/ 26%"
+                },
+                {
+                    "name": "DEBUFF AMPLIFICATION",
+                    "val": "20% \/ 28% \/ 36% \/ 44%"
+                }
+            ]
+        },
+        {
+            "id": "rubick_spell_steal",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/rubick_spell_steal_hp2.png?v=5027641",
+            "name": "Spell Steal",
+            "desc": "Rubick studies the trace magical essence of one enemy hero, learning the secrets of the last spell the hero cast. Rubick can use this spell as his own for several minutes or until he dies.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "25\/25\/25",
+            "cooldown": "20\/18\/16",
+            "video": "http:\/\/www.youtube.com\/embed\/RBiGEs77jDQ?hd=1&rel=0",
+            "lore": "...but even their lesser magics can be a source of much utility.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Heroes"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DURATION",
+                    "val": "180 \/ 240 \/ 300"
+                },
+                {
+                    "name": "SCEPTER COOLDOWN",
+                    "val": "2"
+                }
+            ]
+        }
+    ]
+}

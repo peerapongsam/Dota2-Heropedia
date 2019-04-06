@@ -1,0 +1,245 @@
+{
+    "id": "tiny",
+    "name": "Tiny",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/tiny_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/tiny_vert.jpg?v=5027641"
+    },
+    "attack": "Melee",
+    "role": [
+        "Carry",
+        "Nuker",
+        "Pusher",
+        "Initiator",
+        "Durable",
+        "Disabler"
+    ],
+    "primary_attribs": "str",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 17,
+                "gain": 1.6
+            },
+            "agi": {
+                "base": 0,
+                "gain": 0
+            },
+            "str": {
+                "base": 30,
+                "gain": 4.1
+            },
+            "dmg": {
+                "min": 44,
+                "max": 50
+            },
+            "ms": 290,
+            "armor": 0
+        },
+        "abilities": [
+            {
+                "id": "tiny_avalanche",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/tiny_avalanche_hp1.png?v=5027641",
+                "name": "Avalanche",
+                "desc": "Bombards an area with rocks, continously doing small intervals of damage and stun to enemy units. Avalanche does 3x damage to units being tossed."
+            },
+            {
+                "id": "tiny_toss",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/tiny_toss_hp1.png?v=5027641",
+                "name": "Toss",
+                "desc": "Grabs the nearest unit in a 275 radius around Tiny, ally or enemy, and launches it at the target unit or rune to deal damage where they land.  If the tossed unit is an enemy, it will take an extra 30% damage."
+            },
+            {
+                "id": "tiny_craggy_exterior",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/tiny_craggy_exterior_hp1.png?v=5027641",
+                "name": "Tree Grab",
+                "desc": "Grabs a tree to whack enemies on the head for a limited number of times. Grants bonus attack range. Attacks deal more damage (increased vs. buildings) and fully splash on units along the way. The tree can be thrown, expending all the charges, to deal your attack to a unit at a distance."
+            },
+            {
+                "id": "tiny_grow",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/tiny_grow_hp1.png?v=5027641",
+                "name": "Grow",
+                "desc": "Tiny gains craggy mass, increases his power and causes him to shrug off debuffs."
+            }
+        ]
+    },
+    "bio": "Coming to life as a chunk of stone, Tiny's origins are a mystery on which he continually speculates.  He is a Stone Giant now, but what did he used to be?  A splinter broken from a Golem's heel?  A shard swept from a gargoyle-sculptor's workshop?  A fragment of the Oracular Visage of Garthos?  A deep curiosity drives him, and he travels the world tirelessly seeking his origins, his parentage, his people.  As he roams, he gathers weight and size; the forces that weather lesser rocks, instead cause Tiny to grow and ever grow.",
+    "stats": {
+        "hit_points": [
+            720,
+            1811,
+            2970
+        ],
+        "mana": [
+            221,
+            512,
+            980
+        ],
+        "damage": [
+            74,
+            131,
+            192
+        ],
+        "armor": [
+            0,
+            0,
+            3
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 150,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "tiny_avalanche",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/tiny_avalanche_hp2.png?v=5027641",
+            "name": "Avalanche",
+            "desc": "Bombards an area with rocks, continously doing small intervals of damage and stun to enemy units. Avalanche does 3x damage to units being tossed.",
+            "mana_cost": "120\/120\/120\/120",
+            "cooldown": "26\/22\/18\/14",
+            "video": "http:\/\/www.youtube.com\/embed\/t4JvtlBfJug?hd=1&rel=0",
+            "lore": "Inanimate rock becomes animate when called by the Stone Giant.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RADIUS",
+                    "val": "325 \/ 350 \/ 375 \/ 400"
+                },
+                {
+                    "name": "AVALANCHE DURATION",
+                    "val": "1.8"
+                }
+            ]
+        },
+        {
+            "id": "tiny_toss",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/tiny_toss_hp2.png?v=5027641",
+            "name": "Toss",
+            "desc": "Grabs the nearest unit in a 275 radius around Tiny, ally or enemy, and launches it at the target unit or rune to deal damage where they land.  If the tossed unit is an enemy, it will take an extra 30% damage.",
+            "mana_cost": "90\/100\/110\/120",
+            "cooldown": "11",
+            "video": "http:\/\/www.youtube.com\/embed\/4oDiWbybHgM?hd=1&rel=0",
+            "lore": "Tiny's gargantuan stature allows him to catapult even the sturdiest of warriors.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RADIUS",
+                    "val": "275"
+                },
+                {
+                    "name": "RANGE",
+                    "val": "1300"
+                },
+                {
+                    "name": "DAMAGE",
+                    "val": "90 \/ 160 \/ 230 \/ 300"
+                }
+            ]
+        },
+        {
+            "id": "tiny_craggy_exterior",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/tiny_craggy_exterior_hp2.png?v=5027641",
+            "name": "Tree Grab",
+            "desc": "Grabs a tree to whack enemies on the head for a limited number of times. Grants bonus attack range. Attacks deal more damage (increased vs. buildings) and fully splash on units along the way. The tree can be thrown, expending all the charges, to deal your attack to a unit at a distance.",
+            "mana_cost": "50",
+            "cooldown": "27\/22\/17\/12",
+            "video": "http:\/\/www.youtube.com\/embed\/P0uPxATF8XE?hd=1&rel=0",
+            "lore": "Sticks and stones break all the bones, with structures sure to follow.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Physical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "ATTACK COUNT",
+                    "val": "5"
+                },
+                {
+                    "name": "BONUS DAMAGE",
+                    "val": "10% \/ 20% \/ 30% \/ 40%"
+                },
+                {
+                    "name": "BONUS BUILDING DAMAGE",
+                    "val": "80% \/ 120% \/ 160% \/ 200%"
+                },
+                {
+                    "name": "ATTACK RANGE",
+                    "val": "350"
+                },
+                {
+                    "name": "SPLASH DAMAGE",
+                    "val": "30% \/ 40% \/ 50% \/ 60%"
+                }
+            ]
+        },
+        {
+            "id": "tiny_grow",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/tiny_grow_hp2.png?v=5027641",
+            "name": "Grow",
+            "desc": "Tiny gains craggy mass, increases his power and causes him to shrug off debuffs.",
+            "mana_cost": "",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/4GB3qojLOHo?hd=1&rel=0",
+            "lore": "Watching a hill become a mountain is awe-inspiring - especially if the mountain begins laying waste to adversaries.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "BONUS ARMOR",
+                    "val": "7 \/ 16 \/ 25"
+                },
+                {
+                    "name": "BONUS DAMAGE",
+                    "val": "30 \/ 45 \/ 60"
+                },
+                {
+                    "name": "ATTACK SPEED REDUCTION",
+                    "val": "20 \/ 35 \/ 50"
+                }
+            ]
+        }
+    ]
+}

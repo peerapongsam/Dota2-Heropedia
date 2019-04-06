@@ -1,0 +1,250 @@
+{
+    "id": "luna",
+    "name": "Luna",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/luna_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/luna_vert.jpg?v=5027641"
+    },
+    "attack": "Ranged",
+    "role": [
+        "Carry",
+        "Nuker",
+        "Pusher"
+    ],
+    "primary_attribs": "agi",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 16,
+                "gain": 1.9
+            },
+            "agi": {
+                "base": 18,
+                "gain": 3.6
+            },
+            "str": {
+                "base": 16,
+                "gain": 2.2
+            },
+            "dmg": {
+                "min": 20,
+                "max": 26
+            },
+            "ms": 325,
+            "armor": 2.52
+        },
+        "abilities": [
+            {
+                "id": "luna_lucent_beam",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/luna_lucent_beam_hp1.png?v=5027641",
+                "name": "Lucent Beam",
+                "desc": "Calls a beam of lunar energy down upon an enemy, damaging and briefly stunning them."
+            },
+            {
+                "id": "luna_moon_glaive",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/luna_moon_glaive_hp1.png?v=5027641",
+                "name": "Moon Glaives",
+                "desc": "Empowers Luna's glaives, causing her attacks to bounce between enemy units. Deals less damage with each bounce."
+            },
+            {
+                "id": "luna_lunar_blessing",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/luna_lunar_blessing_hp1.png?v=5027641",
+                "name": "Lunar Blessing",
+                "desc": "Increases the primary attribute for Luna and nearby allied heroes. Luna is also blessed with increased vision range at night."
+            },
+            {
+                "id": "luna_eclipse",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/luna_eclipse_hp1.png?v=5027641",
+                "name": "Eclipse",
+                "desc": "Showers random nearby enemies with strikes from Luna's current level of Lucent Beam. These beams do not stun their targets, and there is a maximum number of times that a single target can be struck. Also turns day into night for 10 seconds.    Upgradable by Aghanim's Scepter."
+            }
+        ]
+    },
+    "bio": "How had she been reduced to this?  She was once the Scourge of the Plains, a merciless leader of men and beasts, and able to sow terror wherever she dared.  Now she was far from her homeland, driven half mad from starvation and months of wandering, her army long dead or worse.  As she stood at the edge of an ancient forest, a pair of glowing eyes spied on from an elder branch.  Something beautiful and deadly sought a meal in the wilting dusk.  Without a sound, it turned and left.  Fury overtook her.  Clutching a rust-eaten dagger, she charged after the beast determined to reclaim even a shred of her past glory, but her quarry would not be caught.  Three times she cornered the creature among the rocks and trees, and three times she pounced only to witness its fading shadow darting further into the woods.  Yet the full moon shone brightly, and the creature's trail was easy to follow.  Arriving in a clearing atop a high hill, the beast's massive feline form sat in the open, attentive and waiting.  When the woman brandished her dagger, the creature reared and roared and charged.  Death, it seemed, had come for her at long last in this strange place.  She stood, calm and ready.  A flash of movement, and the beast snatched the dagger from her hand before vanishing into the forest.  Stillness.  Hooded figures approached. In reverent tones they revealed that Selemene, Goddess of the Moon, had chosen her, had guided her, had tested her. Unwittingly she had endured the sacred rites of the Dark Moon, warriors of the Nightsilver Woods. \r\n\r\n\t\tShe was offered a choice: join the Dark Moon and pledge herself to the service of Selemene, or leave and never return. She did not hesitate. Embracing her absolution, she renounced her bloody past, and took up a new mantle as Luna of the Dark Moon, the dreaded Moon Rider, ruthless and ever-loyal guardian of the Nightsilver Woods.",
+    "stats": {
+        "hit_points": [
+            454,
+            1039,
+            1837
+        ],
+        "mana": [
+            208,
+            554,
+            1061
+        ],
+        "damage": [
+            38,
+            88,
+            144
+        ],
+        "armor": [
+            3,
+            10,
+            17
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 330,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "luna_lucent_beam",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/luna_lucent_beam_hp2.png?v=5027641",
+            "name": "Lucent Beam",
+            "desc": "Calls a beam of lunar energy down upon an enemy, damaging and briefly stunning them.",
+            "mana_cost": "90\/100\/110\/120",
+            "cooldown": "6",
+            "video": "http:\/\/www.youtube.com\/embed\/ALMg8aRf7Xs?hd=1&rel=0",
+            "lore": "Selemene smites those who encroach upon the Nightsilver Woods.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "STUN DURATION",
+                    "val": "0.8"
+                }
+            ]
+        },
+        {
+            "id": "luna_moon_glaive",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/luna_moon_glaive_hp2.png?v=5027641",
+            "name": "Moon Glaives",
+            "desc": "Empowers Luna's glaives, causing her attacks to bounce between enemy units. Deals less damage with each bounce.",
+            "mana_cost": "",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/7TCPl446TcI?hd=1&rel=0",
+            "lore": "Carefully sharpened, Luna's boomerang-like weapon cuts a wide swath through enemy numbers.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "BOUNCE RADIUS",
+                    "val": "500"
+                },
+                {
+                    "name": "BOUNCES",
+                    "val": "1 \/ 2 \/ 3 \/ 6"
+                },
+                {
+                    "name": "DAMAGE REDUCTION PER BOUNCE",
+                    "val": "35%"
+                }
+            ]
+        },
+        {
+            "id": "luna_lunar_blessing",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/luna_lunar_blessing_hp2.png?v=5027641",
+            "name": "Lunar Blessing",
+            "desc": "Increases the primary attribute for Luna and nearby allied heroes. Luna is also blessed with increased vision range at night.",
+            "mana_cost": "",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/1tKapRx4crk?hd=1&rel=0",
+            "lore": "The Goddess of the Moon smiles upon her kin.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "BLESSING RADIUS",
+                    "val": "1200"
+                },
+                {
+                    "name": "BONUS PRIMARY ATTRIBUTE",
+                    "val": "6 \/ 12 \/ 18 \/ 24"
+                },
+                {
+                    "name": "BONUS NIGHT VISION",
+                    "val": "200 \/ 400 \/ 600 \/ 800"
+                }
+            ]
+        },
+        {
+            "id": "luna_eclipse",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/luna_eclipse_hp2.png?v=5027641",
+            "name": "Eclipse",
+            "desc": "Showers random nearby enemies with strikes from Luna's current level of Lucent Beam. These beams do not stun their targets, and there is a maximum number of times that a single target can be struck. Also turns day into night for 10 seconds.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "150\/200\/250",
+            "cooldown": "140",
+            "video": "http:\/\/www.youtube.com\/embed\/pQKRK9KN5-U?hd=1&rel=0",
+            "lore": "In times of great need, Selemene herself descends into the world, blocking out the light and hope of the opposed.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Allied Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "TOTAL BEAMS",
+                    "val": "6 \/ 9 \/ 12"
+                },
+                {
+                    "name": "MAX BEAMS PER UNIT",
+                    "val": "5"
+                },
+                {
+                    "name": "ECLIPSE DURATION",
+                    "val": "2.4 \/ 4.2 \/ 6"
+                },
+                {
+                    "name": "RADIUS",
+                    "val": "675 \/ 675 \/ 675"
+                },
+                {
+                    "name": "SCEPTER TOTAL BEAMS",
+                    "val": "6 \/ 12 \/ 18"
+                },
+                {
+                    "name": "SCEPTER DURATION",
+                    "val": "1.8 \/ 3.6 \/ 5.4"
+                },
+                {
+                    "name": "SCEPTER CAST RANGE",
+                    "val": "2500"
+                }
+            ]
+        }
+    ]
+}

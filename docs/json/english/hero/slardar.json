@@ -1,0 +1,232 @@
+{
+    "id": "slardar",
+    "name": "Slardar",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/slardar_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/slardar_vert.jpg?v=5027641"
+    },
+    "attack": "Melee",
+    "role": [
+        "Carry",
+        "Durable",
+        "Initiator",
+        "Disabler",
+        "Escape"
+    ],
+    "primary_attribs": "str",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 15,
+                "gain": 1.5
+            },
+            "agi": {
+                "base": 17,
+                "gain": 2.4
+            },
+            "str": {
+                "base": 21,
+                "gain": 3.6
+            },
+            "dmg": {
+                "min": 30,
+                "max": 38
+            },
+            "ms": 290,
+            "armor": 5.38
+        },
+        "abilities": [
+            {
+                "id": "slardar_sprint",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/slardar_sprint_hp1.png?v=5027641",
+                "name": "Guardian Sprint",
+                "desc": "Slardar slithers ahead, moving significantly faster and passing through units.  At ability level 4, Slardar may move at 700 speed while in the river."
+            },
+            {
+                "id": "slardar_slithereen_crush",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/slardar_slithereen_crush_hp1.png?v=5027641",
+                "name": "Slithereen Crush",
+                "desc": "Slams the ground, stunning and damaging nearby enemy land units.  After the stun, the affected units are slowed."
+            },
+            {
+                "id": "slardar_bash",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/slardar_bash_hp1.png?v=5027641",
+                "name": "Bash of the Deep",
+                "desc": "After 3 attacks, your next attack will bash the target."
+            },
+            {
+                "id": "slardar_amplify_damage",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/slardar_amplify_damage_hp1.png?v=5027641",
+                "name": "Corrosive Haze",
+                "desc": "Reduces enemy armor to amplify physical damage and provides True Sight of the targeted unit, revealing invisibility."
+            }
+        ]
+    },
+    "bio": "Slardar is a Slithereen, one of the Deep Ones, guardian of a vast network of sunken cities and the ancient riches buried within them. In the lightless gulf of the deepest ocean abysses, the Slithereen Guard patrols secret treasure rooms, ever vigilant against the subaqueous thieves sent into the deeps by covetous dryland sorcerers. He is utterly loyal, and his taciturn nature hides deep knowledge of the most secret places of the sea. He rises to the shallows in spite of the pain caused him by brightness, to commit reconnaissance, to make sure no one is conspiring against the depths, and sometimes in relentless pursuit of the rare few who manage to steal off with an item from the Sunken Treasury. Because he has spent his whole life at great pressure, under tremendous weight of the sea, Slardar the Slithereen Guard is a creature of immense power.",
+    "stats": {
+        "hit_points": [
+            549,
+            1507,
+            2571
+        ],
+        "mana": [
+            195,
+            468,
+            923
+        ],
+        "damage": [
+            51,
+            101,
+            157
+        ],
+        "armor": [
+            5,
+            10,
+            16
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 150,
+        "missile_speed": "N\/A"
+    },
+    "abilities": [
+        {
+            "id": "slardar_sprint",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/slardar_sprint_hp2.png?v=5027641",
+            "name": "Guardian Sprint",
+            "desc": "Slardar slithers ahead, moving significantly faster and passing through units.  At ability level 4, Slardar may move at 700 speed while in the river.",
+            "mana_cost": "",
+            "cooldown": "17",
+            "video": "http:\/\/www.youtube.com\/embed\/IIpt3UM9-dE?hd=1&rel=0",
+            "lore": "As Slardar has made the transition from the Deeps, it has been necessary to use his powerful tail for sprinting instead of swimming.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "BONUS MOVE SPEED",
+                    "val": "20% \/ 28% \/ 36% \/ 44%"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "10"
+                }
+            ]
+        },
+        {
+            "id": "slardar_slithereen_crush",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/slardar_slithereen_crush_hp2.png?v=5027641",
+            "name": "Slithereen Crush",
+            "desc": "Slams the ground, stunning and damaging nearby enemy land units.  After the stun, the affected units are slowed.",
+            "mana_cost": "80\/95\/105\/115",
+            "cooldown": "8",
+            "video": "http:\/\/www.youtube.com\/embed\/AhBhn-UWcOM?hd=1&rel=0",
+            "lore": "A swift crush of might and water breaks even the toughest of defenses.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Physical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "80 \/ 140 \/ 200 \/ 260"
+                },
+                {
+                    "name": "RADIUS",
+                    "val": "350"
+                },
+                {
+                    "name": "MOVEMENT SLOW",
+                    "val": "20% \/ 25% \/ 30% \/ 35%"
+                },
+                {
+                    "name": "ATTACK SLOW",
+                    "val": "20 \/ 25 \/ 30 \/ 35"
+                },
+                {
+                    "name": "SLOW DURATION",
+                    "val": "3 \/ 4 \/ 5 \/ 6"
+                }
+            ]
+        },
+        {
+            "id": "slardar_bash",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/slardar_bash_hp2.png?v=5027641",
+            "name": "Bash of the Deep",
+            "desc": "After 3 attacks, your next attack will bash the target.",
+            "mana_cost": "",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/fxLD4HlBk8g?hd=1&rel=0",
+            "lore": "Thieves of the wealth of the Deep Ones meet the brutality of the Slithereen Guard in melee combat.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Physical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "BASH DURATION",
+                    "val": "1 \/ 1.1 \/ 1.2 \/ 1.3"
+                }
+            ]
+        },
+        {
+            "id": "slardar_amplify_damage",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/slardar_amplify_damage_hp2.png?v=5027641",
+            "name": "Corrosive Haze",
+            "desc": "Reduces enemy armor to amplify physical damage and provides True Sight of the targeted unit, revealing invisibility.",
+            "mana_cost": "25",
+            "cooldown": "5",
+            "video": "http:\/\/www.youtube.com\/embed\/wNlSGTlfxOY?hd=1&rel=0",
+            "lore": "Even the strongest armor counts for little when left to the brine of the sea.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "ARMOR REDUCTION",
+                    "val": "10 \/ 15 \/ 20"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "18"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,204 @@
+{
+    "id": "antimage",
+    "name": "Anti-Mage",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/antimage_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/antimage_vert.jpg?v=5027641"
+    },
+    "attack": "Melee",
+    "role": [
+        "Carry",
+        "Escape",
+        "Nuker"
+    ],
+    "primary_attribs": "agi",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 12,
+                "gain": 1.8
+            },
+            "agi": {
+                "base": 24,
+                "gain": 3.2
+            },
+            "str": {
+                "base": 23,
+                "gain": 1.3
+            },
+            "dmg": {
+                "min": 29,
+                "max": 33
+            },
+            "ms": 310,
+            "armor": 2.36
+        },
+        "abilities": [
+            {
+                "id": "antimage_mana_break",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/antimage_mana_break_hp1.png?v=5027641",
+                "name": "Mana Break",
+                "desc": "Burns an opponent's mana on each attack.  Mana Break deals 50% of the mana burned as damage to the target."
+            },
+            {
+                "id": "antimage_blink",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/antimage_blink_hp1.png?v=5027641",
+                "name": "Blink",
+                "desc": "Short distance teleportation that allows Anti-Mage to move in and out of combat."
+            },
+            {
+                "id": "antimage_counterspell",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/antimage_counterspell_hp1.png?v=5027641",
+                "name": "Counterspell",
+                "desc": "Passively grants you magic resistance. Can be activated to create an anti-magic shell around you that sends any targeted spells back towards enemies instead of affecting you."
+            },
+            {
+                "id": "antimage_mana_void",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/antimage_mana_void_hp1.png?v=5027641",
+                "name": "Mana Void",
+                "desc": "For each point of mana missing by the target unit, damage is dealt to it and surrounding enemies.  The main target is also mini-stunned."
+            }
+        ]
+    },
+    "bio": "The monks of Turstarkuri watched the rugged valleys below their mountain monastery as wave after wave of invaders swept through the lower kingdoms. Ascetic and pragmatic, in their remote monastic eyrie they remained aloof from mundane strife, wrapped in meditation that knew no gods or elements of magic. Then came the Legion of the Dead God, crusaders with a sinister mandate to replace all local worship with their Unliving Lord's poisonous nihilosophy. From a landscape that had known nothing but blood and battle for a thousand years, they tore the souls and bones of countless fallen legions and pitched them against Turstarkuri. The monastery stood scarcely a fortnight against the assault, and the few monks who bothered to surface from their meditations believed the invaders were but demonic visions sent to distract them from meditation. They died where they sat on their silken cushions. Only one youth survived--a pilgrim who had come as an acolyte, seeking wisdom, but had yet to be admitted to the monastery. He watched in horror as the monks to whom he had served tea and nettles were first slaughtered, then raised to join the ranks of the Dead God's priesthood. With nothing but a few of Turstarkuri's prized dogmatic scrolls, he crept away to the comparative safety of other lands, swearing to obliterate not only the Dead God's magic users--but to put an end to magic altogether.",
+    "stats": {
+        "hit_points": [
+            587,
+            933,
+            1560
+        ],
+        "mana": [
+            156,
+            484,
+            978
+        ],
+        "damage": [
+            53,
+            98,
+            150
+        ],
+        "armor": [
+            2,
+            9,
+            16
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 150,
+        "missile_speed": "N\/A"
+    },
+    "abilities": [
+        {
+            "id": "antimage_mana_break",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/antimage_mana_break_hp2.png?v=5027641",
+            "name": "Mana Break",
+            "desc": "Burns an opponent's mana on each attack.  Mana Break deals 50% of the mana burned as damage to the target.",
+            "mana_cost": "",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/5n9dPC349Lw?hd=1&rel=0",
+            "lore": "A modified technique of the Turstarkuri monks' peaceful ways is to turn magical energies on their owner.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Physical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "MANA BURNED PER HIT",
+                    "val": "28 \/ 40 \/ 52 \/ 64"
+                }
+            ]
+        },
+        {
+            "id": "antimage_blink",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/antimage_blink_hp2.png?v=5027641",
+            "name": "Blink",
+            "desc": "Short distance teleportation that allows Anti-Mage to move in and out of combat.",
+            "mana_cost": "60",
+            "cooldown": "15\/12\/9\/6",
+            "video": "http:\/\/www.youtube.com\/embed\/HCJe7ilCyXo?hd=1&rel=0",
+            "lore": "In his encounter with the Dead Gods, Anti-Mage learned the value of being elusive.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                }
+            ],
+            "damage": []
+        },
+        {
+            "id": "antimage_counterspell",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/antimage_counterspell_hp2.png?v=5027641",
+            "name": "Counterspell",
+            "desc": "Passively grants you magic resistance. Can be activated to create an anti-magic shell around you that sends any targeted spells back towards enemies instead of affecting you.",
+            "mana_cost": "45\/50\/55\/60",
+            "cooldown": "15\/11\/7\/3",
+            "lore": null,
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DURATION",
+                    "val": "1.2"
+                }
+            ]
+        },
+        {
+            "id": "antimage_mana_void",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/antimage_mana_void_hp2.png?v=5027641",
+            "name": "Mana Void",
+            "desc": "For each point of mana missing by the target unit, damage is dealt to it and surrounding enemies.  The main target is also mini-stunned.",
+            "mana_cost": "125\/200\/275",
+            "cooldown": "70",
+            "video": "http:\/\/www.youtube.com\/embed\/qi1_xFE6nBI?hd=1&rel=0",
+            "lore": "After bringing enemies to their knees, Anti-Mage punishes them for their use of the arcane arts.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "0.8 \/ 0.95 \/ 1.1"
+                },
+                {
+                    "name": "STUN DURATION",
+                    "val": "0.3"
+                },
+                {
+                    "name": "RADIUS",
+                    "val": "500"
+                }
+            ]
+        }
+    ]
+}

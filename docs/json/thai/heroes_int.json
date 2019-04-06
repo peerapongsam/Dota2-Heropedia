@@ -1,0 +1,664 @@
+[
+    {
+        "id": "crystal_maiden",
+        "name": "Crystal Maiden",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/crystal_maiden_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/crystal_maiden_vert.jpg?v=5027641"
+        },
+        "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
+        "role": [
+            "\u0e15\u0e31\u0e27\u0e0b\u0e31\u0e1e\u0e1e\u0e2d\u0e23\u0e4c\u0e15",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14",
+            "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04",
+            "\u0e15\u0e31\u0e27\u0e1b\u0e48\u0e32"
+        ],
+        "primary_attribs": "int"
+    },
+    {
+        "id": "puck",
+        "name": "Puck",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/puck_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/puck_vert.jpg?v=5027641"
+        },
+        "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
+        "role": [
+            "\u0e15\u0e31\u0e27\u0e40\u0e1b\u0e34\u0e14",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e19\u0e35",
+            "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04"
+        ],
+        "primary_attribs": "int"
+    },
+    {
+        "id": "storm_spirit",
+        "name": "Storm Spirit",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/storm_spirit_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/storm_spirit_vert.jpg?v=5027641"
+        },
+        "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
+        "role": [
+            "\u0e15\u0e31\u0e27\u0e41\u0e04\u0e23\u0e4c\u0e23\u0e35",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e19\u0e35",
+            "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04",
+            "\u0e15\u0e31\u0e27\u0e40\u0e1b\u0e34\u0e14",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14"
+        ],
+        "primary_attribs": "int"
+    },
+    {
+        "id": "windrunner",
+        "name": "Windranger",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/windrunner_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/windrunner_vert.jpg?v=5027641"
+        },
+        "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
+        "role": [
+            "\u0e15\u0e31\u0e27\u0e41\u0e04\u0e23\u0e4c\u0e23\u0e35",
+            "\u0e15\u0e31\u0e27\u0e0b\u0e31\u0e1e\u0e1e\u0e2d\u0e23\u0e4c\u0e15",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e19\u0e35",
+            "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04"
+        ],
+        "primary_attribs": "int"
+    },
+    {
+        "id": "zuus",
+        "name": "Zeus",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/zuus_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/zuus_vert.jpg?v=5027641"
+        },
+        "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
+        "role": [
+            "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04"
+        ],
+        "primary_attribs": "int"
+    },
+    {
+        "id": "lina",
+        "name": "Lina",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/lina_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/lina_vert.jpg?v=5027641"
+        },
+        "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
+        "role": [
+            "\u0e15\u0e31\u0e27\u0e0b\u0e31\u0e1e\u0e1e\u0e2d\u0e23\u0e4c\u0e15",
+            "\u0e15\u0e31\u0e27\u0e41\u0e04\u0e23\u0e4c\u0e23\u0e35",
+            "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14"
+        ],
+        "primary_attribs": "int"
+    },
+    {
+        "id": "shadow_shaman",
+        "name": "Shadow Shaman",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/shadow_shaman_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/shadow_shaman_vert.jpg?v=5027641"
+        },
+        "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
+        "role": [
+            "\u0e15\u0e31\u0e27\u0e0b\u0e31\u0e1e\u0e1e\u0e2d\u0e23\u0e4c\u0e15",
+            "\u0e15\u0e31\u0e27\u0e14\u0e31\u0e19",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14",
+            "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04",
+            "\u0e15\u0e31\u0e27\u0e40\u0e1b\u0e34\u0e14"
+        ],
+        "primary_attribs": "int"
+    },
+    {
+        "id": "tinker",
+        "name": "Tinker",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/tinker_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/tinker_vert.jpg?v=5027641"
+        },
+        "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
+        "role": [
+            "\u0e15\u0e31\u0e27\u0e41\u0e04\u0e23\u0e4c\u0e23\u0e35",
+            "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04",
+            "\u0e15\u0e31\u0e27\u0e14\u0e31\u0e19"
+        ],
+        "primary_attribs": "int"
+    },
+    {
+        "id": "furion",
+        "name": "Nature's Prophet",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/furion_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/furion_vert.jpg?v=5027641"
+        },
+        "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
+        "role": [
+            "\u0e15\u0e31\u0e27\u0e41\u0e04\u0e23\u0e4c\u0e23\u0e35",
+            "\u0e15\u0e31\u0e27\u0e1b\u0e48\u0e32",
+            "\u0e15\u0e31\u0e27\u0e14\u0e31\u0e19",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e19\u0e35",
+            "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04"
+        ],
+        "primary_attribs": "int"
+    },
+    {
+        "id": "enchantress",
+        "name": "Enchantress",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/enchantress_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/enchantress_vert.jpg?v=5027641"
+        },
+        "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
+        "role": [
+            "\u0e15\u0e31\u0e27\u0e0b\u0e31\u0e1e\u0e1e\u0e2d\u0e23\u0e4c\u0e15",
+            "\u0e15\u0e31\u0e27\u0e1b\u0e48\u0e32",
+            "\u0e15\u0e31\u0e27\u0e14\u0e31\u0e19",
+            "\u0e15\u0e31\u0e27\u0e22\u0e37\u0e19",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14"
+        ],
+        "primary_attribs": "int"
+    },
+    {
+        "id": "jakiro",
+        "name": "Jakiro",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/jakiro_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/jakiro_vert.jpg?v=5027641"
+        },
+        "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
+        "role": [
+            "\u0e15\u0e31\u0e27\u0e0b\u0e31\u0e1e\u0e1e\u0e2d\u0e23\u0e4c\u0e15",
+            "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04",
+            "\u0e15\u0e31\u0e27\u0e14\u0e31\u0e19",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14"
+        ],
+        "primary_attribs": "int"
+    },
+    {
+        "id": "chen",
+        "name": "Chen",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/chen_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/chen_vert.jpg?v=5027641"
+        },
+        "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
+        "role": [
+            "\u0e15\u0e31\u0e27\u0e0b\u0e31\u0e1e\u0e1e\u0e2d\u0e23\u0e4c\u0e15",
+            "\u0e15\u0e31\u0e27\u0e1b\u0e48\u0e32",
+            "\u0e15\u0e31\u0e27\u0e14\u0e31\u0e19"
+        ],
+        "primary_attribs": "int"
+    },
+    {
+        "id": "silencer",
+        "name": "Silencer",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/silencer_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/silencer_vert.jpg?v=5027641"
+        },
+        "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
+        "role": [
+            "\u0e15\u0e31\u0e27\u0e41\u0e04\u0e23\u0e4c\u0e23\u0e35",
+            "\u0e15\u0e31\u0e27\u0e0b\u0e31\u0e1e\u0e1e\u0e2d\u0e23\u0e4c\u0e15",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14",
+            "\u0e15\u0e31\u0e27\u0e40\u0e1b\u0e34\u0e14",
+            "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04"
+        ],
+        "primary_attribs": "int"
+    },
+    {
+        "id": "ogre_magi",
+        "name": "Ogre Magi",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/ogre_magi_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/ogre_magi_vert.jpg?v=5027641"
+        },
+        "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
+        "role": [
+            "\u0e15\u0e31\u0e27\u0e0b\u0e31\u0e1e\u0e1e\u0e2d\u0e23\u0e4c\u0e15",
+            "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14",
+            "\u0e15\u0e31\u0e27\u0e22\u0e37\u0e19",
+            "\u0e15\u0e31\u0e27\u0e40\u0e1b\u0e34\u0e14"
+        ],
+        "primary_attribs": "int"
+    },
+    {
+        "id": "rubick",
+        "name": "Rubick",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/rubick_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/rubick_vert.jpg?v=5027641"
+        },
+        "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
+        "role": [
+            "\u0e15\u0e31\u0e27\u0e0b\u0e31\u0e1e\u0e1e\u0e2d\u0e23\u0e4c\u0e15",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14",
+            "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04"
+        ],
+        "primary_attribs": "int"
+    },
+    {
+        "id": "disruptor",
+        "name": "Disruptor",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/disruptor_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/disruptor_vert.jpg?v=5027641"
+        },
+        "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
+        "role": [
+            "\u0e15\u0e31\u0e27\u0e0b\u0e31\u0e1e\u0e1e\u0e2d\u0e23\u0e4c\u0e15",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14",
+            "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04",
+            "\u0e15\u0e31\u0e27\u0e40\u0e1b\u0e34\u0e14"
+        ],
+        "primary_attribs": "int"
+    },
+    {
+        "id": "keeper_of_the_light",
+        "name": "Keeper of the Light",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/keeper_of_the_light_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/keeper_of_the_light_vert.jpg?v=5027641"
+        },
+        "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
+        "role": [
+            "\u0e15\u0e31\u0e27\u0e0b\u0e31\u0e1e\u0e1e\u0e2d\u0e23\u0e4c\u0e15",
+            "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14",
+            "\u0e15\u0e31\u0e27\u0e1b\u0e48\u0e32"
+        ],
+        "primary_attribs": "int"
+    },
+    {
+        "id": "Skywrath_Mage",
+        "name": "Skywrath Mage",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/skywrath_mage_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/skywrath_mage_vert.jpg?v=5027641"
+        },
+        "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
+        "role": [
+            "\u0e15\u0e31\u0e27\u0e0b\u0e31\u0e1e\u0e1e\u0e2d\u0e23\u0e4c\u0e15",
+            "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14"
+        ],
+        "primary_attribs": "int"
+    },
+    {
+        "id": "oracle",
+        "name": "Oracle",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/oracle_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/oracle_vert.jpg?v=5027641"
+        },
+        "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
+        "role": [
+            "\u0e15\u0e31\u0e27\u0e0b\u0e31\u0e1e\u0e1e\u0e2d\u0e23\u0e4c\u0e15",
+            "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e19\u0e35"
+        ],
+        "primary_attribs": "int"
+    },
+    {
+        "id": "techies",
+        "name": "Techies",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/techies_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/techies_vert.jpg?v=5027641"
+        },
+        "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
+        "role": [
+            "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14"
+        ],
+        "primary_attribs": "int"
+    },
+    {
+        "id": "dark_willow",
+        "name": "Dark Willow",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/dark_willow_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/dark_willow_vert.jpg?v=5027641"
+        },
+        "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
+        "role": [
+            "\u0e15\u0e31\u0e27\u0e0b\u0e31\u0e1e\u0e1e\u0e2d\u0e23\u0e4c\u0e15",
+            "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e19\u0e35"
+        ],
+        "primary_attribs": "int"
+    },
+    {
+        "id": "bane",
+        "name": "Bane",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/bane_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/bane_vert.jpg?v=5027641"
+        },
+        "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
+        "role": [
+            "\u0e15\u0e31\u0e27\u0e0b\u0e31\u0e1e\u0e1e\u0e2d\u0e23\u0e4c\u0e15",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14",
+            "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04",
+            "\u0e15\u0e31\u0e27\u0e22\u0e37\u0e19"
+        ],
+        "primary_attribs": "int"
+    },
+    {
+        "id": "lich",
+        "name": "Lich",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/lich_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/lich_vert.jpg?v=5027641"
+        },
+        "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
+        "role": [
+            "\u0e15\u0e31\u0e27\u0e0b\u0e31\u0e1e\u0e1e\u0e2d\u0e23\u0e4c\u0e15",
+            "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04"
+        ],
+        "primary_attribs": "int"
+    },
+    {
+        "id": "lion",
+        "name": "Lion",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/lion_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/lion_vert.jpg?v=5027641"
+        },
+        "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
+        "role": [
+            "\u0e15\u0e31\u0e27\u0e0b\u0e31\u0e1e\u0e1e\u0e2d\u0e23\u0e4c\u0e15",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14",
+            "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04",
+            "\u0e15\u0e31\u0e27\u0e40\u0e1b\u0e34\u0e14"
+        ],
+        "primary_attribs": "int"
+    },
+    {
+        "id": "witch_doctor",
+        "name": "Witch Doctor",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/witch_doctor_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/witch_doctor_vert.jpg?v=5027641"
+        },
+        "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
+        "role": [
+            "\u0e15\u0e31\u0e27\u0e0b\u0e31\u0e1e\u0e1e\u0e2d\u0e23\u0e4c\u0e15",
+            "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14"
+        ],
+        "primary_attribs": "int"
+    },
+    {
+        "id": "enigma",
+        "name": "Enigma",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/enigma_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/enigma_vert.jpg?v=5027641"
+        },
+        "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
+        "role": [
+            "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14",
+            "\u0e15\u0e31\u0e27\u0e1b\u0e48\u0e32",
+            "\u0e15\u0e31\u0e27\u0e40\u0e1b\u0e34\u0e14",
+            "\u0e15\u0e31\u0e27\u0e14\u0e31\u0e19"
+        ],
+        "primary_attribs": "int"
+    },
+    {
+        "id": "necrolyte",
+        "name": "Necrophos",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/necrolyte_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/necrolyte_vert.jpg?v=5027641"
+        },
+        "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
+        "role": [
+            "\u0e15\u0e31\u0e27\u0e41\u0e04\u0e23\u0e4c\u0e23\u0e35",
+            "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04",
+            "\u0e15\u0e31\u0e27\u0e22\u0e37\u0e19",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14"
+        ],
+        "primary_attribs": "int"
+    },
+    {
+        "id": "warlock",
+        "name": "Warlock",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/warlock_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/warlock_vert.jpg?v=5027641"
+        },
+        "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
+        "role": [
+            "\u0e15\u0e31\u0e27\u0e0b\u0e31\u0e1e\u0e1e\u0e2d\u0e23\u0e4c\u0e15",
+            "\u0e15\u0e31\u0e27\u0e40\u0e1b\u0e34\u0e14",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14"
+        ],
+        "primary_attribs": "int"
+    },
+    {
+        "id": "queenofpain",
+        "name": "Queen of Pain",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/queenofpain_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/queenofpain_vert.jpg?v=5027641"
+        },
+        "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
+        "role": [
+            "\u0e15\u0e31\u0e27\u0e41\u0e04\u0e23\u0e4c\u0e23\u0e35",
+            "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e19\u0e35"
+        ],
+        "primary_attribs": "int"
+    },
+    {
+        "id": "death_prophet",
+        "name": "Death Prophet",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/death_prophet_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/death_prophet_vert.jpg?v=5027641"
+        },
+        "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
+        "role": [
+            "\u0e15\u0e31\u0e27\u0e41\u0e04\u0e23\u0e4c\u0e23\u0e35",
+            "\u0e15\u0e31\u0e27\u0e14\u0e31\u0e19",
+            "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14"
+        ],
+        "primary_attribs": "int"
+    },
+    {
+        "id": "pugna",
+        "name": "Pugna",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/pugna_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/pugna_vert.jpg?v=5027641"
+        },
+        "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
+        "role": [
+            "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04",
+            "\u0e15\u0e31\u0e27\u0e14\u0e31\u0e19"
+        ],
+        "primary_attribs": "int"
+    },
+    {
+        "id": "dazzle",
+        "name": "Dazzle",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/dazzle_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/dazzle_vert.jpg?v=5027641"
+        },
+        "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
+        "role": [
+            "\u0e15\u0e31\u0e27\u0e0b\u0e31\u0e1e\u0e1e\u0e2d\u0e23\u0e4c\u0e15",
+            "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14"
+        ],
+        "primary_attribs": "int"
+    },
+    {
+        "id": "leshrac",
+        "name": "Leshrac",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/leshrac_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/leshrac_vert.jpg?v=5027641"
+        },
+        "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
+        "role": [
+            "\u0e15\u0e31\u0e27\u0e41\u0e04\u0e23\u0e4c\u0e23\u0e35",
+            "\u0e15\u0e31\u0e27\u0e0b\u0e31\u0e1e\u0e1e\u0e2d\u0e23\u0e4c\u0e15",
+            "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04",
+            "\u0e15\u0e31\u0e27\u0e14\u0e31\u0e19",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14"
+        ],
+        "primary_attribs": "int"
+    },
+    {
+        "id": "dark_seer",
+        "name": "Dark Seer",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/dark_seer_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/dark_seer_vert.jpg?v=5027641"
+        },
+        "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
+        "role": [
+            "\u0e15\u0e31\u0e27\u0e40\u0e1b\u0e34\u0e14",
+            "\u0e15\u0e31\u0e27\u0e1b\u0e48\u0e32",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e19\u0e35",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14"
+        ],
+        "primary_attribs": "int"
+    },
+    {
+        "id": "batrider",
+        "name": "Batrider",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/batrider_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/batrider_vert.jpg?v=5027641"
+        },
+        "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
+        "role": [
+            "\u0e15\u0e31\u0e27\u0e40\u0e1b\u0e34\u0e14",
+            "\u0e15\u0e31\u0e27\u0e1b\u0e48\u0e32",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e19\u0e35"
+        ],
+        "primary_attribs": "int"
+    },
+    {
+        "id": "ancient_apparition",
+        "name": "Ancient Apparition",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/ancient_apparition_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/ancient_apparition_vert.jpg?v=5027641"
+        },
+        "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
+        "role": [
+            "\u0e15\u0e31\u0e27\u0e0b\u0e31\u0e1e\u0e1e\u0e2d\u0e23\u0e4c\u0e15",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14",
+            "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04"
+        ],
+        "primary_attribs": "int"
+    },
+    {
+        "id": "invoker",
+        "name": "Invoker",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/invoker_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/invoker_vert.jpg?v=5027641"
+        },
+        "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
+        "role": [
+            "\u0e15\u0e31\u0e27\u0e41\u0e04\u0e23\u0e4c\u0e23\u0e35",
+            "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e19\u0e35",
+            "\u0e15\u0e31\u0e27\u0e14\u0e31\u0e19"
+        ],
+        "primary_attribs": "int"
+    },
+    {
+        "id": "obsidian_destroyer",
+        "name": "Outworld Devourer",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/obsidian_destroyer_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/obsidian_destroyer_vert.jpg?v=5027641"
+        },
+        "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
+        "role": [
+            "\u0e15\u0e31\u0e27\u0e41\u0e04\u0e23\u0e4c\u0e23\u0e35",
+            "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14"
+        ],
+        "primary_attribs": "int"
+    },
+    {
+        "id": "shadow_demon",
+        "name": "Shadow Demon",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/shadow_demon_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/shadow_demon_vert.jpg?v=5027641"
+        },
+        "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
+        "role": [
+            "\u0e15\u0e31\u0e27\u0e0b\u0e31\u0e1e\u0e1e\u0e2d\u0e23\u0e4c\u0e15",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14",
+            "\u0e15\u0e31\u0e27\u0e40\u0e1b\u0e34\u0e14",
+            "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04"
+        ],
+        "primary_attribs": "int"
+    },
+    {
+        "id": "visage",
+        "name": "Visage",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/visage_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/visage_vert.jpg?v=5027641"
+        },
+        "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
+        "role": [
+            "\u0e15\u0e31\u0e27\u0e0b\u0e31\u0e1e\u0e1e\u0e2d\u0e23\u0e4c\u0e15",
+            "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04",
+            "\u0e15\u0e31\u0e27\u0e22\u0e37\u0e19",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14",
+            "\u0e15\u0e31\u0e27\u0e14\u0e31\u0e19"
+        ],
+        "primary_attribs": "int"
+    },
+    {
+        "id": "winter_wyvern",
+        "name": "Winter Wyvern",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/winter_wyvern_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/winter_wyvern_vert.jpg?v=5027641"
+        },
+        "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
+        "role": [
+            "\u0e15\u0e31\u0e27\u0e0b\u0e31\u0e1e\u0e1e\u0e2d\u0e23\u0e4c\u0e15",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14",
+            "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04"
+        ],
+        "primary_attribs": "int"
+    },
+    {
+        "id": "grimstroke",
+        "name": "Grimstroke",
+        "portrait": {
+            "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/grimstroke_full.png?v=5027641?v=5027641",
+            "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/grimstroke_vert.jpg?v=5027641"
+        },
+        "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
+        "role": [
+            "\u0e15\u0e31\u0e27\u0e0b\u0e31\u0e1e\u0e1e\u0e2d\u0e23\u0e4c\u0e15",
+            "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14",
+            "\u0e15\u0e31\u0e27\u0e2b\u0e19\u0e35"
+        ],
+        "primary_attribs": "int"
+    }
+]

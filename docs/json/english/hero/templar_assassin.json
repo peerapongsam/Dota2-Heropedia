@@ -1,0 +1,232 @@
+{
+    "id": "templar_assassin",
+    "name": "Templar Assassin",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/templar_assassin_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/templar_assassin_vert.jpg?v=5027641"
+    },
+    "attack": "Ranged",
+    "role": [
+        "Carry",
+        "Escape"
+    ],
+    "primary_attribs": "agi",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 20,
+                "gain": 2
+            },
+            "agi": {
+                "base": 23,
+                "gain": 3.2
+            },
+            "str": {
+                "base": 19,
+                "gain": 2.4
+            },
+            "dmg": {
+                "min": 30,
+                "max": 36
+            },
+            "ms": 305,
+            "armor": 4.22
+        },
+        "abilities": [
+            {
+                "id": "templar_assassin_refraction",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/templar_assassin_refraction_hp1.png?v=5027641",
+                "name": "Refraction",
+                "desc": "Templar Assassin becomes highly elusive, avoiding damage and gaining a bonus to her damage.  The damage and avoidance effects are separate, and have a limited number of instances."
+            },
+            {
+                "id": "templar_assassin_meld",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/templar_assassin_meld_hp1.png?v=5027641",
+                "name": "Meld",
+                "desc": "Templar Assassin conceals herself, becoming invisible as long as she remains still.  If Meld's invisibility is broken by attacking an enemy, Lanaya will deal bonus damage to the enemy and reduce their armor for 12 seconds."
+            },
+            {
+                "id": "templar_assassin_psi_blades",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/templar_assassin_psi_blades_hp1.png?v=5027641",
+                "name": "Psi Blades",
+                "desc": "Templar Assassin's psi blades slice through the attacked unit, splitting and damaging enemy units directly behind it, while gaining bonus attack range."
+            },
+            {
+                "id": "templar_assassin_psionic_trap",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/templar_assassin_psionic_trap_hp1.png?v=5027641",
+                "name": "Psionic Trap",
+                "desc": "Templar Assassin places mystical traps that invisibly monitor enemy movement. When sprung at her command, they exert a slowing influence of 30% in the area. Traps charge up to slow 60% after 4 seconds. Deals bonus damage when fully charged."
+            }
+        ]
+    },
+    "bio": "Lanaya, the Templar Assassin, came to her calling by a path of curious inquiry. Possessed of a scientific bent, she spent her early years engaged in meticulous study of nature's laws--peering into grimoires of magic and alchemy, recreating experiments from charred fragments of the Violet Archives, and memorizing observations of the Keen recordkeepers. Already quiet and secretive by nature, the difficulty of acquiring these objects further reinforced her skills of stealth. Had she been less retiring, she might have become notorious among the guilds as a thief-scholar. Instead her investigations led her into far more obscure corners. As she devoted her furtive talents to unlocking the secrets of the universe, she instead unlocked a secret door that exists in nature itself: the entryway to the most Hidden Temple. The intelligences that waited beyond that portal, proved to be expecting her, and whatever mysteries they revealed in the moment of their discovery was nothing compared to the answers they held out to Lanaya should she continue in their service. She swore to protect the mysteries, but more to the point, in service to the Hidden Temple she satisfies her endless craving for understanding. In the eyes of each foe she expunges, a bit more of the mystery is revealed.",
+    "stats": {
+        "hit_points": [
+            511,
+            1149,
+            1985
+        ],
+        "mana": [
+            260,
+            624,
+            1144
+        ],
+        "damage": [
+            53,
+            98,
+            150
+        ],
+        "armor": [
+            4,
+            10,
+            18
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 140,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "templar_assassin_refraction",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/templar_assassin_refraction_hp2.png?v=5027641",
+            "name": "Refraction",
+            "desc": "Templar Assassin becomes highly elusive, avoiding damage and gaining a bonus to her damage.  The damage and avoidance effects are separate, and have a limited number of instances.",
+            "mana_cost": "100",
+            "cooldown": "17",
+            "video": "http:\/\/www.youtube.com\/embed\/xrj3rk70xrs?hd=1&rel=0",
+            "lore": "Manipulating her psionic veil, Lanaya bends nature's law to her will.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Physical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "BONUS DAMAGE",
+                    "val": "25 \/ 50 \/ 75 \/ 100"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "17 \/ 17 \/ 17 \/ 17"
+                }
+            ]
+        },
+        {
+            "id": "templar_assassin_meld",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/templar_assassin_meld_hp2.png?v=5027641",
+            "name": "Meld",
+            "desc": "Templar Assassin conceals herself, becoming invisible as long as she remains still.  If Meld's invisibility is broken by attacking an enemy, Lanaya will deal bonus damage to the enemy and reduce their armor for 12 seconds.",
+            "mana_cost": "50\/50\/50\/50",
+            "cooldown": "6",
+            "video": "http:\/\/www.youtube.com\/embed\/-oa6PPpOtiM?hd=1&rel=0",
+            "lore": "Lanaya is as elusive as her covenant with the Hidden Temple.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Physical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "BONUS DAMAGE",
+                    "val": "50 \/ 100 \/ 150 \/ 200"
+                },
+                {
+                    "name": "ARMOR REDUCTION DURATION",
+                    "val": "12"
+                }
+            ]
+        },
+        {
+            "id": "templar_assassin_psi_blades",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/templar_assassin_psi_blades_hp2.png?v=5027641",
+            "name": "Psi Blades",
+            "desc": "Templar Assassin's psi blades slice through the attacked unit, splitting and damaging enemy units directly behind it, while gaining bonus attack range.",
+            "mana_cost": "",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/TujHkI7r5Lw?hd=1&rel=0",
+            "lore": "Her blades pierce the skin as much as the mind, furthering her understanding of the mystery that is reality.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Pure"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "BONUS ATTACK RANGE",
+                    "val": "60 \/ 120 \/ 180 \/ 240"
+                },
+                {
+                    "name": "SPLIT RANGE",
+                    "val": "590 \/ 630 \/ 670 \/ 710"
+                },
+                {
+                    "name": "SPLIT AMOUNT",
+                    "val": "100%"
+                }
+            ]
+        },
+        {
+            "id": "templar_assassin_psionic_trap",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/templar_assassin_psionic_trap_hp2.png?v=5027641",
+            "name": "Psionic Trap",
+            "desc": "Templar Assassin places mystical traps that invisibly monitor enemy movement. When sprung at her command, they exert a slowing influence of 30% in the area. Traps charge up to slow 60% after 4 seconds. Deals bonus damage when fully charged.",
+            "mana_cost": "15\/15\/15",
+            "cooldown": "11\/8\/5",
+            "lore": "Calling upon the reach of the Hidden Temple, none escape the eye of the Templar.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "MIN MOVEMENT SLOW",
+                    "val": "30%"
+                },
+                {
+                    "name": "MAX MOVEMENT SLOW",
+                    "val": "60%"
+                },
+                {
+                    "name": "SLOW DURATION",
+                    "val": "5"
+                }
+            ]
+        }
+    ]
+}

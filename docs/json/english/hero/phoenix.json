@@ -1,0 +1,276 @@
+{
+    "id": "phoenix",
+    "name": "Phoenix",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/phoenix_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/phoenix_vert.jpg?v=5027641"
+    },
+    "attack": "Ranged",
+    "role": [
+        "Support",
+        "Nuker",
+        "Initiator",
+        "Escape",
+        "Disabler"
+    ],
+    "primary_attribs": "str",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 18,
+                "gain": 1.8
+            },
+            "agi": {
+                "base": 12,
+                "gain": 1.3
+            },
+            "str": {
+                "base": 19,
+                "gain": 3.7
+            },
+            "dmg": {
+                "min": 26,
+                "max": 36
+            },
+            "ms": 280,
+            "armor": -0.32
+        },
+        "abilities": [
+            {
+                "id": "phoenix_icarus_dive",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/phoenix_icarus_dive_hp1.png?v=5027641",
+                "name": "Icarus Dive",
+                "desc": "Phoenix dives forward in an arc with a fixed distance in the targeted direction, dealing damage over time and slowing the movement speed of any units it comes into contact with, and then orbiting back to its original position. If Phoenix casts Supernova, the dive ends."
+            },
+            {
+                "id": "phoenix_fire_spirits",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/phoenix_fire_spirits_hp1.png?v=5027641",
+                "name": "Fire Spirits",
+                "desc": "Summons 4 fire spirits that circle around Phoenix. Each spirit can be launched independently at a targeted area of effect. Affected enemy units take damage over time and have their attack speed greatly reduced."
+            },
+            {
+                "id": "phoenix_sun_ray",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/phoenix_sun_ray_hp1.png?v=5027641",
+                "name": "Sun Ray",
+                "desc": "Phoenix expels a beam of light at the cost of its own health. The beam damages enemies and heals allies for a base amount plus a percentage of their health. The percentage increases as the beam continues to fire."
+            },
+            {
+                "id": "phoenix_supernova",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/phoenix_supernova_hp1.png?v=5027641",
+                "name": "Supernova",
+                "desc": "The Phoenix willingly ends its current life for the chance to be reborn. Transforms into a burning sun that scorches enemies in a huge area. The sun can be destroyed by attacks from enemy Heroes. After 6 seconds the sun explodes, stunning all nearby enemies while restoring Phoenix to full health and mana with refreshed abilities.    Upgradable by Aghanim's Scepter.    DISPEL TYPE: Strong Dispel"
+            }
+        ]
+    },
+    "bio": "Alone across an untouched darkness gleamed the Keeper's first sun, a singular point of conscious light fated to spread warmth into the empty void. Through aeons beyond count, this blinding beacon set to coalescing its incalculable energy before bursting forth the cataclysmic flare of supernova. From this inferno raced new beacons, star progeny identical to its parent, who journeyed an unlit ocean and settled in constellatory array. In time, they too would be made to propagate through supernova flame. So would this dazzling cycle of birth and rebirth repeat until all skies hewn of Titan toil deigned to twinkle and shine. \r\n\r\n\t\tBy this ageless crucible the star that mortals would come to call Phoenix collapsed into being, and like its ancestors was thrust into an endless cosmos to find a place among its stellar brethren. Yet curiosity toward that which the dimming elders comfort in the darkness consumed the fledgling, and so over long cycles it inquired and studied. It learned that among worlds both whole and broken would soon stir a nexus of remarkable variety locked in an enduring conflict of cosmic consequence, a plane which would find itself in need of more influence than a dying sun's distant rays could provide. Thus this infant son of suns took terrestrial form, eagerly travelling to shine its warmth upon those who may need it most, and perhaps seize upon its solar destiny.",
+    "stats": {
+        "hit_points": [
+            511,
+            1495,
+            2578
+        ],
+        "mana": [
+            234,
+            562,
+            1056
+        ],
+        "damage": [
+            45,
+            97,
+            154
+        ],
+        "armor": [
+            0,
+            2,
+            7
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 500,
+        "missile_speed": "1100"
+    },
+    "abilities": [
+        {
+            "id": "phoenix_icarus_dive",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/phoenix_icarus_dive_hp2.png?v=5027641",
+            "name": "Icarus Dive",
+            "desc": "Phoenix dives forward in an arc with a fixed distance in the targeted direction, dealing damage over time and slowing the movement speed of any units it comes into contact with, and then orbiting back to its original position. If Phoenix casts Supernova, the dive ends.",
+            "mana_cost": "",
+            "cooldown": "36",
+            "video": "http:\/\/www.youtube.com\/embed\/PUkHORxk8J4?hd=1&rel=0",
+            "lore": "Though no stranger to travelling the cosmic void, soaring within an atmosphere offers unique pleasures.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "HP COST",
+                    "val": "15%"
+                },
+                {
+                    "name": "BURN DURATION",
+                    "val": "4"
+                },
+                {
+                    "name": "DAMAGE PER SECOND",
+                    "val": "10 \/ 30 \/ 50 \/ 70"
+                },
+                {
+                    "name": "MOVE SLOW",
+                    "val": "19% \/ 22% \/ 25% \/ 28%"
+                }
+            ]
+        },
+        {
+            "id": "phoenix_fire_spirits",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/phoenix_fire_spirits_hp2.png?v=5027641",
+            "name": "Fire Spirits",
+            "desc": "Summons 4 fire spirits that circle around Phoenix. Each spirit can be launched independently at a targeted area of effect. Affected enemy units take damage over time and have their attack speed greatly reduced.",
+            "mana_cost": "80\/90\/100\/110",
+            "cooldown": "45\/40\/35\/30",
+            "video": "http:\/\/www.youtube.com\/embed\/r1MosnS5858?hd=1&rel=0",
+            "lore": "The ever-collapsing core of Phoenix often emits short-lived bursts of conscious light.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "HP COST",
+                    "val": "20%"
+                },
+                {
+                    "name": "SPIRIT DURATION",
+                    "val": "20"
+                },
+                {
+                    "name": "RADIUS",
+                    "val": "175 \/ 175 \/ 175 \/ 175"
+                },
+                {
+                    "name": "BURN DURATION",
+                    "val": "4"
+                },
+                {
+                    "name": "ATTACK SPEED SLOW",
+                    "val": "80 \/ 100 \/ 120 \/ 140"
+                }
+            ]
+        },
+        {
+            "id": "phoenix_sun_ray",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/phoenix_sun_ray_hp2.png?v=5027641",
+            "name": "Sun Ray",
+            "desc": "Phoenix expels a beam of light at the cost of its own health. The beam damages enemies and heals allies for a base amount plus a percentage of their health. The percentage increases as the beam continues to fire.",
+            "mana_cost": "100",
+            "cooldown": "26",
+            "video": "http:\/\/www.youtube.com\/embed\/HZAiHWRNCjw?hd=1&rel=0",
+            "lore": "The vent through which such stellar energy flows is mere atoms wide.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "HEALTH COST PER SECOND",
+                    "val": "6%"
+                },
+                {
+                    "name": "BASE DAMAGE PER SECOND",
+                    "val": "14 \/ 20 \/ 26 \/ 32"
+                },
+                {
+                    "name": "BASE HEAL PER SECOND",
+                    "val": "7 \/ 10 \/ 13 \/ 16"
+                },
+                {
+                    "name": "MAX HEAL",
+                    "val": "0.625% \/ 1.25% \/ 1.875% \/ 2.5%"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "6"
+                }
+            ]
+        },
+        {
+            "id": "phoenix_supernova",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/phoenix_supernova_hp2.png?v=5027641",
+            "name": "Supernova",
+            "desc": "The Phoenix willingly ends its current life for the chance to be reborn. Transforms into a burning sun that scorches enemies in a huge area. The sun can be destroyed by attacks from enemy Heroes. After 6 seconds the sun explodes, stunning all nearby enemies while restoring Phoenix to full health and mana with refreshed abilities.    Upgradable by Aghanim's Scepter.    DISPEL TYPE: Strong Dispel",
+            "mana_cost": "200\/200\/200",
+            "cooldown": "110",
+            "video": "http:\/\/www.youtube.com\/embed\/DkFkvLCYeCY?hd=1&rel=0",
+            "lore": "The solar crucible of a Supernova may be fatal, yet from its flames arise new beacons to wander infinity.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Allied Heroes"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RADIUS",
+                    "val": "1300"
+                },
+                {
+                    "name": "DAMAGE PER SECOND",
+                    "val": "60 \/ 90 \/ 120"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "6"
+                },
+                {
+                    "name": "SCEPTER CAST RANGE",
+                    "val": "500"
+                }
+            ]
+        }
+    ]
+}

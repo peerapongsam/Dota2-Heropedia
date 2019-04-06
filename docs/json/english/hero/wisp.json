@@ -1,0 +1,230 @@
+{
+    "id": "wisp",
+    "name": "Io",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/wisp_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/wisp_vert.jpg?v=5027641"
+    },
+    "attack": "Ranged",
+    "role": [
+        "Support",
+        "Escape",
+        "Nuker"
+    ],
+    "primary_attribs": "str",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 23,
+                "gain": 1.7
+            },
+            "agi": {
+                "base": 14,
+                "gain": 1.6
+            },
+            "str": {
+                "base": 17,
+                "gain": 2.5
+            },
+            "dmg": {
+                "min": 22,
+                "max": 31
+            },
+            "ms": 280,
+            "armor": -0.04
+        },
+        "abilities": [
+            {
+                "id": "wisp_tether",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/wisp_tether_hp1.png?v=5027641",
+                "name": "Tether",
+                "desc": "Tethers Io to an allied unit, granting bonus movement speed to both. When Io restores health or mana, tethered units target gains a larger portion of that amount. The tether breaks when the allied unit moves too far away, or Io cancels the tether."
+            },
+            {
+                "id": "wisp_spirits",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/wisp_spirits_hp1.png?v=5027641",
+                "name": "Spirits",
+                "desc": "Summon five particle spirits that dance in a circle around Io. If a particle collides with an enemy hero, it explodes, damaging and slowing all enemy units in an area around it.  Creeps take minor damage from touching a particle spirit, but do not cause them to explode.  When its duration ends, any remaining Spirits explode."
+            },
+            {
+                "id": "wisp_overcharge",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/wisp_overcharge_hp1.png?v=5027641",
+                "name": "Overcharge",
+                "desc": "Io gains bonus attack speed and damage reduction.  If Io is Tethered to an ally, that unit also gains the bonuses."
+            },
+            {
+                "id": "wisp_relocate",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/wisp_relocate_hp1.png?v=5027641",
+                "name": "Relocate",
+                "desc": "Teleports Io and any tethered ally to any location. After the spell expires Io and any tethered ally will return to their original location. Double-click to teleport to your team's base fountain."
+            }
+        ]
+    },
+    "bio": "Io is everywhere, and in all things.  Denounced by enemies as the great unmaker, worshiped by scholars as the twinkling of a divine eye, this strange Wisp of life-force occupies all planes at once, the merest fraction of its being crossing into physical existence at any one moment.   \r\n\r\n\t\tLike the great twin riders Dark and Light, and yet another ancient traveler whose true history is lost to the ages, Io the Wisp is a Fundamental of the universe, a force older than time, a wanderer from realms far beyond mortal understanding. Io is nothing less than the sum of all attractive and repulsive forces within the material field, a sentient manifestation of the charge that bind existence together. It is only in the controlled warping of these electrical waylines that Io's presence can be experienced on the physical plane. A benevolent, cooperative force, Io bonds its strange magnetism to others so that the power of allies might be enhanced.  Its motives inscrutable, its strength unimaginable, Io moves through the physical plane, the perfect expression of the mysteries of the universe.",
+    "stats": {
+        "hit_points": [
+            473,
+            1138,
+            1993
+        ],
+        "mana": [
+            299,
+            608,
+            1089
+        ],
+        "damage": [
+            39,
+            74,
+            119
+        ],
+        "armor": [
+            0,
+            3,
+            8
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 575,
+        "missile_speed": "1200"
+    },
+    "abilities": [
+        {
+            "id": "wisp_tether",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/wisp_tether_hp2.png?v=5027641",
+            "name": "Tether",
+            "desc": "Tethers Io to an allied unit, granting bonus movement speed to both. When Io restores health or mana, tethered units target gains a larger portion of that amount. The tether breaks when the allied unit moves too far away, or Io cancels the tether.",
+            "mana_cost": "40\/40\/40\/40",
+            "cooldown": "12",
+            "video": "http:\/\/www.youtube.com\/embed\/KKF3zUQzMmQ?hd=1&rel=0",
+            "lore": "The benevolent touch of Io brings strength from between the planes.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Allies"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "MAX TETHER DISTANCE",
+                    "val": "900 \/ 900 \/ 900 \/ 900"
+                },
+                {
+                    "name": "MOVEMENT SPEED BONUS",
+                    "val": "5% \/ 8% \/ 11% \/ 14%"
+                },
+                {
+                    "name": "HP\/MANA AMP",
+                    "val": "1.05 \/ 1.2 \/ 1.35 \/ 1.5"
+                }
+            ]
+        },
+        {
+            "id": "wisp_spirits",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/wisp_spirits_hp2.png?v=5027641",
+            "name": "Spirits",
+            "desc": "Summon five particle spirits that dance in a circle around Io. If a particle collides with an enemy hero, it explodes, damaging and slowing all enemy units in an area around it.  Creeps take minor damage from touching a particle spirit, but do not cause them to explode.  When its duration ends, any remaining Spirits explode.",
+            "mana_cost": "120\/130\/140\/150",
+            "cooldown": "26\/24\/22\/20",
+            "video": "http:\/\/www.youtube.com\/embed\/J_TjVQ4Jd7E?hd=1&rel=0",
+            "lore": "Io twists the particles of the universe with its unimaginable capabilities.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "CREEP DAMAGE",
+                    "val": "10 \/ 18 \/ 26 \/ 34"
+                },
+                {
+                    "name": "MOVEMENT SLOW",
+                    "val": "20% \/ 40% \/ 60% \/ 80%"
+                },
+                {
+                    "name": "SLOW DURATION",
+                    "val": "0.3"
+                },
+                {
+                    "name": "EXPLOSION RADIUS",
+                    "val": "360"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "19 \/ 19 \/ 19 \/ 19"
+                }
+            ]
+        },
+        {
+            "id": "wisp_overcharge",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/wisp_overcharge_hp2.png?v=5027641",
+            "name": "Overcharge",
+            "desc": "Io gains bonus attack speed and damage reduction.  If Io is Tethered to an ally, that unit also gains the bonuses.",
+            "mana_cost": "40\/60\/80\/100",
+            "cooldown": "18",
+            "video": "http:\/\/www.youtube.com\/embed\/cfr7ED0JB2g?hd=1&rel=0",
+            "lore": "Drawing on the energy of matter from all worlds, Io begins the unravelling of time.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "ATTACK SPEED",
+                    "val": "50 \/ 80 \/ 110 \/ 140"
+                },
+                {
+                    "name": "INCOMING DAMAGE REDUCTION",
+                    "val": "5% \/ 10% \/ 15% \/ 20%"
+                }
+            ]
+        },
+        {
+            "id": "wisp_relocate",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/wisp_relocate_hp2.png?v=5027641",
+            "name": "Relocate",
+            "desc": "Teleports Io and any tethered ally to any location. After the spell expires Io and any tethered ally will return to their original location. Double-click to teleport to your team's base fountain.",
+            "mana_cost": "175",
+            "cooldown": "90\/75\/60",
+            "video": "http:\/\/www.youtube.com\/embed\/8X9-I9oTW3k?hd=1&rel=0",
+            "lore": "Io is the embodiment of the mystery of the universe.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "CAST TIME",
+                    "val": "3.5 \/ 3.25 \/ 3"
+                },
+                {
+                    "name": "RETURN TIME",
+                    "val": "12 \/ 12 \/ 12"
+                }
+            ]
+        }
+    ]
+}

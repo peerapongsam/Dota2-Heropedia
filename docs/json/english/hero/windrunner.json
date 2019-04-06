@@ -1,0 +1,244 @@
+{
+    "id": "windrunner",
+    "name": "Windranger",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/windrunner_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/windrunner_vert.jpg?v=5027641"
+    },
+    "attack": "Ranged",
+    "role": [
+        "Carry",
+        "Support",
+        "Disabler",
+        "Escape",
+        "Nuker"
+    ],
+    "primary_attribs": "int",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 18,
+                "gain": 3
+            },
+            "agi": {
+                "base": 17,
+                "gain": 1.4
+            },
+            "str": {
+                "base": 18,
+                "gain": 3
+            },
+            "dmg": {
+                "min": 24,
+                "max": 36
+            },
+            "ms": 290,
+            "armor": 1.38
+        },
+        "abilities": [
+            {
+                "id": "windrunner_shackleshot",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/windrunner_shackleshot_hp1.png?v=5027641",
+                "name": "Shackleshot",
+                "desc": "Shackles the target to an enemy unit or tree in a line directly behind it.  If no unit or tree is present, the stun duration is reduced to 0.75."
+            },
+            {
+                "id": "windrunner_powershot",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/windrunner_powershot_hp1.png?v=5027641",
+                "name": "Powershot",
+                "desc": "Windranger charges her bow for up to 1 second for a single powerful shot, which deals more damage the longer it is charged. The arrow damages enemies and destroys trees along its path. For each enemy that Powershot hits, its damage is reduced by 20%."
+            },
+            {
+                "id": "windrunner_windrun",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/windrunner_windrun_hp1.png?v=5027641",
+                "name": "Windrun",
+                "desc": "Increases movement speed and adds evasion from all physical attacks, while slowing movement of nearby enemies."
+            },
+            {
+                "id": "windrunner_focusfire",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/windrunner_focusfire_hp1.png?v=5027641",
+                "name": "Focus Fire",
+                "desc": "Windranger channels the wind to gain 450 additional attack speed against a single enemy unit or structure, though with a reduction to her attack damage.  Extra damage from secondary item effects is not reduced.  Lasts 20 seconds.    Upgradable by Aghanim's Scepter."
+            }
+        ]
+    },
+    "bio": "The western forests guard their secrets well. One of these is Lyralei, master archer of the wood, and favored godchild of the wind.  Known now as Windranger, Lyralei's family was killed in a storm on the night of her birth--their house blown down by the gale, contents scattered to the winds. Only the newborn survived among the debris field of death and destruction.  In the quiet after the storm, the wind itself took notice of the lucky infant crying in the grass. The wind pitied the child and so lifted her into the sky and deposited her on a doorstep in a neighboring village.  In the years that followed, the wind returned occasionally to the child's life, watching from a distance while she honed her skills.  Now, after many years of training, Windranger fires her arrows true to their targets.  She moves with blinding speed, as if hastened by a wind ever at her back.  With a flurry of arrows, she slaughters her enemies, having become, nearly, a force of nature herself.",
+    "stats": {
+        "hit_points": [
+            492,
+            1290,
+            2240
+        ],
+        "mana": [
+            234,
+            780,
+            1430
+        ],
+        "damage": [
+            42,
+            84,
+            134
+        ],
+        "armor": [
+            1,
+            4,
+            9
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 600,
+        "missile_speed": "1250"
+    },
+    "abilities": [
+        {
+            "id": "windrunner_shackleshot",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/windrunner_shackleshot_hp2.png?v=5027641",
+            "name": "Shackleshot",
+            "desc": "Shackles the target to an enemy unit or tree in a line directly behind it.  If no unit or tree is present, the stun duration is reduced to 0.75.",
+            "mana_cost": "70\/85\/100\/115",
+            "cooldown": "16\/14\/12\/10",
+            "video": "http:\/\/www.youtube.com\/embed\/NZEnx0l_zJ0?hd=1&rel=0",
+            "lore": "Windranger's variety of bow skills includes an arrow with thick ropes attached to encumber any escaping target.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "0 \/ 0 \/ 0 \/ 0"
+                },
+                {
+                    "name": "SHACKLE DURATION",
+                    "val": "2 \/ 2.6 \/ 3.2 \/ 3.8"
+                }
+            ]
+        },
+        {
+            "id": "windrunner_powershot",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/windrunner_powershot_hp2.png?v=5027641",
+            "name": "Powershot",
+            "desc": "Windranger charges her bow for up to 1 second for a single powerful shot, which deals more damage the longer it is charged. The arrow damages enemies and destroys trees along its path. For each enemy that Powershot hits, its damage is reduced by 20%.",
+            "mana_cost": "90\/100\/110\/120",
+            "cooldown": "12\/11\/10\/9",
+            "video": "http:\/\/www.youtube.com\/embed\/dBHEtbYmask?hd=1&rel=0",
+            "lore": "During her early years of training, Lyralei learned to fire powerful arrows that cleaved even trees to reach their targets.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Channeled, Point Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RANGE",
+                    "val": "2600"
+                }
+            ]
+        },
+        {
+            "id": "windrunner_windrun",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/windrunner_windrun_hp2.png?v=5027641",
+            "name": "Windrun",
+            "desc": "Increases movement speed and adds evasion from all physical attacks, while slowing movement of nearby enemies.",
+            "mana_cost": "50",
+            "cooldown": "15\/14\/13\/12",
+            "video": "http:\/\/www.youtube.com\/embed\/XlNv2uF4l_k?hd=1&rel=0",
+            "lore": "Lyralei enchants gusts of winds to fight incoming attacks.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "MOVE SPEED BONUS",
+                    "val": "60%"
+                },
+                {
+                    "name": "EVASION",
+                    "val": "100%"
+                },
+                {
+                    "name": "ENEMY SLOW RADIUS",
+                    "val": "325"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "3 \/ 4 \/ 5 \/ 6"
+                }
+            ]
+        },
+        {
+            "id": "windrunner_focusfire",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/windrunner_focusfire_hp2.png?v=5027641",
+            "name": "Focus Fire",
+            "desc": "Windranger channels the wind to gain 450 additional attack speed against a single enemy unit or structure, though with a reduction to her attack damage.  Extra damage from secondary item effects is not reduced.  Lasts 20 seconds.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "75\/100\/125",
+            "cooldown": "70",
+            "video": "http:\/\/www.youtube.com\/embed\/jj7cWGyhj2o?hd=1&rel=0",
+            "lore": "Lyralei's ability to bombard opponents with a flurry of arrows is unparalleled - even at the expense of accuracy.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "BONUS ATTACK SPEED",
+                    "val": "450"
+                },
+                {
+                    "name": "DAMAGE REDUCTION",
+                    "val": "50% \/ 40% \/ 30%"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "20"
+                },
+                {
+                    "name": "SCEPTER COOLDOWN",
+                    "val": "15 \/ 15 \/ 15"
+                },
+                {
+                    "name": "SCEPTER DAMAGE REDUCTION",
+                    "val": "30% \/ 15% \/ -0%"
+                }
+            ]
+        }
+    ]
+}

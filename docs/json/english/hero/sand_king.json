@@ -1,0 +1,265 @@
+{
+    "id": "sand_king",
+    "name": "Sand King",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/sand_king_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/sand_king_vert.jpg?v=5027641"
+    },
+    "attack": "Melee",
+    "role": [
+        "Initiator",
+        "Disabler",
+        "Support",
+        "Nuker",
+        "Escape",
+        "Jungler"
+    ],
+    "primary_attribs": "str",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 19,
+                "gain": 1.8
+            },
+            "agi": {
+                "base": 19,
+                "gain": 1.8
+            },
+            "str": {
+                "base": 22,
+                "gain": 3.2
+            },
+            "dmg": {
+                "min": 23,
+                "max": 33
+            },
+            "ms": 290,
+            "armor": 1.66
+        },
+        "abilities": [
+            {
+                "id": "sandking_burrowstrike",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/sandking_burrowstrike_hp1.png?v=5027641",
+                "name": "Burrowstrike",
+                "desc": "Sand King burrows into the ground and tunnels forward, damaging and stunning enemy units above him as he resurfaces.    Upgradable by Aghanim's Scepter."
+            },
+            {
+                "id": "sandking_sand_storm",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/sandking_sand_storm_hp1.png?v=5027641",
+                "name": "Sand Storm",
+                "desc": "Sand King creates a fearsome sandstorm that damages enemy units while hiding him from vision.  The effect ends when Sand King leaves the area."
+            },
+            {
+                "id": "sandking_caustic_finale",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/sandking_caustic_finale_hp1.png?v=5027641",
+                "name": "Caustic Finale",
+                "desc": "Sand King's attacks inject a venom that causes enemy units to violently explode when its timer expires, or when the unit dies, damaging and slowing nearby enemies. Deals less damage if its timer expires."
+            },
+            {
+                "id": "sandking_epicenter",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/sandking_epicenter_hp1.png?v=5027641",
+                "name": "Epicenter",
+                "desc": "CHANNELED - After channeling for 2 seconds, Sand King sends a disturbance into the earth, causing it to shudder violently. All enemies caught within range will take damage and become slowed. Each subsequent pulse increases the radius of damage dealt."
+            }
+        ]
+    },
+    "bio": "The sands of the Scintillant Waste are alive and sentient--the whole vast desert speaks to itself, thinking thoughts only such a vastness can conceive. But when it needs must find a form to communicate with those of more limited scope, it frees a fragment of itself, and fills a carapace of magic armor formed by the cunning Djinn of Qaldin. This essential identity calls itself Crixalis, meaning 'Soul of the Sand,' but others know it as Sand King.  Sand King takes the form of a huge arachnid, inspired by the Scintillant Waste's small but ubiquitous denizens; and this is a true outward expression of his ferocious nature. Guardian, warrior, ambassador--Sand King is all of these things, inseparable from the endless desert that gave him life.",
+    "stats": {
+        "hit_points": [
+            568,
+            1419,
+            2407
+        ],
+        "mana": [
+            247,
+            575,
+            1069
+        ],
+        "damage": [
+            45,
+            90,
+            142
+        ],
+        "armor": [
+            2,
+            5,
+            11
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 150,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "sandking_burrowstrike",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/sandking_burrowstrike_hp2.png?v=5027641",
+            "name": "Burrowstrike",
+            "desc": "Sand King burrows into the ground and tunnels forward, damaging and stunning enemy units above him as he resurfaces.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "110\/120\/130\/140",
+            "cooldown": "14\/13\/12\/11",
+            "video": "http:\/\/www.youtube.com\/embed\/BQNqhjqVtfg?hd=1&rel=0",
+            "lore": "Crixalis often lies in wait, burrowing under the surface to ambush his adversaries.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target, Point Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "100 \/ 160 \/ 220 \/ 280"
+                },
+                {
+                    "name": "STUN DURATION",
+                    "val": "1.6 \/ 1.8 \/ 2 \/ 2.2"
+                },
+                {
+                    "name": "RANGE",
+                    "val": "400 \/ 500 \/ 600 \/ 700"
+                },
+                {
+                    "name": "SCEPTER RANGE",
+                    "val": "800 \/ 1000 \/ 1200 \/ 1400"
+                }
+            ]
+        },
+        {
+            "id": "sandking_sand_storm",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/sandking_sand_storm_hp2.png?v=5027641",
+            "name": "Sand Storm",
+            "desc": "Sand King creates a fearsome sandstorm that damages enemy units while hiding him from vision.  The effect ends when Sand King leaves the area.",
+            "mana_cost": "60",
+            "cooldown": "40\/34\/28\/22",
+            "video": "http:\/\/www.youtube.com\/embed\/sUusCExNMHk?hd=1&rel=0",
+            "lore": "Some say Crixalis is a mirage; his carapace appearing then vanishing between the whirling sands of the Scintillant Waste.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RADIUS",
+                    "val": "425 \/ 500 \/ 575 \/ 650"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "20 \/ 25 \/ 30 \/ 35"
+                }
+            ]
+        },
+        {
+            "id": "sandking_caustic_finale",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/sandking_caustic_finale_hp2.png?v=5027641",
+            "name": "Caustic Finale",
+            "desc": "Sand King's attacks inject a venom that causes enemy units to violently explode when its timer expires, or when the unit dies, damaging and slowing nearby enemies. Deals less damage if its timer expires.",
+            "mana_cost": "",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/HdesfveEum4?hd=1&rel=0",
+            "lore": "An injection from Crixalis makes one brittle and as dry as the arid wastes, subject to implosive demise.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "EXPLODE RADIUS",
+                    "val": "400"
+                },
+                {
+                    "name": "EXPLODE DEATH DAMAGE",
+                    "val": "90 \/ 130 \/ 170 \/ 220"
+                },
+                {
+                    "name": "EXPLODE TIMER DAMAGE",
+                    "val": "20 \/ 50 \/ 80 \/ 110"
+                },
+                {
+                    "name": "EXPLODE TIMER",
+                    "val": "6"
+                },
+                {
+                    "name": "MOVE SLOW",
+                    "val": "15% \/ 20% \/ 25% \/ 30%"
+                },
+                {
+                    "name": "SLOW DURATION",
+                    "val": "3"
+                }
+            ]
+        },
+        {
+            "id": "sandking_epicenter",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/sandking_epicenter_hp2.png?v=5027641",
+            "name": "Epicenter",
+            "desc": "CHANNELED - After channeling for 2 seconds, Sand King sends a disturbance into the earth, causing it to shudder violently. All enemies caught within range will take damage and become slowed. Each subsequent pulse increases the radius of damage dealt.",
+            "mana_cost": "150\/225\/300",
+            "cooldown": "120\/110\/100",
+            "video": "http:\/\/www.youtube.com\/embed\/2_1y1pTdyIo?hd=1&rel=0",
+            "lore": "Many an explorer was lost to the quicksands of the Scintillant Waste.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target, Channeled"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE PER PULSE",
+                    "val": "110"
+                },
+                {
+                    "name": "MOVEMENT SLOW",
+                    "val": "30% \/ 30% \/ 30%"
+                },
+                {
+                    "name": "SLOW DURATION",
+                    "val": "3"
+                }
+            ]
+        }
+    ]
+}

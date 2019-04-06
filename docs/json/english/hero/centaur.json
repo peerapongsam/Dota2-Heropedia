@@ -1,0 +1,240 @@
+{
+    "id": "centaur",
+    "name": "Centaur Warrunner",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/centaur_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/centaur_vert.jpg?v=5027641"
+    },
+    "attack": "Melee",
+    "role": [
+        "Durable",
+        "Initiator",
+        "Disabler",
+        "Nuker",
+        "Escape"
+    ],
+    "primary_attribs": "str",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 15,
+                "gain": 1.6
+            },
+            "agi": {
+                "base": 15,
+                "gain": 1
+            },
+            "str": {
+                "base": 27,
+                "gain": 4.6
+            },
+            "dmg": {
+                "min": 36,
+                "max": 38
+            },
+            "ms": 300,
+            "armor": 1.1
+        },
+        "abilities": [
+            {
+                "id": "centaur_hoof_stomp",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/centaur_hoof_stomp_hp1.png?v=5027641",
+                "name": "Hoof Stomp",
+                "desc": "Slams the ground, stunning and damaging nearby enemy units."
+            },
+            {
+                "id": "centaur_double_edge",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/centaur_double_edge_hp1.png?v=5027641",
+                "name": "Double Edge",
+                "desc": "Centaur strikes a mighty blow at melee range, damaging both himself and a small area around the target. Deals extra damage based on your strength. Centaur cannot die from Double Edge."
+            },
+            {
+                "id": "centaur_return",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/centaur_return_hp1.png?v=5027641",
+                "name": "Retaliate",
+                "desc": "Centaur counters all attacks, dealing damage back to the attacker. Each time Centaur gets attacked by a hero or a tower, he gains a charge counter. Can be cast to consume all charges, granting you a percentage base damage increase for 20 seconds."
+            },
+            {
+                "id": "centaur_stampede",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/centaur_stampede_hp1.png?v=5027641",
+                "name": "Stampede",
+                "desc": "Centaur leads all allies into a vicious charge causing them to move through units at max speed and stop any enemy units they trample. Trampled enemies take damage based on Centaur Warrunner's strength. Each enemy can be trampled once.    Upgradable by Aghanim's Scepter."
+            }
+        ]
+    },
+    "bio": "It's said that a centaur's road is paved with the corpses of the fallen.  For the one called Warrunner, it has been a long road indeed.  To outsiders, the four-legged clans of Druud are often mistaken for simple, brutish creatures.  Their language has no written form; their culture lacks pictographic traditions, structured music, formalized religion.  For centaurs, combat is the perfect articulation of thought, the highest expression of self.  If killing is an art among centaurs, then Bradwarden the Warrunner is their greatest artist.  He rose to dominance on the proving grounds of Omexe, an ancient arena where centaur clans have for millennia gathered to perform their gladiatorial rites.  As his fame spread, spectators came from far and wide to see the great centaur in action.  Always the first to step into the arena, and the last to leave, he composes a masterpiece in each guttering spray, each thrust of blood-slickened blade-length.  It is the poetry of blood on steel, flung in complex patterns across the pale sands of the killing floor. \r\n\r\n\t\tWarrunner defeated warrior after warrior, until the arena boomed with the cheering of his name, and he found himself alone, the uncontested champion of his kind.  The great belt of Omexe was bestowed, wrapped around his broad torso, but in his victory, the death-artist found only emptiness.  For what is a warrior without a challenge?  The great centaur galloped out of Omexe that day with a new goal.  To his people, Warrunner is the greatest warrior to ever step into the arena.  Now he has set out to prove he is the greatest fighter who has ever lived.",
+    "stats": {
+        "hit_points": [
+            663,
+            1887,
+            3141
+        ],
+        "mana": [
+            195,
+            486,
+            954
+        ],
+        "damage": [
+            63,
+            127,
+            193
+        ],
+        "armor": [
+            1,
+            3,
+            7
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 150,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "centaur_hoof_stomp",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/centaur_hoof_stomp_hp2.png?v=5027641",
+            "name": "Hoof Stomp",
+            "desc": "Slams the ground, stunning and damaging nearby enemy units.",
+            "mana_cost": "115\/120\/125\/130",
+            "cooldown": "13",
+            "video": "http:\/\/www.youtube.com\/embed\/FuWaTlMJwjM?hd=1&rel=0",
+            "lore": "When the mighty hoof of the Warrunner touches soil, the tremors are felt far and wide.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RADIUS",
+                    "val": "315"
+                },
+                {
+                    "name": "STOMP DAMAGE",
+                    "val": "80 \/ 110 \/ 140 \/ 170"
+                }
+            ]
+        },
+        {
+            "id": "centaur_double_edge",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/centaur_double_edge_hp2.png?v=5027641",
+            "name": "Double Edge",
+            "desc": "Centaur strikes a mighty blow at melee range, damaging both himself and a small area around the target. Deals extra damage based on your strength. Centaur cannot die from Double Edge.",
+            "mana_cost": "0\/0\/0\/0",
+            "cooldown": "5",
+            "video": "http:\/\/www.youtube.com\/embed\/PsHWOHEq5-Q?hd=1&rel=0",
+            "lore": "In the spurs of combat, Bradwarden's vicious strikes sometimes cause self-inflicted collateral damage.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "150 \/ 200 \/ 250 \/ 300"
+                }
+            ]
+        },
+        {
+            "id": "centaur_return",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/centaur_return_hp2.png?v=5027641",
+            "name": "Retaliate",
+            "desc": "Centaur counters all attacks, dealing damage back to the attacker. Each time Centaur gets attacked by a hero or a tower, he gains a charge counter. Can be cast to consume all charges, granting you a percentage base damage increase for 20 seconds.",
+            "mana_cost": "",
+            "cooldown": "55\/50\/45\/40",
+            "video": "http:\/\/www.youtube.com\/embed\/b0obuqv_n5I?hd=1&rel=0",
+            "lore": "Bradwarden has no need to parry his opponent's attacks; his armor-like hide does it for him.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Physical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "ATTACK DAMAGE PER ATTACK",
+                    "val": "6% \/ 9% \/ 12% \/ 15%"
+                },
+                {
+                    "name": "ATTACK DAMAGE DURATION",
+                    "val": "20"
+                },
+                {
+                    "name": "MAX STACKS",
+                    "val": "13"
+                }
+            ]
+        },
+        {
+            "id": "centaur_stampede",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/centaur_stampede_hp2.png?v=5027641",
+            "name": "Stampede",
+            "desc": "Centaur leads all allies into a vicious charge causing them to move through units at max speed and stop any enemy units they trample. Trampled enemies take damage based on Centaur Warrunner's strength. Each enemy can be trampled once.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "150",
+            "cooldown": "110\/100\/90",
+            "video": "http:\/\/www.youtube.com\/embed\/RF6R96LLL5o?hd=1&rel=0",
+            "lore": "The great belt of Omexe, which labels Bradwarden as the greatest warrior of his kind, incites his fellow gladiators to follow him into barbarous combat.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "STAMPEDE DURATION",
+                    "val": "4"
+                },
+                {
+                    "name": "SLOW DURATION",
+                    "val": "2.3"
+                },
+                {
+                    "name": "TRAMPLE RADIUS",
+                    "val": "105"
+                },
+                {
+                    "name": "SCEPTER DAMAGE REDUCTION",
+                    "val": "40%"
+                }
+            ]
+        }
+    ]
+}

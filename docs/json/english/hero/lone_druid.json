@@ -1,0 +1,221 @@
+{
+    "id": "lone_druid",
+    "name": "Lone Druid",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/lone_druid_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/lone_druid_vert.jpg?v=5027641"
+    },
+    "attack": "Ranged",
+    "role": [
+        "Carry",
+        "Pusher",
+        "Jungler",
+        "Durable"
+    ],
+    "primary_attribs": "agi",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 13,
+                "gain": 1.4
+            },
+            "agi": {
+                "base": 20,
+                "gain": 2.8
+            },
+            "str": {
+                "base": 18,
+                "gain": 2.4
+            },
+            "dmg": {
+                "min": 18,
+                "max": 22
+            },
+            "ms": 325,
+            "armor": 0.8
+        },
+        "abilities": [
+            {
+                "id": "lone_druid_spirit_bear",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/lone_druid_spirit_bear_hp1.png?v=5027641",
+                "name": "Summon Spirit Bear",
+                "desc": "Summons a powerful Spirit Bear companion that can equip items.  If the bear moves 1100 distance away from the Lone Druid, it cannot attack.  Lone Druid suffers 10% of his max health as backlash damage if the Spirit Bear dies.  As the bear increases in levels, it can learn the Return, Entangling Claws, and Demolish abilities.  Spirit Bear does not benefit from attributes.    Upgradable by Aghanim's Scepter."
+            },
+            {
+                "id": "lone_druid_spirit_link",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/lone_druid_spirit_link_hp1.png?v=5027641",
+                "name": "Spirit Link",
+                "desc": "Links Lone Druid and the Spirit Bear, increasing the attack speed of both and causing damage each one deals to heal the other."
+            },
+            {
+                "id": "lone_druid_savage_roar",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/lone_druid_savage_roar_hp1.png?v=5027641",
+                "name": "Savage Roar",
+                "desc": "Lone Druid roars fiercely causing nearby enemies to flee towards their base in terror. Their movement speed is increased by 20%."
+            },
+            {
+                "id": "lone_druid_true_form",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/lone_druid_true_form_hp1.png?v=5027641",
+                "name": "True Form",
+                "desc": "Lone Druid learns to morph himself into a raging bear, losing his ranged advantage and some base movement speed, but gaining melee power as well as the Battle Cry ability.  He can morph freely between druid and bear form.    Upgradable by Aghanim's Scepter."
+            }
+        ]
+    },
+    "bio": "Long before the first words of the first histories there rose the druidic Bear Clan. Wise and just they were, and focused in their ways to seek an understanding of the natural order. The arch forces of nature saw this, and so sought the most learned among them. Wise old Sylla, clan justiciar and seer, stepped forward for his kin, and to him was given the Seed with these words: 'When all of the world has dimmed, when civilization has left these lands, when the world is slain and wracked by the endless deserts at the end of ages, plant the Seed.' As he grasped his trust, Sylla felt his years recede and his vitality returned. Vast knowledge burst into his mind. He found himself able to project his very will into reality and, with some concentration, alter his own physical form as well. Yet subtle whispers and cruel ears brought word of the Seed and its power to other peoples, and a terrible war crashed upon the Bear Clan. As his ancestral home burned, Sylla took his burden and fled to the wild places. Ages passed, and time and myth forgot the Bear Clan, forgot Sylla and the Seed, forgot wondrous civilizations that rose and fell in Bear Clan's wake. For millenia Sylla has waited, waited for word from his deities, waited for peace to come to the ever warring realms, waited in exile and in secret for the end of all things and for the conclusion of his sacred commitment, preparing himself always to face and destroy whatever would dare threaten his purpose.",
+    "stats": {
+        "hit_points": [
+            492,
+            1130,
+            1966
+        ],
+        "mana": [
+            169,
+            424,
+            866
+        ],
+        "damage": [
+            38,
+            77,
+            125
+        ],
+        "armor": [
+            1,
+            6,
+            13
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 550,
+        "missile_speed": "900"
+    },
+    "abilities": [
+        {
+            "id": "lone_druid_spirit_bear",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/lone_druid_spirit_bear_hp2.png?v=5027641",
+            "name": "Summon Spirit Bear",
+            "desc": "Summons a powerful Spirit Bear companion that can equip items.  If the bear moves 1100 distance away from the Lone Druid, it cannot attack.  Lone Druid suffers 10% of his max health as backlash damage if the Spirit Bear dies.  As the bear increases in levels, it can learn the Return, Entangling Claws, and Demolish abilities.  Spirit Bear does not benefit from attributes.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "75\/75\/75\/75",
+            "cooldown": "120",
+            "video": "http:\/\/www.youtube.com\/embed\/SUdhkg7nFiM?hd=1&rel=0",
+            "lore": "Sylla's lifelong companion is symbiotic with his spirit and heart, coming to aid him in any time of need.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "BEAR HP",
+                    "val": "1500 \/ 2000 \/ 2500 \/ 3000"
+                },
+                {
+                    "name": "BEAR HP REGEN",
+                    "val": "4 \/ 5 \/ 6 \/ 7"
+                },
+                {
+                    "name": "BACKLASH PURE DAMAGE",
+                    "val": "10%"
+                }
+            ]
+        },
+        {
+            "id": "lone_druid_spirit_link",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/lone_druid_spirit_link_hp2.png?v=5027641",
+            "name": "Spirit Link",
+            "desc": "Links Lone Druid and the Spirit Bear, increasing the attack speed of both and causing damage each one deals to heal the other.",
+            "mana_cost": "50\/60\/70\/80",
+            "cooldown": "43\/36\/29\/22",
+            "lore": null,
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "SHARED LIFESTEAL",
+                    "val": "40% \/ 50% \/ 60% \/ 70%"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "10"
+                }
+            ]
+        },
+        {
+            "id": "lone_druid_savage_roar",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/lone_druid_savage_roar_hp2.png?v=5027641",
+            "name": "Savage Roar",
+            "desc": "Lone Druid roars fiercely causing nearby enemies to flee towards their base in terror. Their movement speed is increased by 20%.",
+            "mana_cost": "50",
+            "cooldown": "38\/32\/26\/20",
+            "lore": "Sylla studies and masters the arts of the lost Bear Clan, enhancing his attunement with the wild.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RANGE",
+                    "val": "325"
+                },
+                {
+                    "name": "ENEMY MOVEMENT SPEED BONUS",
+                    "val": "20%"
+                },
+                {
+                    "name": "DURATION",
+                    "val": "1.2 \/ 1.6 \/ 2 \/ 2.4"
+                }
+            ]
+        },
+        {
+            "id": "lone_druid_true_form",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/lone_druid_true_form_hp2.png?v=5027641",
+            "name": "True Form",
+            "desc": "Lone Druid learns to morph himself into a raging bear, losing his ranged advantage and some base movement speed, but gaining melee power as well as the Battle Cry ability.  He can morph freely between druid and bear form.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "25\/25\/25",
+            "cooldown": "0",
+            "video": "http:\/\/www.youtube.com\/embed\/Y6IO-zXdiMk?hd=1&rel=0",
+            "lore": "The mighty bear is the king of the forest, possessing the throne through raw power.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "BASE ATTACK TIME",
+                    "val": "1.5 \/ 1.5 \/ 1.5"
+                },
+                {
+                    "name": "BONUS ARMOR",
+                    "val": "4 \/ 6 \/ 8"
+                },
+                {
+                    "name": "BONUS HP",
+                    "val": "300 \/ 600 \/ 900"
+                },
+                {
+                    "name": "BASE SPEED LOSS",
+                    "val": "45"
+                },
+                {
+                    "name": "TRANSFORM TIME",
+                    "val": "1.933"
+                }
+            ]
+        }
+    ]
+}

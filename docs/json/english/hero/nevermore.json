@@ -1,0 +1,241 @@
+{
+    "id": "nevermore",
+    "name": "Shadow Fiend",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/nevermore_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/nevermore_vert.jpg?v=5027641"
+    },
+    "attack": "Ranged",
+    "role": [
+        "Carry",
+        "Nuker"
+    ],
+    "primary_attribs": "agi",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 18,
+                "gain": 2.2
+            },
+            "agi": {
+                "base": 20,
+                "gain": 3.3
+            },
+            "str": {
+                "base": 19,
+                "gain": 2.3
+            },
+            "dmg": {
+                "min": 15,
+                "max": 21
+            },
+            "ms": 305,
+            "armor": 2.8
+        },
+        "abilities": [
+            {
+                "id": "nevermore_shadowraze1",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/nevermore_shadowraze1_hp1.png?v=5027641",
+                "name": "Shadowraze",
+                "desc": "Shadow Fiend razes the ground directly in front of him, dealing damage to enemy units in the area. Adds a stacking damage amplifier on the target that causes the enemy to take bonus Shadow Raze damage per stack."
+            },
+            {
+                "id": "nevermore_necromastery",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/nevermore_necromastery_hp1.png?v=5027641",
+                "name": "Necromastery",
+                "desc": "Shadow Fiend steals the soul from units he kills, gaining bonus damage. If the killed unit is a hero, he gains 12 souls.  On death, he releases half of them from bondage.    Upgradable by Aghanim's Scepter."
+            },
+            {
+                "id": "nevermore_dark_lord",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/nevermore_dark_lord_hp1.png?v=5027641",
+                "name": "Presence of the Dark Lord",
+                "desc": "Shadow Fiend's presence reduces the armor of nearby enemies."
+            },
+            {
+                "id": "nevermore_requiem",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/nevermore_requiem_hp1.png?v=5027641",
+                "name": "Requiem of Souls",
+                "desc": "Shadow Fiend gathers his captured souls to release them as lines of demonic energy. Units near Shadow Fiend when the souls are released can be damaged by several lines of energy. Any unit damaged by Requiem of Souls will have its movement speed and attack damage reduced. Lines of energy are created for every 2 souls captured through Necromastery. Requiem of Souls is automatically cast whenever Shadow Fiend dies, regardless of its cooldown.    Upgradable by Aghanim's Scepter."
+            }
+        ]
+    },
+    "bio": "It is said that Nevermore the Shadow Fiend has the soul of a poet, and in fact he has thousands of them. Over the ages he has claimed the souls of poets, priests, emperors, beggars, slaves, philosophers, criminals and (naturally) heroes; no sort of soul escapes him. What he does with them is unknown. No one has ever peered into the Abysm whence Nevermore reaches out like an eel from among astral rocks. Does he devour them one after another? Does he mount them along the halls of an eldritch temple, or pickle the souls in necromantic brine? Is he merely a puppet, pushed through the dimensional rift by a demonic puppeteer? Such is his evil, so intense his aura of darkness, that no rational mind may penetrate it. Of course, if you really want to know where the stolen souls go, there's one sure way to find out: Add your soul to his collection. Or just wait for Nevermore.",
+    "stats": {
+        "hit_points": [
+            511,
+            1123,
+            1940
+        ],
+        "mana": [
+            234,
+            634,
+            1180
+        ],
+        "damage": [
+            35,
+            81,
+            134
+        ],
+        "armor": [
+            3,
+            9,
+            17
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 500,
+        "missile_speed": "1200"
+    },
+    "abilities": [
+        {
+            "id": "nevermore_shadowraze1",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/nevermore_shadowraze1_hp2.png?v=5027641",
+            "name": "Shadowraze",
+            "desc": "Shadow Fiend razes the ground directly in front of him, dealing damage to enemy units in the area. Adds a stacking damage amplifier on the target that causes the enemy to take bonus Shadow Raze damage per stack.",
+            "mana_cost": "90",
+            "cooldown": "10",
+            "video": "http:\/\/www.youtube.com\/embed\/NaBIR9oCECk?hd=1&rel=0",
+            "lore": "Nevermore's trademark for harvesting souls.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RANGE",
+                    "val": "200"
+                },
+                {
+                    "name": "BONUS PER STACK",
+                    "val": "50 \/ 60 \/ 70 \/ 80"
+                },
+                {
+                    "name": "STACK DURATION",
+                    "val": "8"
+                }
+            ]
+        },
+        {
+            "id": "nevermore_necromastery",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/nevermore_necromastery_hp2.png?v=5027641",
+            "name": "Necromastery",
+            "desc": "Shadow Fiend steals the soul from units he kills, gaining bonus damage. If the killed unit is a hero, he gains 12 souls.  On death, he releases half of them from bondage.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/CvNBpH08P5M?hd=1&rel=0",
+            "lore": "Harvested souls swirl in and out of the Abysm, empowering the Shadow Fiend to increase the size of his collection.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "MAX SOULS",
+                    "val": "12 \/ 20 \/ 28 \/ 36"
+                },
+                {
+                    "name": "SCEPTER MAX SOULS",
+                    "val": "22 \/ 30 \/ 38 \/ 46"
+                }
+            ]
+        },
+        {
+            "id": "nevermore_dark_lord",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/nevermore_dark_lord_hp2.png?v=5027641",
+            "name": "Presence of the Dark Lord",
+            "desc": "Shadow Fiend's presence reduces the armor of nearby enemies.",
+            "mana_cost": "",
+            "cooldown": "",
+            "video": "http:\/\/www.youtube.com\/embed\/y3glSnq4mGQ?hd=1&rel=0",
+            "lore": "Even being near Nevermore eats away at one's soul.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Passive, Aura"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemies"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RADIUS",
+                    "val": "1200"
+                }
+            ]
+        },
+        {
+            "id": "nevermore_requiem",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/nevermore_requiem_hp2.png?v=5027641",
+            "name": "Requiem of Souls",
+            "desc": "Shadow Fiend gathers his captured souls to release them as lines of demonic energy. Units near Shadow Fiend when the souls are released can be damaged by several lines of energy. Any unit damaged by Requiem of Souls will have its movement speed and attack damage reduced. Lines of energy are created for every 2 souls captured through Necromastery. Requiem of Souls is automatically cast whenever Shadow Fiend dies, regardless of its cooldown.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "150\/175\/200",
+            "cooldown": "120\/110\/100",
+            "video": "http:\/\/www.youtube.com\/embed\/4kPz4cvIYEA?hd=1&rel=0",
+            "lore": "The captured souls of those past slain are released to ravage their former allies.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "80 \/ 120 \/ 160"
+                },
+                {
+                    "name": "CAST DELAY",
+                    "val": "1.67"
+                },
+                {
+                    "name": "MOVEMENT REDUCTION",
+                    "val": "25%"
+                },
+                {
+                    "name": "DAMAGE REDUCTION",
+                    "val": "50%"
+                },
+                {
+                    "name": "REDUCTION DURATION",
+                    "val": "5.000000"
+                },
+                {
+                    "name": "SCEPTER HEAL ON RETURN",
+                    "val": "100%"
+                },
+                {
+                    "name": "SCEPTER DAMAGE ON RETURN",
+                    "val": "40%"
+                }
+            ]
+        }
+    ]
+}

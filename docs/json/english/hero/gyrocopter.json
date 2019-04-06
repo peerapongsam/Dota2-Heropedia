@@ -1,0 +1,246 @@
+{
+    "id": "gyrocopter",
+    "name": "Gyrocopter",
+    "portrait": {
+        "full": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/gyrocopter_full.png?v=5027641?v=5027641",
+        "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/gyrocopter_vert.jpg?v=5027641"
+    },
+    "attack": "Ranged",
+    "role": [
+        "Carry",
+        "Nuker",
+        "Disabler"
+    ],
+    "primary_attribs": "agi",
+    "overview": {
+        "attribs": {
+            "int": {
+                "base": 19,
+                "gain": 2.1
+            },
+            "agi": {
+                "base": 19,
+                "gain": 3.6
+            },
+            "str": {
+                "base": 22,
+                "gain": 2.3
+            },
+            "dmg": {
+                "min": 21,
+                "max": 31
+            },
+            "ms": 315,
+            "armor": 4.66
+        },
+        "abilities": [
+            {
+                "id": "gyrocopter_rocket_barrage",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/gyrocopter_rocket_barrage_hp1.png?v=5027641",
+                "name": "Rocket Barrage",
+                "desc": "Launches a salvo of rockets at nearby enemy units in a radius around the Gyrocopter.  Lasts 3 seconds."
+            },
+            {
+                "id": "gyrocopter_homing_missile",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/gyrocopter_homing_missile_hp1.png?v=5027641",
+                "name": "Homing Missile",
+                "desc": "Fires a homing missile to seek the targeted enemy unit. The missile gains speed over time, dealing damage and stunning when it impacts the target. Enemy units can destroy the missile before it reaches its target."
+            },
+            {
+                "id": "gyrocopter_flak_cannon",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/gyrocopter_flak_cannon_hp1.png?v=5027641",
+                "name": "Flak Cannon",
+                "desc": "Gyrocopter's attacks hit all enemy units in an area around it for a limited number of attacks.  Only the main target of attacks will receive attack bonuses such as Critical Strike.  Lasts 15 seconds or until the attacks are used."
+            },
+            {
+                "id": "gyrocopter_call_down",
+                "icon": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/gyrocopter_call_down_hp1.png?v=5027641",
+                "name": "Call Down",
+                "desc": "Call down an aerial missile strike on enemy units in a target area.  Two missiles arrive in succession, the first dealing major damage and minor slow for 2 seconds; the second dealing minor damage and major slow for 4 seconds.    Upgradable by Aghanim's Scepter."
+            }
+        ]
+    },
+    "bio": "After serving through a lifetime of wars, upheaval, riots, and revolutions, the brass figured Aurel had seen enough. But in addition to a few trinkets and his considerable pension, the erstwhile engineer left with something far more interesting: a long-forgotten, incomplete schematic for a Gyrocopter, the world's first manned, non-magical flying device. Retiring to the tropical obscurity of the Ash Archipelago with little else but time and money, he set to work building the device. As the years wore on and the remains of failed prototypes began to pile up, he began to wonder if mechanical flight was even possible. A decade and a day after his retirement, on a sunny afternoon with a southerly breeze, Aurel sat in his latest attempt bristling with indignation and expectant failure. With a grunt of effort he pulled the ignition cord and covered his head, waiting for the inevitable explosion. However to his great surprise he began to lift and, following a few panicked adjustments, stabilize. Within an hour, he was ducking and weaving with the breeze, level with the gulls, and Aurel found himself filled with the breathless wonder of flight. As dusk settled in he set a course back to his workshop, but no sooner had he turned his craft when a cannonball tore through his tailfin. Disentangling himself from the wreckage, he swam toward the nearest piece of land in sight, and cursed to see the ship responsible for the cannonball collecting the debris. Days later, when Aurel returned to his workshop, he set to work on yet another gyrocopter, this one capable of carrying a much heavier, more dangerous payload.",
+    "stats": {
+        "hit_points": [
+            568,
+            1180,
+            1997
+        ],
+        "mana": [
+            247,
+            629,
+            1162
+        ],
+        "damage": [
+            40,
+            90,
+            146
+        ],
+        "armor": [
+            5,
+            12,
+            20
+        ],
+        "sight_range": [
+            1800,
+            800
+        ],
+        "attack_range": 365,
+        "missile_speed": "3000"
+    },
+    "abilities": [
+        {
+            "id": "gyrocopter_rocket_barrage",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/gyrocopter_rocket_barrage_hp2.png?v=5027641",
+            "name": "Rocket Barrage",
+            "desc": "Launches a salvo of rockets at nearby enemy units in a radius around the Gyrocopter.  Lasts 3 seconds.",
+            "mana_cost": "90\/90\/90\/90",
+            "cooldown": "7\/6506\/550",
+            "video": "http:\/\/www.youtube.com\/embed\/JvJK0Y94TTU?hd=1&rel=0",
+            "lore": "Aurel's new craft has an increased payload for rockets, enhancing their rapid-fire capabilities.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RADIUS",
+                    "val": "400"
+                },
+                {
+                    "name": "ROCKETS PER SECOND",
+                    "val": "10"
+                }
+            ]
+        },
+        {
+            "id": "gyrocopter_homing_missile",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/gyrocopter_homing_missile_hp2.png?v=5027641",
+            "name": "Homing Missile",
+            "desc": "Fires a homing missile to seek the targeted enemy unit. The missile gains speed over time, dealing damage and stunning when it impacts the target. Enemy units can destroy the missile before it reaches its target.",
+            "mana_cost": "120\/130\/140\/150",
+            "cooldown": "26\/21\/16\/11",
+            "video": "http:\/\/www.youtube.com\/embed\/nS_Qw-l6_OM?hd=1&rel=0",
+            "lore": "The biggest missile Aurel could possibly attach to his craft, The Bomb&trade; has carefully calculated aerodynamics and explosives for maximum impact.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Unit Target"
+                },
+                {
+                    "name": "AFFECTS",
+                    "val": "Enemy Units"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "DAMAGE",
+                    "val": "100 \/ 175 \/ 250 \/ 325"
+                },
+                {
+                    "name": "HITS TO DESTROY",
+                    "val": "3"
+                },
+                {
+                    "name": "TOWER HITS TO DESTROY",
+                    "val": "6"
+                }
+            ]
+        },
+        {
+            "id": "gyrocopter_flak_cannon",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/gyrocopter_flak_cannon_hp2.png?v=5027641",
+            "name": "Flak Cannon",
+            "desc": "Gyrocopter's attacks hit all enemy units in an area around it for a limited number of attacks.  Only the main target of attacks will receive attack bonuses such as Critical Strike.  Lasts 15 seconds or until the attacks are used.",
+            "mana_cost": "50\/50\/50\/50",
+            "cooldown": "40",
+            "video": "http:\/\/www.youtube.com\/embed\/vuAGkLLSJRE?hd=1&rel=0",
+            "lore": "This newly revamped Gyrocopter has attached enough armaments to assault in a 360 degree radius.",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "No Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Physical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "Yes"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "RADIUS",
+                    "val": "1250"
+                }
+            ]
+        },
+        {
+            "id": "gyrocopter_call_down",
+            "img": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/abilities\/gyrocopter_call_down_hp2.png?v=5027641",
+            "name": "Call Down",
+            "desc": "Call down an aerial missile strike on enemy units in a target area.  Two missiles arrive in succession, the first dealing major damage and minor slow for 2 seconds; the second dealing minor damage and major slow for 4 seconds.    Upgradable by Aghanim's Scepter.",
+            "mana_cost": "125\/125\/125",
+            "cooldown": "55\/50\/45",
+            "video": "http:\/\/www.youtube.com\/embed\/3YjjKN0VajU?hd=1&rel=0",
+            "lore": "'Bombs Away!'",
+            "affects": [
+                {
+                    "name": "ABILITY",
+                    "val": "Point Target"
+                },
+                {
+                    "name": "DAMAGE TYPE",
+                    "val": "Magical"
+                },
+                {
+                    "name": "PIERCES SPELL IMMUNITY",
+                    "val": "No"
+                }
+            ],
+            "damage": [
+                {
+                    "name": "MISSILE ONE DAMAGE",
+                    "val": "150 \/ 250 \/ 350"
+                },
+                {
+                    "name": "MISSILE TWO DAMAGE",
+                    "val": "100 \/ 150 \/ 200"
+                },
+                {
+                    "name": "MISSILE ONE SLOW",
+                    "val": "30%"
+                },
+                {
+                    "name": "MISSILE TWO SLOW",
+                    "val": "60%"
+                },
+                {
+                    "name": "RADIUS",
+                    "val": "600"
+                }
+            ]
+        }
+    ]
+}
