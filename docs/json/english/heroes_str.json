@@ -7,7 +7,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/earthshaker_vert.jpg?v=5027641"
         },
         "attack": "Melee",
-        "role": [
+        "roles": [
             "Support",
             "Initiator",
             "Disabler",
@@ -23,7 +23,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/sven_vert.jpg?v=5027641"
         },
         "attack": "Melee",
-        "role": [
+        "roles": [
             "Carry",
             "Disabler",
             "Initiator",
@@ -40,7 +40,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/tiny_vert.jpg?v=5027641"
         },
         "attack": "Melee",
-        "role": [
+        "roles": [
             "Carry",
             "Nuker",
             "Pusher",
@@ -58,7 +58,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/kunkka_vert.jpg?v=5027641"
         },
         "attack": "Melee",
-        "role": [
+        "roles": [
             "Carry",
             "Support",
             "Disabler",
@@ -76,7 +76,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/beastmaster_vert.jpg?v=5027641"
         },
         "attack": "Melee",
-        "role": [
+        "roles": [
             "Initiator",
             "Disabler",
             "Durable",
@@ -92,7 +92,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/dragon_knight_vert.jpg?v=5027641"
         },
         "attack": "Melee",
-        "role": [
+        "roles": [
             "Carry",
             "Pusher",
             "Durable",
@@ -110,7 +110,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/rattletrap_vert.jpg?v=5027641"
         },
         "attack": "Melee",
-        "role": [
+        "roles": [
             "Initiator",
             "Disabler",
             "Durable",
@@ -126,7 +126,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/omniknight_vert.jpg?v=5027641"
         },
         "attack": "Melee",
-        "role": [
+        "roles": [
             "Support",
             "Durable",
             "Nuker"
@@ -141,7 +141,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/huskar_vert.jpg?v=5027641"
         },
         "attack": "Ranged",
-        "role": [
+        "roles": [
             "Carry",
             "Durable",
             "Initiator"
@@ -156,7 +156,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/alchemist_vert.jpg?v=5027641"
         },
         "attack": "Melee",
-        "role": [
+        "roles": [
             "Carry",
             "Support",
             "Durable",
@@ -174,7 +174,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/brewmaster_vert.jpg?v=5027641"
         },
         "attack": "Melee",
-        "role": [
+        "roles": [
             "Carry",
             "Initiator",
             "Durable",
@@ -191,7 +191,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/treant_vert.jpg?v=5027641"
         },
         "attack": "Melee",
-        "role": [
+        "roles": [
             "Support",
             "Initiator",
             "Durable",
@@ -208,7 +208,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/wisp_vert.jpg?v=5027641"
         },
         "attack": "Ranged",
-        "role": [
+        "roles": [
             "Support",
             "Escape",
             "Nuker"
@@ -223,7 +223,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/centaur_vert.jpg?v=5027641"
         },
         "attack": "Melee",
-        "role": [
+        "roles": [
             "Durable",
             "Initiator",
             "Disabler",
@@ -240,7 +240,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/shredder_vert.jpg?v=5027641"
         },
         "attack": "Melee",
-        "role": [
+        "roles": [
             "Nuker",
             "Durable",
             "Escape"
@@ -255,7 +255,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/bristleback_vert.jpg?v=5027641"
         },
         "attack": "Melee",
-        "role": [
+        "roles": [
             "Carry",
             "Durable",
             "Initiator",
@@ -271,7 +271,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/tusk_vert.jpg?v=5027641"
         },
         "attack": "Melee",
-        "role": [
+        "roles": [
             "Initiator",
             "Disabler",
             "Nuker"
@@ -286,7 +286,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/elder_titan_vert.jpg?v=5027641"
         },
         "attack": "Melee",
-        "role": [
+        "roles": [
             "Initiator",
             "Disabler",
             "Nuker",
@@ -302,7 +302,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/legion_commander_vert.jpg?v=5027641"
         },
         "attack": "Melee",
-        "role": [
+        "roles": [
             "Carry",
             "Disabler",
             "Initiator",
@@ -319,7 +319,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/earth_spirit_vert.jpg?v=5027641"
         },
         "attack": "Melee",
-        "role": [
+        "roles": [
             "Nuker",
             "Escape",
             "Disabler",
@@ -336,7 +336,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/phoenix_vert.jpg?v=5027641"
         },
         "attack": "Ranged",
-        "role": [
+        "roles": [
             "Support",
             "Nuker",
             "Initiator",
@@ -353,7 +353,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/mars_vert.jpg?v=5027641"
         },
         "attack": "Melee",
-        "role": [
+        "roles": [
             "Carry",
             "Initiator",
             "Disabler",
@@ -369,7 +369,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/axe_vert.jpg?v=5027641"
         },
         "attack": "Melee",
-        "role": [
+        "roles": [
             "Initiator",
             "Durable",
             "Disabler",
@@ -385,7 +385,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/pudge_vert.jpg?v=5027641"
         },
         "attack": "Melee",
-        "role": [
+        "roles": [
             "Disabler",
             "Initiator",
             "Durable",
@@ -401,7 +401,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/sand_king_vert.jpg?v=5027641"
         },
         "attack": "Melee",
-        "role": [
+        "roles": [
             "Initiator",
             "Disabler",
             "Support",
@@ -419,7 +419,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/slardar_vert.jpg?v=5027641"
         },
         "attack": "Melee",
-        "role": [
+        "roles": [
             "Carry",
             "Durable",
             "Initiator",
@@ -436,7 +436,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/tidehunter_vert.jpg?v=5027641"
         },
         "attack": "Melee",
-        "role": [
+        "roles": [
             "Initiator",
             "Durable",
             "Disabler",
@@ -452,7 +452,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/skeleton_king_vert.jpg?v=5027641"
         },
         "attack": "Melee",
-        "role": [
+        "roles": [
             "Carry",
             "Support",
             "Durable",
@@ -469,7 +469,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/life_stealer_vert.jpg?v=5027641"
         },
         "attack": "Melee",
-        "role": [
+        "roles": [
             "Carry",
             "Durable",
             "Jungler",
@@ -486,7 +486,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/night_stalker_vert.jpg?v=5027641"
         },
         "attack": "Melee",
-        "role": [
+        "roles": [
             "Carry",
             "Initiator",
             "Durable",
@@ -503,7 +503,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/doom_bringer_vert.jpg?v=5027641"
         },
         "attack": "Melee",
-        "role": [
+        "roles": [
             "Carry",
             "Disabler",
             "Initiator",
@@ -520,7 +520,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/spirit_breaker_vert.jpg?v=5027641"
         },
         "attack": "Melee",
-        "role": [
+        "roles": [
             "Carry",
             "Initiator",
             "Disabler",
@@ -537,7 +537,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/lycan_vert.jpg?v=5027641"
         },
         "attack": "Melee",
-        "role": [
+        "roles": [
             "Carry",
             "Pusher",
             "Jungler",
@@ -554,7 +554,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/chaos_knight_vert.jpg?v=5027641"
         },
         "attack": "Melee",
-        "role": [
+        "roles": [
             "Carry",
             "Disabler",
             "Durable",
@@ -571,7 +571,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/undying_vert.jpg?v=5027641"
         },
         "attack": "Melee",
-        "role": [
+        "roles": [
             "Support",
             "Durable",
             "Disabler",
@@ -587,7 +587,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/magnataur_vert.jpg?v=5027641"
         },
         "attack": "Melee",
-        "role": [
+        "roles": [
             "Initiator",
             "Disabler",
             "Nuker",
@@ -603,7 +603,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/abaddon_vert.jpg?v=5027641"
         },
         "attack": "Melee",
-        "role": [
+        "roles": [
             "Support",
             "Carry",
             "Durable"
@@ -618,7 +618,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/abyssal_underlord_vert.jpg?v=5027641"
         },
         "attack": "Melee",
-        "role": [
+        "roles": [
             "Support",
             "Nuker",
             "Disabler",

@@ -7,7 +7,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/earthshaker_vert.jpg?v=5027641"
         },
         "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
-        "role": [
+        "roles": [
             "\u0e15\u0e31\u0e27\u0e0b\u0e31\u0e1e\u0e1e\u0e2d\u0e23\u0e4c\u0e15",
             "\u0e15\u0e31\u0e27\u0e40\u0e1b\u0e34\u0e14",
             "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14",
@@ -23,7 +23,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/sven_vert.jpg?v=5027641"
         },
         "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
-        "role": [
+        "roles": [
             "\u0e15\u0e31\u0e27\u0e41\u0e04\u0e23\u0e4c\u0e23\u0e35",
             "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14",
             "\u0e15\u0e31\u0e27\u0e40\u0e1b\u0e34\u0e14",
@@ -40,7 +40,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/tiny_vert.jpg?v=5027641"
         },
         "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
-        "role": [
+        "roles": [
             "\u0e15\u0e31\u0e27\u0e41\u0e04\u0e23\u0e4c\u0e23\u0e35",
             "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04",
             "\u0e15\u0e31\u0e27\u0e14\u0e31\u0e19",
@@ -58,7 +58,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/kunkka_vert.jpg?v=5027641"
         },
         "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
-        "role": [
+        "roles": [
             "\u0e15\u0e31\u0e27\u0e41\u0e04\u0e23\u0e4c\u0e23\u0e35",
             "\u0e15\u0e31\u0e27\u0e0b\u0e31\u0e1e\u0e1e\u0e2d\u0e23\u0e4c\u0e15",
             "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14",
@@ -76,7 +76,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/beastmaster_vert.jpg?v=5027641"
         },
         "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
-        "role": [
+        "roles": [
             "\u0e15\u0e31\u0e27\u0e40\u0e1b\u0e34\u0e14",
             "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14",
             "\u0e15\u0e31\u0e27\u0e22\u0e37\u0e19",
@@ -92,7 +92,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/dragon_knight_vert.jpg?v=5027641"
         },
         "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
-        "role": [
+        "roles": [
             "\u0e15\u0e31\u0e27\u0e41\u0e04\u0e23\u0e4c\u0e23\u0e35",
             "\u0e15\u0e31\u0e27\u0e14\u0e31\u0e19",
             "\u0e15\u0e31\u0e27\u0e22\u0e37\u0e19",
@@ -110,7 +110,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/rattletrap_vert.jpg?v=5027641"
         },
         "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
-        "role": [
+        "roles": [
             "\u0e15\u0e31\u0e27\u0e40\u0e1b\u0e34\u0e14",
             "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14",
             "\u0e15\u0e31\u0e27\u0e22\u0e37\u0e19",
@@ -126,7 +126,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/omniknight_vert.jpg?v=5027641"
         },
         "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
-        "role": [
+        "roles": [
             "\u0e15\u0e31\u0e27\u0e0b\u0e31\u0e1e\u0e1e\u0e2d\u0e23\u0e4c\u0e15",
             "\u0e15\u0e31\u0e27\u0e22\u0e37\u0e19",
             "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04"
@@ -141,7 +141,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/huskar_vert.jpg?v=5027641"
         },
         "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
-        "role": [
+        "roles": [
             "\u0e15\u0e31\u0e27\u0e41\u0e04\u0e23\u0e4c\u0e23\u0e35",
             "\u0e15\u0e31\u0e27\u0e22\u0e37\u0e19",
             "\u0e15\u0e31\u0e27\u0e40\u0e1b\u0e34\u0e14"
@@ -156,7 +156,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/alchemist_vert.jpg?v=5027641"
         },
         "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
-        "role": [
+        "roles": [
             "\u0e15\u0e31\u0e27\u0e41\u0e04\u0e23\u0e4c\u0e23\u0e35",
             "\u0e15\u0e31\u0e27\u0e0b\u0e31\u0e1e\u0e1e\u0e2d\u0e23\u0e4c\u0e15",
             "\u0e15\u0e31\u0e27\u0e22\u0e37\u0e19",
@@ -174,7 +174,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/brewmaster_vert.jpg?v=5027641"
         },
         "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
-        "role": [
+        "roles": [
             "\u0e15\u0e31\u0e27\u0e41\u0e04\u0e23\u0e4c\u0e23\u0e35",
             "\u0e15\u0e31\u0e27\u0e40\u0e1b\u0e34\u0e14",
             "\u0e15\u0e31\u0e27\u0e22\u0e37\u0e19",
@@ -191,7 +191,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/treant_vert.jpg?v=5027641"
         },
         "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
-        "role": [
+        "roles": [
             "\u0e15\u0e31\u0e27\u0e0b\u0e31\u0e1e\u0e1e\u0e2d\u0e23\u0e4c\u0e15",
             "\u0e15\u0e31\u0e27\u0e40\u0e1b\u0e34\u0e14",
             "\u0e15\u0e31\u0e27\u0e22\u0e37\u0e19",
@@ -208,7 +208,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/wisp_vert.jpg?v=5027641"
         },
         "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
-        "role": [
+        "roles": [
             "\u0e15\u0e31\u0e27\u0e0b\u0e31\u0e1e\u0e1e\u0e2d\u0e23\u0e4c\u0e15",
             "\u0e15\u0e31\u0e27\u0e2b\u0e19\u0e35",
             "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04"
@@ -223,7 +223,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/centaur_vert.jpg?v=5027641"
         },
         "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
-        "role": [
+        "roles": [
             "\u0e15\u0e31\u0e27\u0e22\u0e37\u0e19",
             "\u0e15\u0e31\u0e27\u0e40\u0e1b\u0e34\u0e14",
             "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14",
@@ -240,7 +240,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/shredder_vert.jpg?v=5027641"
         },
         "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
-        "role": [
+        "roles": [
             "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04",
             "\u0e15\u0e31\u0e27\u0e22\u0e37\u0e19",
             "\u0e15\u0e31\u0e27\u0e2b\u0e19\u0e35"
@@ -255,7 +255,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/bristleback_vert.jpg?v=5027641"
         },
         "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
-        "role": [
+        "roles": [
             "\u0e15\u0e31\u0e27\u0e41\u0e04\u0e23\u0e4c\u0e23\u0e35",
             "\u0e15\u0e31\u0e27\u0e22\u0e37\u0e19",
             "\u0e15\u0e31\u0e27\u0e40\u0e1b\u0e34\u0e14",
@@ -271,7 +271,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/tusk_vert.jpg?v=5027641"
         },
         "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
-        "role": [
+        "roles": [
             "\u0e15\u0e31\u0e27\u0e40\u0e1b\u0e34\u0e14",
             "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14",
             "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04"
@@ -286,7 +286,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/elder_titan_vert.jpg?v=5027641"
         },
         "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
-        "role": [
+        "roles": [
             "\u0e15\u0e31\u0e27\u0e40\u0e1b\u0e34\u0e14",
             "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14",
             "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04",
@@ -302,7 +302,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/legion_commander_vert.jpg?v=5027641"
         },
         "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
-        "role": [
+        "roles": [
             "\u0e15\u0e31\u0e27\u0e41\u0e04\u0e23\u0e4c\u0e23\u0e35",
             "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14",
             "\u0e15\u0e31\u0e27\u0e40\u0e1b\u0e34\u0e14",
@@ -319,7 +319,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/earth_spirit_vert.jpg?v=5027641"
         },
         "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
-        "role": [
+        "roles": [
             "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04",
             "\u0e15\u0e31\u0e27\u0e2b\u0e19\u0e35",
             "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14",
@@ -336,7 +336,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/phoenix_vert.jpg?v=5027641"
         },
         "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
-        "role": [
+        "roles": [
             "\u0e15\u0e31\u0e27\u0e0b\u0e31\u0e1e\u0e1e\u0e2d\u0e23\u0e4c\u0e15",
             "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04",
             "\u0e15\u0e31\u0e27\u0e40\u0e1b\u0e34\u0e14",
@@ -353,7 +353,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/mars_vert.jpg?v=5027641"
         },
         "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
-        "role": [
+        "roles": [
             "\u0e15\u0e31\u0e27\u0e41\u0e04\u0e23\u0e4c\u0e23\u0e35",
             "\u0e15\u0e31\u0e27\u0e40\u0e1b\u0e34\u0e14",
             "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14",
@@ -369,7 +369,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/axe_vert.jpg?v=5027641"
         },
         "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
-        "role": [
+        "roles": [
             "\u0e15\u0e31\u0e27\u0e40\u0e1b\u0e34\u0e14",
             "\u0e15\u0e31\u0e27\u0e22\u0e37\u0e19",
             "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14",
@@ -385,7 +385,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/pudge_vert.jpg?v=5027641"
         },
         "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
-        "role": [
+        "roles": [
             "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14",
             "\u0e15\u0e31\u0e27\u0e40\u0e1b\u0e34\u0e14",
             "\u0e15\u0e31\u0e27\u0e22\u0e37\u0e19",
@@ -401,7 +401,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/sand_king_vert.jpg?v=5027641"
         },
         "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
-        "role": [
+        "roles": [
             "\u0e15\u0e31\u0e27\u0e40\u0e1b\u0e34\u0e14",
             "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14",
             "\u0e15\u0e31\u0e27\u0e0b\u0e31\u0e1e\u0e1e\u0e2d\u0e23\u0e4c\u0e15",
@@ -419,7 +419,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/slardar_vert.jpg?v=5027641"
         },
         "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
-        "role": [
+        "roles": [
             "\u0e15\u0e31\u0e27\u0e41\u0e04\u0e23\u0e4c\u0e23\u0e35",
             "\u0e15\u0e31\u0e27\u0e22\u0e37\u0e19",
             "\u0e15\u0e31\u0e27\u0e40\u0e1b\u0e34\u0e14",
@@ -436,7 +436,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/tidehunter_vert.jpg?v=5027641"
         },
         "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
-        "role": [
+        "roles": [
             "\u0e15\u0e31\u0e27\u0e40\u0e1b\u0e34\u0e14",
             "\u0e15\u0e31\u0e27\u0e22\u0e37\u0e19",
             "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14",
@@ -452,7 +452,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/skeleton_king_vert.jpg?v=5027641"
         },
         "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
-        "role": [
+        "roles": [
             "\u0e15\u0e31\u0e27\u0e41\u0e04\u0e23\u0e4c\u0e23\u0e35",
             "\u0e15\u0e31\u0e27\u0e0b\u0e31\u0e1e\u0e1e\u0e2d\u0e23\u0e4c\u0e15",
             "\u0e15\u0e31\u0e27\u0e22\u0e37\u0e19",
@@ -469,7 +469,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/life_stealer_vert.jpg?v=5027641"
         },
         "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
-        "role": [
+        "roles": [
             "\u0e15\u0e31\u0e27\u0e41\u0e04\u0e23\u0e4c\u0e23\u0e35",
             "\u0e15\u0e31\u0e27\u0e22\u0e37\u0e19",
             "\u0e15\u0e31\u0e27\u0e1b\u0e48\u0e32",
@@ -486,7 +486,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/night_stalker_vert.jpg?v=5027641"
         },
         "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
-        "role": [
+        "roles": [
             "\u0e15\u0e31\u0e27\u0e41\u0e04\u0e23\u0e4c\u0e23\u0e35",
             "\u0e15\u0e31\u0e27\u0e40\u0e1b\u0e34\u0e14",
             "\u0e15\u0e31\u0e27\u0e22\u0e37\u0e19",
@@ -503,7 +503,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/doom_bringer_vert.jpg?v=5027641"
         },
         "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
-        "role": [
+        "roles": [
             "\u0e15\u0e31\u0e27\u0e41\u0e04\u0e23\u0e4c\u0e23\u0e35",
             "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14",
             "\u0e15\u0e31\u0e27\u0e40\u0e1b\u0e34\u0e14",
@@ -520,7 +520,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/spirit_breaker_vert.jpg?v=5027641"
         },
         "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
-        "role": [
+        "roles": [
             "\u0e15\u0e31\u0e27\u0e41\u0e04\u0e23\u0e4c\u0e23\u0e35",
             "\u0e15\u0e31\u0e27\u0e40\u0e1b\u0e34\u0e14",
             "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14",
@@ -537,7 +537,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/lycan_vert.jpg?v=5027641"
         },
         "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
-        "role": [
+        "roles": [
             "\u0e15\u0e31\u0e27\u0e41\u0e04\u0e23\u0e4c\u0e23\u0e35",
             "\u0e15\u0e31\u0e27\u0e14\u0e31\u0e19",
             "\u0e15\u0e31\u0e27\u0e1b\u0e48\u0e32",
@@ -554,7 +554,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/chaos_knight_vert.jpg?v=5027641"
         },
         "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
-        "role": [
+        "roles": [
             "\u0e15\u0e31\u0e27\u0e41\u0e04\u0e23\u0e4c\u0e23\u0e35",
             "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14",
             "\u0e15\u0e31\u0e27\u0e22\u0e37\u0e19",
@@ -571,7 +571,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/undying_vert.jpg?v=5027641"
         },
         "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
-        "role": [
+        "roles": [
             "\u0e15\u0e31\u0e27\u0e0b\u0e31\u0e1e\u0e1e\u0e2d\u0e23\u0e4c\u0e15",
             "\u0e15\u0e31\u0e27\u0e22\u0e37\u0e19",
             "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14",
@@ -587,7 +587,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/magnataur_vert.jpg?v=5027641"
         },
         "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
-        "role": [
+        "roles": [
             "\u0e15\u0e31\u0e27\u0e40\u0e1b\u0e34\u0e14",
             "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14",
             "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04",
@@ -603,7 +603,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/abaddon_vert.jpg?v=5027641"
         },
         "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
-        "role": [
+        "roles": [
             "\u0e15\u0e31\u0e27\u0e0b\u0e31\u0e1e\u0e1e\u0e2d\u0e23\u0e4c\u0e15",
             "\u0e15\u0e31\u0e27\u0e41\u0e04\u0e23\u0e4c\u0e23\u0e35",
             "\u0e15\u0e31\u0e27\u0e22\u0e37\u0e19"
@@ -618,7 +618,7 @@
             "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/abyssal_underlord_vert.jpg?v=5027641"
         },
         "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
-        "role": [
+        "roles": [
             "\u0e15\u0e31\u0e27\u0e0b\u0e31\u0e1e\u0e1e\u0e2d\u0e23\u0e4c\u0e15",
             "\u0e15\u0e31\u0e27\u0e19\u0e39\u0e04",
             "\u0e15\u0e31\u0e27\u0e2b\u0e22\u0e38\u0e14",

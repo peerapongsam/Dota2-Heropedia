@@ -6,7 +6,7 @@
         "vert": "http:\/\/cdn.dota2.com\/apps\/dota2\/images\/heroes\/venomancer_vert.jpg?v=5027641"
     },
     "attack": "Ranged",
-    "role": [
+    "roles": [
         "Support",
         "Nuker",
         "Initiator",
