@@ -24,6 +24,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent=".4" />
+
             <ImageView
                 android:id="@+id/image"
                 android:layout_width="0dp"
@@ -33,8 +40,8 @@
                 android:scaleType="centerCrop"
                 android:transitionName="@{`image_` + hero.id}"
                 app:heroImageUrl="@{hero.id}"
-                app:layout_constraintDimensionRatio="H, 16:9"
-                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintDimensionRatio="W, 4:3"
+                app:layout_constraintEnd_toStartOf="@+id/guideline"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:src="@tools:sample/avatars" />
@@ -43,12 +50,13 @@
                 android:id="@+id/name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_normal"
                 android:text="@{hero.name}"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4"
                 android:transitionName="@{`name_` + hero.id}"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/image"
+                app:layout_constraintStart_toEndOf="@+id/guideline"
+                app:layout_constraintTop_toTopOf="parent"
                 tools:text="@sample/abaddon.json/name" />
 
             <TextView
@@ -59,9 +67,9 @@
                 android:text="@{hero.attack}"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
                 android:textColor="@android:color/holo_red_dark"
-                app:layout_constraintEnd_toStartOf="@+id/roles"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_chainStyle="packed"
-                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/guideline"
                 app:layout_constraintTop_toBottomOf="@+id/name"
                 tools:text="@sample/abaddon.json/attack" />
 
@@ -71,18 +79,19 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/margin_small"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
-                app:layout_constraintBaseline_toBaselineOf="@+id/attack"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/attack"
+                app:layout_constraintStart_toEndOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/attack"
                 app:roles="@{hero.roles}"
                 tools:text="@sample/abaddon.json/roles" />
 
             <androidx.constraintlayout.widget.Guideline
-                android:id="@+id/guideline"
+                android:id="@+id/guideline2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                app:layout_constraintGuide_percent=".5" />
+                app:layout_constraintGuide_percent=".7" />
+
 
             <TextView
                 android:id="@+id/attr_str"
@@ -96,8 +105,8 @@
                 android:gravity="center_vertical"
                 android:text="@{hero.overview.attribs.strength.base + ` + ` + hero.overview.attribs.strength.gain}"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
-                app:layout_constraintEnd_toStartOf="@+id/guideline"
-                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintStart_toEndOf="@+id/guideline"
                 app:layout_constraintTop_toBottomOf="@+id/roles"
                 tools:text="@sample/abaddon.json/overview/attribs/str" />
 
@@ -112,8 +121,8 @@
                 android:gravity="center_vertical"
                 android:text="@{hero.overview.attribs.agility.base + ` + ` + hero.overview.attribs.agility.gain}"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
-                app:layout_constraintEnd_toStartOf="@+id/guideline"
-                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintStart_toEndOf="@+id/guideline"
                 app:layout_constraintTop_toBottomOf="@+id/attr_str"
                 tools:text="@sample/abaddon.json/overview/attribs/agi" />
 
@@ -128,8 +137,8 @@
                 android:gravity="center_vertical"
                 android:text="@{hero.overview.attribs.intelligence.base + ` + ` + hero.overview.attribs.intelligence.gain}"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
-                app:layout_constraintEnd_toStartOf="@+id/guideline"
-                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintStart_toEndOf="@+id/guideline"
                 app:layout_constraintTop_toBottomOf="@+id/attr_agi"
                 tools:text="@sample/abaddon.json/overview/attribs/int" />
 
@@ -146,7 +155,7 @@
                 android:text="@{hero.overview.attribs.damage.min + ` - ` + hero.overview.attribs.damage.max}"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/guideline"
+                app:layout_constraintStart_toEndOf="@+id/guideline2"
                 app:layout_constraintTop_toBottomOf="@+id/roles"
                 tools:text="@sample/abaddon.json/overview/attribs/dmg" />
 
@@ -162,7 +171,7 @@
                 android:text="@{hero.overview.attribs.moveSpeed}"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/guideline"
+                app:layout_constraintStart_toEndOf="@+id/guideline2"
                 app:layout_constraintTop_toBottomOf="@+id/attr_dmg"
                 tools:text="@sample/abaddon.json/overview/attribs/ms" />
 
@@ -178,52 +187,62 @@
                 android:text="@{hero.overview.attribs.armor}"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/guideline"
+                app:layout_constraintStart_toEndOf="@+id/guideline2"
                 app:layout_constraintTop_toBottomOf="@+id/attr_move_speed"
                 tools:text="@sample/abaddon.json/overview/attribs/armor" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
+
+            <ImageView
+                android:id="@+id/ability_1"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/margin_normal"
-                app:layout_constraintTop_toBottomOf="@+id/attr_armor">
+                android:background="@drawable/shapre_image_border"
+                android:contentDescription="@{hero.overview.abilities.get(0).name}"
+                app:abilityImageUrl="@{hero.overview.abilities.get(0).icon}"
+                app:layout_constraintEnd_toStartOf="@+id/ability_2"
+                app:layout_constraintStart_toEndOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/attr_int"
+                tools:src="@tools:sample/avatars" />
 
-                <ImageView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/shapre_image_border"
-                    android:contentDescription="@{hero.overview.abilities.get(0).name}"
-                    app:abilityImageUrl="@{hero.overview.abilities.get(0).icon}"
-                    tools:src="@tools:sample/avatars" />
+            <ImageView
+                android:id="@+id/ability_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_normal"
+                android:background="@drawable/shapre_image_border"
+                android:contentDescription="@{hero.overview.abilities.get(1).name}"
+                app:abilityImageUrl="@{hero.overview.abilities.get(1).icon}"
+                app:layout_constraintEnd_toEndOf="@+id/ability_3"
+                app:layout_constraintStart_toEndOf="@+id/ability_1"
+                app:layout_constraintTop_toBottomOf="@+id/attr_armor"
+                tools:src="@tools:sample/avatars" />
 
-                <ImageView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/shapre_image_border"
-                    android:contentDescription="@{hero.overview.abilities.get(1).name}"
-                    app:abilityImageUrl="@{hero.overview.abilities.get(1).icon}"
-                    tools:src="@tools:sample/avatars" />
+            <ImageView
+                android:id="@+id/ability_3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_normal"
+                android:background="@drawable/shapre_image_border"
+                android:contentDescription="@{hero.overview.abilities.get(2).name}"
+                app:abilityImageUrl="@{hero.overview.abilities.get(2).icon}"
+                app:layout_constraintEnd_toStartOf="@+id/ability_4"
+                app:layout_constraintStart_toEndOf="@+id/ability_2"
+                app:layout_constraintTop_toBottomOf="@+id/attr_armor"
+                tools:src="@tools:sample/avatars" />
 
-                <ImageView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/shapre_image_border"
-                    android:contentDescription="@{hero.overview.abilities.get(2).name}"
-                    app:abilityImageUrl="@{hero.overview.abilities.get(2).icon}"
-                    tools:src="@tools:sample/avatars" />
-
-                <ImageView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/shapre_image_border"
-                    android:contentDescription="@{hero.overview.abilities.get(3).name}"
-                    app:abilityImageUrl="@{hero.overview.abilities.get(3).icon}"
-                    tools:src="@tools:sample/avatars" />
-            </LinearLayout>
+            <ImageView
+                android:id="@+id/ability_4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_normal"
+                android:background="@drawable/shapre_image_border"
+                android:contentDescription="@{hero.overview.abilities.get(3).name}"
+                app:abilityImageUrl="@{hero.overview.abilities.get(3).icon}"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/ability_3"
+                app:layout_constraintTop_toBottomOf="@+id/attr_armor"
+                tools:src="@tools:sample/avatars" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>

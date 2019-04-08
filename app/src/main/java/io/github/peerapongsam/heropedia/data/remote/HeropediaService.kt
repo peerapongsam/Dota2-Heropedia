@@ -1,4 +1,4 @@
-package io.github.peerapongsam.heropedia.data
+package io.github.peerapongsam.heropedia.data.remote
 
 import io.github.peerapongsam.heropedia.model.Hero
 import io.github.peerapongsam.heropedia.model.HeroDetail

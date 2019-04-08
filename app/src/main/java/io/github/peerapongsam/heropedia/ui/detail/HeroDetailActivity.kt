@@ -1,14 +1,14 @@
 package io.github.peerapongsam.heropedia.ui.detail
 
-import android.util.Log
+import android.view.ViewTreeObserver.OnPreDrawListener
 import androidx.lifecycle.Observer
 import io.github.peerapongsam.heropedia.BR
 import io.github.peerapongsam.heropedia.InjectorUtil
 import io.github.peerapongsam.heropedia.R
 import io.github.peerapongsam.heropedia.databinding.ActivityHeroDetailBinding
-import io.github.peerapongsam.heropedia.model.Hero
 import io.github.peerapongsam.heropedia.ui.base.BaseActivity
 import io.github.peerapongsam.heropedia.util.viewModelProvider
+import timber.log.Timber
 
 class HeroDetailActivity : BaseActivity<ActivityHeroDetailBinding>() {
 
@@ -20,23 +20,30 @@ class HeroDetailActivity : BaseActivity<ActivityHeroDetailBinding>() {
     override fun createViewModel() {
         val viewModelFactory = InjectorUtil.provideHeroDetailViewModelFactory()
         viewModel = viewModelProvider(viewModelFactory)
-        intent.getParcelableExtra<Hero>(EXTRA_HERO)?.let { it ->
-            Log.d(TAG, "createViewModel() called with: it = [$it]")
-            viewModel.setHeroId(it.id)
+        intent.getStringExtra(EXTRA_HERO)?.let { it ->
+            Timber.d("createViewModel() called with: it = [$it]")
+            viewModel.setHeroId(it)
         }
     }
 
     override fun setUpView(binding: ActivityHeroDetailBinding) {
         super.setUpView(binding)
         viewModel.heroDetail.observe(this, Observer { it ->
-            Log.d(TAG, "setUpView() called with: it = [$it]")
+            Timber.d("setUpView() called with: it = [$it]")
             binding.setVariable(BR.hero, it)
+        })
+
+        supportPostponeEnterTransition()
+        binding.image.viewTreeObserver.addOnPreDrawListener(object : OnPreDrawListener {
+            override fun onPreDraw(): Boolean {
+                binding.image.viewTreeObserver.removeOnPreDrawListener(this)
+                supportStartPostponedEnterTransition()
+                return true
+            }
         })
     }
 
     companion object {
-
-        private const val TAG = "HeroDetailActivity"
 
         const val EXTRA_HERO = "io.github.peerapongsam.heropedia.intent.extra.HERO"
     }

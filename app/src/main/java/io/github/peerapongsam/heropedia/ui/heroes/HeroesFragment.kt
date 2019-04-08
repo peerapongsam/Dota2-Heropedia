@@ -2,7 +2,6 @@ package io.github.peerapongsam.heropedia.ui.heroes
 
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import androidx.core.app.ActivityOptionsCompat
 import androidx.core.util.Pair
@@ -15,7 +14,7 @@ import io.github.peerapongsam.heropedia.databinding.FragmentHeroesBinding
 import io.github.peerapongsam.heropedia.ui.base.BaseFragment
 import io.github.peerapongsam.heropedia.ui.detail.HeroDetailActivity
 import io.github.peerapongsam.heropedia.util.activityViewModelProvider
-import kotlinx.android.synthetic.main.activity_hero_detail.image
+import timber.log.Timber
 
 class HeroesFragment : BaseFragment<FragmentHeroesBinding>() {
 
@@ -36,7 +35,7 @@ class HeroesFragment : BaseFragment<FragmentHeroesBinding>() {
 
         val heroesAdapter = HeroesAdapter().apply {
             setOnClickListener { hero, imageView, textView ->
-                Log.d(TAG, "setUpView() called with: it = [$hero]")
+                Timber.d("setUpView() called with: hero = [$hero], imageView = [$imageView], textView = [$textView]")
 
                 val optionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(
                     requireActivity(),
@@ -46,7 +45,7 @@ class HeroesFragment : BaseFragment<FragmentHeroesBinding>() {
                 startActivity(
                     Intent(requireContext(), HeroDetailActivity::class.java).apply {
                         putExtras(Bundle().apply {
-                            putParcelable(HeroDetailActivity.EXTRA_HERO, hero)
+                            putString(HeroDetailActivity.EXTRA_HERO, hero.id)
                         })
                     }, optionsCompat.toBundle()
                 )

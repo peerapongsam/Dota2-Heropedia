@@ -38,7 +38,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ellipsize="end"
-            android:padding="8dp"
+            android:padding="@dimen/margin_small"
             android:singleLine="true"
             android:text="@{hero.name}"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"

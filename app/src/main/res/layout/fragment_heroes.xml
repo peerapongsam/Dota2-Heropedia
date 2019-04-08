@@ -22,7 +22,7 @@
             android:layout_height="match_parent"
             app:heroesItems="@{heroesItems}"
             app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
-            app:spanCount="3"
+            app:spanCount="@integer/heroes_span_count"
             tools:listitem="@layout/item_hero" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

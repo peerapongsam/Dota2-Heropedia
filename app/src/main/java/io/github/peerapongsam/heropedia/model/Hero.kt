@@ -8,9 +8,9 @@ import kotlinx.android.parcel.Parcelize
 data class Hero(
     @SerializedName("id") val id: String,
     @SerializedName("name") val name: String,
-    @SerializedName("primary_attribs") val pa: String,
+    @SerializedName("primary_attribs") val primaryAttribs: String,
     @SerializedName("attack") val dac: String,
-    @SerializedName("role") val roles: List<String>,
+    @SerializedName("roles") val roles: List<String>,
     @SerializedName("portrait") val portrait: Portrait
 ) : Parcelable {
 }

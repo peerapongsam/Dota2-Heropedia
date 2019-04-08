@@ -4,8 +4,9 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import io.github.peerapongsam.heropedia.domain.usecase.GetHeroDetailUseCase
 
-class HeroDetailViewModelFactory(val getHeroDetailUseCase: GetHeroDetailUseCase) :
-    ViewModelProvider.NewInstanceFactory() {
+class HeroDetailViewModelFactory(
+    private val getHeroDetailUseCase: GetHeroDetailUseCase
+) : ViewModelProvider.NewInstanceFactory() {
 
     @Suppress("UNCHECKED_CAST")
     override fun <T : ViewModel?> create(modelClass: Class<T>): T {
