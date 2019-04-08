@@ -9,6 +9,8 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object Service {
 
+    const val BASE_URL = "https://peerapongsam.github.io/heropedia/json/"
+
     val defaultClient by lazy {
         OkHttpClient.Builder()
             .addInterceptor(HttpLoggingInterceptor().setLevel(Level.BODY))
@@ -17,7 +19,7 @@ object Service {
 
     val defaultService by lazy {
         Retrofit.Builder()
-            .baseUrl("https://www.dota2.com/jsfeed/")
+            .baseUrl(BASE_URL)
             .client(defaultClient)
             .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
             .addConverterFactory(GsonConverterFactory.create())

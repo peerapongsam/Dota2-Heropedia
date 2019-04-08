@@ -5,38 +5,74 @@
 
     <data>
 
+        <import type="android.text.TextUtils" />
+
+        <variable
+            name="viewModel"
+            type="io.github.peerapongsam.heropedia.ui.detail.HeroDetailViewModel" />
+
         <variable
             name="hero"
-            type="io.github.peerapongsam.heropedia.model.Hero" />
+            type="io.github.peerapongsam.heropedia.model.HeroDetail" />
     </data>
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
-        <ImageView
-            android:id="@+id/image"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:contentDescription="@{hero.name}"
-            android:scaleType="centerCrop"
-            android:transitionName="@{`image_` + hero.id}"
-            app:heroImageUrl="@{hero.id}"
-            app:layout_constraintDimensionRatio="H, 4:3"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:src="@tools:sample/avatars" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@{hero.name}"
-            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4"
-            android:transitionName="@{`name_` + hero.id}"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/image"
-            tools:text="@tools:sample/full_names" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:contentDescription="@{hero.name}"
+                android:scaleType="centerCrop"
+                android:transitionName="@{`image_` + hero.id}"
+                app:heroImageUrl="@{hero.id}"
+                app:layout_constraintDimensionRatio="H, 4:3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:src="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@{hero.name}"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4"
+                android:transitionName="@{`name_` + hero.id}"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/image"
+                tools:text="@tools:sample/full_names" />
+
+            <TextView
+                android:id="@+id/attack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@{hero.attack}"
+                android:textAppearance="@style/Base.TextAppearance.MaterialComponents.Subtitle2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/name"
+                tools:text="@tools:sample/date/ddmmyy" />
+
+            <TextView
+                android:id="@+id/roles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/attack"
+                app:roles="@{hero.roles}"
+                tools:text="@tools:sample/us_zipcodes" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
 </layout>

@@ -6,7 +6,6 @@ import androidx.lifecycle.Transformations
 import androidx.lifecycle.ViewModel
 import io.github.peerapongsam.heropedia.domain.usecase.GetHeroesUseCase
 import io.github.peerapongsam.heropedia.model.Hero
-import io.github.peerapongsam.heropedia.model.HeropediaData
 import io.reactivex.observers.DisposableObserver
 
 class HeroesViewModel(
@@ -33,14 +32,9 @@ class HeroesViewModel(
         getHeroesUseCase.dispose()
     }
 
-    inner class GetHeroesObserver : DisposableObserver<HeropediaData>() {
+    inner class GetHeroesObserver : DisposableObserver<List<Hero>>() {
 
-        override fun onNext(data: HeropediaData) {
-            val list = data.heroes.entries.map {
-                val key = it.key
-                val value = it.value
-                Hero(key, value.name, value.pa)
-            }
+        override fun onNext(list: List<Hero>) {
             heroes.postValue(list)
         }
 

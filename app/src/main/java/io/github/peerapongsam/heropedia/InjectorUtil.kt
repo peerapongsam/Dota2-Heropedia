@@ -3,8 +3,10 @@ package io.github.peerapongsam.heropedia
 import io.github.peerapongsam.heropedia.data.executor.JobExecutor
 import io.github.peerapongsam.heropedia.domain.executor.PostExecutionThread
 import io.github.peerapongsam.heropedia.domain.executor.ThreadExecutor
+import io.github.peerapongsam.heropedia.domain.usecase.GetHeroDetailUseCase
 import io.github.peerapongsam.heropedia.domain.usecase.GetHeroesUseCase
 import io.github.peerapongsam.heropedia.ui.UiThread
+import io.github.peerapongsam.heropedia.ui.detail.HeroDetailViewModelFactory
 import io.github.peerapongsam.heropedia.ui.heroes.HeroesViewModelFactory
 
 object InjectorUtil {
@@ -21,7 +23,15 @@ object InjectorUtil {
         return GetHeroesUseCase(provideThreadExecutor(), providePostExecutionThread())
     }
 
+    private fun provideGetHeroDetailUseCase(): GetHeroDetailUseCase {
+        return GetHeroDetailUseCase(provideThreadExecutor(), providePostExecutionThread())
+    }
+
     fun provideHeroesViewModelFactory(): HeroesViewModelFactory {
         return HeroesViewModelFactory(provideGetHeroesUseCase())
+    }
+
+    fun provideHeroDetailViewModelFactory(): HeroDetailViewModelFactory {
+        return HeroDetailViewModelFactory(provideGetHeroDetailUseCase())
     }
 }
