@@ -24,7 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <ImageView
+            <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/image"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
@@ -32,14 +32,14 @@
                 android:contentDescription="@{hero.name}"
                 android:scaleType="centerCrop"
                 android:transitionName="@{`image_` + hero.id}"
-                app:heroImageUrl="@{hero.id}"
                 app:layout_constraintDimensionRatio="H, 16:9"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
+                app:imageUrl="@{hero.portrait.vert}"
                 tools:src="@tools:sample/avatars" />
 
-            <TextView
+            <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -51,7 +51,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/image"
                 tools:text="@sample/abaddon.json/name" />
 
-            <TextView
+            <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/attack"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -65,7 +65,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/name"
                 tools:text="@sample/abaddon.json/attack" />
 
-            <TextView
+            <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/roles"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -84,15 +84,15 @@
                 android:orientation="vertical"
                 app:layout_constraintGuide_percent=".5" />
 
-            <TextView
+            <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/attr_str"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="@dimen/margin_small"
                 android:layout_marginStart="@dimen/margin_small"
                 android:layout_marginTop="@dimen/margin_normal"
-                android:drawablePadding="@dimen/margin_normal"
+                android:layout_marginEnd="@dimen/margin_small"
                 android:drawableStart="@drawable/ic_attr_str"
+                android:drawablePadding="@dimen/margin_normal"
                 android:gravity="center_vertical"
                 android:text="@{hero.overview.attribs.strength.base + ` + ` + hero.overview.attribs.strength.gain}"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
@@ -101,14 +101,14 @@
                 app:layout_constraintTop_toBottomOf="@+id/roles"
                 tools:text="@sample/abaddon.json/overview/attribs/str" />
 
-            <TextView
+            <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/attr_agi"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="@dimen/margin_small"
                 android:layout_marginStart="@dimen/margin_small"
-                android:drawablePadding="@dimen/margin_normal"
+                android:layout_marginEnd="@dimen/margin_small"
                 android:drawableStart="@drawable/ic_attr_agi"
+                android:drawablePadding="@dimen/margin_normal"
                 android:gravity="center_vertical"
                 android:text="@{hero.overview.attribs.agility.base + ` + ` + hero.overview.attribs.agility.gain}"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
@@ -117,14 +117,14 @@
                 app:layout_constraintTop_toBottomOf="@+id/attr_str"
                 tools:text="@sample/abaddon.json/overview/attribs/agi" />
 
-            <TextView
+            <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/attr_int"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="@dimen/margin_small"
                 android:layout_marginStart="@dimen/margin_small"
-                android:drawablePadding="@dimen/margin_normal"
+                android:layout_marginEnd="@dimen/margin_small"
                 android:drawableStart="@drawable/ic_attr_int"
+                android:drawablePadding="@dimen/margin_normal"
                 android:gravity="center_vertical"
                 android:text="@{hero.overview.attribs.intelligence.base + ` + ` + hero.overview.attribs.intelligence.gain}"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
@@ -133,15 +133,15 @@
                 app:layout_constraintTop_toBottomOf="@+id/attr_agi"
                 tools:text="@sample/abaddon.json/overview/attribs/int" />
 
-            <TextView
+            <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/attr_dmg"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="@dimen/margin_small"
                 android:layout_marginStart="@dimen/margin_small"
                 android:layout_marginTop="@dimen/margin_normal"
-                android:drawablePadding="@dimen/margin_normal"
+                android:layout_marginEnd="@dimen/margin_small"
                 android:drawableStart="@drawable/ic_attr_atk"
+                android:drawablePadding="@dimen/margin_normal"
                 android:gravity="center_vertical"
                 android:text="@{hero.overview.attribs.damage.min + ` - ` + hero.overview.attribs.damage.max}"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
@@ -150,14 +150,14 @@
                 app:layout_constraintTop_toBottomOf="@+id/roles"
                 tools:text="@sample/abaddon.json/overview/attribs/dmg" />
 
-            <TextView
+            <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/attr_move_speed"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="@dimen/margin_small"
                 android:layout_marginStart="@dimen/margin_small"
-                android:drawablePadding="@dimen/margin_normal"
+                android:layout_marginEnd="@dimen/margin_small"
                 android:drawableStart="@drawable/ic_attr_ms"
+                android:drawablePadding="@dimen/margin_normal"
                 android:gravity="center_vertical"
                 android:text="@{hero.overview.attribs.moveSpeed}"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
@@ -166,14 +166,14 @@
                 app:layout_constraintTop_toBottomOf="@+id/attr_dmg"
                 tools:text="@sample/abaddon.json/overview/attribs/ms" />
 
-            <TextView
+            <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/attr_armor"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="@dimen/margin_small"
                 android:layout_marginStart="@dimen/margin_small"
-                android:drawablePadding="@dimen/margin_normal"
+                android:layout_marginEnd="@dimen/margin_small"
                 android:drawableStart="@drawable/ic_attr_armor"
+                android:drawablePadding="@dimen/margin_normal"
                 android:gravity="center_vertical"
                 android:text="@{hero.overview.attribs.armor}"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
@@ -188,7 +188,7 @@
                 android:layout_marginTop="@dimen/margin_normal"
                 app:layout_constraintTop_toBottomOf="@+id/attr_armor">
 
-                <ImageView
+                <androidx.appcompat.widget.AppCompatImageView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -197,7 +197,7 @@
                     app:abilityImageUrl="@{hero.overview.abilities.get(0).icon}"
                     tools:src="@tools:sample/avatars" />
 
-                <ImageView
+                <androidx.appcompat.widget.AppCompatImageView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -206,7 +206,7 @@
                     app:abilityImageUrl="@{hero.overview.abilities.get(1).icon}"
                     tools:src="@tools:sample/avatars" />
 
-                <ImageView
+                <androidx.appcompat.widget.AppCompatImageView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -215,14 +215,14 @@
                     app:abilityImageUrl="@{hero.overview.abilities.get(2).icon}"
                     tools:src="@tools:sample/avatars" />
 
-                <ImageView
+                <!--<androidx.appcompat.widget.AppCompatImageView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@drawable/shapre_image_border"
                     android:contentDescription="@{hero.overview.abilities.get(3).name}"
                     app:abilityImageUrl="@{hero.overview.abilities.get(3).icon}"
-                    tools:src="@tools:sample/avatars" />
+                    tools:src="@tools:sample/avatars" />-->
             </LinearLayout>
 
         </androidx.constraintlayout.widget.ConstraintLayout>

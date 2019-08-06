@@ -6,14 +6,14 @@ import androidx.databinding.BindingAdapter
 import com.bumptech.glide.Glide
 import timber.log.Timber
 
-@BindingAdapter(value = ["heroImageUrl"])
-fun setHeroImageUrl(imageView: ImageView, heroId: String?) {
-    if (heroId.isNullOrEmpty()) {
+@BindingAdapter(value = ["imageUrl"])
+fun setHeroImageUrl(imageView: ImageView, url: String?) {
+    if (url.isNullOrEmpty()) {
         Glide.with(imageView).clear(imageView)
     } else {
         Glide.with(imageView)
-            .load("https://steamcdn-a.akamaihd.net/apps/dota2/images/heroes/${heroId}_vert.jpg")
-            .into(imageView)
+                .load(url)
+                .into(imageView)
     }
 }
 
@@ -29,7 +29,7 @@ fun setAbilityImageUrl(imageView: ImageView, url: String?) {
         Glide.with(imageView).clear(imageView)
     } else {
         Glide.with(imageView)
-            .load(url)
-            .into(imageView)
+                .load(url)
+                .into(imageView)
     }
 }

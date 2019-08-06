@@ -20,20 +20,21 @@
         android:onClick="@{clickListener}"
         android:padding="4dp">
 
-        <ImageView
+        <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/imageView"
             android:layout_width="0dp"
             android:layout_height="0dp"
+            android:layout_marginTop="4dp"
             android:contentDescription="@{hero.name}"
             android:scaleType="centerCrop"
-            app:heroImageUrl="@{hero.id}"
-            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintDimensionRatio="4:3"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:src="@sample/avatars" />
+            app:imageUrl="@{hero.portrait.full}"
+            tools:srcCompat="@tools:sample/avatars" />
 
-        <TextView
+        <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -41,11 +42,12 @@
             android:padding="@dimen/margin_small"
             android:singleLine="true"
             android:text="@{hero.name}"
-            android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
-            android:textColor="@android:color/white"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
             tools:text="@sample/heroes.json/heroes/name" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

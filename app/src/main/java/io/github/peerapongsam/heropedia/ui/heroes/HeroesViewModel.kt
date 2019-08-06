@@ -15,7 +15,6 @@ class HeroesViewModel(
     private val getHeroesUseCase: GetHeroesUseCase
 ) : ViewModel() {
 
-
     @VisibleForTesting
     val _resource = MutableLiveData<Resource<List<Hero>>>()
 
@@ -31,7 +30,7 @@ class HeroesViewModel(
 
     fun getHeroes(primaryAttrs: String): LiveData<List<Hero>> {
         return Transformations.switchMap(_heroes) { input: List<Hero>? ->
-            MutableLiveData<List<Hero>>().apply { postValue(input?.filter { it.primaryAttribs == primaryAttrs }) }
+            MutableLiveData<List<Hero>>().apply { postValue(input?.filter { it.primaryAttribs == primaryAttrs }?.sortedBy { it.name }) }
         }
     }
 
