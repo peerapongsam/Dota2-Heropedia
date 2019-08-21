@@ -27,12 +27,12 @@
             android:layout_marginTop="4dp"
             android:contentDescription="@{hero.name}"
             android:scaleType="centerCrop"
+            app:imageUrl="@{hero.portrait.full}"
             app:layout_constraintDimensionRatio="4:3"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:imageUrl="@{hero.portrait.full}"
-            tools:srcCompat="@tools:sample/avatars" />
+            tools:srcCompat="@sample/heroes.json/heroes/portrait/full" />
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/textView"

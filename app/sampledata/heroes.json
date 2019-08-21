@@ -4,8 +4,8 @@
       "id": "earthshaker",
       "name": "Earthshaker",
       "portrait": {
-        "full": "@sample/avatars",
-        "vert": "@sample/avatars"
+        "full": "@sample\/portrait[1]",
+        "vert": "@sample\/vert[1]"
       },
       "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
       "role": [
@@ -20,8 +20,8 @@
       "id": "sven",
       "name": "Sven",
       "portrait": {
-        "full": "@sample/avatars",
-        "vert": "@sample/avatars"
+        "full": "@sample\/portrait[2]",
+        "vert": "@sample\/vert[2]"
       },
       "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
       "role": [
@@ -37,8 +37,8 @@
       "id": "tiny",
       "name": "Tiny",
       "portrait": {
-        "full": "@sample\/avatars",
-        "vert": "@sample\/avatars"
+        "full": "@sample\/portrait[3]",
+        "vert": "@sample\/vert[3]"
       },
       "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
       "role": [
@@ -55,8 +55,8 @@
       "id": "kunkka",
       "name": "Kunkka",
       "portrait": {
-        "full": "@sample\/avatars",
-        "vert": "@sample\/avatars"
+        "full": "@sample\/portrait[4]",
+        "vert": "@sample\/vert[4]"
       },
       "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
       "role": [
@@ -73,8 +73,8 @@
       "id": "beastmaster",
       "name": "Beastmaster",
       "portrait": {
-        "full": "@sample\/avatars",
-        "vert": "@sample\/avatars"
+        "full": "@sample\/portrait[5]",
+        "vert": "@sample\/vert[5]"
       },
       "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
       "role": [
@@ -89,8 +89,8 @@
       "id": "dragon_knight",
       "name": "Dragon Knight",
       "portrait": {
-        "full": "@sample\/avatars",
-        "vert": "@sample\/avatars"
+        "full": "@sample\/portrait[6]",
+        "vert": "@sample\/vert[6]"
       },
       "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
       "role": [
@@ -107,8 +107,8 @@
       "id": "rattletrap",
       "name": "Clockwerk",
       "portrait": {
-        "full": "@sample\/avatars",
-        "vert": "@sample\/avatars"
+        "full": "@sample\/portrait[7]",
+        "vert": "@sample\/vert[7]"
       },
       "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
       "role": [
@@ -123,8 +123,8 @@
       "id": "omniknight",
       "name": "Omniknight",
       "portrait": {
-        "full": "@sample\/avatars",
-        "vert": "@sample\/avatars"
+        "full": "@sample\/portrait[8]",
+        "vert": "@sample\/vert[8]"
       },
       "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
       "role": [
@@ -138,8 +138,8 @@
       "id": "huskar",
       "name": "Huskar",
       "portrait": {
-        "full": "@sample\/avatars",
-        "vert": "@sample\/avatars"
+        "full": "@sample\/portrait[9]",
+        "vert": "@sample\/vert[9]"
       },
       "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
       "role": [
@@ -153,8 +153,8 @@
       "id": "alchemist",
       "name": "Alchemist",
       "portrait": {
-        "full": "@sample\/avatars",
-        "vert": "@sample\/avatars"
+        "full": "@sample\/portrait[10]",
+        "vert": "@sample\/vert[10]"
       },
       "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
       "role": [
@@ -171,8 +171,8 @@
       "id": "brewmaster",
       "name": "Brewmaster",
       "portrait": {
-        "full": "@sample\/avatars",
-        "vert": "@sample\/avatars"
+        "full": "@sample\/portrait[11]",
+        "vert": "@sample\/vert[11]"
       },
       "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
       "role": [
@@ -188,8 +188,8 @@
       "id": "treant",
       "name": "Treant Protector",
       "portrait": {
-        "full": "@sample\/avatars",
-        "vert": "@sample\/avatars"
+        "full": "@sample\/portrait[12]",
+        "vert": "@sample\/vert[12]"
       },
       "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
       "role": [
@@ -205,8 +205,8 @@
       "id": "wisp",
       "name": "Io",
       "portrait": {
-        "full": "@sample\/avatars",
-        "vert": "@sample\/avatars"
+        "full": "@sample\/portrait[13]",
+        "vert": "@sample\/vert[13]"
       },
       "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
       "role": [
@@ -220,8 +220,8 @@
       "id": "centaur",
       "name": "Centaur Warrunner",
       "portrait": {
-        "full": "@sample\/avatars",
-        "vert": "@sample\/avatars"
+        "full": "@sample\/portrait[14]",
+        "vert": "@sample\/vert[14]"
       },
       "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
       "role": [
@@ -237,8 +237,8 @@
       "id": "shredder",
       "name": "Timbersaw",
       "portrait": {
-        "full": "@sample\/avatars",
-        "vert": "@sample\/avatars"
+        "full": "@sample\/portrait[15]",
+        "vert": "@sample\/vert[15]"
       },
       "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
       "role": [
@@ -252,8 +252,8 @@
       "id": "bristleback",
       "name": "Bristleback",
       "portrait": {
-        "full": "@sample\/avatars",
-        "vert": "@sample\/avatars"
+        "full": "@sample\/portrait[16]",
+        "vert": "@sample\/vert[16]"
       },
       "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
       "role": [
@@ -268,8 +268,8 @@
       "id": "tusk",
       "name": "Tusk",
       "portrait": {
-        "full": "@sample\/avatars",
-        "vert": "@sample\/avatars"
+        "full": "@sample\/portrait[17]",
+        "vert": "@sample\/vert[17]"
       },
       "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
       "role": [
@@ -283,8 +283,8 @@
       "id": "elder_titan",
       "name": "Elder Titan",
       "portrait": {
-        "full": "@sample\/avatars",
-        "vert": "@sample\/avatars"
+        "full": "@sample\/portrait[18]",
+        "vert": "@sample\/vert[18]"
       },
       "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
       "role": [
@@ -299,8 +299,8 @@
       "id": "legion_commander",
       "name": "Legion Commander",
       "portrait": {
-        "full": "@sample\/avatars",
-        "vert": "@sample\/avatars"
+        "full": "@sample\/portrait[19]",
+        "vert": "@sample\/vert[19]"
       },
       "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
       "role": [
@@ -316,8 +316,8 @@
       "id": "earth_spirit",
       "name": "Earth Spirit",
       "portrait": {
-        "full": "@sample\/avatars",
-        "vert": "@sample\/avatars"
+        "full": "@sample\/portrait[20]",
+        "vert": "@sample\/vert[20]"
       },
       "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
       "role": [
@@ -333,8 +333,8 @@
       "id": "phoenix",
       "name": "Phoenix",
       "portrait": {
-        "full": "@sample\/avatars",
-        "vert": "@sample\/avatars"
+        "full": "@sample\/portrait[21]",
+        "vert": "@sample\/vert[21]"
       },
       "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
       "role": [
@@ -350,8 +350,8 @@
       "id": "mars",
       "name": "Mars",
       "portrait": {
-        "full": "@sample\/avatars",
-        "vert": "@sample\/avatars"
+        "full": "@sample\/portrait[22]",
+        "vert": "@sample\/vert[22]"
       },
       "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
       "role": [
@@ -366,8 +366,8 @@
       "id": "antimage",
       "name": "Anti-Mage",
       "portrait": {
-        "full": "@sample\/avatars",
-        "vert": "@sample\/avatars"
+        "full": "@sample\/portrait[23]",
+        "vert": "@sample\/vert[23]"
       },
       "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
       "role": [
@@ -381,8 +381,8 @@
       "id": "drow_ranger",
       "name": "Drow Ranger",
       "portrait": {
-        "full": "@sample\/avatars",
-        "vert": "@sample\/avatars"
+        "full": "@sample\/portrait[24]",
+        "vert": "@sample\/vert[24]"
       },
       "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
       "role": [
@@ -396,8 +396,8 @@
       "id": "juggernaut",
       "name": "Juggernaut",
       "portrait": {
-        "full": "@sample\/avatars",
-        "vert": "@sample\/avatars"
+        "full": "@sample\/portrait[25]",
+        "vert": "@sample\/vert[25]"
       },
       "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
       "role": [
@@ -411,8 +411,8 @@
       "id": "mirana",
       "name": "Mirana",
       "portrait": {
-        "full": "@sample\/avatars",
-        "vert": "@sample\/avatars"
+        "full": "@sample\/portrait[26]",
+        "vert": "@sample\/vert[26]"
       },
       "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
       "role": [
@@ -428,8 +428,8 @@
       "id": "morphling",
       "name": "Morphling",
       "portrait": {
-        "full": "@sample\/avatars",
-        "vert": "@sample\/avatars"
+        "full": "@sample\/portrait[27]",
+        "vert": "@sample\/vert[27]"
       },
       "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
       "role": [
@@ -445,8 +445,8 @@
       "id": "phantom_lancer",
       "name": "Phantom Lancer",
       "portrait": {
-        "full": "@sample\/avatars",
-        "vert": "@sample\/avatars"
+        "full": "@sample\/portrait[28]",
+        "vert": "@sample\/vert[28]"
       },
       "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
       "role": [
@@ -461,8 +461,8 @@
       "id": "vengefulspirit",
       "name": "Vengeful Spirit",
       "portrait": {
-        "full": "@sample\/avatars",
-        "vert": "@sample\/avatars"
+        "full": "@sample\/portrait[29]",
+        "vert": "@sample\/vert[29]"
       },
       "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
       "role": [
@@ -478,8 +478,8 @@
       "id": "riki",
       "name": "Riki",
       "portrait": {
-        "full": "@sample\/avatars",
-        "vert": "@sample\/avatars"
+        "full": "@sample\/portrait[30]",
+        "vert": "@sample\/vert[30]"
       },
       "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
       "role": [
@@ -493,8 +493,8 @@
       "id": "sniper",
       "name": "Sniper",
       "portrait": {
-        "full": "@sample\/avatars",
-        "vert": "@sample\/avatars"
+        "full": "@sample\/portrait[31]",
+        "vert": "@sample\/vert[31]"
       },
       "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
       "role": [
@@ -507,8 +507,8 @@
       "id": "templar_assassin",
       "name": "Templar Assassin",
       "portrait": {
-        "full": "@sample\/avatars",
-        "vert": "@sample\/avatars"
+        "full": "@sample\/portrait[32]",
+        "vert": "@sample\/vert[32]"
       },
       "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
       "role": [
@@ -521,8 +521,8 @@
       "id": "luna",
       "name": "Luna",
       "portrait": {
-        "full": "@sample\/avatars",
-        "vert": "@sample\/avatars"
+        "full": "@sample\/portrait[33]",
+        "vert": "@sample\/vert[33]"
       },
       "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
       "role": [
@@ -536,8 +536,8 @@
       "id": "bounty_hunter",
       "name": "Bounty Hunter",
       "portrait": {
-        "full": "@sample\/avatars",
-        "vert": "@sample\/avatars"
+        "full": "@sample\/portrait[34]",
+        "vert": "@sample\/vert[34]"
       },
       "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
       "role": [
@@ -550,8 +550,8 @@
       "id": "ursa",
       "name": "Ursa",
       "portrait": {
-        "full": "@sample\/avatars",
-        "vert": "@sample\/avatars"
+        "full": "@sample\/portrait[35]",
+        "vert": "@sample\/vert[35]"
       },
       "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
       "role": [
@@ -566,8 +566,8 @@
       "id": "gyrocopter",
       "name": "Gyrocopter",
       "portrait": {
-        "full": "@sample\/avatars",
-        "vert": "@sample\/avatars"
+        "full": "@sample\/portrait[36]",
+        "vert": "@sample\/vert[36]"
       },
       "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
       "role": [
@@ -581,8 +581,8 @@
       "id": "lone_druid",
       "name": "Lone Druid",
       "portrait": {
-        "full": "@sample\/avatars",
-        "vert": "@sample\/avatars"
+        "full": "@sample\/portrait[37]",
+        "vert": "@sample\/vert[37]"
       },
       "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
       "role": [
@@ -597,8 +597,8 @@
       "id": "naga_siren",
       "name": "Naga Siren",
       "portrait": {
-        "full": "@sample\/avatars",
-        "vert": "@sample\/avatars"
+        "full": "@sample\/portrait[38]",
+        "vert": "@sample\/vert[38]"
       },
       "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
       "role": [
@@ -615,8 +615,8 @@
       "id": "troll_warlord",
       "name": "Troll Warlord",
       "portrait": {
-        "full": "@sample\/avatars",
-        "vert": "@sample\/avatars"
+        "full": "@sample\/portrait[39]",
+        "vert": "@sample\/vert[39]"
       },
       "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e44\u0e01\u0e25",
       "role": [
@@ -631,8 +631,8 @@
       "id": "ember_spirit",
       "name": "Ember Spirit",
       "portrait": {
-        "full": "@sample\/avatars",
-        "vert": "@sample\/avatars"
+        "full": "@sample\/portrait[40]",
+        "vert": "@sample\/vert[40]"
       },
       "attack": "\u0e42\u0e08\u0e21\u0e15\u0e35\u0e23\u0e30\u0e22\u0e30\u0e43\u0e01\u0e25\u0e49",
       "role": [
